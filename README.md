@@ -14,6 +14,8 @@
 
 用户随后要求换模型，已完成 [VLA-Adapter 复查](docs/PHASE1_MODEL_SWITCH_20261007.md)：同 init0 六次正常退出，原生盘子／炉子和柜子／瓶子事实追加成功，两条远近指代仍失败。另按用户要求追加两条去掉 `whichever is` 的简化指令，也均 neither；两轮共 8 次完整 rollout、306 次总策略查询，未进入事实冲突。
 
+2026-10-08 已完成 [Spatial 同场景选碗核查](docs/PHASE1_SPATIAL_REFERENCE_20261008.md)：VLA-Adapter 在 task 8 同 init0 上选择盘子旁碗成功、选择 ramekin 旁碗失败；失败条件目标碗2未被抓取，碗1发生接触和位移。两次均正常退出，新增 78 次总查询；按规则不扩样、不进入冲突，同场景双向目标绑定仍未建立。
+
 ## 固定版本
 
 | 模型 | Python | PyTorch / CUDA wheel | 仿真 | 权重 |

@@ -1,8 +1,10 @@
 # 当前进度与接续
 
-更新时间：2026-10-07（Asia/Shanghai）。工作目录：C:\VLA-LIBERO；WSL：/mnt/c/VLA-LIBERO。
+更新时间：2026-10-08（Asia/Shanghai）。工作目录：C:\VLA-LIBERO；WSL：/mnt/c/VLA-LIBERO。
 
 ## 最新结论
+
+用户确认的 Spatial 同场景双向选碗核查已完成（2026-10-08 00:10，退出码 0）：VLA-Adapter Spatial 权重、物理 task 8、init0 两条 N-only，盘子旁碗条件正确完成碗1（首次放置第 99 步）；ramekin 旁碗条件 neither，目标碗2无双侧指垫接触或明显位移，非目标碗1被推动约 14.5 厘米。两条各 300 步、38 次查询，共 76 次，重置诊断另 2 次；三类初始摘要一致，首动作块差异 0，文本无截断。未通过双向核查，按预定规则不补 init1、init2，不加入辅助事实或冲突。第二条仅借用 task 1 的文字，未使用其物理场景；先前 task 1 原生成功不能替代同 task 8 选择碗2的验证。见 [Spatial 选碗核查](PHASE1_SPATIAL_REFERENCE_20261008.md)。运行脚本 `scripts/check_phase1_spatial_reference.py`，输出 `outputs/phase1/vla-adapter-spatial-reference-N-20261008/`、日志 `logs/phase1-adapter-spatial-reference-N-20261008.log`。
 
 用户授权的换模型试验已完成：VLA-Adapter Goal 权重下载成功，同一 init0 六次正常退出（23:20，退出码 0）。原生盘子／炉子成功，首次完成步为 75／87；Q_A/Q_B 远近指代均 neither；柜子／瓶子事实追加成功，首次完成步为 88／80。各 300 步、38 次策略查询，共 228 次，重置诊断另 2 次；初始观察、模拟状态及初始化摘要全部一致，首动作块重放差异 0，无文本截断。见 [换模型复查](PHASE1_MODEL_SWITCH_20261007.md)。VLA-Adapter 改善了本轮附加描述结果，但没有解决关系指代，不能据此进入 A/X/U，也不能单独归因于 SmolVLA 能力。输出 `outputs/phase1/vla-adapter-model-switch-20261007/`，日志 `logs/phase1-adapter-model-switch-20261007.log`。保留原版 LIBERO、256×256 双相机、动作长度 8、10 步静置的原生配置；跨模型运行栈差异单列。
 

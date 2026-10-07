@@ -1,0 +1,97 @@
+{
+  "status": "completed",
+  "completed_at": "2026-10-07T16:10:13.693010+00:00",
+  "model": "vla-adapter",
+  "suite": "libero_spatial",
+  "physical_task_id": 8,
+  "episodes": 2,
+  "expanded": false,
+  "per_condition": {
+    "plate_side": {
+      "successes": 1,
+      "episodes": 1
+    },
+    "ramekin_side": {
+      "successes": 0,
+      "episodes": 1
+    }
+  },
+  "N_screen_passed": false,
+  "results": [
+    {
+      "init_id": 0,
+      "condition": "plate_side",
+      "text": "pick up the black bowl next to the plate and place it on the plate",
+      "expected_source": "bowl1",
+      "category": "bowl1_only",
+      "success": true,
+      "goal_events": {
+        "bowl1": true,
+        "bowl2": false
+      },
+      "first_event_steps": {
+        "bowl1": 99,
+        "bowl2": null
+      },
+      "final_goal_events": {
+        "bowl1": true,
+        "bowl2": false
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": 69,
+          "grasp_contact_state_count": 33,
+          "max_height_gain_m": 0.1121638785916026,
+          "max_displacement_m": 0.16248821974449687
+        },
+        "bowl2": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 2.786076397365278e-07,
+          "max_displacement_m": 2.78607640728492e-07
+        }
+      },
+      "steps": 300,
+      "policy_calls": 38
+    },
+    {
+      "init_id": 0,
+      "condition": "ramekin_side",
+      "text": "pick up the black bowl next to the ramekin and place it on the plate",
+      "expected_source": "bowl2",
+      "category": "neither",
+      "success": false,
+      "goal_events": {
+        "bowl1": false,
+        "bowl2": false
+      },
+      "first_event_steps": {
+        "bowl1": null,
+        "bowl2": null
+      },
+      "final_goal_events": {
+        "bowl1": false,
+        "bowl2": false
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": 127,
+          "grasp_contact_state_count": 2,
+          "max_height_gain_m": 0.009826598269469744,
+          "max_displacement_m": 0.14536339458971007
+        },
+        "bowl2": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 2.786076397365278e-07,
+          "max_displacement_m": 2.78607640728492e-07
+        }
+      },
+      "steps": 300,
+      "policy_calls": 38
+    }
+  ],
+  "policy_calls": 76,
+  "diagnostic_policy_calls": 2,
+  "interpretation": "Paired exploratory N-only source-selection screening; auxiliary fact and conflict capability not tested."
+}
