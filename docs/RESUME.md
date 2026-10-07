@@ -2,38 +2,47 @@
 
 更新时间：2026-10-08（Asia/Shanghai）。工作目录：C:\VLA-LIBERO；WSL：/mnt/c/VLA-LIBERO。
 
-## 最新结论
+## 当前已确定的决策
 
-用户确认的 Spatial 同场景双向选碗核查已完成（2026-10-08 00:10，退出码 0）：VLA-Adapter Spatial 权重、物理 task 8、init0 两条 N-only，盘子旁碗条件正确完成碗1（首次放置第 99 步）；ramekin 旁碗条件 neither，目标碗2无双侧指垫接触或明显位移，非目标碗1被推动约 14.5 厘米。两条各 300 步、38 次查询，共 76 次，重置诊断另 2 次；三类初始摘要一致，首动作块差异 0，文本无截断。未通过双向核查，按预定规则不补 init1、init2，不加入辅助事实或冲突。第二条仅借用 task 1 的文字，未使用其物理场景；先前 task 1 原生成功不能替代同 task 8 选择碗2的验证。见 [Spatial 选碗核查](PHASE1_SPATIAL_REFERENCE_20261008.md)。运行脚本 `scripts/check_phase1_spatial_reference.py`，输出 `outputs/phase1/vla-adapter-spatial-reference-N-20261008/`、日志 `logs/phase1-adapter-spatial-reference-N-20261008.log`。
+用户已确定将主实验模型从 SmolVLA 改为 **VLA-Adapter 原版**。能力核查、Phase 1 行为诊断及后续发现／搜索原型均以 VLA-Adapter 为主；SmolVLA 的已完成资料保留，SmolVLA 与 PulseVLA-LIBERO 为后续验证候选，具体顺序和任务范围待各自能力核查后确定。
 
-用户授权的换模型试验已完成：VLA-Adapter Goal 权重下载成功，同一 init0 六次正常退出（23:20，退出码 0）。原生盘子／炉子成功，首次完成步为 75／87；Q_A/Q_B 远近指代均 neither；柜子／瓶子事实追加成功，首次完成步为 88／80。各 300 步、38 次策略查询，共 228 次，重置诊断另 2 次；初始观察、模拟状态及初始化摘要全部一致，首动作块重放差异 0，无文本截断。见 [换模型复查](PHASE1_MODEL_SWITCH_20261007.md)。VLA-Adapter 改善了本轮附加描述结果，但没有解决关系指代，不能据此进入 A/X/U，也不能单独归因于 SmolVLA 能力。输出 `outputs/phase1/vla-adapter-model-switch-20261007/`，日志 `logs/phase1-adapter-model-switch-20261007.log`。保留原版 LIBERO、256×256 双相机、动作长度 8、10 步静置的原生配置；跨模型运行栈差异单列。
+目前确定的是模型角色，**尚无通过双向正常能力核查的 Phase 1 场景和指代模板**。原研究框架和黑盒权限保持；有效场景、Q_A/Q_B、辅助事实及最终样本范围仍待核查与冻结。本次仅改写计划，不新增试验，也不恢复此前停止的候选。
 
-用户随后授权的简化指令也已完成（23:30，退出码 0）：`put the bowl on the plate or stove closer to the cabinet.` / `put the bowl on the plate or stove farther from the cabinet.`，各 init0 一次，均 neither，全 300 步无目的地完成。每条 38 次查询，追加 76 次、零诊断；三类初始摘要与原生锚点一致。实际包装文本各 49 token（原版 52），未截断。见同一 [换模型报告的短版追加](PHASE1_MODEL_SWITCH_20261007.md)。脚本 `scripts/check_phase1_adapter_simple.py`，输出 `outputs/phase1/vla-adapter-simple-N-20261007/`、日志 `logs/phase1-adapter-simple-N-20261007.log`。两轮共 8 次 rollout、306 次总策略查询；短版仍不能建立自然关系指代，不扩样、不进入冲突；此前停止的 SmolVLA 计划保持停止。
+当前计划见 [总览](../plans/README.md)、[主模型与能力核查](../plans/黑盒跨模态攻击/03_模型选择与基线准备.md)、[路线与预算](../plans/黑盒跨模态攻击/07_实施路线与查询预算.md)及 [Phase 1 入口](PHASE1_ENTRY.md)。
 
-用户随后确认的柜子提及对照已完成：直接盘子命令后分别追加 `The cabinet is on the table.` 与同句式 `The bottle is on the table.`，各 init0 一次，均未完成任一目的地。柜子条件第 32 步首次出现手指与柜子接触，301 个采样状态中有 118 个接触；瓶子条件没有柜子接触，但也失败。两条件都是 15 个有效 token，与原生对照初始画面、模拟状态和初始化摘要一致。新增 60 次策略调用，进程退出码 0。见 [柜子提及对照](PHASE1_CABINET_MENTION_20261007.md)。柜子接触有实测支持，但不能独自解释所有附加事实条件的失败；当前辅助文本可用性尚未建立，不进入事实冲突。此前六次指代计划保持停止。
+## VLA-Adapter 已完成的候选核查
 
-新 Phase 1 的 N-only baseline 已按用户要求停止。已完成 init0 的 Q_A（较近）与 Q_B（较远），两次均为 neither、300 步未完成任一目的地；init1 Q_A 中途停止，不计完成样本，未保存部分查询数。用户随后要求试 `put the bowl on the plate`，同一 init0 的一次原生指令对照已成功：第 69 步首次到盘子，第 300 步仍为盘子完成、炉子未完成，进程退出码 0。三次初始观察、模拟状态与初始化摘要一致。报告见 [当前 baseline 对照](PHASE1_BASELINE_20261007.md)。原生指令正常，候选指代尚未通过；后续文字修改须先确认，不能自动恢复原六次试验或进入 A/X/U。
+| 运行 | 结果 | 完整 rollout／查询成本 | 报告 |
+| --- | --- | --- | --- |
+| Goal task 8、init0：原生命令、远近指代、事实追加 | 盘子／炉子直接命令成功；远近指代失败；柜子／瓶子事实追加成功 | 6 次，228 次 rollout 查询 + 2 次诊断 | [换模型报告](PHASE1_MODEL_SWITCH_20261007.md) |
+| 同一 Goal 场景短版指代 | closer／farther 两条均 neither | 2 次，76 次查询，零诊断 | 同上短版追加 |
+| Spatial task 8、init0：next to 双向选碗 | 碗1条件第 99 步完成；碗2条件 neither，目标碗2无双侧指垫接触、非目标碗1位移约 14.5 厘米 | 2 次，76 次 rollout 查询 + 2 次诊断 | [Spatial 报告](PHASE1_SPATIAL_REFERENCE_20261008.md) |
 
-十初始化场景核查已完成，盘子距柜子中心约 0.20–0.22 米，炉子约 0.63 米；仅是指代真值核查，不证明模型理解。文本见 [模板草案](PHASE1_TEMPLATE_DRAFT_20261007.md)。指代试验数据 outputs/phase1/smolvla-baseline-N-20261007/，日志 logs/phase1-baseline-N-20261007.log；原生对照数据 outputs/phase1/smolvla-native-plate-20261007/，日志 logs/phase1-native-plate-20261007.log。新增脚本不更改前期冻结脚本。
+合计 10 个完整 rollout、380 次 rollout 策略查询及 4 次诊断，总查询 384；均正常退出、无本轮中止。初始状态配对、重置重现和文本输入核查均通过。现有失败结果限于已测初始化与模板，不证明模型一般不理解距离或具有普遍对象偏好，也不能解释为图文主导。
 
-Goal 共享场景核查已完成二十次，正常退出：碗放盘子 10/10、碗放炉子 10/10；十组配对初始观察和模拟状态一致，文本和判据正确，无错误目的地完成事件。重置复核观察与首动作差异为 0。
+Spatial 选碗按预定规则停在 init0，未补 init1／init2；第二条只借用了官方 task 1 的文字，物理场景仍是 task 8。官方不同场景的任务成功不能替代共享场景换目标。当前尚未运行四条件冲突矩阵。
 
-可以继续使用 SmolVLA，在该共享 Goal 场景进入 Phase 1 小规模行为刻画。该结论限于物理 task 8、原生盘子／炉子指令、十个初始化和策略 seed=1。Object 目标切换失败仍保留为条件边界。
+本地输出和日志：
 
-报告：[Goal 核查](SMOLVLA_GOAL_CHECK_20261007.md)。数据 outputs/readiness/smolvla-goal-20261007/，summary.json、readiness-assessment.json、episodes/、videos/；日志 logs/smolvla-goal-language-20261007.log。
+- Goal 六次：`outputs/phase1/vla-adapter-model-switch-20261007/`、`logs/phase1-adapter-model-switch-20261007.log`。
+- Goal 短版：`outputs/phase1/vla-adapter-simple-N-20261007/`、`logs/phase1-adapter-simple-N-20261007.log`。
+- Spatial 选碗：`outputs/phase1/vla-adapter-spatial-reference-N-20261008/`、`logs/phase1-adapter-spatial-reference-N-20261008.log`。
 
-## 下一步（2026-10-07 计划调整）
+## 下一步与推进边界
 
-此前旧 Phase 1 已按用户要求暂停并删除，不再恢复该轮任务。当前新方案仅执行随后明确授权的 N-only baseline、单次原生对照与柜子提及小诊断。
+在 VLA-Adapter 上继续核查新候选的任务语义、正常操作与同场景目标绑定，先明确有效的候选对象／目的地、自然指代和独立事件。具体场景与英文模板确定后，冻结小规模范围与停止规则；无效候选保留数据并停止扩样，不直接重跑旧候选以凑成功样本。
 
-前期环境、权重、Spatial 基线、SmolVLA 前置核查及 Goal 两目标核查全部保留。用户将当前优先级调整为先探究文本与视觉主导关系，并要求参考 VLM 论文。新 [Phase 1 方案](PHASE1_ENTRY.md) 先核查自然属性／关系指代，固定图像做无辅助、正确事实、最小冲突、等长无关四条件 × 两个互补指代，按 12→24→80 次推进；对称视觉线索矩阵后续另计。原文核对见 [VLM 设置参考](../plans/黑盒跨模态攻击/08_VLM主导关系实验设置参考.md)。
+通过前置核查后，再冻结 N 无辅助、A 正确事实、X 最小冲突和 U 等长无关四条件。12→24→80 是合格候选的条件性矩阵预算，候选尝试及诊断另计；N/A 各块达到预定探索门槛后才加入 X/U。不能把直接命令成功、另一模型的基线或另一物理场景的成功填作当前指代对照。
 
-计划调整时未实施实验；随后用户确认设置，要求模板先确认，并进一步授权先试 baseline。故当前仅测试草案中的两条基础指令，不自动启动 A/X/U，也不更换模板。不能拿原生命令 10/10 替代新指代基线。攻击搜索在主导诊断后按证据决定。
+主模型使用对应套件固定权重、原版 LIBERO、原生双相机及本体处理、8 步动作执行和 10 步静置；当前 Spatial、Goal 权重已配置。相机、随机种子、终止上限和独立事件按每次运行 manifest 冻结。正式基线遵循官方套件协议，已有配对 300 步诊断与官方 Spatial 220 步基线分开报告。
 
-## 保留的前期结果
+## 保留的历史与已见探索
 
-- 三模型环境与 CUDA、双相机、策略输出和闭环已通过。[配置状态](SETUP_STATUS.md)。
-- 三模型 Spatial 单次基线：SmolVLA 8/10、VLA-Adapter 10/10、PulseVLA 9/10。[基线记录](SPATIAL_BASELINE_20261006.md)。
-- SmolVLA 前置 49 次：Spatial 0 为 7/10、Spatial 3 为 5/10、Spatial 4 为 8/10、Object 0 为 10/10；同义改写 2/3，Object 身份切换 0/3。固定 seed 完整重放逐动作一致；额外 seed=7 失败、seed=11 成功。[前期核查](SMOLVLA_READINESS_20261006.md)。
-- 指令 Goal task 1、8 已登记为已见探索数据；两个条件共用一个物理场景，不能视为两个独立场景的确认。
-- 旧暂停记录仅为历史。当前 Goal current-status.json 为 completed。全部冻结脚本与旧结果保留。
+- 三模型环境、CUDA、双相机、策略输出及短程闭环均已验证；[配置状态](SETUP_STATUS.md)。
+- 三模型 Spatial 每任务一次：SmolVLA 8/10、VLA-Adapter 10/10、PulseVLA 9/10；[Spatial 基线](SPATIAL_BASELINE_20261006.md)。
+- SmolVLA 前期 49 次及 Object 身份切换 0/3；[前期核查](SMOLVLA_READINESS_20261006.md)。
+- SmolVLA 共享 Goal 原生盘子／炉子各 10/10 是该模型原生目标锚点，不能证明新指代或 VLA-Adapter 能力；[Goal 核查](SMOLVLA_GOAL_CHECK_20261007.md)。
+- SmolVLA N-only 的 init0 两条失败，随后 init1 Q_A 被用户要求停止，部分查询成本未知，不补跑也不计完成样本；原生盘子对照成功；[baseline 对照](PHASE1_BASELINE_20261007.md)。
+- SmolVLA 柜子／瓶子事实追加均失败；[提及核查](PHASE1_CABINET_MENTION_20261007.md)。
+
+旧暂停与原生成功的推进判断仅属历史，当前主模型与前置状态以上述决策为准。原脚本、日志和结果保留，全部已试任务、初始化、模板及中止尝试登记为已见探索，不冒充独立留出数据。

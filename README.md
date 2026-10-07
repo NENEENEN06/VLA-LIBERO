@@ -4,13 +4,15 @@
 
 **当前状态：三个模型环境和权重已配置，并通过 CUDA、LIBERO 双相机、动作预测及 30 步真实观测闭环检查。VLA-Adapter 已配置 Spatial 与 Goal 权重。** 详细记录见 [配置状态](docs/SETUP_STATUS.md)。
 
+**2026-10-08 已确定 VLA-Adapter 原版为主实验模型。** SmolVLA 的已有试验保留，SmolVLA 与 PulseVLA-LIBERO 为后续验证候选。当前仍在前置能力核查，具体有效场景、指代模板和辅助事实尚未确定；四条件冲突实验是通过正常能力后的条件性安排。当前计划见 [研究总览](plans/README.md)与 [Phase 1 入口](docs/PHASE1_ENTRY.md)。
+
 2026-10-06 已完成 Spatial 基线（每任务 1 个 episode）：SmolVLA 8/10、VLA-Adapter 10/10、PulseVLA 9/10，三个评测进程均正常退出。逐任务结果和记录见 [Spatial 基线检查](docs/SPATIAL_BASELINE_20261006.md)。
 
-2026-10-07 已完成 SmolVLA 前置核查：Object 身份切换 0/3；追加共享 Goal 场景的盘子／炉子目标各 10/10，支持在该限定场景进入 Phase 1。见 [前期核查](docs/SMOLVLA_READINESS_20261006.md)、[Goal 核查](docs/SMOLVLA_GOAL_CHECK_20261007.md)及 [Phase 1 入口](docs/PHASE1_ENTRY.md)。
+2026-10-07 已完成 SmolVLA 前置核查：Object 身份切换 0/3；共享 Goal 原生盘子／炉子指令各 10/10。这些是该模型历史锚点，不能替代新自然指代或 VLA-Adapter 的能力核查。见 [前期核查](docs/SMOLVLA_READINESS_20261006.md)与 [Goal 核查](docs/SMOLVLA_GOAL_CHECK_20261007.md)。
 
-研究计划更新：旧 Phase 1 已清理，当前先参考 VLM 论文探究文本／视觉主导关系。新方案为自然指代核查、四条件 × 双向事实冲突、局部动作与闭环行为，按 12→24→80 次分阶段推进。当前仅试了 init0 的两个无辅助远近指代，均未完成；用户要求停止后，匹配的原生 `put the bowl on the plate` 对照成功。候选模板仍需核查与确认，尚未运行 A/X/U。见 [当前 baseline 对照](docs/PHASE1_BASELINE_20261007.md)、[新 Phase 1](docs/PHASE1_ENTRY.md)和 [VLM 设置参考](plans/黑盒跨模态攻击/08_VLM主导关系实验设置参考.md)。
+研究框架保留自然指代能力核查、四条件 × 双向事实冲突及局部动作／闭环对照；12→24→80 次仅适用于通过前置核查的合格候选。SmolVLA 的原指代试验已停止；后续 VLA-Adapter 的 Goal 和 Spatial 候选也未通过双向正常能力，目前未进入冲突矩阵。见 [Phase 1](docs/PHASE1_ENTRY.md)与 [VLM 设置参考](plans/黑盒跨模态攻击/08_VLM主导关系实验设置参考.md)。
 
-追加的 [柜子提及对照](docs/PHASE1_CABINET_MENTION_20261007.md) 已完成：同 init0 的柜子事实／瓶子事实两条件均未完成。柜子条件有实测夹爪接触，瓶子条件无柜子接触；辅助事实的正常能力仍未建立，没有进入事实冲突。
+SmolVLA 的 [柜子提及对照](docs/PHASE1_CABINET_MENTION_20261007.md) 已完成：同 init0 的柜子事实／瓶子事实两条件均未完成。柜子条件有实测夹爪接触，瓶子条件无柜子接触；结论限于该模型与模板，不作为当前主模型的能力结论。
 
 用户随后要求换模型，已完成 [VLA-Adapter 复查](docs/PHASE1_MODEL_SWITCH_20261007.md)：同 init0 六次正常退出，原生盘子／炉子和柜子／瓶子事实追加成功，两条远近指代仍失败。另按用户要求追加两条去掉 `whichever is` 的简化指令，也均 neither；两轮共 8 次完整 rollout、306 次总策略查询，未进入事实冲突。
 
@@ -32,7 +34,7 @@
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\scripts\vla.ps1 doctor all --policy
-powershell -ExecutionPolicy Bypass -File .\scripts\vla.ps1 eval smolvla --suite libero_spatial --episodes 1
+powershell -ExecutionPolicy Bypass -File .\scripts\vla.ps1 eval vla-adapter --suite libero_spatial --episodes 1
 ```
 
 启动脚本将参数传给 WSL 中的 `scripts/vla.py`。下面的步骤保留了从头安装和 Ubuntu 终端使用方式。
