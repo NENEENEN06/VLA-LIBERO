@@ -1,0 +1,93 @@
+{
+  "status": "completed",
+  "completed_at": "2026-10-07T13:55:23.149051+00:00",
+  "episodes": 2,
+  "results": [
+    {
+      "question": "cabinet_fact",
+      "text": "put the bowl on the plate. The cabinet is on the table.",
+      "success": false,
+      "category": "neither",
+      "goal_events": {
+        "plate": false,
+        "stove": false
+      },
+      "first_event_steps": {
+        "plate": null,
+        "stove": null
+      },
+      "final_goal_events": {
+        "plate": false,
+        "stove": false
+      },
+      "steps": 300,
+      "policy_calls": 30,
+      "full_token_count": 14,
+      "effective_token_count": 15,
+      "paired_native_hashes": {
+        "observation_sha256": true,
+        "simulator_state_sha256": true,
+        "initial_state_sha256": true
+      },
+      "minimum_eef_cabinet_xy_center_distance_m": 0.10021885084799126,
+      "eef_range_step50_onwards_m": [
+        0.05909918445666152,
+        0.05316101764540332,
+        0.07802786776184645
+      ],
+      "max_bowl_displacement_m": 2.7860764072852795e-07,
+      "robot_cabinet_contact_state_count": 118,
+      "first_robot_cabinet_contact_step": 32,
+      "contact_observation_states": 301
+    },
+    {
+      "question": "neutral_bottle_fact",
+      "text": "put the bowl on the plate. The bottle is on the table.",
+      "success": false,
+      "category": "neither",
+      "goal_events": {
+        "plate": false,
+        "stove": false
+      },
+      "first_event_steps": {
+        "plate": null,
+        "stove": null
+      },
+      "final_goal_events": {
+        "plate": false,
+        "stove": false
+      },
+      "steps": 300,
+      "policy_calls": 30,
+      "full_token_count": 14,
+      "effective_token_count": 15,
+      "paired_native_hashes": {
+        "observation_sha256": true,
+        "simulator_state_sha256": true,
+        "initial_state_sha256": true
+      },
+      "minimum_eef_cabinet_xy_center_distance_m": 0.22619588719006417,
+      "eef_range_step50_onwards_m": [
+        0.1110049318989023,
+        0.03336750434413401,
+        0.1657479792626062
+      ],
+      "max_bowl_displacement_m": 0.0032789455078402817,
+      "robot_cabinet_contact_state_count": 0,
+      "first_robot_cabinet_contact_step": null,
+      "contact_observation_states": 301
+    }
+  ],
+  "policy_calls": 60,
+  "diagnostic_policy_calls": 0,
+  "native_reference": {
+    "success": true,
+    "category": "plate_only",
+    "first_event_steps": {
+      "plate": 69,
+      "stove": null
+    },
+    "policy_calls_reused": 30
+  },
+  "interpretation": "Two matched init0 factual-addition checks; no relation or conflict. Single cases do not establish a general cabinet-word effect."
+}

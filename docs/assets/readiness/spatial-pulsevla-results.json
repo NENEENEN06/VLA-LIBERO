@@ -1,0 +1,81 @@
+{
+  "task": "libero_spatial",
+  "n_action_steps": 10,
+  "n_episodes": 1,
+  "seed": 1,
+  "n_envs": 1,
+  "overall_pc_success": 90.0,
+  "n_total": 10,
+  "per_task": [
+    {
+      "task_id": 0,
+      "pc_success": 100.0,
+      "successes": [
+        true
+      ]
+    },
+    {
+      "task_id": 1,
+      "pc_success": 100.0,
+      "successes": [
+        true
+      ]
+    },
+    {
+      "task_id": 2,
+      "pc_success": 100.0,
+      "successes": [
+        true
+      ]
+    },
+    {
+      "task_id": 3,
+      "pc_success": 100.0,
+      "successes": [
+        true
+      ]
+    },
+    {
+      "task_id": 4,
+      "pc_success": 100.0,
+      "successes": [
+        true
+      ]
+    },
+    {
+      "task_id": 5,
+      "pc_success": 100.0,
+      "successes": [
+        true
+      ]
+    },
+    {
+      "task_id": 6,
+      "pc_success": 0.0,
+      "successes": [
+        false
+      ]
+    },
+    {
+      "task_id": 7,
+      "pc_success": 100.0,
+      "successes": [
+        true
+      ]
+    },
+    {
+      "task_id": 8,
+      "pc_success": 100.0,
+      "successes": [
+        true
+      ]
+    },
+    {
+      "task_id": 9,
+      "pc_success": 100.0,
+      "successes": [
+        true
+      ]
+    }
+  ]
+}

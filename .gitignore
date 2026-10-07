@@ -1,0 +1,50 @@
+# Python bytecode and tooling caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.ipynb_checkpoints/
+.coverage
+htmlcov/
+*.egg-info/
+
+# Virtual environments and installed toolchains
+/.venv/
+/.venvs/
+/venv/
+/ENV/
+/.conda/
+
+# Model caches, checkpoints, datasets, run outputs, and local runtime config
+/.cache/
+/.runtime/
+/models/
+/third_party/
+/data/
+/outputs/
+/logs/
+
+# Temporary and local machine files
+/tmp/
+/temp/
+/build/
+/dist/
+*.tmp
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Local credentials; keep checked-in templates available
+.env
+.envrc
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.key

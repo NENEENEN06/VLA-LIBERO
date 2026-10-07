@@ -1,0 +1,10 @@
+# The exact versions and LeRobot commit published with PulseVLA-LIBERO.
+lerobot[libero,evaluation] @ git+https://github.com/huggingface/lerobot.git@d1b1c5c8cff5e1f637495e1667a1d6c7c5258f3b
+torch==2.11.0
+torchvision==0.26.0
+torchcodec==0.11.0
+numpy==2.2.6
+safetensors==0.7.0
+tokenizers==0.22.2
+hf-libero==0.1.3
+mujoco==3.3.2

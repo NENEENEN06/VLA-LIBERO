@@ -1,0 +1,115 @@
+{
+  "date": "2026-10-06",
+  "timezone": "Asia/Shanghai",
+  "suite": "libero_spatial",
+  "episodes_per_task": 1,
+  "seed": 1,
+  "device": "cuda",
+  "status": "completed",
+  "process_exit_codes": {
+    "vla_adapter": 0,
+    "smolvla": 0,
+    "pulsevla": 0
+  },
+  "models": {
+    "smolvla": {
+      "result": "outputs/smolvla/libero_spatial-20261006-203213/eval_info.json",
+      "successes": 8,
+      "pc_success": 80.0,
+      "episodes": 10,
+      "videos": 10
+    },
+    "vla_adapter": {
+      "result": "outputs/vla-adapter/libero_spatial-20261006-205738/EVAL-libero_spatial-openvla-2026_10_06-21_01_30.txt",
+      "successes": 10,
+      "pc_success": 100.0,
+      "episodes": 10,
+      "videos": 10
+    },
+    "pulsevla": {
+      "successes": 9,
+      "videos": 0,
+      "video_note": "Upstream evaluator does not save videos",
+      "episodes": 10,
+      "pc_success": 90.0,
+      "result": "outputs/pulsevla/libero_spatial-20261006-211614/results.json"
+    }
+  },
+  "per_task": [
+    {
+      "task_id": 0,
+      "task": "pick up the black bowl between the plate and the ramekin and place it on the plate",
+      "smolvla": true,
+      "vla_adapter": true,
+      "pulsevla": true
+    },
+    {
+      "task_id": 1,
+      "task": "pick up the black bowl next to the ramekin and place it on the plate",
+      "smolvla": true,
+      "vla_adapter": true,
+      "pulsevla": true
+    },
+    {
+      "task_id": 2,
+      "task": "pick up the black bowl from table center and place it on the plate",
+      "smolvla": true,
+      "vla_adapter": true,
+      "pulsevla": true
+    },
+    {
+      "task_id": 3,
+      "task": "pick up the black bowl on the cookie box and place it on the plate",
+      "smolvla": false,
+      "vla_adapter": true,
+      "pulsevla": true
+    },
+    {
+      "task_id": 4,
+      "task": "pick up the black bowl in the top drawer of the wooden cabinet and place it on the plate",
+      "smolvla": true,
+      "vla_adapter": true,
+      "pulsevla": true
+    },
+    {
+      "task_id": 5,
+      "task": "pick up the black bowl on the ramekin and place it on the plate",
+      "smolvla": true,
+      "vla_adapter": true,
+      "pulsevla": true
+    },
+    {
+      "task_id": 6,
+      "task": "pick up the black bowl next to the cookie box and place it on the plate",
+      "smolvla": true,
+      "vla_adapter": true,
+      "pulsevla": false
+    },
+    {
+      "task_id": 7,
+      "task": "pick up the black bowl on the stove and place it on the plate",
+      "smolvla": true,
+      "vla_adapter": true,
+      "pulsevla": true
+    },
+    {
+      "task_id": 8,
+      "task": "pick up the black bowl next to the plate and place it on the plate",
+      "smolvla": true,
+      "vla_adapter": true,
+      "pulsevla": true
+    },
+    {
+      "task_id": 9,
+      "task": "pick up the black bowl on the wooden cabinet and place it on the plate",
+      "smolvla": false,
+      "vla_adapter": true,
+      "pulsevla": true
+    }
+  ],
+  "limitations": [
+    "One episode per task; preliminary integration baseline only",
+    "Native evaluators and simulator versions differ",
+    "Each evaluator retains its own seed and initial-state handling"
+  ]
+}

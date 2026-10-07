@@ -1,0 +1,7 @@
+lerobot[smolvla,libero,evaluation] @ git+https://github.com/huggingface/lerobot.git@7e241bd630a3719a56157a497ce5d08f244784f1
+torch==2.11.0
+torchvision==0.26.0
+torchcodec==0.11.0
+numpy==2.2.6
+hf-libero==0.1.4
+mujoco==3.3.2

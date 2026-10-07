@@ -1,0 +1,91 @@
+{
+  "status": "completed",
+  "completed_at": "2026-10-07T04:16:28.597889+00:00",
+  "episodes": 49,
+  "per_task": [
+    {
+      "suite": "libero_spatial",
+      "task_id": 0,
+      "successes": 7,
+      "episodes": 10,
+      "pilot_eligible": false
+    },
+    {
+      "suite": "libero_spatial",
+      "task_id": 3,
+      "successes": 5,
+      "episodes": 10,
+      "pilot_eligible": false
+    },
+    {
+      "suite": "libero_spatial",
+      "task_id": 4,
+      "successes": 8,
+      "episodes": 10,
+      "pilot_eligible": true
+    },
+    {
+      "suite": "libero_object",
+      "task_id": 0,
+      "successes": 10,
+      "episodes": 10,
+      "pilot_eligible": true
+    }
+  ],
+  "language": {
+    "paraphrase": {
+      "successes": 2,
+      "episodes": 3,
+      "goal_events": [
+        {
+          "original_goal": true,
+          "alternate_goal": false
+        },
+        {
+          "original_goal": false,
+          "alternate_goal": false
+        },
+        {
+          "original_goal": true,
+          "alternate_goal": false
+        }
+      ]
+    },
+    "alternative": {
+      "successes": 0,
+      "episodes": 3,
+      "goal_events": [
+        {
+          "original_goal": false,
+          "alternate_goal": false
+        },
+        {
+          "original_goal": false,
+          "alternate_goal": false
+        },
+        {
+          "original_goal": false,
+          "alternate_goal": false
+        }
+      ]
+    }
+  },
+  "repeatability": {
+    "same_initial_observation": true,
+    "same_success": true,
+    "same_steps": true,
+    "max_action_abs_diff": 0.0,
+    "extra_seed_results": [
+      {
+        "policy_seed": 7,
+        "success": false,
+        "steps": 280
+      },
+      {
+        "policy_seed": 11,
+        "success": true,
+        "steps": 147
+      }
+    ]
+  }
+}

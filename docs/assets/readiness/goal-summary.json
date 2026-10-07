@@ -1,0 +1,110 @@
+{
+  "status": "completed",
+  "completed_at": "2026-10-07T04:56:50.822418+00:00",
+  "episodes": 20,
+  "stage1": {
+    "plate": 3,
+    "stove": 3
+  },
+  "expanded": true,
+  "per_goal": {
+    "plate": {
+      "successes": 10,
+      "episodes": 10
+    },
+    "stove": {
+      "successes": 10,
+      "episodes": 10
+    }
+  },
+  "pairs": [
+    {
+      "init_id": 0,
+      "same_observation": true,
+      "same_simulator_state": true,
+      "same_initial_state": true,
+      "plate_success": true,
+      "stove_success": true
+    },
+    {
+      "init_id": 1,
+      "same_observation": true,
+      "same_simulator_state": true,
+      "same_initial_state": true,
+      "plate_success": true,
+      "stove_success": true
+    },
+    {
+      "init_id": 2,
+      "same_observation": true,
+      "same_simulator_state": true,
+      "same_initial_state": true,
+      "plate_success": true,
+      "stove_success": true
+    },
+    {
+      "init_id": 3,
+      "same_observation": true,
+      "same_simulator_state": true,
+      "same_initial_state": true,
+      "plate_success": true,
+      "stove_success": true
+    },
+    {
+      "init_id": 4,
+      "same_observation": true,
+      "same_simulator_state": true,
+      "same_initial_state": true,
+      "plate_success": true,
+      "stove_success": true
+    },
+    {
+      "init_id": 5,
+      "same_observation": true,
+      "same_simulator_state": true,
+      "same_initial_state": true,
+      "plate_success": true,
+      "stove_success": true
+    },
+    {
+      "init_id": 6,
+      "same_observation": true,
+      "same_simulator_state": true,
+      "same_initial_state": true,
+      "plate_success": true,
+      "stove_success": true
+    },
+    {
+      "init_id": 7,
+      "same_observation": true,
+      "same_simulator_state": true,
+      "same_initial_state": true,
+      "plate_success": true,
+      "stove_success": true
+    },
+    {
+      "init_id": 8,
+      "same_observation": true,
+      "same_simulator_state": true,
+      "same_initial_state": true,
+      "plate_success": true,
+      "stove_success": true
+    },
+    {
+      "init_id": 9,
+      "same_observation": true,
+      "same_simulator_state": true,
+      "same_initial_state": true,
+      "plate_success": true,
+      "stove_success": true
+    }
+  ],
+  "clean_and_goal_screen_passed": true,
+  "policy_calls": 171,
+  "diagnostic_policy_calls": 2,
+  "registered_seen_instruction_tasks": [
+    1,
+    8
+  ],
+  "interpretation": "Exploratory screening; conditional expansion is not a confirmatory success-rate estimate."
+}

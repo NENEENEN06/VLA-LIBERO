@@ -1,0 +1,48 @@
+{
+  "status": "completed",
+  "completed_at": "2026-10-07T13:37:21.854741+00:00",
+  "text": "put the bowl on the plate",
+  "episodes": 1,
+  "success": true,
+  "category": "plate_only",
+  "goal_events": {
+    "plate": true,
+    "stove": false
+  },
+  "first_event_steps": {
+    "plate": 69,
+    "stove": null
+  },
+  "final_goal_events": {
+    "plate": true,
+    "stove": false
+  },
+  "steps": 300,
+  "policy_calls": 30,
+  "diagnostic_policy_calls": 0,
+  "full_token_count": 6,
+  "effective_token_count": 7,
+  "paired_candidate_trials": [
+    {
+      "question": "Q_A",
+      "paired_hashes": {
+        "observation_sha256": true,
+        "simulator_state_sha256": true,
+        "initial_state_sha256": true
+      },
+      "previous_category": "neither",
+      "previous_success": false
+    },
+    {
+      "question": "Q_B",
+      "paired_hashes": {
+        "observation_sha256": true,
+        "simulator_state_sha256": true,
+        "initial_state_sha256": true
+      },
+      "previous_category": "neither",
+      "previous_success": false
+    }
+  ],
+  "interpretation": "Single matched native-command check; candidate failures do not isolate the source of reference-language difficulty."
+}

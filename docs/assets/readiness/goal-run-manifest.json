@@ -1,0 +1,128 @@
+{
+  "model": "smolvla",
+  "physical_scene_task": 8,
+  "instruction_tasks": {
+    "plate": 8,
+    "stove": 1
+  },
+  "scene": {
+    "texts": {
+      "plate": "put the bowl on the plate",
+      "stove": "put the bowl on the stove"
+    },
+    "goals": {
+      "plate": [
+        [
+          "on",
+          "akita_black_bowl_1",
+          "plate_1"
+        ]
+      ],
+      "stove": [
+        [
+          "on",
+          "akita_black_bowl_1",
+          "flat_stove_1_cook_region"
+        ]
+      ]
+    },
+    "bddl_sha256": {
+      "plate": "358b7781437e412c67d6a7648c1c28796b6b1bf117a25e61316cb8dfeb940e5b",
+      "stove": "c6812d6c988be830412aa6fc4801af04d60f8c4565d2625763b6a0f2b843a87f"
+    },
+    "physical_definition_sha256": "79f1481f9486946dba775e33c47d9d108aab7a740a07351462aa1a0083f31ba3",
+    "excluded_from_physical_comparison": [
+      "goal_state",
+      "language",
+      "language_instruction",
+      "obj_of_interest"
+    ],
+    "physical_definitions_equal": true
+  },
+  "stage1_init_ids": [
+    0,
+    1,
+    2
+  ],
+  "policy_seed": 1,
+  "env_seed": 1,
+  "max_steps": 300,
+  "stage2_rule": "Expand to init 0..9 for both goals only if each goal succeeds >=2/3 in stage 1; reuse saved stage-1 runs",
+  "clean_screen_threshold": 8,
+  "hard_reset": true,
+  "observation_size": [
+    360,
+    360
+  ],
+  "action_steps": 10,
+  "control_hz": 20,
+  "vectorization": "sync",
+  "runner_sha256": "ed0442ce922445e533f92a098980b0bc87e29c911dfd19c5b907af28449e31d4",
+  "base_runner_sha256": "159f3d96b9bdf71aa49f392a2b07bf2fa210ed2a5ba18dd42b94d8a5944234ef",
+  "source": {
+    "platform": "Ubuntu 22.04 / WSL2 / x86_64 / NVIDIA",
+    "uv_version": "0.12.21",
+    "repositories": {
+      "libero": {
+        "url": "https://github.com/Lifelong-Robot-Learning/LIBERO.git",
+        "revision": "8f1084e3132a39270c3a13ebe37270a43ece2a01"
+      },
+      "vla-adapter": {
+        "url": "https://github.com/OpenHelix-Team/VLA-Adapter.git",
+        "revision": "23fa0c9c159e2aa04341cdd3e924f44061311060"
+      }
+    },
+    "models": {
+      "smolvla": {
+        "python": "3.12",
+        "torch_backend": "cu128",
+        "checkpoint": {
+          "repo_id": "HuggingFaceVLA/smolvla_libero",
+          "revision": "6721902bc4d61e50a3bfdb11dfb4cb626f05d102"
+        }
+      },
+      "vla-adapter": {
+        "python": "3.10.16",
+        "torch_backend": "cu121",
+        "use_pro_version": false,
+        "checkpoints": {
+          "libero_spatial": {
+            "repo_id": "VLA-Adapter/LIBERO-Spatial",
+            "revision": "45caa9bca50d3ea6f8e804fe04c65abac1b69717"
+          },
+          "libero_object": {
+            "repo_id": "VLA-Adapter/LIBERO-Object",
+            "revision": "835cf0d9c71e330480d0801f10b3dd0f5eb5be94"
+          },
+          "libero_goal": {
+            "repo_id": "VLA-Adapter/LIBERO-Goal",
+            "revision": "d1aa0654ccac22cb7e45a55f21692433e9ae7e63"
+          },
+          "libero_10": {
+            "repo_id": "VLA-Adapter/LIBERO-Long",
+            "revision": "78f7880efe4923a88f1976461febbd6109a1c627"
+          }
+        }
+      },
+      "pulsevla": {
+        "python": "3.12",
+        "torch_backend": "cu128",
+        "checkpoint": {
+          "repo_id": "verapulse/pulsevla-libero-0.5b",
+          "revision": "f85a37fbd3fe724c3067d4bd0a6a531ca5b3a1c4"
+        }
+      }
+    },
+    "assets": {
+      "libero": {
+        "repo_id": "lerobot/libero-assets",
+        "repo_type": "dataset",
+        "revision": "0b3ea86be5fe169d0fd036ae63d1070ec09e90f6"
+      },
+      "smolvlm": {
+        "repo_id": "HuggingFaceTB/SmolVLM2-500M-Instruct",
+        "revision": "7b375e1b73b11138ff12fe22c8f2822d8fe03467"
+      }
+    }
+  }
+}

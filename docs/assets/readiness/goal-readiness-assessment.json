@@ -1,0 +1,85 @@
+{
+  "status": "ready_for_goal_scene_phase1_exploration",
+  "completed_date": "2026-10-07",
+  "timezone": "Asia/Shanghai",
+  "process_exit_code": 0,
+  "physical_scene": "libero_goal task 8",
+  "instruction_tasks": {
+    "stove": 1,
+    "plate": 8
+  },
+  "paired_init_ids": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "policy_seed": 1,
+  "env_seed": 1,
+  "successes": {
+    "stove": 10,
+    "plate": 10
+  },
+  "episodes": 20,
+  "paired_states_verified": 10,
+  "effective_text_verified": true,
+  "wrong_destination_completion_events": 0,
+  "canonical_physical_definitions_equal": true,
+  "reset_audit_passed": true,
+  "supported_scope": "One physical Goal scene, canonical plate/stove instructions, ten initial states and policy seed 1",
+  "previous_object_identity_switch": {
+    "status": "retained as task/scene limitation",
+    "episodes": 3,
+    "successes": 0
+  },
+  "retention_decision": "Retain SmolVLA as the initial discovery model for this validated Goal scene",
+  "next_phase1": {
+    "conditions": [
+      "clean",
+      "visual_only",
+      "wrong_auxiliary_text_only",
+      "visual_and_wrong_text",
+      "correct_auxiliary_text",
+      "task_irrelevant_matched_text"
+    ],
+    "init_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "original_authorized_goal": "On akita_black_bowl_1 plate_1",
+    "conditional_reuse_clean_rollouts": 10,
+    "planned_rollouts": 60
+  },
+  "registered_seen_instruction_tasks": [
+    1,
+    8
+  ],
+  "cost": {
+    "peak_pytorch_gpu_memory_mib": 1223.39404296875,
+    "main_policy_calls": 171,
+    "diagnostic_policy_calls": 2,
+    "mean_policy_call_seconds": 0.8256615780701774,
+    "mean_episode_seconds_including_reset": 45.14888362085
+  },
+  "limits": [
+    "Adaptive exploratory screening; not confirmatory performance reproduction",
+    "Two goal conditions in one physical scene; not two independent scene validations",
+    "Goal tests use policy seed 1; robustness across seeds and paraphrases not established",
+    "Different-scene differences do not identify a unique cause of the earlier Object failure",
+    "All intervention groups must retain the same authorized goal and truth predicate; legal stove runs are not text attacks"
+  ]
+}

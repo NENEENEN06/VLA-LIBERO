@@ -1,0 +1,163 @@
+{
+  "status": "checks_completed",
+  "completed_date": "2026-10-07",
+  "timezone": "Asia/Shanghai",
+  "process_exit_code": 0,
+  "completed_episodes": 49,
+  "video_count": 49,
+  "phase1_readiness": "not_ready_for_main_cross_modal_pilot",
+  "reason": "Legal target switch was not achieved in any of three paired Object task 0 episodes.",
+  "clean_eligible_tasks": [
+    {
+      "successes": 8,
+      "suite": "libero_spatial",
+      "task_id": 4,
+      "episodes": 10
+    },
+    {
+      "successes": 10,
+      "suite": "libero_object",
+      "task_id": 0,
+      "episodes": 10
+    }
+  ],
+  "raw_summary_pilot_eligible_meaning": "Clean success count >= 8/10 only; not full Phase 1 readiness",
+  "paired_validation": [
+    {
+      "condition": "paraphrase",
+      "init_id": 0,
+      "same_observation": true,
+      "same_simulator_state": true,
+      "same_initial_state": true,
+      "same_policy_seed": true,
+      "effective_text_matches": true,
+      "correct_goal_object": true,
+      "clean_success": true,
+      "changed_success": true,
+      "goal_events": {
+        "original_goal": true,
+        "alternate_goal": false
+      }
+    },
+    {
+      "condition": "paraphrase",
+      "init_id": 1,
+      "same_observation": true,
+      "same_simulator_state": true,
+      "same_initial_state": true,
+      "same_policy_seed": true,
+      "effective_text_matches": true,
+      "correct_goal_object": true,
+      "clean_success": true,
+      "changed_success": false,
+      "goal_events": {
+        "original_goal": false,
+        "alternate_goal": false
+      }
+    },
+    {
+      "condition": "paraphrase",
+      "init_id": 2,
+      "same_observation": true,
+      "same_simulator_state": true,
+      "same_initial_state": true,
+      "same_policy_seed": true,
+      "effective_text_matches": true,
+      "correct_goal_object": true,
+      "clean_success": true,
+      "changed_success": true,
+      "goal_events": {
+        "original_goal": true,
+        "alternate_goal": false
+      }
+    },
+    {
+      "condition": "alternative",
+      "init_id": 0,
+      "same_observation": true,
+      "same_simulator_state": true,
+      "same_initial_state": true,
+      "same_policy_seed": true,
+      "effective_text_matches": true,
+      "correct_goal_object": true,
+      "clean_success": true,
+      "changed_success": false,
+      "goal_events": {
+        "original_goal": false,
+        "alternate_goal": false
+      }
+    },
+    {
+      "condition": "alternative",
+      "init_id": 1,
+      "same_observation": true,
+      "same_simulator_state": true,
+      "same_initial_state": true,
+      "same_policy_seed": true,
+      "effective_text_matches": true,
+      "correct_goal_object": true,
+      "clean_success": true,
+      "changed_success": false,
+      "goal_events": {
+        "original_goal": false,
+        "alternate_goal": false
+      }
+    },
+    {
+      "condition": "alternative",
+      "init_id": 2,
+      "same_observation": true,
+      "same_simulator_state": true,
+      "same_initial_state": true,
+      "same_policy_seed": true,
+      "effective_text_matches": true,
+      "correct_goal_object": true,
+      "clean_success": true,
+      "changed_success": false,
+      "goal_events": {
+        "original_goal": false,
+        "alternate_goal": false
+      }
+    }
+  ],
+  "reset_audit_passed": true,
+  "repeatability": {
+    "same_initial_observation": true,
+    "same_success": true,
+    "same_steps": true,
+    "max_action_abs_diff": 0.0,
+    "extra_seed_results": [
+      {
+        "policy_seed": 7,
+        "success": false,
+        "steps": 280
+      },
+      {
+        "policy_seed": 11,
+        "success": true,
+        "steps": 147
+      }
+    ]
+  },
+  "dependencies_match": true,
+  "runner_sha256": "159f3d96b9bdf71aa49f392a2b07bf2fa210ed2a5ba18dd42b94d8a5944234ef",
+  "cost": {
+    "separate_diagnostic_policy_calls": 16,
+    "mean_episode_seconds_including_reset": 65.34678733665304,
+    "peak_pytorch_gpu_memory_mib": 1223.39404296875,
+    "main_policy_calls": 848,
+    "mean_policy_call_seconds": 0.7952721499469301
+  },
+  "visual_review": {
+    "init2": "Target not completed; sampled frame shows cream cheese outside the basket; full failure mechanism not classified",
+    "init0": "A bottle-shaped object was placed in the basket; cream cheese remained outside",
+    "init1": "A bottle-shaped object was placed in the basket; cream cheese remained outside"
+  },
+  "limitations": [
+    "One policy seed for baseline screening; ten initial states per task",
+    "Three paired language cases; not a general statement that SmolVLA ignores language",
+    "Two extra seeds on one initial state; not a general estimate of sampling variance",
+    "Legal alternative object is physically present; training-distribution compatibility remains to be checked"
+  ],
+  "next_step": "Check legal goal changes in a shared Goal-suite scene, then decide whether to retain SmolVLA or use VLA-Adapter."
+}

@@ -1,0 +1,4370 @@
+{
+  "status": "completed",
+  "question": "cabinet_fact",
+  "completed_policy_calls": 30,
+  "query_in_progress": false,
+  "contact_sampling": "State before each control action, plus final state on completion.",
+  "records": [
+    {
+      "observation_step": 0,
+      "eef_xyz": [
+        -0.2071168944307784,
+        0.0018671814630673337,
+        1.1786397598229241
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 1,
+      "eef_xyz": [
+        -0.20490722607399023,
+        0.002081176506769478,
+        1.1792561673172341
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 2,
+      "eef_xyz": [
+        -0.20006630788318666,
+        0.0019907730634128235,
+        1.1804276916173178
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 3,
+      "eef_xyz": [
+        -0.1939040709705233,
+        0.0009006496883320184,
+        1.1820107428078546
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 4,
+      "eef_xyz": [
+        -0.1871081379551926,
+        -0.0012238886596853482,
+        1.1834586340722622
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 5,
+      "eef_xyz": [
+        -0.1799759931452518,
+        -0.003950123279794483,
+        1.1847319262030007
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 6,
+      "eef_xyz": [
+        -0.17267457793619162,
+        -0.007237066364661107,
+        1.185963941681646
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 7,
+      "eef_xyz": [
+        -0.1651420056574169,
+        -0.011293154820463527,
+        1.1871821587168807
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 8,
+      "eef_xyz": [
+        -0.15737400062595197,
+        -0.015875050800422428,
+        1.1883713763528398
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 9,
+      "eef_xyz": [
+        -0.149317560996893,
+        -0.020646934929995094,
+        1.1888151513647545
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 10,
+      "eef_xyz": [
+        -0.1410586201357757,
+        -0.0257632948233155,
+        1.188328035735575
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 11,
+      "eef_xyz": [
+        -0.13292334303856165,
+        -0.0311526073039138,
+        1.1883039116626033
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 12,
+      "eef_xyz": [
+        -0.12472436677136602,
+        -0.03599098983246171,
+        1.1891673751845897
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 13,
+      "eef_xyz": [
+        -0.11609329909673614,
+        -0.04029509781756017,
+        1.1899068569225064
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 14,
+      "eef_xyz": [
+        -0.10707574748756439,
+        -0.0444582870514301,
+        1.1900380173257188
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 15,
+      "eef_xyz": [
+        -0.09814647574511996,
+        -0.04823553892900643,
+        1.1895199474704865
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 16,
+      "eef_xyz": [
+        -0.08922724943783454,
+        -0.05175198597614126,
+        1.1881554871567053
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 17,
+      "eef_xyz": [
+        -0.08042254912363687,
+        -0.05533254287004913,
+        1.1859531435431445
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 18,
+      "eef_xyz": [
+        -0.07185741335874547,
+        -0.059017726967800894,
+        1.1832484237875005
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 19,
+      "eef_xyz": [
+        -0.0638685672854968,
+        -0.06279883346930754,
+        1.1798346441494518
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 20,
+      "eef_xyz": [
+        -0.05677397790648009,
+        -0.06700566985135094,
+        1.1755386237308767
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 21,
+      "eef_xyz": [
+        -0.04965683520032178,
+        -0.07220507926985525,
+        1.1729796243648518
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 22,
+      "eef_xyz": [
+        -0.041633190039627274,
+        -0.07752535724180748,
+        1.1724943981437457
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 23,
+      "eef_xyz": [
+        -0.033176885659424976,
+        -0.08225589263225029,
+        1.1721891929233665
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 24,
+      "eef_xyz": [
+        -0.024651122798621524,
+        -0.0867153597567408,
+        1.1710232256168511
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 25,
+      "eef_xyz": [
+        -0.016002174091226392,
+        -0.0902455809124399,
+        1.1685563940109425
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 26,
+      "eef_xyz": [
+        -0.007287622518357035,
+        -0.09275428627527343,
+        1.165201336503642
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 27,
+      "eef_xyz": [
+        0.0011574185862855868,
+        -0.09436309446725209,
+        1.1611690764686842
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 28,
+      "eef_xyz": [
+        0.008748336920540053,
+        -0.09597668869573725,
+        1.1566006315466724
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 29,
+      "eef_xyz": [
+        0.01539633579554278,
+        -0.09846369594511006,
+        1.1512034089021534
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 30,
+      "eef_xyz": [
+        0.020430908733756702,
+        -0.1009461214156191,
+        1.1448074271534954
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 31,
+      "eef_xyz": [
+        0.024386788040666196,
+        -0.1028250133443257,
+        1.1381012869666014
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 32,
+      "eef_xyz": [
+        0.026110465061907655,
+        -0.10533123794758344,
+        1.1351891308726048
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -0.00020754147832724361,
+          "position_xyz": [
+            0.030915231553542505,
+            -0.15379055819053675,
+            1.127886264170383
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 33,
+      "eef_xyz": [
+        0.02623520455825446,
+        -0.10761791964097858,
+        1.1354991185798033
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -0.00013753161434906314,
+          "position_xyz": [
+            0.030982783316893393,
+            -0.15378953137791682,
+            1.1279212543442578
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 34,
+      "eef_xyz": [
+        0.026296830235998117,
+        -0.10889739756226847,
+        1.1357168036891112
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -0.00012894450741316566,
+          "position_xyz": [
+            0.03098815432932943,
+            -0.1537892758193873,
+            1.1279255431464863
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 35,
+      "eef_xyz": [
+        0.02636323002549107,
+        -0.10925123611903925,
+        1.1358430379288547
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -0.00012531254140519732,
+          "position_xyz": [
+            0.030993610456676816,
+            -0.15378914710832595,
+            1.1279273568129047
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 36,
+      "eef_xyz": [
+        0.026427798668784423,
+        -0.10906444694046029,
+        1.1358767700443047
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -0.00011610669353202107,
+          "position_xyz": [
+            0.030997471432811684,
+            -0.15378906542894225,
+            1.1279319590300616
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 37,
+      "eef_xyz": [
+        0.026486798165622313,
+        -0.10871839237117176,
+        1.13583899651133
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -0.00011687269736002429,
+          "position_xyz": [
+            0.03100308355135919,
+            -0.15378914948573363,
+            1.1279315777321175
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 38,
+      "eef_xyz": [
+        0.02653943135974876,
+        -0.10811276670511527,
+        1.1357779132196928
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -0.00011314494581904917,
+          "position_xyz": [
+            0.031007590641324283,
+            -0.15378919582299522,
+            1.1279334431418597
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 39,
+      "eef_xyz": [
+        0.0265859591862772,
+        -0.10719934743147434,
+        1.1357133702101547
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -9.733029420473198e-05,
+          "position_xyz": [
+            0.031010127545884936,
+            -0.1537890807183386,
+            1.1279413499971778
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 40,
+      "eef_xyz": [
+        0.02662381600333893,
+        -0.10626655354030536,
+        1.1356340671413498
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -8.3646696016715e-05,
+          "position_xyz": [
+            0.03101210240738964,
+            -0.15378897393211738,
+            1.1279481913102103
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 41,
+      "eef_xyz": [
+        0.02663323262848544,
+        -0.10612710030144959,
+        1.1355645827222935
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -9.212550861653226e-05,
+          "position_xyz": [
+            0.03101325479049309,
+            -0.15378914415271716,
+            1.1279439549619887
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 42,
+      "eef_xyz": [
+        0.026629710385843088,
+        -0.10630261087759078,
+        1.1355105439981987
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -0.00013274157330629818,
+          "position_xyz": [
+            0.031017029949801846,
+            -0.15378973179642244,
+            1.1279236554233723
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 43,
+      "eef_xyz": [
+        0.026626604008469723,
+        -0.10633834735741905,
+        1.1355128239527694
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -0.00013681890651854448,
+          "position_xyz": [
+            0.031021627082718814,
+            -0.1537897748231507,
+            1.12792161716242
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 44,
+      "eef_xyz": [
+        0.02662540341590296,
+        -0.10624967616445297,
+        1.1355228386667173
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -0.0001346413019852393,
+          "position_xyz": [
+            0.031026945337926208,
+            -0.15378972036088223,
+            1.127922704873116
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 45,
+      "eef_xyz": [
+        0.02662561440151564,
+        -0.10606239823160024,
+        1.135518128303039
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -0.00012463546936673802,
+          "position_xyz": [
+            0.031030866988309716,
+            -0.15378958605945028,
+            1.1279277059877515
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 46,
+      "eef_xyz": [
+        0.02663288532584223,
+        -0.10557344562310557,
+        1.1354705594060348
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -0.00011482314250739451,
+          "position_xyz": [
+            0.03103410989362359,
+            -0.15378949285824484,
+            1.1279326114626385
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 47,
+      "eef_xyz": [
+        0.026642736709450644,
+        -0.1053912348789996,
+        1.1353382772966318
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -0.00012712312872634928,
+          "position_xyz": [
+            0.031042390013826582,
+            -0.1537898148268882,
+            1.1279264682962413
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 48,
+      "eef_xyz": [
+        0.026649906870231894,
+        -0.10539660471345014,
+        1.135231947939166
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -0.00010278249994684229,
+          "position_xyz": [
+            0.03104928471328996,
+            -0.15378958233423684,
+            1.1279386373941893
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 49,
+      "eef_xyz": [
+        0.026652389678883285,
+        -0.10545882379222038,
+        1.1351465677853512
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -6.728835645821368e-05,
+          "position_xyz": [
+            0.031053570840693007,
+            -0.1537890764417591,
+            1.127956377577036
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 50,
+      "eef_xyz": [
+        0.026641934834186004,
+        -0.10612945202772027,
+        1.135056513431883
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -5.45025215396391e-05,
+          "position_xyz": [
+            0.031056907130655842,
+            -0.15378892366018632,
+            1.1279627692432723
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 51,
+      "eef_xyz": [
+        0.02662842290574364,
+        -0.10767990044515786,
+        1.1348800403039176
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -0.0001516709876029771,
+          "position_xyz": [
+            0.031067846926530276,
+            -0.1537910727545826,
+            1.1279142323055256
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 52,
+      "eef_xyz": [
+        0.026626130528448293,
+        -0.10856333218922848,
+        1.1348150569486855
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -0.00014865669446335658,
+          "position_xyz": [
+            0.03107651777292405,
+            -0.15379120632265458,
+            1.1279157467150722
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 53,
+      "eef_xyz": [
+        0.02663654877433088,
+        -0.10857639952749841,
+        1.1347425157421682
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -0.00012576899699220934,
+          "position_xyz": [
+            0.031083913795711307,
+            -0.1537908302920294,
+            1.1279271853723187
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 54,
+      "eef_xyz": [
+        0.02665652762745037,
+        -0.1084679721724679,
+        1.1346123445978042
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -8.465282541964723e-05,
+          "position_xyz": [
+            0.031090214104504,
+            -0.1537900245461252,
+            1.1279477286262098
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 55,
+      "eef_xyz": [
+        0.026696675329001465,
+        -0.10800798482522161,
+        1.1343697386702918
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -7.23083777368426e-05,
+          "position_xyz": [
+            0.031095285786393048,
+            -0.15378990464785927,
+            1.1279539032929031
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 56,
+      "eef_xyz": [
+        0.026748099150182253,
+        -0.10751482310566342,
+        1.1341011567926338
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -6.088095707169555e-05,
+          "position_xyz": [
+            0.031100642703000662,
+            -0.15378976286637533,
+            1.1279596186339997
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 57,
+      "eef_xyz": [
+        0.027202031094067727,
+        -0.1070483325198581,
+        1.1338504967044307
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -2.6215468521432552e-06,
+          "position_xyz": [
+            0.03153456849152807,
+            -0.15378795663390205,
+            1.127988692313398
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 58,
+      "eef_xyz": [
+        0.02759809176295689,
+        -0.10653172419851208,
+        1.1335038285300674
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -6.676178238083522e-06,
+          "position_xyz": [
+            0.031895221110522995,
+            -0.15378811882779558,
+            1.1279866714439124
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 59,
+      "eef_xyz": [
+        0.027689068769841785,
+        -0.10590495040778877,
+        1.133122331782887
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -3.744349987207213e-05,
+          "position_xyz": [
+            0.031926237001924034,
+            -0.15378941013419853,
+            1.1279713419769561
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 60,
+      "eef_xyz": [
+        0.027749121455379763,
+        -0.10523080151450159,
+        1.1327924962213454
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -4.023012179200586e-05,
+          "position_xyz": [
+            0.031927770794337604,
+            -0.15378964785808225,
+            1.1279699639510552
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 61,
+      "eef_xyz": [
+        0.02781080867018633,
+        -0.10465515956156568,
+        1.1324465567615292
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -0.00011928017265135251,
+          "position_xyz": [
+            0.03193665767149756,
+            -0.15379343678665286,
+            1.1279306205897222
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 62,
+      "eef_xyz": [
+        0.027859656509458687,
+        -0.10445119295384839,
+        1.132245980970279
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -0.00011882513289252663,
+          "position_xyz": [
+            0.031944716855777766,
+            -0.15379366218233315,
+            1.1279308707704847
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 63,
+      "eef_xyz": [
+        0.027893926100248097,
+        -0.10438389814560306,
+        1.1321029701098444
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -0.00010840468059645613,
+          "position_xyz": [
+            0.031950035539245164,
+            -0.15379333484649943,
+            1.1279360741861915
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 64,
+      "eef_xyz": [
+        0.027914676093583682,
+        -0.10432108503037059,
+        1.1319868306722076
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -9.993513265558865e-05,
+          "position_xyz": [
+            0.03195344118916058,
+            -0.15379303767418373,
+            1.127940300714088
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 65,
+      "eef_xyz": [
+        0.02792429648070189,
+        -0.10426972950128606,
+        1.1318858195872838
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -9.161691185407196e-05,
+          "position_xyz": [
+            0.0319558040366447,
+            -0.1537927073680093,
+            1.1279444480202698
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 66,
+      "eef_xyz": [
+        0.027931021285984074,
+        -0.10409820573751993,
+        1.1317836685708005
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -8.261556175210055e-05,
+          "position_xyz": [
+            0.03195841184735214,
+            -0.15379230862925258,
+            1.127948931736204
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 67,
+      "eef_xyz": [
+        0.027936308772614663,
+        -0.10375948367798207,
+        1.1316660842169197
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -7.925382247534356e-05,
+          "position_xyz": [
+            0.03196044402567311,
+            -0.1537921908661793,
+            1.1279506097227752
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 68,
+      "eef_xyz": [
+        0.02793916108604401,
+        -0.10330979778113576,
+        1.1315249054279688
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -8.41739697127036e-05,
+          "position_xyz": [
+            0.03196159310029775,
+            -0.15379252486612993,
+            1.1279481715878692
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 69,
+      "eef_xyz": [
+        0.02793973167109766,
+        -0.10309833617516209,
+        1.1314187544956926
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -6.12863745881534e-05,
+          "position_xyz": [
+            0.03196159220501922,
+            -0.15379131995594347,
+            1.1279595520089727
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 70,
+      "eef_xyz": [
+        0.02795117316194911,
+        -0.10307677482542646,
+        1.131263406641561
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -5.691923148278532e-05,
+          "position_xyz": [
+            0.03196319159748329,
+            -0.15379116586114763,
+            1.1279617322540463
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 71,
+      "eef_xyz": [
+        0.027951047587307633,
+        -0.10417622584539506,
+        1.1312053524948593
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -0.0001105610128589523,
+          "position_xyz": [
+            0.0319708879665922,
+            -0.15379444377451168,
+            1.1279351121427315
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 72,
+      "eef_xyz": [
+        0.027933117127852132,
+        -0.1055821508139705,
+        1.1313678445945896
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -9.984167642896852e-05,
+          "position_xyz": [
+            0.03197555015656926,
+            -0.15379384032464083,
+            1.127940437854625
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 73,
+      "eef_xyz": [
+        0.027908629496739383,
+        -0.10711003887712363,
+        1.1315462640045568
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -8.907880207962628e-05,
+          "position_xyz": [
+            0.031978557489759106,
+            -0.1537932274724677,
+            1.1279457843841572
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 74,
+      "eef_xyz": [
+        0.027891224632980906,
+        -0.10823105794777534,
+        1.1316706837539168
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -8.000056020422888e-05,
+          "position_xyz": [
+            0.0319812667350247,
+            -0.15379270974322012,
+            1.1279502939849588
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 75,
+      "eef_xyz": [
+        0.027893310452612972,
+        -0.10839528344079895,
+        1.1316749209293342
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -7.835085110734421e-05,
+          "position_xyz": [
+            0.0319857898545759,
+            -0.15379262678138592,
+            1.1279511148373107
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 76,
+      "eef_xyz": [
+        0.02789887506002687,
+        -0.10833554859040939,
+        1.1316544748641342
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -5.5065735788870094e-05,
+          "position_xyz": [
+            0.03198952717567309,
+            -0.15379123432169578,
+            1.1279626738561055
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 77,
+      "eef_xyz": [
+        0.027894919427108145,
+        -0.10839612490406492,
+        1.1316460125777819
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -1.355988588225173e-05,
+          "position_xyz": [
+            0.03198338028445048,
+            -0.15378870506391906,
+            1.1279832720863268
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 78,
+      "eef_xyz": [
+        0.02787332576525567,
+        -0.10870408296027909,
+        1.1316281767149843
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -9.673060568169462e-06,
+          "position_xyz": [
+            0.03196133170941484,
+            -0.15378847204680895,
+            1.1279852014984986
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 79,
+      "eef_xyz": [
+        0.027847919795264443,
+        -0.10922030734530443,
+        1.1316420862978471
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 80,
+      "eef_xyz": [
+        0.028430267594529893,
+        -0.1090809264365802,
+        1.1316467910778505
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 81,
+      "eef_xyz": [
+        0.02787304749295428,
+        -0.10905913923852666,
+        1.129486994790818
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 82,
+      "eef_xyz": [
+        0.025929992995676433,
+        -0.10975238451524966,
+        1.1255288088889361
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 83,
+      "eef_xyz": [
+        0.024097562827969862,
+        -0.11025205330581311,
+        1.124040160427782
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 84,
+      "eef_xyz": [
+        0.023552659895013952,
+        -0.10969822214828771,
+        1.1263632704265727
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 85,
+      "eef_xyz": [
+        0.024130624343302993,
+        -0.1085493763058329,
+        1.1319645968438716
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 86,
+      "eef_xyz": [
+        0.024788580034491487,
+        -0.10776299393018994,
+        1.1390809124052383
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 87,
+      "eef_xyz": [
+        0.025025685545092193,
+        -0.1072304534528873,
+        1.1437012578408123
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 88,
+      "eef_xyz": [
+        0.025481817989158693,
+        -0.10670986939551316,
+        1.1451860036307728
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 89,
+      "eef_xyz": [
+        0.02620280390871597,
+        -0.10622368749491813,
+        1.145425051258631
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 90,
+      "eef_xyz": [
+        0.02680017984055156,
+        -0.10563481471494504,
+        1.1455842155784683
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 91,
+      "eef_xyz": [
+        0.026002226702583633,
+        -0.10611519425632113,
+        1.1420419636419952
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 92,
+      "eef_xyz": [
+        0.024518643769561966,
+        -0.10790538814635345,
+        1.1348666500593916
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 93,
+      "eef_xyz": [
+        0.023845166159517487,
+        -0.1099597035658462,
+        1.131651041678067
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -0.00031714925774230473,
+          "position_xyz": [
+            0.028150409151835098,
+            -0.15380828386049417,
+            1.1278327452585744
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 94,
+      "eef_xyz": [
+        0.023871742169211785,
+        -0.11057425942935639,
+        1.132064471925533
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -0.00012034845253535212,
+          "position_xyz": [
+            0.02815568995589389,
+            -0.15379544953368096,
+            1.1279303054559104
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 95,
+      "eef_xyz": [
+        0.023909237626834414,
+        -0.11032003564644446,
+        1.132070973849099
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -0.00011105051207967183,
+          "position_xyz": [
+            0.02816259777635698,
+            -0.15379484407136254,
+            1.1279349148771016
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 96,
+      "eef_xyz": [
+        0.02395025269698279,
+        -0.10975767623602622,
+        1.1319873136976908
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -6.209238047274148e-05,
+          "position_xyz": [
+            0.028165825106667403,
+            -0.15379182253819373,
+            1.127959206859382
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 97,
+      "eef_xyz": [
+        0.023999581503601375,
+        -0.1091108471343212,
+        1.1317651802878148
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -4.527253719434526e-05,
+          "position_xyz": [
+            0.02816698368851941,
+            -0.1537908403848654,
+            1.1279675599012418
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 98,
+      "eef_xyz": [
+        0.024060530877704652,
+        -0.1079957514159479,
+        1.1313882143768454
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -4.128167909462547e-05,
+          "position_xyz": [
+            0.028168659352099956,
+            -0.15379069324597303,
+            1.1279695536051042
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 99,
+      "eef_xyz": [
+        0.02430236038657004,
+        -0.10704529400043215,
+        1.131044109649827
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 100,
+      "eef_xyz": [
+        0.02441576329965792,
+        -0.10693304761628708,
+        1.130755329130646
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -5.8891894835434486e-05,
+          "position_xyz": [
+            0.02842601438679252,
+            -0.1537922266592981,
+            1.1279608786189343
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 101,
+      "eef_xyz": [
+        0.02446561478240201,
+        -0.10698934120095036,
+        1.130594533049464
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -9.085807417239756e-05,
+          "position_xyz": [
+            0.028429101146601424,
+            -0.15379474883553992,
+            1.127945095278279
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 102,
+      "eef_xyz": [
+        0.024497338656493135,
+        -0.10697534724972363,
+        1.1304709917149542
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -8.380828669871556e-05,
+          "position_xyz": [
+            0.02843005323591766,
+            -0.15379434307106418,
+            1.12794859934499
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 103,
+      "eef_xyz": [
+        0.024513071565391197,
+        -0.10687608762920686,
+        1.1303571043926826
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -7.430848603724953e-05,
+          "position_xyz": [
+            0.028429269919304855,
+            -0.15379370001180015,
+            1.1279533065319596
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 104,
+      "eef_xyz": [
+        0.024519991091075083,
+        -0.10680089283504761,
+        1.1302314223144654
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -8.806043579867183e-05,
+          "position_xyz": [
+            0.028430486882782303,
+            -0.1537948747786464,
+            1.1279465310761423
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 105,
+      "eef_xyz": [
+        0.024522350519294443,
+        -0.10678075845747984,
+        1.130118027980774
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -8.524783889111199e-05,
+          "position_xyz": [
+            0.028432396500935847,
+            -0.1537947530780537,
+            1.1279479360401494
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 106,
+      "eef_xyz": [
+        0.024521364583258713,
+        -0.10681111676153968,
+        1.12999573954435
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -8.89700717221958e-05,
+          "position_xyz": [
+            0.028432819356553243,
+            -0.1537951697682688,
+            1.1279461185227404
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 107,
+      "eef_xyz": [
+        0.024522226141195265,
+        -0.1069400613447308,
+        1.1298896562939529
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -9.019328119687435e-05,
+          "position_xyz": [
+            0.028436330380794822,
+            -0.15379539078740695,
+            1.1279455354573593
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 108,
+      "eef_xyz": [
+        0.024522780139619574,
+        -0.1075502954575717,
+        1.1298770092440087
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -7.686028127623846e-05,
+          "position_xyz": [
+            0.02843936850335682,
+            -0.15379438834053952,
+            1.1279521272617252
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 109,
+      "eef_xyz": [
+        0.024523895533700355,
+        -0.1088147728049337,
+        1.129993312164817
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -5.41681071666371e-05,
+          "position_xyz": [
+            0.02843982896873622,
+            -0.15379254355010807,
+            1.1279633227941595
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 110,
+      "eef_xyz": [
+        0.02452915463435432,
+        -0.11064208183341834,
+        1.1302136624400727
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -4.6232824413570004e-05,
+          "position_xyz": [
+            0.0284386571848222,
+            -0.153791925383939,
+            1.1279672426750058
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 111,
+      "eef_xyz": [
+        0.02453748528795493,
+        -0.11240256056498917,
+        1.1305710039589714
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -2.4183135928591844e-05,
+          "position_xyz": [
+            0.02843782589845058,
+            -0.15378998896148527,
+            1.1279780961288217
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 112,
+      "eef_xyz": [
+        0.024543974454601724,
+        -0.11364176197561232,
+        1.1309079311871644
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -5.552078691649618e-05,
+          "position_xyz": [
+            0.028437019621212915,
+            -0.15379264626855466,
+            1.1279626541510388
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 113,
+      "eef_xyz": [
+        0.02454515050216579,
+        -0.11406007306324008,
+        1.1310977993478728
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -7.859864757313609e-05,
+          "position_xyz": [
+            0.02843397808162474,
+            -0.15379449974514198,
+            1.1279512644871057
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 114,
+      "eef_xyz": [
+        0.02454345726209344,
+        -0.11384393621097906,
+        1.1311300862573728
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -6.763068156246603e-05,
+          "position_xyz": [
+            0.028430441095147346,
+            -0.15379352433183768,
+            1.1279566613015741
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 115,
+      "eef_xyz": [
+        0.02454982918239481,
+        -0.11377813967630036,
+        1.1311370285123679
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -4.10747057759056e-05,
+          "position_xyz": [
+            0.028429000484577097,
+            -0.15379130905784402,
+            1.1279697531918043
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 116,
+      "eef_xyz": [
+        0.024562616856058945,
+        -0.1135075460417041,
+        1.1310961924623535
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -1.0632249570532017e-05,
+          "position_xyz": [
+            0.02842573969249637,
+            -0.15378876201337782,
+            1.1279847598043675
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 117,
+      "eef_xyz": [
+        0.024548569224545628,
+        -0.11332159259901749,
+        1.1311765743303484
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 118,
+      "eef_xyz": [
+        0.024355416077318393,
+        -0.11323481195821336,
+        1.1314224836776103
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 119,
+      "eef_xyz": [
+        0.024843267961563477,
+        -0.11350144697819631,
+        1.1320113779281058
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 120,
+      "eef_xyz": [
+        0.02600627808809635,
+        -0.11402112768387708,
+        1.1334654358804133
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 121,
+      "eef_xyz": [
+        0.026590940733308234,
+        -0.11391375450239438,
+        1.132255552075979
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 122,
+      "eef_xyz": [
+        0.02680473811494648,
+        -0.1137696423125815,
+        1.1303098591892966
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -0.00018161552468951172,
+          "position_xyz": [
+            0.031219375645522858,
+            -0.15380475120012654,
+            1.1279007757635617
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 123,
+      "eef_xyz": [
+        0.02697902963826547,
+        -0.1137623520900471,
+        1.1304497446937667
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -3.231135986938557e-06,
+          "position_xyz": [
+            0.03135177872317047,
+            -0.15378816946630114,
+            1.1279884130498978
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 124,
+      "eef_xyz": [
+        0.027150279719338297,
+        -0.1139377487713502,
+        1.1304575653678453
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -5.266825704779391e-06,
+          "position_xyz": [
+            0.03148136790591498,
+            -0.15378836287791847,
+            1.1279874137478048
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 125,
+      "eef_xyz": [
+        0.027215427322859014,
+        -0.11451277101972884,
+        1.1305217255538111
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -2.8167916544049586e-05,
+          "position_xyz": [
+            0.03149857014233001,
+            -0.1537905358876449,
+            1.1279761712806935
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 126,
+      "eef_xyz": [
+        0.027275028537995537,
+        -0.11568631862138995,
+        1.1307081427848538
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -3.895249724565123e-05,
+          "position_xyz": [
+            0.03149985334300131,
+            -0.153791585640833,
+            1.1279708821036185
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 127,
+      "eef_xyz": [
+        0.027539538698523002,
+        -0.1168776547967214,
+        1.130961470825538
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -1.5652161868270084e-06,
+          "position_xyz": [
+            0.03170753544220871,
+            -0.15378801704994166,
+            1.1279892319639853
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 128,
+      "eef_xyz": [
+        0.028047546794042272,
+        -0.11763996823301227,
+        1.1311037713459045
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -5.426519443344532e-06,
+          "position_xyz": [
+            0.03216043996812054,
+            -0.15378838977302456,
+            1.1279873376318377
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 129,
+      "eef_xyz": [
+        0.028610151042297742,
+        -0.1187186227238103,
+        1.1313066217232917
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -6.77107158939077e-06,
+          "position_xyz": [
+            0.03262463740307891,
+            -0.15378852299247545,
+            1.1279866786791666
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 130,
+      "eef_xyz": [
+        0.029351062695445917,
+        -0.11970017976042352,
+        1.131916779316037
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 131,
+      "eef_xyz": [
+        0.0300815806282486,
+        -0.12007554193259924,
+        1.134110595799439
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 132,
+      "eef_xyz": [
+        0.03098399885054525,
+        -0.1202323043737891,
+        1.1371238134072086
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 133,
+      "eef_xyz": [
+        0.03202761467622961,
+        -0.12024130074802508,
+        1.139898795320846
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 134,
+      "eef_xyz": [
+        0.03317084057637733,
+        -0.12024701402456456,
+        1.1427881498927952
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 135,
+      "eef_xyz": [
+        0.03397826761711917,
+        -0.12028796404844411,
+        1.1455347159402376
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 136,
+      "eef_xyz": [
+        0.03456094978625879,
+        -0.12046067614763807,
+        1.1478106604874707
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 137,
+      "eef_xyz": [
+        0.035294788320572576,
+        -0.12101317396220408,
+        1.1501792060213254
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 138,
+      "eef_xyz": [
+        0.036239042145823575,
+        -0.12174146131523031,
+        1.1527568467834983
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 139,
+      "eef_xyz": [
+        0.03723166306151396,
+        -0.12248987935756013,
+        1.1549258816681218
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 140,
+      "eef_xyz": [
+        0.038027020783957255,
+        -0.1231301954569737,
+        1.1567993890484531
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 141,
+      "eef_xyz": [
+        0.03830393026765727,
+        -0.12317810739209943,
+        1.1559784703334195
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 142,
+      "eef_xyz": [
+        0.038073836961247345,
+        -0.12275580471051986,
+        1.151914387737709
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 143,
+      "eef_xyz": [
+        0.03740893517927817,
+        -0.12239724199689071,
+        1.1461769360927936
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 144,
+      "eef_xyz": [
+        0.03628284778287544,
+        -0.12267140133524526,
+        1.1395873700300463
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 145,
+      "eef_xyz": [
+        0.035007121367728614,
+        -0.12344170227914457,
+        1.132663747763162
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 146,
+      "eef_xyz": [
+        0.03456994568215383,
+        -0.12416483064344983,
+        1.1301783410863961
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -0.00025095329880153727,
+          "position_xyz": [
+            0.03841479219639017,
+            -0.16390210083914825,
+            1.1278645233505993
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 147,
+      "eef_xyz": [
+        0.03457394419033,
+        -0.12423918338700839,
+        1.1303440793940973
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -5.2952832178654326e-05,
+          "position_xyz": [
+            0.038415371913178564,
+            -0.16389732368197107,
+            1.1279635235839107
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 148,
+      "eef_xyz": [
+        0.03458027114674205,
+        -0.12437820786531514,
+        1.1303534930016288
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -2.9330766074586734e-05,
+          "position_xyz": [
+            0.03841663216405057,
+            -0.16390364231077909,
+            1.1279753346169628
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 149,
+      "eef_xyz": [
+        0.03459813651967185,
+        -0.12492655293685064,
+        1.130419374797595
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -2.5005923936172184e-05,
+          "position_xyz": [
+            0.038418468711048585,
+            -0.16391181026263096,
+            1.127977497038032
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 150,
+      "eef_xyz": [
+        0.034626817361004356,
+        -0.12587779196320317,
+        1.1305635856328886
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -1.9138841111043803e-05,
+          "position_xyz": [
+            0.03842000050080918,
+            -0.16391756518404557,
+            1.1279804305794445
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 151,
+      "eef_xyz": [
+        0.03552938120009177,
+        -0.12658519988046396,
+        1.132833928308305
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 152,
+      "eef_xyz": [
+        0.03637092733846437,
+        -0.12647657321460087,
+        1.1373061131285198
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 153,
+      "eef_xyz": [
+        0.0368321239763333,
+        -0.12620694637235452,
+        1.1421283834007094
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 154,
+      "eef_xyz": [
+        0.03742842472701499,
+        -0.1260622382323547,
+        1.146685643153265
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 155,
+      "eef_xyz": [
+        0.03849070347190078,
+        -0.12607500016867113,
+        1.151362004956134
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 156,
+      "eef_xyz": [
+        0.039818933312982766,
+        -0.12611414433319892,
+        1.1559520136834884
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 157,
+      "eef_xyz": [
+        0.041086853962192006,
+        -0.12604641504543762,
+        1.1601884942868974
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 158,
+      "eef_xyz": [
+        0.04225431146151696,
+        -0.1259483220036017,
+        1.1646470219428482
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 159,
+      "eef_xyz": [
+        0.04335378372627112,
+        -0.12568721694574478,
+        1.1702775984912879
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 160,
+      "eef_xyz": [
+        0.04427796036902164,
+        -0.1252143081607354,
+        1.1768615133376026
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 161,
+      "eef_xyz": [
+        0.044561076759678804,
+        -0.12536710570905718,
+        1.1760361740002545
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 162,
+      "eef_xyz": [
+        0.045114817590285,
+        -0.12664996588322802,
+        1.1688214623651532
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 163,
+      "eef_xyz": [
+        0.04649774471060165,
+        -0.1281688622123354,
+        1.1610162871369185
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 164,
+      "eef_xyz": [
+        0.048212832589471497,
+        -0.12949589688887955,
+        1.1544320369274836
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 165,
+      "eef_xyz": [
+        0.0501875170790395,
+        -0.13057080409190203,
+        1.1489072306976158
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 166,
+      "eef_xyz": [
+        0.05218958465299489,
+        -0.13104331080119325,
+        1.1432626690576624
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 167,
+      "eef_xyz": [
+        0.05393095595035401,
+        -0.13099897611949027,
+        1.1374139379849957
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 168,
+      "eef_xyz": [
+        0.05518353573859262,
+        -0.13115980787318832,
+        1.1310874886085893
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 169,
+      "eef_xyz": [
+        0.05556086232655451,
+        -0.13155529112081651,
+        1.128991083173561
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -0.00023376959306387055,
+          "position_xyz": [
+            0.05907149983866769,
+            -0.17167987632318193,
+            1.1278731152034682
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 170,
+      "eef_xyz": [
+        0.055572020078626105,
+        -0.13176495229106874,
+        1.1291922929246014
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -8.975812080702639e-05,
+          "position_xyz": [
+            0.0590728477726389,
+            -0.17168137173962422,
+            1.1279451209395965
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 171,
+      "eef_xyz": [
+        0.05556671321883373,
+        -0.13178322000247664,
+        1.129156384612711
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -9.114187872061308e-05,
+          "position_xyz": [
+            0.05906204914134319,
+            -0.17167182957869592,
+            1.1279444290606397
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 172,
+      "eef_xyz": [
+        0.05554754427478154,
+        -0.13121331751047904,
+        1.1289502522554562
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -8.262959352367537e-05,
+          "position_xyz": [
+            0.05905159374300835,
+            -0.17166433445774476,
+            1.1279486852032383
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 173,
+      "eef_xyz": [
+        0.055255181854279974,
+        -0.13044397276679603,
+        1.1288229329358144
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 174,
+      "eef_xyz": [
+        0.055550783856914504,
+        -0.12945171918492634,
+        1.1288694401824335
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 175,
+      "eef_xyz": [
+        0.05625867576873729,
+        -0.12882468292325808,
+        1.1289702396221308
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 176,
+      "eef_xyz": [
+        0.05700731217487901,
+        -0.12849529700743834,
+        1.1290168515390473
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 177,
+      "eef_xyz": [
+        0.05754761231013446,
+        -0.12867542430231033,
+        1.129322739839702
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -3.912820865092925e-06,
+          "position_xyz": [
+            0.06107493529677019,
+            -0.16534985072383784,
+            1.1279880435895675
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 178,
+      "eef_xyz": [
+        0.05802360612646936,
+        -0.1293681844980974,
+        1.129774483002866
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 179,
+      "eef_xyz": [
+        0.05865823603743812,
+        -0.13020542296683918,
+        1.1306216313174384
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 180,
+      "eef_xyz": [
+        0.05919733134023266,
+        -0.13118143658457307,
+        1.131571367572083
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -8.06461601410291e-06,
+          "position_xyz": [
+            0.06253106331883268,
+            -0.1581619353113517,
+            1.127985967691993
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 181,
+      "eef_xyz": [
+        0.059971538785932005,
+        -0.13128328298432684,
+        1.1327955000865904
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 182,
+      "eef_xyz": [
+        0.06207591543639209,
+        -0.13091146279593072,
+        1.135087271864652
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 183,
+      "eef_xyz": [
+        0.0650207541032104,
+        -0.13074100934959149,
+        1.1384941023299349
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 184,
+      "eef_xyz": [
+        0.06808460573585991,
+        -0.13039536232316623,
+        1.1416000741269874
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 185,
+      "eef_xyz": [
+        0.07032775034485005,
+        -0.13067445313214893,
+        1.1438523775560572
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 186,
+      "eef_xyz": [
+        0.07130847720150545,
+        -0.1315567279512591,
+        1.1451999042639769
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 187,
+      "eef_xyz": [
+        0.07123852917161332,
+        -0.1324364870576052,
+        1.1460530478500666
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 188,
+      "eef_xyz": [
+        0.07054893831213029,
+        -0.1330005339736417,
+        1.146917075440769
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 189,
+      "eef_xyz": [
+        0.07009316832856806,
+        -0.1332154545890056,
+        1.1478612883075399
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 190,
+      "eef_xyz": [
+        0.06993602123640943,
+        -0.13332068842066216,
+        1.1491637297321358
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 191,
+      "eef_xyz": [
+        0.07000573481601939,
+        -0.1339442095457163,
+        1.1529179747381266
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 192,
+      "eef_xyz": [
+        0.07043628336598715,
+        -0.13450880579158817,
+        1.1578823397305997
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 193,
+      "eef_xyz": [
+        0.07127401644361785,
+        -0.13497616922908343,
+        1.1622171028276382
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 194,
+      "eef_xyz": [
+        0.07188352235275253,
+        -0.134878522585397,
+        1.1655989660732542
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 195,
+      "eef_xyz": [
+        0.07250435560573555,
+        -0.13440837364618802,
+        1.1680560497682244
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 196,
+      "eef_xyz": [
+        0.07349257201772497,
+        -0.13394794598490767,
+        1.1695111572009065
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 197,
+      "eef_xyz": [
+        0.07506342586755757,
+        -0.13293125618562132,
+        1.1702640230558932
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 198,
+      "eef_xyz": [
+        0.07652486625449285,
+        -0.1316479401764436,
+        1.170023489132168
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 199,
+      "eef_xyz": [
+        0.07767191749709873,
+        -0.1309219960457645,
+        1.168322983904358
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 200,
+      "eef_xyz": [
+        0.0782407725038235,
+        -0.13087017146291047,
+        1.1657097233617677
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 201,
+      "eef_xyz": [
+        0.0783902951387112,
+        -0.13134551832181246,
+        1.1609784158135932
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 202,
+      "eef_xyz": [
+        0.07809142584613797,
+        -0.13263563917709384,
+        1.1543248120092002
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 203,
+      "eef_xyz": [
+        0.07729736532840743,
+        -0.1344097357127143,
+        1.1470452801292683
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 204,
+      "eef_xyz": [
+        0.07613883918351208,
+        -0.13607751608636048,
+        1.1399447373237173
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 205,
+      "eef_xyz": [
+        0.0750443517912253,
+        -0.137414435204625,
+        1.1330853251150068
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 206,
+      "eef_xyz": [
+        0.0744515856153587,
+        -0.13833325397889742,
+        1.1281488934878101
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 207,
+      "eef_xyz": [
+        0.07436676556146686,
+        -0.13834043220082243,
+        1.1273733284884198
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -5.605700294952775e-05,
+          "position_xyz": [
+            0.07840982494820199,
+            -0.17879937984678856,
+            1.1279619714985252
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 208,
+      "eef_xyz": [
+        0.07411429149057863,
+        -0.13844472553627885,
+        1.127585176685764
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 209,
+      "eef_xyz": [
+        0.07395655075313219,
+        -0.13875349688614005,
+        1.1282017160519526
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 210,
+      "eef_xyz": [
+        0.0743422921972089,
+        -0.1386815168919736,
+        1.1299608413569928
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 211,
+      "eef_xyz": [
+        0.07561283490376933,
+        -0.13774693401752444,
+        1.1319531660872415
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 212,
+      "eef_xyz": [
+        0.0768733152772462,
+        -0.1364807012818629,
+        1.1345281207320734
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 213,
+      "eef_xyz": [
+        0.07821278276011202,
+        -0.13519424255111834,
+        1.1377846144815893
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 214,
+      "eef_xyz": [
+        0.07936514855430861,
+        -0.13399069884849116,
+        1.1401082835556664
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 215,
+      "eef_xyz": [
+        0.08023375825769075,
+        -0.1329535163857327,
+        1.1404916922805952
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 216,
+      "eef_xyz": [
+        0.08075883601891823,
+        -0.13190295608550934,
+        1.1395736709081896
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 217,
+      "eef_xyz": [
+        0.08108054874335306,
+        -0.13094470222387808,
+        1.1388190338017015
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 218,
+      "eef_xyz": [
+        0.08128862577091683,
+        -0.1297757107140715,
+        1.13784616963096
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 219,
+      "eef_xyz": [
+        0.08153851398286488,
+        -0.1283322848935427,
+        1.1369753064106312
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 220,
+      "eef_xyz": [
+        0.08192943486250955,
+        -0.12687477234901245,
+        1.1364662646522783
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 221,
+      "eef_xyz": [
+        0.08077782938521169,
+        -0.12544585872855143,
+        1.1341012533365427
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 222,
+      "eef_xyz": [
+        0.07960769946554389,
+        -0.12435836133628053,
+        1.1306445256963988
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 223,
+      "eef_xyz": [
+        0.07934957620265072,
+        -0.1239672612318341,
+        1.1279956213713067
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -0.00011628559583765075,
+          "position_xyz": [
+            0.08458472443356821,
+            -0.15794060242830799,
+            1.1279318572020811
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 224,
+      "eef_xyz": [
+        0.07929917495679333,
+        -0.12300676379191418,
+        1.1277466434285224
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -2.997342120902857e-05,
+          "position_xyz": [
+            0.08458915134860029,
+            -0.15800769663341258,
+            1.1279750132893955
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 225,
+      "eef_xyz": [
+        0.07942753717070473,
+        -0.12163082853921726,
+        1.1273031596682452
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -3.1548571004513803e-06,
+          "position_xyz": [
+            0.08480342908030132,
+            -0.15811914645619563,
+            1.1279884225714498
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 226,
+      "eef_xyz": [
+        0.07942126272863304,
+        -0.12003685940762004,
+        1.1267744568365372
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -2.3246483046301947e-05,
+          "position_xyz": [
+            0.08488635985885742,
+            -0.1581404633991571,
+            1.127978376758477
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 227,
+      "eef_xyz": [
+        0.0793724724115786,
+        -0.11844315002544302,
+        1.1262788033466329
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -1.6008233795883342e-05,
+          "position_xyz": [
+            0.08492573722096923,
+            -0.1581472895596397,
+            1.127981995883102
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 228,
+      "eef_xyz": [
+        0.07948997366080329,
+        -0.11751937570192499,
+        1.1259864547325762
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 229,
+      "eef_xyz": [
+        0.07956089471490385,
+        -0.11747616829661842,
+        1.1259396069983145
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -2.7470440526977665e-05,
+          "position_xyz": [
+            0.08515543040323598,
+            -0.1580890812863729,
+            1.1279762647797367
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 230,
+      "eef_xyz": [
+        0.07958962587624585,
+        -0.11791457579987404,
+        1.126105708219372
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -4.693313240333729e-05,
+          "position_xyz": [
+            0.08516006965467532,
+            -0.1580958394919963,
+            1.1279665334337985
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 231,
+      "eef_xyz": [
+        0.0796624455893525,
+        -0.11925749288939082,
+        1.1264516428742124
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -4.738244375990241e-05,
+          "position_xyz": [
+            0.08516068700464924,
+            -0.1581119228740429,
+            1.1279663087781202
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 232,
+      "eef_xyz": [
+        0.07968640897574482,
+        -0.11977656530403241,
+        1.1265604520852386
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -4.3030836105240056e-05,
+          "position_xyz": [
+            0.0851554672197091,
+            -0.15807982752333405,
+            1.1279684845819475
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 233,
+      "eef_xyz": [
+        0.07956442598524228,
+        -0.11962117379637896,
+        1.1265682781377055
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -1.2020866601014644e-05,
+          "position_xyz": [
+            0.08503628068844314,
+            -0.15796716441047476,
+            1.1279839895666997
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 234,
+      "eef_xyz": [
+        0.0793208929112077,
+        -0.11912099122340095,
+        1.1265222447609144
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 235,
+      "eef_xyz": [
+        0.07903795554103106,
+        -0.11832672993248139,
+        1.1263600467758406
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -2.552222468921172e-07,
+          "position_xyz": [
+            0.0845379422925712,
+            -0.15754745819425203,
+            1.1279898723888766
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 236,
+      "eef_xyz": [
+        0.07882881623180026,
+        -0.11764316127555705,
+        1.1261623118036819
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -5.507631163137461e-06,
+          "position_xyz": [
+            0.08436123679433608,
+            -0.1575264086871587,
+            1.1279872461844185
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 237,
+      "eef_xyz": [
+        0.07882228585423942,
+        -0.11731548145861875,
+        1.1260513658284022
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -1.6554862161122228e-06,
+          "position_xyz": [
+            0.08436945680861432,
+            -0.1575241573222817,
+            1.127989172256892
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 238,
+      "eef_xyz": [
+        0.0788189652563209,
+        -0.11719547097273061,
+        1.1259826999223976
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -1.2355425544452457e-05,
+          "position_xyz": [
+            0.08437270242580497,
+            -0.15752711663835162,
+            1.1279838222872278
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 239,
+      "eef_xyz": [
+        0.07900786882005385,
+        -0.11726418235206901,
+        1.1262252321309667
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 240,
+      "eef_xyz": [
+        0.07912720689157271,
+        -0.11758506129984805,
+        1.1266024563727586
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -1.6153152550879568e-05,
+          "position_xyz": [
+            0.08460386559435926,
+            -0.15533016638558,
+            1.1279819234237243
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 241,
+      "eef_xyz": [
+        0.07812073015659582,
+        -0.11796392084523875,
+        1.1267903798657402
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -3.382890326530941e-05,
+          "position_xyz": [
+            0.08356715954945168,
+            -0.15489748438840306,
+            1.1279730855483674
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 242,
+      "eef_xyz": [
+        0.07658852366474947,
+        -0.11719210704780607,
+        1.1267503386270676
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 243,
+      "eef_xyz": [
+        0.07530163631572798,
+        -0.1157250613831263,
+        1.1263267879044643
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 244,
+      "eef_xyz": [
+        0.07434150288219374,
+        -0.11435002610329789,
+        1.1257575050342548
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -1.4153544479533764e-05,
+          "position_xyz": [
+            0.08024118253199707,
+            -0.15427690162448304,
+            1.1279829232277603
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 245,
+      "eef_xyz": [
+        0.07364682488281743,
+        -0.11297393753023002,
+        1.1251468053410523
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 246,
+      "eef_xyz": [
+        0.07352714021615075,
+        -0.11203174454879405,
+        1.1246314378898339
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 247,
+      "eef_xyz": [
+        0.07392492564539081,
+        -0.11063821800358065,
+        1.1240103888983122
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 248,
+      "eef_xyz": [
+        0.07529906337997454,
+        -0.10941858401874452,
+        1.1231320012799029
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 249,
+      "eef_xyz": [
+        0.07634047607869643,
+        -0.10859437543353997,
+        1.1225314704826599
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -9.735586964558862e-08,
+          "position_xyz": [
+            0.08374556394894478,
+            -0.1537878830480674,
+            1.1279899541386926
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 250,
+      "eef_xyz": [
+        0.07692890805762771,
+        -0.10816130911799335,
+        1.1222109687450574
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 251,
+      "eef_xyz": [
+        0.07726135597127122,
+        -0.10855534839384706,
+        1.122201514431506
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -6.698152150765805e-07,
+          "position_xyz": [
+            0.08476377886554394,
+            -0.1537879811217226,
+            1.1279896852340205
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 252,
+      "eef_xyz": [
+        0.07767192676074494,
+        -0.10960980990144698,
+        1.1224460012047726
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 253,
+      "eef_xyz": [
+        0.07786606972446382,
+        -0.11077068877696783,
+        1.1227083532742246
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -5.687891307126931e-05,
+          "position_xyz": [
+            0.08513771397381614,
+            -0.1537977358405575,
+            1.1279633278545422
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 254,
+      "eef_xyz": [
+        0.07793508421157093,
+        -0.11127599431847598,
+        1.1227380947358756
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -3.794004284629143e-05,
+          "position_xyz": [
+            0.08515257529925921,
+            -0.15379452352616205,
+            1.1279722363073483
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 255,
+      "eef_xyz": [
+        0.07812683873871788,
+        -0.11099231083752795,
+        1.1223975544702463
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 256,
+      "eef_xyz": [
+        0.07824542882330633,
+        -0.11014360407758712,
+        1.1217611090683295
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 257,
+      "eef_xyz": [
+        0.07831917946639258,
+        -0.10944885859781389,
+        1.1211334294596922
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -5.3685694621173015e-06,
+          "position_xyz": [
+            0.08587907455069277,
+            -0.15378885955899035,
+            1.1279875060723827
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 258,
+      "eef_xyz": [
+        0.07832643055232458,
+        -0.10917393767781457,
+        1.1207209533982458
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 259,
+      "eef_xyz": [
+        0.07821185111846617,
+        -0.10937635066119838,
+        1.1205803318837624
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -4.138941515078571e-06,
+          "position_xyz": [
+            0.08579783961771076,
+            -0.15378865483641213,
+            1.1279880864699172
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 260,
+      "eef_xyz": [
+        0.07806985614345474,
+        -0.10990390000504931,
+        1.1206682143062217
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 261,
+      "eef_xyz": [
+        0.07716343117454696,
+        -0.1100508783229478,
+        1.1202236080474277
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 262,
+      "eef_xyz": [
+        0.07633618283705693,
+        -0.10936065770524456,
+        1.1183930677069045
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 263,
+      "eef_xyz": [
+        0.07618829425154552,
+        -0.1084698035499593,
+        1.1176705613883424
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 264,
+      "eef_xyz": [
+        0.07593246694912445,
+        -0.10761502545140605,
+        1.11676321222444
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 265,
+      "eef_xyz": [
+        0.075754776475723,
+        -0.10704178203649724,
+        1.1152960717739822
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 266,
+      "eef_xyz": [
+        0.07591039284839102,
+        -0.10675968364867386,
+        1.1140287003012774
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -7.543092052831707e-05,
+          "position_xyz": [
+            0.07486538776291363,
+            -0.15382558219018722,
+            1.1270267933128033
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 267,
+      "eef_xyz": [
+        0.07609087591217173,
+        -0.10595830445608259,
+        1.1129381567487133
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 268,
+      "eef_xyz": [
+        0.07634815651072246,
+        -0.10505301810688446,
+        1.111783793698901
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 269,
+      "eef_xyz": [
+        0.0766851882246029,
+        -0.10437594014738599,
+        1.1110113501443848
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -6.110273874866245e-06,
+          "position_xyz": [
+            0.0763906624276703,
+            -0.15379092152354967,
+            1.1251500457996193
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 270,
+      "eef_xyz": [
+        0.07693807753317825,
+        -0.10387866376181057,
+        1.1105563900861566
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g9",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -4.333133606120173e-06,
+          "position_xyz": [
+            0.07626377139426464,
+            -0.15379003267111177,
+            1.1251500520622626
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 271,
+      "eef_xyz": [
+        0.07733968376806151,
+        -0.10356449915492184,
+        1.1094869691836577
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 272,
+      "eef_xyz": [
+        0.07752712276704957,
+        -0.10320200666381975,
+        1.1071561870509576
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 273,
+      "eef_xyz": [
+        0.07758750666942682,
+        -0.1032679133780627,
+        1.1046574345258122
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 274,
+      "eef_xyz": [
+        0.07760419666758878,
+        -0.10394700191124467,
+        1.1031273628654592
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 275,
+      "eef_xyz": [
+        0.07758182317749088,
+        -0.10468975388221571,
+        1.102023068866044
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 276,
+      "eef_xyz": [
+        0.0774569855698969,
+        -0.10518308082249331,
+        1.1006797864084983
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 277,
+      "eef_xyz": [
+        0.07734531538256106,
+        -0.10553777982956389,
+        1.099239870917963
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 278,
+      "eef_xyz": [
+        0.07742148849816087,
+        -0.10595139796613459,
+        1.09859121895302
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g18",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -0.00012896488307267973,
+          "position_xyz": [
+            0.082908961129835,
+            -0.12659618170157672,
+            1.0970355175584634
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 279,
+      "eef_xyz": [
+        0.07766852588146865,
+        -0.10638778060227778,
+        1.0994658164239517
+      ],
+      "external_robot_contacts": [
+        {
+          "geom_names": [
+            "wooden_cabinet_1_g18",
+            "gripper0_finger1_collision"
+          ],
+          "distance_m": -4.92847991817591e-06,
+          "position_xyz": [
+            0.08290674014067181,
+            -0.12535776163729187,
+            1.097097535760041
+          ],
+          "cabinet_contact": true
+        }
+      ]
+    },
+    {
+      "observation_step": 280,
+      "eef_xyz": [
+        0.07756543792794185,
+        -0.10621354133358071,
+        1.1013317646298941
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 281,
+      "eef_xyz": [
+        0.07961167230147191,
+        -0.10413175509832852,
+        1.107357603865128
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 282,
+      "eef_xyz": [
+        0.08162023769121671,
+        -0.10127353585018006,
+        1.1163923575119314
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 283,
+      "eef_xyz": [
+        0.08268444173693337,
+        -0.09854929262386869,
+        1.1258605514433988
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 284,
+      "eef_xyz": [
+        0.08248963491526613,
+        -0.09662954527374701,
+        1.134372708157084
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 285,
+      "eef_xyz": [
+        0.0807185507160491,
+        -0.09532237488202443,
+        1.1394707304175846
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 286,
+      "eef_xyz": [
+        0.07783138134002557,
+        -0.09397135975693216,
+        1.1409150018183203
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 287,
+      "eef_xyz": [
+        0.07502415510111439,
+        -0.09227015495545085,
+        1.1406990871386942
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 288,
+      "eef_xyz": [
+        0.07314761357112196,
+        -0.09088897620185388,
+        1.1386603726376963
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 289,
+      "eef_xyz": [
+        0.07267166433963668,
+        -0.08959185326127396,
+        1.1360024218500608
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 290,
+      "eef_xyz": [
+        0.07270582720167594,
+        -0.08737959869120157,
+        1.1338603585833111
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 291,
+      "eef_xyz": [
+        0.0723940283203864,
+        -0.08575520622513139,
+        1.1305824363629822
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 292,
+      "eef_xyz": [
+        0.072155081696033,
+        -0.08559729068946101,
+        1.1261683851732018
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 293,
+      "eef_xyz": [
+        0.07221954353205767,
+        -0.0862921765904295,
+        1.1224878422995024
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 294,
+      "eef_xyz": [
+        0.07225131513976918,
+        -0.08732721169918745,
+        1.1192157773516456
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 295,
+      "eef_xyz": [
+        0.07199768484045266,
+        -0.08867483330829222,
+        1.1165968188875572
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 296,
+      "eef_xyz": [
+        0.07163391410832437,
+        -0.08989930437138802,
+        1.1150854613903813
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 297,
+      "eef_xyz": [
+        0.07118498748639983,
+        -0.09078514323392603,
+        1.114581397607342
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 298,
+      "eef_xyz": [
+        0.07060665951464648,
+        -0.09112753982871519,
+        1.1150302368710818
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 299,
+      "eef_xyz": [
+        0.0700158382267597,
+        -0.09105955239562771,
+        1.116228709950389
+      ],
+      "external_robot_contacts": []
+    },
+    {
+      "observation_step": 300,
+      "eef_xyz": [
+        0.06934167372058342,
+        -0.09082055254981841,
+        1.118424083490999
+      ],
+      "external_robot_contacts": []
+    }
+  ]
+}
