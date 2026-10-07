@@ -2,7 +2,7 @@
 
 在本机 WSL2 / Ubuntu 22.04 中运行 LIBERO 仿真，以及 SmolVLA、VLA-Adapter、PulseVLA-LIBERO 三个模型。默认配置用于预训练权重推理和评测。每个模型使用独立 Python 环境，权重、缓存和运行输出不提交到 Git。
 
-**当前状态：三个模型环境和权重已配置，并通过 CUDA、LIBERO 双相机、动作预测及 30 步真实观测闭环检查。VLA-Adapter 当前使用 Spatial 权重。** 详细记录见 [配置状态](docs/SETUP_STATUS.md)。
+**当前状态：三个模型环境和权重已配置，并通过 CUDA、LIBERO 双相机、动作预测及 30 步真实观测闭环检查。VLA-Adapter 已配置 Spatial 与 Goal 权重。** 详细记录见 [配置状态](docs/SETUP_STATUS.md)。
 
 2026-10-06 已完成 Spatial 基线（每任务 1 个 episode）：SmolVLA 8/10、VLA-Adapter 10/10、PulseVLA 9/10，三个评测进程均正常退出。逐任务结果和记录见 [Spatial 基线检查](docs/SPATIAL_BASELINE_20261006.md)。
 
@@ -12,12 +12,14 @@
 
 追加的 [柜子提及对照](docs/PHASE1_CABINET_MENTION_20261007.md) 已完成：同 init0 的柜子事实／瓶子事实两条件均未完成。柜子条件有实测夹爪接触，瓶子条件无柜子接触；辅助事实的正常能力仍未建立，没有进入事实冲突。
 
+用户随后要求换模型，已完成 [VLA-Adapter 复查](docs/PHASE1_MODEL_SWITCH_20261007.md)：同 init0 六次正常退出，原生盘子／炉子和柜子／瓶子事实追加成功，两条远近指代仍失败。另按用户要求追加两条去掉 `whichever is` 的简化指令，也均 neither；两轮共 8 次完整 rollout、306 次总策略查询，未进入事实冲突。
+
 ## 固定版本
 
 | 模型 | Python | PyTorch / CUDA wheel | 仿真 | 权重 |
 |---|---|---|---|---|
 | SmolVLA | 3.12.14 | 2.11.0 / cu128 | LeRobot 0.6.1、hf-libero 0.1.4、MuJoCo 3.3.2 | `HuggingFaceVLA/smolvla_libero` |
-| VLA-Adapter 原版 | 3.10.16 | 2.2.0 / cu121 | 原版 LIBERO、robosuite 1.4.1、MuJoCo 2.3.7 | Spatial 已下载；另三个套件按需下载 |
+| VLA-Adapter 原版 | 3.10.16 | 2.2.0 / cu121 | 原版 LIBERO、robosuite 1.4.1、MuJoCo 2.3.7 | Spatial、Goal 已下载；其他套件按需下载 |
 | PulseVLA-LIBERO 0.5B | 3.12.14 | 2.11.0 / cu128 | 发布者指定的 LeRobot 提交、hf-libero 0.1.3、MuJoCo 3.3.2 | `verapulse/pulsevla-libero-0.5b` |
 
 完整依赖版本在 `requirements/*.lock`，源代码和权重提交在 [sources.json](configs/sources.json)。VLA-Adapter 使用原版权重配合 `use_pro_version=False`，保持版本一致。Flash Attention 不是当前上游评测入口的必需依赖；训练所需的 Flash Attention 和 CUDA 编译工具链另行安装。

@@ -23,7 +23,7 @@ WSL 3.0.1、Ubuntu 22.04.5、WSLg 1.0.79；RTX 3070 Laptop 8GB，Windows NVIDIA 
 ## 已安装内容
 
 - `.venvs/smolvla`、`.venvs/vla-adapter`、`.venvs/pulsevla`，各自保留 Python、PyTorch、CUDA wheel 和仿真依赖版本。
-- `models/smolvla`、`models/pulsevla`、`models/vla-adapter/libero_spatial`。
+- `models/smolvla`、`models/pulsevla`、`models/vla-adapter/libero_spatial`；2026-10-07 追加 `models/vla-adapter/libero_goal`，固定提交 `d1aa0654ccac22cb7e45a55f21692433e9ae7e63`。
 - 原版 LIBERO 和 VLA-Adapter 的固定代码提交位于 `third_party/`。
 - HF LIBERO 场景资源位于 `data/libero-assets`，SmolVLM2 基础文件位于项目 HF 缓存。
 - 实际安装依赖记录：`.runtime/<model>-installed.txt`。
@@ -50,7 +50,7 @@ powershell -ExecutionPolicy Bypass -File .\scripts\vla.ps1 rollout all --steps 3
 powershell -ExecutionPolicy Bypass -File .\scripts\vla.ps1 eval smolvla --suite libero_spatial --episodes 1
 ```
 
-详细评测命令见 README。VLA-Adapter 目前仅下载 Spatial 权重，其余三个套件可用 `download vla-adapter --suite all` 按需下载。2026-10-06 已完成 Spatial 全部十个任务的基线检查，每任务 1 个 episode：SmolVLA 8/10、VLA-Adapter 10/10、PulseVLA 9/10，详见 [Spatial 基线检查](SPATIAL_BASELINE_20261006.md)。尚未运行每任务多 episode 的正式成功率评测，也未配置训练所需的 Flash Attention 编译环境。
+详细评测命令见 README。VLA-Adapter 已下载 Spatial、Goal 权重，其他套件可用 `download vla-adapter --suite all` 按需下载。2026-10-06 已完成 Spatial 全部十个任务的基线检查，每任务 1 个 episode：SmolVLA 8/10、VLA-Adapter 10/10、PulseVLA 9/10，详见 [Spatial 基线检查](SPATIAL_BASELINE_20261006.md)。2026-10-07 Goal 权重已通过 [六次 init0 复查](PHASE1_MODEL_SWITCH_20261007.md)，峰值 PyTorch 显存约 3.33 GiB。尚未运行每任务多 episode 的正式成功率评测，也未配置训练所需的 Flash Attention 编译环境。
 
 
 ## 2026-10-07 研究前置核查

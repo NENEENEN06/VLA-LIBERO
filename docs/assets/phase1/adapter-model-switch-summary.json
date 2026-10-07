@@ -1,0 +1,132 @@
+{
+  "status": "completed",
+  "completed_at": "2026-10-07T15:20:18.595427+00:00",
+  "model": "vla-adapter",
+  "native_anchors_passed": true,
+  "episodes": 6,
+  "results": [
+    {
+      "condition": "native_plate",
+      "text": "put the bowl on the plate",
+      "category": "plate_only",
+      "success": true,
+      "goal_events": {
+        "plate": true,
+        "stove": false
+      },
+      "first_event_steps": {
+        "plate": 75,
+        "stove": null
+      },
+      "final_goal_events": {
+        "plate": true,
+        "stove": false
+      },
+      "steps": 300,
+      "policy_calls": 38
+    },
+    {
+      "condition": "native_stove",
+      "text": "put the bowl on the stove",
+      "category": "stove_only",
+      "success": true,
+      "goal_events": {
+        "plate": false,
+        "stove": true
+      },
+      "first_event_steps": {
+        "plate": null,
+        "stove": 87
+      },
+      "final_goal_events": {
+        "plate": false,
+        "stove": true
+      },
+      "steps": 300,
+      "policy_calls": 38
+    },
+    {
+      "condition": "Q_A",
+      "text": "put the bowl on the plate or stove, whichever is closer to the cabinet.",
+      "category": "neither",
+      "success": false,
+      "goal_events": {
+        "plate": false,
+        "stove": false
+      },
+      "first_event_steps": {
+        "plate": null,
+        "stove": null
+      },
+      "final_goal_events": {
+        "plate": false,
+        "stove": false
+      },
+      "steps": 300,
+      "policy_calls": 38
+    },
+    {
+      "condition": "Q_B",
+      "text": "put the bowl on the plate or stove, whichever is farther from the cabinet.",
+      "category": "neither",
+      "success": false,
+      "goal_events": {
+        "plate": false,
+        "stove": false
+      },
+      "first_event_steps": {
+        "plate": null,
+        "stove": null
+      },
+      "final_goal_events": {
+        "plate": false,
+        "stove": false
+      },
+      "steps": 300,
+      "policy_calls": 38
+    },
+    {
+      "condition": "cabinet_fact",
+      "text": "put the bowl on the plate. The cabinet is on the table.",
+      "category": "plate_only",
+      "success": true,
+      "goal_events": {
+        "plate": true,
+        "stove": false
+      },
+      "first_event_steps": {
+        "plate": 88,
+        "stove": null
+      },
+      "final_goal_events": {
+        "plate": true,
+        "stove": false
+      },
+      "steps": 300,
+      "policy_calls": 38
+    },
+    {
+      "condition": "neutral_bottle_fact",
+      "text": "put the bowl on the plate. The bottle is on the table.",
+      "category": "plate_only",
+      "success": true,
+      "goal_events": {
+        "plate": true,
+        "stove": false
+      },
+      "first_event_steps": {
+        "plate": 80,
+        "stove": null
+      },
+      "final_goal_events": {
+        "plate": true,
+        "stove": false
+      },
+      "steps": 300,
+      "policy_calls": 38
+    }
+  ],
+  "policy_calls": 228,
+  "diagnostic_policy_calls": 2,
+  "interpretation": "Single initialization model-switch screen; no modality-conflict trials or general capability attribution."
+}

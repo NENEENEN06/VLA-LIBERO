@@ -4,6 +4,10 @@
 
 ## 最新结论
 
+用户授权的换模型试验已完成：VLA-Adapter Goal 权重下载成功，同一 init0 六次正常退出（23:20，退出码 0）。原生盘子／炉子成功，首次完成步为 75／87；Q_A/Q_B 远近指代均 neither；柜子／瓶子事实追加成功，首次完成步为 88／80。各 300 步、38 次策略查询，共 228 次，重置诊断另 2 次；初始观察、模拟状态及初始化摘要全部一致，首动作块重放差异 0，无文本截断。见 [换模型复查](PHASE1_MODEL_SWITCH_20261007.md)。VLA-Adapter 改善了本轮附加描述结果，但没有解决关系指代，不能据此进入 A/X/U，也不能单独归因于 SmolVLA 能力。输出 `outputs/phase1/vla-adapter-model-switch-20261007/`，日志 `logs/phase1-adapter-model-switch-20261007.log`。保留原版 LIBERO、256×256 双相机、动作长度 8、10 步静置的原生配置；跨模型运行栈差异单列。
+
+用户随后授权的简化指令也已完成（23:30，退出码 0）：`put the bowl on the plate or stove closer to the cabinet.` / `put the bowl on the plate or stove farther from the cabinet.`，各 init0 一次，均 neither，全 300 步无目的地完成。每条 38 次查询，追加 76 次、零诊断；三类初始摘要与原生锚点一致。实际包装文本各 49 token（原版 52），未截断。见同一 [换模型报告的短版追加](PHASE1_MODEL_SWITCH_20261007.md)。脚本 `scripts/check_phase1_adapter_simple.py`，输出 `outputs/phase1/vla-adapter-simple-N-20261007/`、日志 `logs/phase1-adapter-simple-N-20261007.log`。两轮共 8 次 rollout、306 次总策略查询；短版仍不能建立自然关系指代，不扩样、不进入冲突；此前停止的 SmolVLA 计划保持停止。
+
 用户随后确认的柜子提及对照已完成：直接盘子命令后分别追加 `The cabinet is on the table.` 与同句式 `The bottle is on the table.`，各 init0 一次，均未完成任一目的地。柜子条件第 32 步首次出现手指与柜子接触，301 个采样状态中有 118 个接触；瓶子条件没有柜子接触，但也失败。两条件都是 15 个有效 token，与原生对照初始画面、模拟状态和初始化摘要一致。新增 60 次策略调用，进程退出码 0。见 [柜子提及对照](PHASE1_CABINET_MENTION_20261007.md)。柜子接触有实测支持，但不能独自解释所有附加事实条件的失败；当前辅助文本可用性尚未建立，不进入事实冲突。此前六次指代计划保持停止。
 
 新 Phase 1 的 N-only baseline 已按用户要求停止。已完成 init0 的 Q_A（较近）与 Q_B（较远），两次均为 neither、300 步未完成任一目的地；init1 Q_A 中途停止，不计完成样本，未保存部分查询数。用户随后要求试 `put the bowl on the plate`，同一 init0 的一次原生指令对照已成功：第 69 步首次到盘子，第 300 步仍为盘子完成、炉子未完成，进程退出码 0。三次初始观察、模拟状态与初始化摘要一致。报告见 [当前 baseline 对照](PHASE1_BASELINE_20261007.md)。原生指令正常，候选指代尚未通过；后续文字修改须先确认，不能自动恢复原六次试验或进入 A/X/U。

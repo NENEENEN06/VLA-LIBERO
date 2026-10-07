@@ -1,0 +1,52 @@
+{
+  "status": "completed",
+  "completed_at": "2026-10-07T15:30:45.633504+00:00",
+  "model": "vla-adapter",
+  "episodes": 2,
+  "results": [
+    {
+      "condition": "Q_A",
+      "text": "put the bowl on the plate or stove closer to the cabinet.",
+      "category": "neither",
+      "success": false,
+      "goal_events": {
+        "plate": false,
+        "stove": false
+      },
+      "first_event_steps": {
+        "plate": null,
+        "stove": null
+      },
+      "final_goal_events": {
+        "plate": false,
+        "stove": false
+      },
+      "steps": 300,
+      "policy_calls": 38
+    },
+    {
+      "condition": "Q_B",
+      "text": "put the bowl on the plate or stove farther from the cabinet.",
+      "category": "neither",
+      "success": false,
+      "goal_events": {
+        "plate": false,
+        "stove": false
+      },
+      "first_event_steps": {
+        "plate": null,
+        "stove": null
+      },
+      "final_goal_events": {
+        "plate": false,
+        "stove": false
+      },
+      "steps": 300,
+      "policy_calls": 38
+    }
+  ],
+  "policy_calls": 76,
+  "diagnostic_policy_calls": 0,
+  "native_reference_reused": "/mnt/c/VLA-LIBERO/outputs/phase1/vla-adapter-model-switch-20261007/episodes/goal8-init0-seed1-native_plate.json",
+  "interpretation": "Two shorter natural-reference probes on one initialization; not a general capability estimate."
+}
