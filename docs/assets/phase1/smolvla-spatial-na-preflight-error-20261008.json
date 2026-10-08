@@ -1,0 +1,9 @@
+{
+  "status": "error",
+  "error": "RuntimeError('Fact truth/alternative target not unique: plate_side')",
+  "active": null,
+  "completed_new": 0,
+  "policy_calls": 0,
+  "diagnostic_policy_calls": 0,
+  "query_in_progress": false
+}

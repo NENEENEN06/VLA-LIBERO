@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "preflight_sha256": "2287f69d6037374b99164fffb461a167c7570ea2e8101bec79ce90257665d633",
+  "reviewer": "Codex visual inspection with view_image",
+  "reviewed_native_camera_images": [
+    "init0-main",
+    "init1-main",
+    "init2-main",
+    "init0-wrist",
+    "init1-wrist",
+    "init2-wrist"
+  ],
+  "main_camera": "Both source black bowls, plate and ramekin visible in all three initializations; unique layout agrees with recorded distance contrasts.",
+  "wrist_camera": "Limited coverage; does not show all candidate bowls. Native dual-camera processing unchanged.",
+  "new_policy_queries_at_review": 0
+}

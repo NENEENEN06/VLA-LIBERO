@@ -4,19 +4,29 @@
 
 **当前状态：三个模型环境和权重已配置，并通过 CUDA、LIBERO 双相机、动作预测及 30 步真实观测闭环检查。VLA-Adapter 已配置 Spatial 与 Goal 权重。** 详细记录见 [配置状态](docs/SETUP_STATUS.md)。
 
-**2026-10-08 已确定 VLA-Adapter 原版为主实验模型。** SmolVLA 的已有试验保留，SmolVLA 与 PulseVLA-LIBERO 为后续验证候选。当前仍在前置能力核查，具体有效场景、指代模板和辅助事实尚未确定；四条件冲突实验是通过正常能力后的条件性安排。当前计划见 [研究总览](plans/README.md)与 [Phase 1 入口](docs/PHASE1_ENTRY.md)。
+**2026-10-08 当前主模型为SmolVLA，使用Spatial task 8原双碗和plate／ramekin原版指代。** 三初始化N/A核查已完成：两个方向N均2/3成功，A均0/3，门槛未通过，当前不进入X/U、不扩至80条。主模型与原版N保持，先重新设计辅助事实载体。VLA-Adapter原版与PulseVLA-LIBERO仍是能力通过后加入的验证候选。见[最新核查](docs/PHASE1_SMOLVLA_SPATIAL_NA_20261008.md)、[当前计划](plans/README.md)与[执行入口](docs/PHASE1_ENTRY.md)。
+
+本轮新增10条、300次策略查询，复用原init0 N两条；12条N/A累计360次rollout查询，旧重置诊断另2次。三个初始化的场景、真值、画面和等长文本预检通过，[事实模板](docs/PHASE1_SPATIAL_TEMPLATES_20261008.md)的行为未通过。首次零查询预检错误及修正记录保留，未运行冲突条件。
 
 2026-10-06 已完成 Spatial 基线（每任务 1 个 episode）：SmolVLA 8/10、VLA-Adapter 10/10、PulseVLA 9/10，三个评测进程均正常退出。逐任务结果和记录见 [Spatial 基线检查](docs/SPATIAL_BASELINE_20261006.md)。
 
 2026-10-07 已完成 SmolVLA 前置核查：Object 身份切换 0/3；共享 Goal 原生盘子／炉子指令各 10/10。这些是该模型历史锚点，不能替代新自然指代或 VLA-Adapter 的能力核查。见 [前期核查](docs/SMOLVLA_READINESS_20261006.md)与 [Goal 核查](docs/SMOLVLA_GOAL_CHECK_20261007.md)。
 
-研究框架保留自然指代能力核查、四条件 × 双向事实冲突及局部动作／闭环对照；12→24→80 次仅适用于通过前置核查的合格候选。SmolVLA 的原指代试验已停止；后续 VLA-Adapter 的 Goal 和 Spatial 候选也未通过双向正常能力，目前未进入冲突矩阵。见 [Phase 1](docs/PHASE1_ENTRY.md)与 [VLM 设置参考](plans/黑盒跨模态攻击/08_VLM主导关系实验设置参考.md)。
+研究框架保留自然指代能力核查、四条件 × 双向事实冲突及局部动作／闭环对照；12→24→80 次仅适用于通过前置核查的合格候选。SmolVLA 的旧Goal指代试验保持停止；后续 VLA-Adapter 的 Goal 和 Spatial 候选也未通过双向正常能力，目前未进入冲突矩阵。见 [Phase 1](docs/PHASE1_ENTRY.md)与 [VLM 设置参考](plans/黑盒跨模态攻击/08_VLM主导关系实验设置参考.md)。
 
 SmolVLA 的 [柜子提及对照](docs/PHASE1_CABINET_MENTION_20261007.md) 已完成：同 init0 的柜子事实／瓶子事实两条件均未完成。柜子条件有实测夹爪接触，瓶子条件无柜子接触；结论限于该模型与模板，不作为当前主模型的能力结论。
 
 用户随后要求换模型，已完成 [VLA-Adapter 复查](docs/PHASE1_MODEL_SWITCH_20261007.md)：同 init0 六次正常退出，原生盘子／炉子和柜子／瓶子事实追加成功，两条远近指代仍失败。另按用户要求追加两条去掉 `whichever is` 的简化指令，也均 neither；两轮共 8 次完整 rollout、306 次总策略查询，未进入事实冲突。
 
 2026-10-08 已完成 [Spatial 同场景选碗核查](docs/PHASE1_SPATIAL_REFERENCE_20261008.md)：VLA-Adapter 在 task 8 同 init0 上选择盘子旁碗成功、选择 ramekin 旁碗失败；失败条件目标碗2未被抓取，碗1发生接触和位移。两次均正常退出，新增 78 次总查询；按规则不扩样、不进入冲突，同场景双向目标绑定仍未建立。
+
+追加的 [单碗能力对照](docs/PHASE1_SINGLE_BOWL_20261008.md) 已完成：保持原指令和源初始化，将另一碗移出工作区后，碗1／碗2均成功，首次放置第 93／99 步；新增 76 次策略查询。单碗只证明改造后操作可行，双碗失败的视觉、物理及观测刷新因素尚未隔离；未进入冲突实验。
+
+原双碗的 [ramekin 名称对照](docs/PHASE1_RAMEKIN_WORDING_20261008.md) 已完成：原版复现 neither；替换为 `small white bowl` 后将错误碗1放到盘子，目标碗2仍未被抓取。两条实际包装均 54 token、状态相同，原版 300 步动作与旧轨迹完全一致；新增 76 次查询。替换改变行为但没有解决目标绑定，未扩样。
+
+这几轮尝试的设置、逐条结果、查询账本与结论边界统一见 [Phase 1 实验汇总报告](docs/PHASE1_EXPERIMENT_SUMMARY_20261008.md)：VLA-Adapter 共 5 轮、14 个完整 rollout、536 次查询；SmolVLA 历史对照单列。
+
+此前[SmolVLA Spatial init0小试](docs/PHASE1_SMOLVLA_SPATIAL_20261008.md)两方向成功，第91／150步完成，成本62次；两条N已复用到后续三初始化核查。当前以页首最新N/A结果为准，小试结果不改写。
 
 ## 固定版本
 

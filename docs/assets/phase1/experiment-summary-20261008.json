@@ -1,0 +1,559 @@
+{
+  "report_date": "2026-10-08",
+  "timezone": "Asia/Shanghai",
+  "model": "vla-adapter",
+  "scope": "Five prerequisite diagnostic rounds; single init0 per suite, not a benchmark or modality-conflict experiment.",
+  "experiments": [
+    {
+      "id": "E1",
+      "suite": "libero_goal",
+      "scene": "unmodified",
+      "tokens": [
+        43,
+        43,
+        52,
+        52,
+        50,
+        50
+      ],
+      "targets": [
+        "plate",
+        "stove",
+        "plate",
+        "stove",
+        "plate",
+        "plate"
+      ],
+      "completed_at_utc": "2026-10-07T23:20:18.595427+08:00",
+      "physical_task_id": 8,
+      "init_id": 0,
+      "environment_seed": 1,
+      "policy_seed": 1,
+      "source_summary": "docs/assets/phase1/adapter-model-switch-summary.json",
+      "diagnostic_policy_calls": 2,
+      "results": [
+        {
+          "condition": "native_plate",
+          "text": "put the bowl on the plate",
+          "category": "plate_only",
+          "success": true,
+          "goal_events": {
+            "plate": true,
+            "stove": false
+          },
+          "first_event_steps": {
+            "plate": 75,
+            "stove": null
+          },
+          "final_goal_events": {
+            "plate": true,
+            "stove": false
+          },
+          "steps": 300,
+          "policy_calls": 38,
+          "expected_target": "plate",
+          "actual_prompt_tokens": 43
+        },
+        {
+          "condition": "native_stove",
+          "text": "put the bowl on the stove",
+          "category": "stove_only",
+          "success": true,
+          "goal_events": {
+            "plate": false,
+            "stove": true
+          },
+          "first_event_steps": {
+            "plate": null,
+            "stove": 87
+          },
+          "final_goal_events": {
+            "plate": false,
+            "stove": true
+          },
+          "steps": 300,
+          "policy_calls": 38,
+          "expected_target": "stove",
+          "actual_prompt_tokens": 43
+        },
+        {
+          "condition": "Q_A",
+          "text": "put the bowl on the plate or stove, whichever is closer to the cabinet.",
+          "category": "neither",
+          "success": false,
+          "goal_events": {
+            "plate": false,
+            "stove": false
+          },
+          "first_event_steps": {
+            "plate": null,
+            "stove": null
+          },
+          "final_goal_events": {
+            "plate": false,
+            "stove": false
+          },
+          "steps": 300,
+          "policy_calls": 38,
+          "expected_target": "plate",
+          "actual_prompt_tokens": 52
+        },
+        {
+          "condition": "Q_B",
+          "text": "put the bowl on the plate or stove, whichever is farther from the cabinet.",
+          "category": "neither",
+          "success": false,
+          "goal_events": {
+            "plate": false,
+            "stove": false
+          },
+          "first_event_steps": {
+            "plate": null,
+            "stove": null
+          },
+          "final_goal_events": {
+            "plate": false,
+            "stove": false
+          },
+          "steps": 300,
+          "policy_calls": 38,
+          "expected_target": "stove",
+          "actual_prompt_tokens": 52
+        },
+        {
+          "condition": "cabinet_fact",
+          "text": "put the bowl on the plate. The cabinet is on the table.",
+          "category": "plate_only",
+          "success": true,
+          "goal_events": {
+            "plate": true,
+            "stove": false
+          },
+          "first_event_steps": {
+            "plate": 88,
+            "stove": null
+          },
+          "final_goal_events": {
+            "plate": true,
+            "stove": false
+          },
+          "steps": 300,
+          "policy_calls": 38,
+          "expected_target": "plate",
+          "actual_prompt_tokens": 50
+        },
+        {
+          "condition": "neutral_bottle_fact",
+          "text": "put the bowl on the plate. The bottle is on the table.",
+          "category": "plate_only",
+          "success": true,
+          "goal_events": {
+            "plate": true,
+            "stove": false
+          },
+          "first_event_steps": {
+            "plate": 80,
+            "stove": null
+          },
+          "final_goal_events": {
+            "plate": true,
+            "stove": false
+          },
+          "steps": 300,
+          "policy_calls": 38,
+          "expected_target": "plate",
+          "actual_prompt_tokens": 50
+        }
+      ]
+    },
+    {
+      "id": "E2",
+      "suite": "libero_goal",
+      "scene": "unmodified",
+      "tokens": [
+        49,
+        49
+      ],
+      "targets": [
+        "plate",
+        "stove"
+      ],
+      "completed_at_utc": "2026-10-07T23:30:45.633504+08:00",
+      "physical_task_id": 8,
+      "init_id": 0,
+      "environment_seed": 1,
+      "policy_seed": 1,
+      "source_summary": "docs/assets/phase1/adapter-simple-summary.json",
+      "diagnostic_policy_calls": 0,
+      "results": [
+        {
+          "condition": "Q_A",
+          "text": "put the bowl on the plate or stove closer to the cabinet.",
+          "category": "neither",
+          "success": false,
+          "goal_events": {
+            "plate": false,
+            "stove": false
+          },
+          "first_event_steps": {
+            "plate": null,
+            "stove": null
+          },
+          "final_goal_events": {
+            "plate": false,
+            "stove": false
+          },
+          "steps": 300,
+          "policy_calls": 38,
+          "expected_target": "plate",
+          "actual_prompt_tokens": 49
+        },
+        {
+          "condition": "Q_B",
+          "text": "put the bowl on the plate or stove farther from the cabinet.",
+          "category": "neither",
+          "success": false,
+          "goal_events": {
+            "plate": false,
+            "stove": false
+          },
+          "first_event_steps": {
+            "plate": null,
+            "stove": null
+          },
+          "final_goal_events": {
+            "plate": false,
+            "stove": false
+          },
+          "steps": 300,
+          "policy_calls": 38,
+          "expected_target": "stove",
+          "actual_prompt_tokens": 49
+        }
+      ]
+    },
+    {
+      "id": "E3",
+      "suite": "libero_spatial",
+      "scene": "dual_bowl_unmodified",
+      "tokens": [
+        52,
+        54
+      ],
+      "targets": [
+        "bowl1",
+        "bowl2"
+      ],
+      "completed_at_utc": "2026-10-08T00:10:13.69301+08:00",
+      "physical_task_id": 8,
+      "init_id": 0,
+      "environment_seed": 1,
+      "policy_seed": 1,
+      "source_summary": "docs/assets/phase1/spatial-source-summary-20261008.json",
+      "diagnostic_policy_calls": 2,
+      "results": [
+        {
+          "init_id": 0,
+          "condition": "plate_side",
+          "text": "pick up the black bowl next to the plate and place it on the plate",
+          "expected_source": "bowl1",
+          "category": "bowl1_only",
+          "success": true,
+          "goal_events": {
+            "bowl1": true,
+            "bowl2": false
+          },
+          "first_event_steps": {
+            "bowl1": 99,
+            "bowl2": null
+          },
+          "final_goal_events": {
+            "bowl1": true,
+            "bowl2": false
+          },
+          "source_diagnostics": {
+            "bowl1": {
+              "first_grasp_contact_step": 69,
+              "grasp_contact_state_count": 33,
+              "max_height_gain_m": 0.1121638785916026,
+              "max_displacement_m": 0.16248821974449687
+            },
+            "bowl2": {
+              "first_grasp_contact_step": null,
+              "grasp_contact_state_count": 0,
+              "max_height_gain_m": 2.786076397365278e-7,
+              "max_displacement_m": 2.78607640728492e-7
+            }
+          },
+          "steps": 300,
+          "policy_calls": 38,
+          "expected_target": "bowl1",
+          "actual_prompt_tokens": 52
+        },
+        {
+          "init_id": 0,
+          "condition": "ramekin_side",
+          "text": "pick up the black bowl next to the ramekin and place it on the plate",
+          "expected_source": "bowl2",
+          "category": "neither",
+          "success": false,
+          "goal_events": {
+            "bowl1": false,
+            "bowl2": false
+          },
+          "first_event_steps": {
+            "bowl1": null,
+            "bowl2": null
+          },
+          "final_goal_events": {
+            "bowl1": false,
+            "bowl2": false
+          },
+          "source_diagnostics": {
+            "bowl1": {
+              "first_grasp_contact_step": 127,
+              "grasp_contact_state_count": 2,
+              "max_height_gain_m": 0.009826598269469744,
+              "max_displacement_m": 0.14536339458971007
+            },
+            "bowl2": {
+              "first_grasp_contact_step": null,
+              "grasp_contact_state_count": 0,
+              "max_height_gain_m": 2.786076397365278e-7,
+              "max_displacement_m": 2.78607640728492e-7
+            }
+          },
+          "steps": 300,
+          "policy_calls": 38,
+          "expected_target": "bowl2",
+          "actual_prompt_tokens": 54
+        }
+      ]
+    },
+    {
+      "id": "E4",
+      "suite": "libero_spatial",
+      "scene": "distractor_bowl_parked_with_observation_refresh",
+      "tokens": [
+        52,
+        54
+      ],
+      "targets": [
+        "bowl1",
+        "bowl2"
+      ],
+      "completed_at_utc": "2026-10-08T13:19:28.909126+08:00",
+      "physical_task_id": 8,
+      "init_id": 0,
+      "environment_seed": 1,
+      "policy_seed": 1,
+      "source_summary": "docs/assets/phase1/single-bowl-summary-20261008.json",
+      "diagnostic_policy_calls": 0,
+      "results": [
+        {
+          "init_id": 0,
+          "condition": "plate_side",
+          "text": "pick up the black bowl next to the plate and place it on the plate",
+          "expected_source": "bowl1",
+          "category": "bowl1_only",
+          "success": true,
+          "goal_events": {
+            "bowl1": true,
+            "bowl2": false
+          },
+          "first_event_steps": {
+            "bowl1": 93,
+            "bowl2": null
+          },
+          "final_goal_events": {
+            "bowl1": true,
+            "bowl2": false
+          },
+          "source_diagnostics": {
+            "bowl1": {
+              "first_grasp_contact_step": 59,
+              "grasp_contact_state_count": 37,
+              "max_height_gain_m": 0.09724763218552879,
+              "max_displacement_m": 0.1640530390605105
+            },
+            "bowl2": {
+              "first_grasp_contact_step": null,
+              "grasp_contact_state_count": 0,
+              "max_height_gain_m": 0,
+              "max_displacement_m": 0
+            }
+          },
+          "steps": 300,
+          "policy_calls": 38,
+          "expected_target": "bowl1",
+          "actual_prompt_tokens": 52
+        },
+        {
+          "init_id": 0,
+          "condition": "ramekin_side",
+          "text": "pick up the black bowl next to the ramekin and place it on the plate",
+          "expected_source": "bowl2",
+          "category": "bowl2_only",
+          "success": true,
+          "goal_events": {
+            "bowl1": false,
+            "bowl2": true
+          },
+          "first_event_steps": {
+            "bowl1": null,
+            "bowl2": 99
+          },
+          "final_goal_events": {
+            "bowl1": false,
+            "bowl2": true
+          },
+          "source_diagnostics": {
+            "bowl1": {
+              "first_grasp_contact_step": null,
+              "grasp_contact_state_count": 0,
+              "max_height_gain_m": 0,
+              "max_displacement_m": 0
+            },
+            "bowl2": {
+              "first_grasp_contact_step": 59,
+              "grasp_contact_state_count": 44,
+              "max_height_gain_m": 0.1338006698168328,
+              "max_displacement_m": 0.26783603788522814
+            }
+          },
+          "steps": 300,
+          "policy_calls": 38,
+          "expected_target": "bowl2",
+          "actual_prompt_tokens": 54
+        }
+      ]
+    },
+    {
+      "id": "E5",
+      "suite": "libero_spatial",
+      "scene": "dual_bowl_unmodified",
+      "tokens": [
+        54,
+        54
+      ],
+      "targets": [
+        "bowl2",
+        "bowl2"
+      ],
+      "completed_at_utc": "2026-10-08T13:48:48.428608+08:00",
+      "physical_task_id": 8,
+      "init_id": 0,
+      "environment_seed": 1,
+      "policy_seed": 1,
+      "source_summary": "docs/assets/phase1/ramekin-wording-summary-20261008.json",
+      "diagnostic_policy_calls": 0,
+      "results": [
+        {
+          "init_id": 0,
+          "condition": "ramekin_side",
+          "text": "pick up the black bowl next to the ramekin and place it on the plate",
+          "expected_source": "bowl2",
+          "category": "neither",
+          "success": false,
+          "goal_events": {
+            "bowl1": false,
+            "bowl2": false
+          },
+          "first_event_steps": {
+            "bowl1": null,
+            "bowl2": null
+          },
+          "final_goal_events": {
+            "bowl1": false,
+            "bowl2": false
+          },
+          "source_diagnostics": {
+            "bowl1": {
+              "first_grasp_contact_step": 127,
+              "grasp_contact_state_count": 2,
+              "max_height_gain_m": 0.009826598269469744,
+              "max_displacement_m": 0.14536339458971007
+            },
+            "bowl2": {
+              "first_grasp_contact_step": null,
+              "grasp_contact_state_count": 0,
+              "max_height_gain_m": 2.786076397365278e-7,
+              "max_displacement_m": 2.78607640728492e-7
+            }
+          },
+          "steps": 300,
+          "policy_calls": 38,
+          "expected_target": "bowl2",
+          "actual_prompt_tokens": 54,
+          "replay_of": "E3/ramekin_side",
+          "independent_initialization": false
+        },
+        {
+          "init_id": 0,
+          "condition": "descriptive_side",
+          "text": "pick up the black bowl next to the small white bowl and place it on the plate",
+          "expected_source": "bowl2",
+          "category": "bowl1_only",
+          "success": false,
+          "goal_events": {
+            "bowl1": true,
+            "bowl2": false
+          },
+          "first_event_steps": {
+            "bowl1": 92,
+            "bowl2": null
+          },
+          "final_goal_events": {
+            "bowl1": true,
+            "bowl2": false
+          },
+          "source_diagnostics": {
+            "bowl1": {
+              "first_grasp_contact_step": 49,
+              "grasp_contact_state_count": 34,
+              "max_height_gain_m": 0.1121114706516877,
+              "max_displacement_m": 0.1497922053597381
+            },
+            "bowl2": {
+              "first_grasp_contact_step": null,
+              "grasp_contact_state_count": 0,
+              "max_height_gain_m": 2.786076397365278e-7,
+              "max_displacement_m": 2.78607640728492e-7
+            }
+          },
+          "steps": 300,
+          "policy_calls": 38,
+          "expected_target": "bowl2",
+          "actual_prompt_tokens": 54
+        }
+      ]
+    }
+  ],
+  "totals": {
+    "completed_rollouts": 14,
+    "policy_steps": 4200,
+    "rollout_policy_calls": 532,
+    "diagnostic_policy_calls": 4,
+    "correct_target_rollouts": 7,
+    "neither_rollouts": 6,
+    "wrong_exclusive_target_rollouts": 1,
+    "total_policy_calls": 536
+  },
+  "excluded_accounting": {
+    "single_bowl_preflight_error": {
+      "completed_rollouts": 0,
+      "policy_calls": 0
+    },
+    "single_bowl_forward_refresh_diagnostic": {
+      "policy_calls": 0
+    },
+    "smolvla_recent_background": {
+      "completed_rollouts": 5,
+      "rollout_policy_calls": 150,
+      "diagnostic_policy_calls": 2,
+      "known_total_policy_calls": 152,
+      "interrupted_init1_Q_A_calls": null
+    },
+    "earlier_readiness_and_official_baselines": "Excluded from this report's main VLA-Adapter subtotal."
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "model": "smolvla",
+  "scene_definition_sha256_matches_adapter": true,
+  "initial_state_sha256_matches_adapter": true,
+  "comparison_boundary": "Cross-model observations and simulator-state hashes are not required to match; camera, simulator and processing differ.",
+  "episodes": [
+    {
+      "condition": "plate_side",
+      "text": "pick up the black bowl next to the plate and place it on the plate",
+      "steps": 300,
+      "policy_calls": 30,
+      "paired_initial_hashes": {
+        "observation_sha256": true,
+        "simulator_state_sha256": true,
+        "initial_state_sha256": true
+      },
+      "token_audit": {
+        "actual_token_ids": [
+          18188,
+          614,
+          260,
+          2632,
+          12505,
+          1867,
+          288,
+          260,
+          6496,
+          284,
+          1379,
+          357,
+          335,
+          260,
+          6496,
+          198
+        ],
+        "actual_attention_mask": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "full_token_count": 15,
+        "effective_token_count": 16,
+        "max_length": 48,
+        "decoded_effective_text": "pick up the black bowl next to the plate and place it on the plate\n",
+        "truncated": false,
+        "actual_image_shapes": {
+          "observation.images.image": [
+            1,
+            3,
+            360,
+            360
+          ],
+          "observation.images.image2": [
+            1,
+            3,
+            360,
+            360
+          ]
+        }
+      },
+      "audited_policy_input_batches": 30,
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": 63,
+          "grasp_contact_state_count": 32,
+          "max_height_gain_m": 0.08965611745023783,
+          "max_displacement_m": 0.14287331442744286
+        },
+        "bowl2": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 2.786076397365278E-07,
+          "max_displacement_m": 2.78607640728492E-07
+        }
+      }
+    },
+    {
+      "condition": "ramekin_side",
+      "text": "pick up the black bowl next to the ramekin and place it on the plate",
+      "steps": 300,
+      "policy_calls": 30,
+      "paired_initial_hashes": {
+        "observation_sha256": true,
+        "simulator_state_sha256": true,
+        "initial_state_sha256": true
+      },
+      "token_audit": {
+        "actual_token_ids": [
+          18188,
+          614,
+          260,
+          2632,
+          12505,
+          1867,
+          288,
+          260,
+          689,
+          1558,
+          7109,
+          284,
+          1379,
+          357,
+          335,
+          260,
+          6496,
+          198
+        ],
+        "actual_attention_mask": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "full_token_count": 17,
+        "effective_token_count": 18,
+        "max_length": 48,
+        "decoded_effective_text": "pick up the black bowl next to the ramekin and place it on the plate\n",
+        "truncated": false,
+        "actual_image_shapes": {
+          "observation.images.image": [
+            1,
+            3,
+            360,
+            360
+          ],
+          "observation.images.image2": [
+            1,
+            3,
+            360,
+            360
+          ]
+        }
+      },
+      "audited_policy_input_batches": 30,
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 0.004107329098097745,
+          "max_displacement_m": 0.007181639180169506
+        },
+        "bowl2": {
+          "first_grasp_contact_step": 104,
+          "grasp_contact_state_count": 51,
+          "max_height_gain_m": 0.13300899566418667,
+          "max_displacement_m": 0.2608438273761241
+        }
+      }
+    }
+  ]
+}

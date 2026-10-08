@@ -1,0 +1,13 @@
+{
+  "same_action_shape": true,
+  "max_executed_action_abs_diff": 0.0,
+  "previous_category": "neither",
+  "current_category": "neither",
+  "same_first_event_steps": true,
+  "paired_saved_dual_hashes": {
+    "observation_sha256": true,
+    "simulator_state_sha256": true,
+    "initial_state_sha256": true
+  },
+  "extra_policy_calls": 0
+}

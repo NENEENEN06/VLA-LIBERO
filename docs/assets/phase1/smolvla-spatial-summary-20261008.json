@@ -1,0 +1,213 @@
+{
+  "status": "completed",
+  "completed_at": "2026-10-08T06:39:55.904171+00:00",
+  "model": "smolvla",
+  "suite": "libero_spatial",
+  "physical_task_id": 8,
+  "episodes": 2,
+  "expanded": false,
+  "paired_reference_passed": true,
+  "results": [
+    {
+      "condition": "plate_side",
+      "text": "pick up the black bowl next to the plate and place it on the plate",
+      "expected_source": "bowl1",
+      "category": "bowl1_only",
+      "success": true,
+      "goal_events": {
+        "bowl1": true,
+        "bowl2": false
+      },
+      "first_event_steps": {
+        "bowl1": 91,
+        "bowl2": null
+      },
+      "final_goal_events": {
+        "bowl1": true,
+        "bowl2": false
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": 63,
+          "grasp_contact_state_count": 32,
+          "max_height_gain_m": 0.08965611745023783,
+          "max_displacement_m": 0.14287331442744286
+        },
+        "bowl2": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 2.786076397365278e-07,
+          "max_displacement_m": 2.78607640728492e-07
+        }
+      },
+      "steps": 300,
+      "policy_calls": 30,
+      "token_audit": {
+        "actual_token_ids": [
+          18188,
+          614,
+          260,
+          2632,
+          12505,
+          1867,
+          288,
+          260,
+          6496,
+          284,
+          1379,
+          357,
+          335,
+          260,
+          6496,
+          198
+        ],
+        "actual_attention_mask": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "full_token_count": 15,
+        "effective_token_count": 16,
+        "max_length": 48,
+        "decoded_effective_text": "pick up the black bowl next to the plate and place it on the plate\n",
+        "truncated": false,
+        "actual_image_shapes": {
+          "observation.images.image": [
+            1,
+            3,
+            360,
+            360
+          ],
+          "observation.images.image2": [
+            1,
+            3,
+            360,
+            360
+          ]
+        }
+      },
+      "paired_initial_hashes": {
+        "observation_sha256": true,
+        "simulator_state_sha256": true,
+        "initial_state_sha256": true
+      }
+    },
+    {
+      "condition": "ramekin_side",
+      "text": "pick up the black bowl next to the ramekin and place it on the plate",
+      "expected_source": "bowl2",
+      "category": "bowl2_only",
+      "success": true,
+      "goal_events": {
+        "bowl1": false,
+        "bowl2": true
+      },
+      "first_event_steps": {
+        "bowl1": null,
+        "bowl2": 150
+      },
+      "final_goal_events": {
+        "bowl1": false,
+        "bowl2": true
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 0.004107329098097745,
+          "max_displacement_m": 0.007181639180169506
+        },
+        "bowl2": {
+          "first_grasp_contact_step": 104,
+          "grasp_contact_state_count": 51,
+          "max_height_gain_m": 0.13300899566418667,
+          "max_displacement_m": 0.2608438273761241
+        }
+      },
+      "steps": 300,
+      "policy_calls": 30,
+      "token_audit": {
+        "actual_token_ids": [
+          18188,
+          614,
+          260,
+          2632,
+          12505,
+          1867,
+          288,
+          260,
+          689,
+          1558,
+          7109,
+          284,
+          1379,
+          357,
+          335,
+          260,
+          6496,
+          198
+        ],
+        "actual_attention_mask": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "full_token_count": 17,
+        "effective_token_count": 18,
+        "max_length": 48,
+        "decoded_effective_text": "pick up the black bowl next to the ramekin and place it on the plate\n",
+        "truncated": false,
+        "actual_image_shapes": {
+          "observation.images.image": [
+            1,
+            3,
+            360,
+            360
+          ],
+          "observation.images.image2": [
+            1,
+            3,
+            360,
+            360
+          ]
+        }
+      },
+      "paired_initial_hashes": {
+        "observation_sha256": true,
+        "simulator_state_sha256": true,
+        "initial_state_sha256": true
+      }
+    }
+  ],
+  "policy_calls": 60,
+  "diagnostic_policy_calls": 2,
+  "interpretation": "Single-init original reference pair, no fact-conflict or general capability inference."
+}

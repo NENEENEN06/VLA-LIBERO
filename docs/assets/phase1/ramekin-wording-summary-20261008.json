@@ -1,0 +1,107 @@
+{
+  "status": "completed",
+  "completed_at": "2026-10-08T05:48:48.428608+00:00",
+  "model": "vla-adapter",
+  "suite": "libero_spatial",
+  "physical_task_id": 8,
+  "episodes": 2,
+  "results": [
+    {
+      "init_id": 0,
+      "condition": "ramekin_side",
+      "text": "pick up the black bowl next to the ramekin and place it on the plate",
+      "expected_source": "bowl2",
+      "category": "neither",
+      "success": false,
+      "goal_events": {
+        "bowl1": false,
+        "bowl2": false
+      },
+      "first_event_steps": {
+        "bowl1": null,
+        "bowl2": null
+      },
+      "final_goal_events": {
+        "bowl1": false,
+        "bowl2": false
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": 127,
+          "grasp_contact_state_count": 2,
+          "max_height_gain_m": 0.009826598269469744,
+          "max_displacement_m": 0.14536339458971007
+        },
+        "bowl2": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 2.786076397365278e-07,
+          "max_displacement_m": 2.78607640728492e-07
+        }
+      },
+      "steps": 300,
+      "policy_calls": 38
+    },
+    {
+      "init_id": 0,
+      "condition": "descriptive_side",
+      "text": "pick up the black bowl next to the small white bowl and place it on the plate",
+      "expected_source": "bowl2",
+      "category": "bowl1_only",
+      "success": false,
+      "goal_events": {
+        "bowl1": true,
+        "bowl2": false
+      },
+      "first_event_steps": {
+        "bowl1": 92,
+        "bowl2": null
+      },
+      "final_goal_events": {
+        "bowl1": true,
+        "bowl2": false
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": 49,
+          "grasp_contact_state_count": 34,
+          "max_height_gain_m": 0.1121114706516877,
+          "max_displacement_m": 0.1497922053597381
+        },
+        "bowl2": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 2.786076397365278e-07,
+          "max_displacement_m": 2.78607640728492e-07
+        }
+      },
+      "steps": 300,
+      "policy_calls": 38
+    }
+  ],
+  "original_replay": {
+    "same_action_shape": true,
+    "max_executed_action_abs_diff": 0.0,
+    "previous_category": "neither",
+    "current_category": "neither",
+    "same_first_event_steps": true,
+    "paired_saved_dual_hashes": {
+      "observation_sha256": true,
+      "simulator_state_sha256": true,
+      "initial_state_sha256": true
+    },
+    "extra_policy_calls": 0
+  },
+  "raw_token_counts": {
+    "ramekin_side": 17,
+    "descriptive_side": 17
+  },
+  "actual_prompt_token_counts": {
+    "ramekin_side": 54,
+    "descriptive_side": 54
+  },
+  "paired_initial_state": true,
+  "policy_calls": 76,
+  "diagnostic_policy_calls": 0,
+  "interpretation": "Tests wording and descriptive information on one scene; equal token length does not isolate knowledge of one word from color/size grounding."
+}

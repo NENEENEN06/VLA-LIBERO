@@ -1,4 +1,6 @@
-# Phase 1 英文模板草案（待用户确认）
+# 历史：Goal 远近指代英文模板草案（已停止）
+
+当前执行计划已改为SmolVLA Spatial原双碗plate／ramekin指代，见[Phase 1入口](PHASE1_ENTRY.md)。以下保留旧Goal方案及当时的确认记录，不作为现行模板或推进要求。
 
 日期：2026-10-07（Asia/Shanghai）。状态：完整四条件模板仍为草案。用户随后授权先测试无辅助 N baseline；init0 的 Q_A/Q_B 两次均未完成任一目的地。用户要求停止，init1 Q_A 中途终止，不计完成样本。不得继续原六次计划；A/X/U 尚未确认。用户随后另行授权的单次原生命令 `put the bowl on the plate` 对照已成功，使用同一 init0，第 69 步首次完成盘子、第 300 步仍为盘子完成。见 [baseline 对照](PHASE1_BASELINE_20261007.md)。候选指代尚未通过，任何修改稿先确认。
 

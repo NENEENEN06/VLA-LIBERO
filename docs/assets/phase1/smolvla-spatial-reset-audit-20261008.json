@@ -1,0 +1,286 @@
+{
+  "runs": [
+    {
+      "observation_sha256": "98cca01f798661ef278c78ac5c43c157da0d1371d6f4b3c7ff2219574e7a1842",
+      "simulator_state_sha256": "c729f1afb235c0693e61138e22675c51e8b90c43380bc7edeec27539c875f130",
+      "initial_state_sha256": "aef30979e2ee8c9893c9161c881264362f750a34df952f381e3969a567688451",
+      "goal": [
+        [
+          "on",
+          "akita_black_bowl_1",
+          "plate_1"
+        ]
+      ],
+      "text": "pick up the black bowl next to the plate and place it on the plate",
+      "target": null,
+      "env_seed": 1,
+      "init_id": 0,
+      "policy_seed": 1,
+      "condition": "plate_side",
+      "expected_source": "bowl1",
+      "physical_task_id": 8,
+      "source_xy_distances_m": {
+        "bowl1": {
+          "plate": 0.11938227867461158,
+          "ramekin": 0.22055008756587904
+        },
+        "bowl2": {
+          "plate": 0.2634131919788547,
+          "ramekin": 0.10177470216150834
+        }
+      },
+      "evaluator_goal": [
+        [
+          "on",
+          "akita_black_bowl_1",
+          "plate_1"
+        ],
+        [
+          "on",
+          "akita_black_bowl_2",
+          "plate_1"
+        ]
+      ],
+      "initial_objects_xyz": {
+        "akita_black_bowl_1": [
+          0.007137055765658432,
+          0.29824631861764095,
+          0.8984038715812133
+        ],
+        "akita_black_bowl_2": [
+          -0.1786631149818451,
+          0.31020833245268703,
+          0.8984038715812133
+        ],
+        "plate_1": [
+          0.05518606344369785,
+          0.18896035738428615,
+          0.9024995808477997
+        ],
+        "glazed_rim_porcelain_ramekin_1": [
+          -0.1948720362600058,
+          0.20973265942153924,
+          0.899341119995436
+        ]
+      },
+      "paired_initial_hashes": {
+        "observation_sha256": true,
+        "simulator_state_sha256": true,
+        "initial_state_sha256": true
+      },
+      "queue_after_reset": 0,
+      "fresh_query": true,
+      "first_action": [
+        [
+          0.3236379325389862,
+          0.6586724519729614,
+          0.011543914675712585,
+          -0.012595427222549915,
+          -0.0324370451271534,
+          0.0007856185548007488,
+          -0.9868713617324829
+        ]
+      ],
+      "token_audit": {
+        "actual_token_ids": [
+          18188,
+          614,
+          260,
+          2632,
+          12505,
+          1867,
+          288,
+          260,
+          6496,
+          284,
+          1379,
+          357,
+          335,
+          260,
+          6496,
+          198
+        ],
+        "actual_attention_mask": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "full_token_count": 15,
+        "effective_token_count": 16,
+        "max_length": 48,
+        "decoded_effective_text": "pick up the black bowl next to the plate and place it on the plate\n",
+        "truncated": false,
+        "actual_image_shapes": {
+          "observation.images.image": [
+            1,
+            3,
+            360,
+            360
+          ],
+          "observation.images.image2": [
+            1,
+            3,
+            360,
+            360
+          ]
+        }
+      }
+    },
+    {
+      "observation_sha256": "98cca01f798661ef278c78ac5c43c157da0d1371d6f4b3c7ff2219574e7a1842",
+      "simulator_state_sha256": "c729f1afb235c0693e61138e22675c51e8b90c43380bc7edeec27539c875f130",
+      "initial_state_sha256": "aef30979e2ee8c9893c9161c881264362f750a34df952f381e3969a567688451",
+      "goal": [
+        [
+          "on",
+          "akita_black_bowl_1",
+          "plate_1"
+        ]
+      ],
+      "text": "pick up the black bowl next to the plate and place it on the plate",
+      "target": null,
+      "env_seed": 1,
+      "init_id": 0,
+      "policy_seed": 1,
+      "condition": "plate_side",
+      "expected_source": "bowl1",
+      "physical_task_id": 8,
+      "source_xy_distances_m": {
+        "bowl1": {
+          "plate": 0.11938227867461158,
+          "ramekin": 0.22055008756587904
+        },
+        "bowl2": {
+          "plate": 0.2634131919788547,
+          "ramekin": 0.10177470216150834
+        }
+      },
+      "evaluator_goal": [
+        [
+          "on",
+          "akita_black_bowl_1",
+          "plate_1"
+        ],
+        [
+          "on",
+          "akita_black_bowl_2",
+          "plate_1"
+        ]
+      ],
+      "initial_objects_xyz": {
+        "akita_black_bowl_1": [
+          0.007137055765658432,
+          0.29824631861764095,
+          0.8984038715812133
+        ],
+        "akita_black_bowl_2": [
+          -0.1786631149818451,
+          0.31020833245268703,
+          0.8984038715812133
+        ],
+        "plate_1": [
+          0.05518606344369785,
+          0.18896035738428615,
+          0.9024995808477997
+        ],
+        "glazed_rim_porcelain_ramekin_1": [
+          -0.1948720362600058,
+          0.20973265942153924,
+          0.899341119995436
+        ]
+      },
+      "paired_initial_hashes": {
+        "observation_sha256": true,
+        "simulator_state_sha256": true,
+        "initial_state_sha256": true
+      },
+      "queue_after_reset": 0,
+      "fresh_query": true,
+      "first_action": [
+        [
+          0.3236379325389862,
+          0.6586724519729614,
+          0.011543914675712585,
+          -0.012595427222549915,
+          -0.0324370451271534,
+          0.0007856185548007488,
+          -0.9868713617324829
+        ]
+      ],
+      "token_audit": {
+        "actual_token_ids": [
+          18188,
+          614,
+          260,
+          2632,
+          12505,
+          1867,
+          288,
+          260,
+          6496,
+          284,
+          1379,
+          357,
+          335,
+          260,
+          6496,
+          198
+        ],
+        "actual_attention_mask": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "full_token_count": 15,
+        "effective_token_count": 16,
+        "max_length": 48,
+        "decoded_effective_text": "pick up the black bowl next to the plate and place it on the plate\n",
+        "truncated": false,
+        "actual_image_shapes": {
+          "observation.images.image": [
+            1,
+            3,
+            360,
+            360
+          ],
+          "observation.images.image2": [
+            1,
+            3,
+            360,
+            360
+          ]
+        }
+      }
+    }
+  ],
+  "max_observation_abs_diff": 0.0,
+  "max_first_action_abs_diff": 0.0,
+  "diagnostic_policy_calls": 2,
+  "passed": true
+}

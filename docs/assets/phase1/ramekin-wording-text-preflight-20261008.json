@@ -1,0 +1,12 @@
+{
+  "texts": {
+    "ramekin_side": "pick up the black bowl next to the ramekin and place it on the plate",
+    "descriptive_side": "pick up the black bowl next to the small white bowl and place it on the plate"
+  },
+  "raw_token_counts": {
+    "ramekin_side": 17,
+    "descriptive_side": 17
+  },
+  "expected_actual_prompt_token_count": 54,
+  "policy_calls": 0
+}
