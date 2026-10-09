@@ -1,0 +1,754 @@
+{
+  "phase": "Spatial-neutral-addition-independent-diagnostic",
+  "model": "smolvla",
+  "suite": "libero_spatial",
+  "physical_task_id": 8,
+  "scene": {
+    "physical_task_id": 8,
+    "bddl_path": "/mnt/c/VLA-LIBERO/.venvs/smolvla/lib/python3.12/site-packages/libero/libero/bddl_files/libero_spatial/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate.bddl",
+    "bddl_sha256": "c8fbb9effa27b947d04d26862d75273d93cac1806734e53836cd472a08aec1fe",
+    "original_goal": [
+      [
+        "on",
+        "akita_black_bowl_1",
+        "plate_1"
+      ]
+    ],
+    "initial_state_predicates": [
+      [
+        "on",
+        "akita_black_bowl_1",
+        "main_table_next_to_plate_region"
+      ],
+      [
+        "on",
+        "akita_black_bowl_2",
+        "main_table_next_to_ramekin_region"
+      ],
+      [
+        "on",
+        "plate_1",
+        "main_table_plate_region"
+      ],
+      [
+        "on",
+        "cookies_1",
+        "main_table_box_region"
+      ],
+      [
+        "on",
+        "glazed_rim_porcelain_ramekin_1",
+        "main_table_ramekin_region"
+      ],
+      [
+        "on",
+        "wooden_cabinet_1",
+        "main_table_cabinet_region"
+      ],
+      [
+        "on",
+        "flat_stove_1",
+        "main_table_stove_region"
+      ]
+    ],
+    "independent_goals": {
+      "bowl1": [
+        [
+          "on",
+          "akita_black_bowl_1",
+          "plate_1"
+        ]
+      ],
+      "bowl2": [
+        [
+          "on",
+          "akita_black_bowl_2",
+          "plate_1"
+        ]
+      ]
+    },
+    "instruction_sources": {
+      "plate_side": 8,
+      "ramekin_side": 1
+    },
+    "alternative_scene_used": false,
+    "frozen_adapter_script_sha256": "219cd5dee596747ef212c590dff773feb7cee1226eebd1367eba33be7725def9"
+  },
+  "texts": {
+    "plate_side": "pick up the black bowl next to the plate and place it on the plate",
+    "ramekin_side": "pick up the black bowl next to the ramekin and place it on the plate"
+  },
+  "expected_sources": {
+    "plate_side": "bowl1",
+    "ramekin_side": "bowl2"
+  },
+  "init_ids": [
+    0
+  ],
+  "env_seed": 1,
+  "policy_seed": 1,
+  "max_steps": 300,
+  "settling_steps": 10,
+  "camera_size": [
+    360,
+    360
+  ],
+  "action_steps": 10,
+  "control_hz": 20,
+  "hard_reset": true,
+  "advance_rule": "Exactly two neutral init0 trials; no automatic extra trials, new template, separator edit or X conflict.",
+  "termination_rule": "Evaluator-only AND of both bowls on plate; independent ever-triggered events.",
+  "comparison_boundary": "Same task identity/text/init index; simulator, camera and action chunk differ from VLA-Adapter.",
+  "runner_sha256": "46b50fc18e5642e3643365b20509ff5146a464a1d6bf529a39acafe5e5a0a775",
+  "base_runner_sha256": "ead5538d3506cb578c22fd9b4d6f95f5bd8a61b34353225fac0a561322e3b405",
+  "source": {
+    "platform": "Ubuntu 22.04 / WSL2 / x86_64 / NVIDIA",
+    "uv_version": "0.12.21",
+    "repositories": {
+      "libero": {
+        "url": "https://github.com/Lifelong-Robot-Learning/LIBERO.git",
+        "revision": "8f1084e3132a39270c3a13ebe37270a43ece2a01"
+      },
+      "vla-adapter": {
+        "url": "https://github.com/OpenHelix-Team/VLA-Adapter.git",
+        "revision": "23fa0c9c159e2aa04341cdd3e924f44061311060"
+      }
+    },
+    "models": {
+      "smolvla": {
+        "python": "3.12",
+        "torch_backend": "cu128",
+        "checkpoint": {
+          "repo_id": "HuggingFaceVLA/smolvla_libero",
+          "revision": "6721902bc4d61e50a3bfdb11dfb4cb626f05d102"
+        }
+      },
+      "vla-adapter": {
+        "python": "3.10.16",
+        "torch_backend": "cu121",
+        "use_pro_version": false,
+        "checkpoints": {
+          "libero_spatial": {
+            "repo_id": "VLA-Adapter/LIBERO-Spatial",
+            "revision": "45caa9bca50d3ea6f8e804fe04c65abac1b69717"
+          },
+          "libero_object": {
+            "repo_id": "VLA-Adapter/LIBERO-Object",
+            "revision": "835cf0d9c71e330480d0801f10b3dd0f5eb5be94"
+          },
+          "libero_goal": {
+            "repo_id": "VLA-Adapter/LIBERO-Goal",
+            "revision": "d1aa0654ccac22cb7e45a55f21692433e9ae7e63"
+          },
+          "libero_10": {
+            "repo_id": "VLA-Adapter/LIBERO-Long",
+            "revision": "78f7880efe4923a88f1976461febbd6109a1c627"
+          }
+        }
+      },
+      "pulsevla": {
+        "python": "3.12",
+        "torch_backend": "cu128",
+        "checkpoint": {
+          "repo_id": "verapulse/pulsevla-libero-0.5b",
+          "revision": "f85a37fbd3fe724c3067d4bd0a6a531ca5b3a1c4"
+        }
+      }
+    },
+    "assets": {
+      "libero": {
+        "repo_id": "lerobot/libero-assets",
+        "repo_type": "dataset",
+        "revision": "0b3ea86be5fe169d0fd036ae63d1070ec09e90f6"
+      },
+      "smolvlm": {
+        "repo_id": "HuggingFaceTB/SmolVLM2-500M-Instruct",
+        "revision": "7b375e1b73b11138ff12fe22c8f2822d8fe03467"
+      }
+    }
+  },
+  "dependencies": "absl-py==2.5.0\naccelerate==1.15.0\naiohappyeyeballs==2.7.1\naiohttp==3.14.3\naiosignal==1.4.0\nannotated-doc==0.0.5\nannotated-types==0.8.0\nantlr4-python3-runtime==4.9.3\nanyio==4.15.1\nattrs==26.1.0\nav==15.1.0\nbddl==1.0.1\ncertifi==2026.7.22\ncharset-normalizer==3.5.2\nclick==8.5.0\ncloudpickle==3.1.2\ncmake==4.1.3\ncontourpy==1.4.0\ncuda-bindings==12.9.9\ncuda-pathfinder==1.8.2\ncuda-toolkit==12.8.1\ncycler==0.12.1\ndatasets==4.8.5\ndill==0.4.1\ndocopt==0.6.2\ndraccus==0.11.6\neasydict==1.13\negl-probe==1.0.2\neinops==0.8.2\netils==1.14.0\nfarama-notifications==0.0.6\nfastjsonschema==2.22.2\nfilelock==4.0.7\nfonttools==4.66.1\nfrozenlist==1.8.0\nfsspec==2026.2.0\nfuture==1.0.0\nglfw==2.10.2\ngoogleapis-common-protos==1.75.5\ngrpcio==1.84.0\ngymnasium==1.3.0\nh11==0.16.0\nh5py==3.16.0\nhf-egl-probe==1.0.2\nhf-libero==0.1.4\nhf-xet==1.6.0\nhttpcore==1.0.9\nhttpx==0.28.1\nhuggingface-hub==1.33.0\nhydra-core==1.3.7\nidna==3.20\nimageio==2.38.0\nimageio-ffmpeg==0.6.0\niniconfig==2.3.0\njinja2==3.1.6\njsonlines==4.0.0\njsonschema==4.26.0\njsonschema-specifications==2025.9.1\njupyter-core==5.9.1\njupytext==1.19.5\nkiwisolver==1.5.1\nlerobot @ git+https://github.com/huggingface/lerobot.git@7e241bd630a3719a56157a497ce5d08f244784f1\nllvmlite==0.49.0\nmarkdown==3.11\nmarkdown-it-py==4.2.0\nmarkupsafe==3.0.3\nmatplotlib==3.11.2\nmdit-py-plugins==0.6.1\nmdurl==0.1.2\nmergedeep==1.3.4\nmpmath==1.3.0\nmujoco==3.3.2\nmultidict==6.9.1\nmultiprocess==0.70.19\nmypy-extensions==1.1.0\nnbformat==5.11.1\nnetworkx==3.7\nnum2words==0.5.14\nnumba==0.67.0\nnumpy==2.2.6\nnvidia-cublas-cu12==12.8.4.1\nnvidia-cuda-cupti-cu12==12.8.90\nnvidia-cuda-nvrtc-cu12==12.8.93\nnvidia-cuda-runtime-cu12==12.8.90\nnvidia-cudnn-cu12==9.19.0.56\nnvidia-cufft-cu12==11.3.3.83\nnvidia-cufile-cu12==1.13.1.3\nnvidia-curand-cu12==10.3.9.90\nnvidia-cusolver-cu12==11.7.3.90\nnvidia-cusparse-cu12==12.5.8.93\nnvidia-cusparselt-cu12==0.7.1\nnvidia-nccl-cu12==2.28.9\nnvidia-nvjitlink-cu12==12.8.93\nnvidia-nvshmem-cu12==3.4.5\nnvidia-nvtx-cu12==12.8.90\nomegaconf==2.3.1\nopencv-python==5.0.0.93\nopencv-python-headless==4.13.0.92\nopentelemetry-api==1.45.0\nopentelemetry-exporter-http-transport==0.66b0\nopentelemetry-exporter-otlp-common==0.66b0\nopentelemetry-exporter-otlp-proto-common==1.45.0\nopentelemetry-exporter-otlp-proto-http==1.45.0\nopentelemetry-proto==1.45.0\nopentelemetry-sdk==1.45.0\nopentelemetry-semantic-conventions==0.66b0\npackaging==25.0\npandas==2.3.3\npillow==12.3.0\nplatformdirs==4.12.2\npluggy==1.6.0\npropcache==0.5.4\nprotobuf==7.36.2\npsutil==7.2.2\npyarrow==25.0.1\npydantic==2.13.5\npydantic-core==2.46.5\npygments==2.21.0\npyopengl==3.1.10\npyparsing==3.3.3\npytest==9.1.1\npython-dateutil==2.9.0.post0\npytz==2026.4\npyyaml==6.0.3\nreferencing==0.37.0\nregex==2026.9.29\nrequests==2.34.2\nrich==15.0.0\nrobomimic==0.2.0\nrobosuite==1.4.0\nrpds-py==2026.6.3\nsafetensors==0.8.0\nscipy==1.18.1\nsetuptools==81.0.0\nshellingham==1.5.4\nsix==1.17.0\nsympy==1.14.0\ntensorboard==2.21.0\ntensorboard-data-server==0.7.2\ntensorboardx==2.6.5\ntermcolor==3.3.0\nthop==0.1.1.post2209072238\ntokenizers==0.22.2\ntoml==0.10.2\ntorch==2.11.0+cu128\ntorchcodec==0.11.0+cu128\ntorchvision==0.26.0+cu128\ntqdm==4.70.1\ntraitlets==5.16.1\ntransformers==5.5.4\ntriton==3.6.0\ntyper==0.27.2\ntyping-extensions==4.16.0\ntyping-inspect==0.9.0\ntyping-inspection==0.4.4\ntzdata==2026.4\nurllib3==2.8.0\nwandb==0.30.0\nwerkzeug==3.1.9\nxxhash==4.0.1\nyarl==1.25.1\nzipp==4.1.0\n",
+  "facts": {
+    "plate_side": {
+      "A": "Initially, the black bowl farther from the ramekin is next to the plate.",
+      "X": "Initially, the black bowl closer to the ramekin is next to the plate.",
+      "U": "Initially, the plate and the ramekin are both resting on the table surface."
+    },
+    "ramekin_side": {
+      "A": "Initially, the black bowl farther from the plate is next to the ramekin.",
+      "X": "Initially, the black bowl closer to the plate is next to the ramekin.",
+      "U": "Initially, the plate and the ramekin are both resting on the table surface."
+    }
+  },
+  "concatenation": "Original Q + newline + fact; native processor adds terminal newline.",
+  "conditions_run": [
+    "U"
+  ],
+  "conditions_preflight_only": [
+    "N",
+    "A"
+  ],
+  "max_new_rollouts": 2,
+  "diagnostic_policy_calls_new": 0,
+  "diagnostic_policy_calls_reused": 2,
+  "reuse_policy": "Same native runner/config; verify scene/source/dependency hashes and all init0 reset hashes.",
+  "reset_audit_reference": "/mnt/c/VLA-LIBERO/outputs/phase1/smolvla-spatial-reference-20261008/reset-audit.json",
+  "neutral_candidates_checked_without_policy_queries": {
+    "plate_side": [
+      {
+        "text": "Initially, the plate and the ramekin are both resting on the table surface.",
+        "effective_token_count": 34
+      },
+      {
+        "text": "Initially, the plate and the ramekin are both resting on the flat table surface.",
+        "effective_token_count": 35
+      },
+      {
+        "text": "Initially, the plate and the ramekin are both resting on top of the table.",
+        "effective_token_count": 35
+      },
+      {
+        "text": "Initially, the plate and the ramekin are both resting on top of the flat table.",
+        "effective_token_count": 36
+      },
+      {
+        "text": "Initially, the plate and the ramekin are both sitting on top of the table surface.",
+        "effective_token_count": 36
+      },
+      {
+        "text": "Initially, the plate and the ramekin are both sitting on top of the flat table surface.",
+        "effective_token_count": 37
+      },
+      {
+        "text": "Initially, the plate and the ramekin are resting on top of the table surface.",
+        "effective_token_count": 35
+      }
+    ],
+    "ramekin_side": [
+      {
+        "text": "Initially, the plate and the ramekin are both resting on the table surface.",
+        "effective_token_count": 36
+      },
+      {
+        "text": "Initially, the plate and the ramekin are both resting on the flat table surface.",
+        "effective_token_count": 37
+      },
+      {
+        "text": "Initially, the plate and the ramekin are both resting on top of the table.",
+        "effective_token_count": 37
+      },
+      {
+        "text": "Initially, the plate and the ramekin are both resting on top of the flat table.",
+        "effective_token_count": 38
+      },
+      {
+        "text": "Initially, the plate and the ramekin are both sitting on top of the table surface.",
+        "effective_token_count": 38
+      },
+      {
+        "text": "Initially, the plate and the ramekin are both sitting on top of the flat table surface.",
+        "effective_token_count": 39
+      },
+      {
+        "text": "Initially, the plate and the ramekin are resting on top of the table surface.",
+        "effective_token_count": 37
+      }
+    ]
+  },
+  "frozen_spatial_runner_sha256": "29e18e50057afe12d817906f21064658fd5d7b72a63dbee45cb4ff1bea08eb48",
+  "neutral_text": "Initially, the plate and the ramekin are both resting on the table surface.",
+  "formal_conflict_matrix": false,
+  "baseline_references": [
+    {
+      "init_id": 0,
+      "question": "plate_side",
+      "condition": "N",
+      "text": "pick up the black bowl next to the plate and place it on the plate",
+      "expected_source": "bowl1",
+      "category": "bowl1_only",
+      "success": true,
+      "goal_events": {
+        "bowl1": true,
+        "bowl2": false
+      },
+      "first_event_steps": {
+        "bowl1": 91,
+        "bowl2": null
+      },
+      "final_goal_events": {
+        "bowl1": true,
+        "bowl2": false
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": 63,
+          "grasp_contact_state_count": 32,
+          "max_height_gain_m": 0.08965611745023783,
+          "max_displacement_m": 0.14287331442744286
+        },
+        "bowl2": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 2.786076397365278e-07,
+          "max_displacement_m": 2.78607640728492e-07
+        }
+      },
+      "steps": 300,
+      "policy_calls": 30,
+      "token_audit": {
+        "actual_token_ids": [
+          18188,
+          614,
+          260,
+          2632,
+          12505,
+          1867,
+          288,
+          260,
+          6496,
+          284,
+          1379,
+          357,
+          335,
+          260,
+          6496,
+          198
+        ],
+        "actual_attention_mask": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "full_token_count": 15,
+        "effective_token_count": 16,
+        "max_length": 48,
+        "decoded_effective_text": "pick up the black bowl next to the plate and place it on the plate\n",
+        "truncated": false,
+        "actual_image_shapes": {
+          "observation.images.image": [
+            1,
+            3,
+            360,
+            360
+          ],
+          "observation.images.image2": [
+            1,
+            3,
+            360,
+            360
+          ]
+        }
+      },
+      "paired_initial_hashes": {
+        "observation_sha256": true,
+        "simulator_state_sha256": true,
+        "initial_state_sha256": true
+      },
+      "reused": true,
+      "reused_episode_path": "/mnt/c/VLA-LIBERO/outputs/phase1/smolvla-spatial-reference-20261008/episodes/spatial8-init0-seed1-plate_side-N.json",
+      "reused_episode_sha256": "f35e579ff02b95bc16e40b9fab6e4b9e19a2f5ff8b9a29040b15b234f2c483d9"
+    },
+    {
+      "init_id": 0,
+      "question": "plate_side",
+      "condition": "A",
+      "text": "pick up the black bowl next to the plate and place it on the plate\nInitially, the black bowl farther from the ramekin is next to the plate.",
+      "expected_source": "bowl1",
+      "category": "neither",
+      "success": false,
+      "goal_events": {
+        "bowl1": false,
+        "bowl2": false
+      },
+      "first_event_steps": {
+        "bowl1": null,
+        "bowl2": null
+      },
+      "final_goal_events": {
+        "bowl1": false,
+        "bowl2": false
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 0.035542052447777306,
+          "max_displacement_m": 0.04046048380535498
+        },
+        "bowl2": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 0.014983220581586187,
+          "max_displacement_m": 0.041409820959315724
+        }
+      },
+      "steps": 300,
+      "policy_calls": 30,
+      "token_audit": {
+        "actual_token_ids": [
+          18188,
+          614,
+          260,
+          2632,
+          12505,
+          1867,
+          288,
+          260,
+          6496,
+          284,
+          1379,
+          357,
+          335,
+          260,
+          6496,
+          198,
+          37627,
+          28,
+          260,
+          2632,
+          12505,
+          16928,
+          429,
+          260,
+          689,
+          1558,
+          7109,
+          314,
+          1867,
+          288,
+          260,
+          6496,
+          30,
+          198
+        ],
+        "actual_attention_mask": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "full_token_count": 33,
+        "effective_token_count": 34,
+        "max_length": 48,
+        "decoded_effective_text": "pick up the black bowl next to the plate and place it on the plate\nInitially, the black bowl farther from the ramekin is next to the plate.\n",
+        "truncated": false,
+        "actual_image_shapes": {
+          "observation.images.image": [
+            1,
+            3,
+            360,
+            360
+          ],
+          "observation.images.image2": [
+            1,
+            3,
+            360,
+            360
+          ]
+        }
+      },
+      "paired_initial_hashes": {
+        "observation_sha256": true,
+        "simulator_state_sha256": true,
+        "initial_state_sha256": true
+      },
+      "reused": true,
+      "reused_episode_path": "/mnt/c/VLA-LIBERO/outputs/phase1/smolvla-spatial-NA-20261008-retry1/episodes/spatial8-init0-seed1-plate_side-A.json",
+      "reused_episode_sha256": "f619c123c17462fac36505e4d221b551c7125dda02e4f8a51c194e5086e2496f"
+    },
+    {
+      "init_id": 0,
+      "question": "ramekin_side",
+      "condition": "N",
+      "text": "pick up the black bowl next to the ramekin and place it on the plate",
+      "expected_source": "bowl2",
+      "category": "bowl2_only",
+      "success": true,
+      "goal_events": {
+        "bowl1": false,
+        "bowl2": true
+      },
+      "first_event_steps": {
+        "bowl1": null,
+        "bowl2": 150
+      },
+      "final_goal_events": {
+        "bowl1": false,
+        "bowl2": true
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 0.004107329098097745,
+          "max_displacement_m": 0.007181639180169506
+        },
+        "bowl2": {
+          "first_grasp_contact_step": 104,
+          "grasp_contact_state_count": 51,
+          "max_height_gain_m": 0.13300899566418667,
+          "max_displacement_m": 0.2608438273761241
+        }
+      },
+      "steps": 300,
+      "policy_calls": 30,
+      "token_audit": {
+        "actual_token_ids": [
+          18188,
+          614,
+          260,
+          2632,
+          12505,
+          1867,
+          288,
+          260,
+          689,
+          1558,
+          7109,
+          284,
+          1379,
+          357,
+          335,
+          260,
+          6496,
+          198
+        ],
+        "actual_attention_mask": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "full_token_count": 17,
+        "effective_token_count": 18,
+        "max_length": 48,
+        "decoded_effective_text": "pick up the black bowl next to the ramekin and place it on the plate\n",
+        "truncated": false,
+        "actual_image_shapes": {
+          "observation.images.image": [
+            1,
+            3,
+            360,
+            360
+          ],
+          "observation.images.image2": [
+            1,
+            3,
+            360,
+            360
+          ]
+        }
+      },
+      "paired_initial_hashes": {
+        "observation_sha256": true,
+        "simulator_state_sha256": true,
+        "initial_state_sha256": true
+      },
+      "reused": true,
+      "reused_episode_path": "/mnt/c/VLA-LIBERO/outputs/phase1/smolvla-spatial-reference-20261008/episodes/spatial8-init0-seed1-ramekin_side-N.json",
+      "reused_episode_sha256": "9e5c9a43ff59213e21d71eb4d91f491863f74a594e5f22ba7151d165bfa32980"
+    },
+    {
+      "init_id": 0,
+      "question": "ramekin_side",
+      "condition": "A",
+      "text": "pick up the black bowl next to the ramekin and place it on the plate\nInitially, the black bowl farther from the plate is next to the ramekin.",
+      "expected_source": "bowl2",
+      "category": "neither",
+      "success": false,
+      "goal_events": {
+        "bowl1": false,
+        "bowl2": false
+      },
+      "first_event_steps": {
+        "bowl1": null,
+        "bowl2": null
+      },
+      "final_goal_events": {
+        "bowl1": false,
+        "bowl2": false
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 0.028386707602327754,
+          "max_displacement_m": 0.039186313406103734
+        },
+        "bowl2": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 0.01067245606199474,
+          "max_displacement_m": 0.0400881258447072
+        }
+      },
+      "steps": 300,
+      "policy_calls": 30,
+      "token_audit": {
+        "actual_token_ids": [
+          18188,
+          614,
+          260,
+          2632,
+          12505,
+          1867,
+          288,
+          260,
+          689,
+          1558,
+          7109,
+          284,
+          1379,
+          357,
+          335,
+          260,
+          6496,
+          198,
+          37627,
+          28,
+          260,
+          2632,
+          12505,
+          16928,
+          429,
+          260,
+          6496,
+          314,
+          1867,
+          288,
+          260,
+          689,
+          1558,
+          7109,
+          30,
+          198
+        ],
+        "actual_attention_mask": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "full_token_count": 35,
+        "effective_token_count": 36,
+        "max_length": 48,
+        "decoded_effective_text": "pick up the black bowl next to the ramekin and place it on the plate\nInitially, the black bowl farther from the plate is next to the ramekin.\n",
+        "truncated": false,
+        "actual_image_shapes": {
+          "observation.images.image": [
+            1,
+            3,
+            360,
+            360
+          ],
+          "observation.images.image2": [
+            1,
+            3,
+            360,
+            360
+          ]
+        }
+      },
+      "paired_initial_hashes": {
+        "observation_sha256": true,
+        "simulator_state_sha256": true,
+        "initial_state_sha256": true
+      },
+      "reused": true,
+      "reused_episode_path": "/mnt/c/VLA-LIBERO/outputs/phase1/smolvla-spatial-NA-20261008-retry1/episodes/spatial8-init0-seed1-ramekin_side-A.json",
+      "reused_episode_sha256": "679b69eaed27441932f3c9c82830a5ff0a190f3ddcf45d4f43591c84af676bee"
+    }
+  ],
+  "frozen_na_runner_sha256": "a97ba1136b20aacff983e6f2bb39473e0a323a5acd50b9625aea6c95ff90cc4e",
+  "visual_review_reuse_rule": "Native observation hashes must exactly match visually reviewed old init0.",
+  "interpretation_boundary": "Content comparison matched in length/style; one init only. Neutral text still names scene landmarks."
+}

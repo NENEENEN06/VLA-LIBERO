@@ -1,142 +1,114 @@
 # VLA-LIBERO
 
-在本机 WSL2 / Ubuntu 22.04 中运行 LIBERO 仿真，以及 SmolVLA、VLA-Adapter、PulseVLA-LIBERO 三个模型。默认配置用于预训练权重推理和评测。每个模型使用独立 Python 环境，权重、缓存和运行输出不提交到 Git。
+**视觉语言动作模型的黑盒跨模态鲁棒性与攻击研究**
 
-**当前状态：三个模型环境和权重已配置，并通过 CUDA、LIBERO 双相机、动作预测及 30 步真实观测闭环检查。VLA-Adapter 已配置 Spatial 与 Goal 权重。** 详细记录见 [配置状态](docs/SETUP_STATUS.md)。
+本项目在 LIBERO 操作仿真中研究视觉与语言如何共同影响 VLA 的目标选择和闭环执行，并探索这些行为规律能否提高有限查询预算下的黑盒攻击效率。研究方案按 CoVLA 的结构组织：正常能力与语义约束、配对反事实、交互度量、候选搜索、独立验证及失效边界。
 
-**2026-10-08 当前主模型为SmolVLA，使用Spatial task 8原双碗和plate／ramekin原版指代。** 三初始化N/A核查已完成：两个方向N均2/3成功，A均0/3，门槛未通过，当前不进入X/U、不扩至80条。主模型与原版N保持，先重新设计辅助事实载体。VLA-Adapter原版与PulseVLA-LIBERO仍是能力通过后加入的验证候选。见[最新核查](docs/PHASE1_SMOLVLA_SPATIAL_NA_20261008.md)、[当前计划](plans/README.md)与[执行入口](docs/PHASE1_ENTRY.md)。
+更新日期：2026-10-09（Asia/Shanghai）。研究设计、当前实测与条件性后续安排分别注明；协同现象尚未得到本项目实验证实。
 
-本轮新增10条、300次策略查询，复用原init0 N两条；12条N/A累计360次rollout查询，旧重置诊断另2次。三个初始化的场景、真值、画面和等长文本预检通过，[事实模板](docs/PHASE1_SPATIAL_TEMPLATES_20261008.md)的行为未通过。首次零查询预检错误及修正记录保留，未运行冲突条件。
+[完整研究方案](plans/研究方案.md) · [专题文档](plans/README.md) · [当前进度](docs/RESUME.md) · [Phase 1 执行协议](docs/PHASE1_ENTRY.md) · [环境与运行](docs/RUNNING.md)
 
-2026-10-06 已完成 Spatial 基线（每任务 1 个 episode）：SmolVLA 8/10、VLA-Adapter 10/10、PulseVLA 9/10，三个评测进程均正常退出。逐任务结果和记录见 [Spatial 基线检查](docs/SPATIAL_BASELINE_20261006.md)。
+## 研究问题与定位
 
-2026-10-07 已完成 SmolVLA 前置核查：Object 身份切换 0/3；共享 Goal 原生盘子／炉子指令各 10/10。这些是该模型历史锚点，不能替代新自然指代或 VLA-Adapter 的能力核查。见 [前期核查](docs/SMOLVLA_READINESS_20261006.md)与 [Goal 核查](docs/SMOLVLA_GOAL_CHECK_20261007.md)。
+语言给出对象、关系和操作目标，视觉提供当前布局。局部视觉变化或语言表述变化可能影响选物与动作，但任务失败也可能来自正常能力不足、执行困难或任务语义改变。
 
-研究框架保留自然指代能力核查、四条件 × 双向事实冲突及局部动作／闭环对照；12→24→80 次仅适用于通过前置核查的合格候选。SmolVLA 的旧Goal指代试验保持停止；后续 VLA-Adapter 的 Goal 和 Spatial 候选也未通过双向正常能力，目前未进入冲突矩阵。见 [Phase 1](docs/PHASE1_ENTRY.md)与 [VLM 设置参考](plans/黑盒跨模态攻击/08_VLM主导关系实验设置参考.md)。
+核心问题是：**能否通过可见行为识别条件性跨模态脆弱性，并将其转化为可复现、查询有效的黑盒方法？**
 
-SmolVLA 的 [柜子提及对照](docs/PHASE1_CABINET_MENTION_20261007.md) 已完成：同 init0 的柜子事实／瓶子事实两条件均未完成。柜子条件有实测夹爪接触，瓶子条件无柜子接触；结论限于该模型与模板，不作为当前主模型的能力结论。
+| 研究要素 | 项目设定 |
+| --- | --- |
+| 被测系统 | 固定权重 VLA，保留原生相机、本体输入、预处理和动作接口 |
+| 黑盒反馈 | 动作或动作块、任务成功失败；搜索不使用梯度、概率、embedding 或注意力 |
+| Phase 1 | 先核查正常能力，再研究事实冲突下的条件化目标选择 |
+| Phase 2 | 同状态四分支、组合放大／抑制、干扰进入撤除及恢复 |
+| CoVLA 子问题 | 等义改写＋可见补丁，在弱单模态约束下检验正交互 |
+| 后续贡献 | 独立范围证据、等预算搜索收益、冻结候选迁移及负面发现 |
 
-用户随后要求换模型，已完成 [VLA-Adapter 复查](docs/PHASE1_MODEL_SWITCH_20261007.md)：同 init0 六次正常退出，原生盘子／炉子和柜子／瓶子事实追加成功，两条远近指代仍失败。另按用户要求追加两条去掉 `whichever is` 的简化指令，也均 neither；两轮共 8 次完整 rollout、306 次总策略查询，未进入事实冲突。
+事实冲突与等义协同分别评价。N/A/X/U 比较辅助事实内容；CoVLA 四分支比较视觉和语言变化的交互，二者不能合并为同一种实验。
 
-2026-10-08 已完成 [Spatial 同场景选碗核查](docs/PHASE1_SPATIAL_REFERENCE_20261008.md)：VLA-Adapter 在 task 8 同 init0 上选择盘子旁碗成功、选择 ramekin 旁碗失败；失败条件目标碗2未被抓取，碗1发生接触和位移。两次均正常退出，新增 78 次总查询；按规则不扩样、不进入冲突，同场景双向目标绑定仍未建立。
+## 四分支与协同定义
 
-追加的 [单碗能力对照](docs/PHASE1_SINGLE_BOWL_20261008.md) 已完成：保持原指令和源初始化，将另一碗移出工作区后，碗1／碗2均成功，首次放置第 93／99 步；新增 76 次策略查询。单碗只证明改造后操作可行，双碗失败的视觉、物理及观测刷新因素尚未隔离；未进入冲突实验。
+在同一任务和保存状态下，固定目标、评价事件及输入变化规则，恢复模拟器、策略缓存、动作队列与随机状态：
 
-原双碗的 [ramekin 名称对照](docs/PHASE1_RAMEKIN_WORDING_20261008.md) 已完成：原版复现 neither；替换为 `small white bowl` 后将错误碗1放到盘子，目标碗2仍未被抓取。两条实际包装均 54 token、状态相同，原版 300 步动作与旧轨迹完全一致；新增 76 次查询。替换改变行为但没有解决目标绑定，未扩样。
+| 分支 | 视觉 | 语言 |
+| --- | --- | --- |
+| 00 | 原始观察 | 原始有效指令 |
+| 10 | 视觉变化 | 原始有效指令 |
+| 01 | 原始观察 | 语言变化 |
+| 11 | 与 10 相同的变化规则 | 与 01 相同的语言变化 |
 
-这几轮尝试的设置、逐条结果、查询账本与结论边界统一见 [Phase 1 实验汇总报告](docs/PHASE1_EXPERIMENT_SUMMARY_20261008.md)：VLA-Adapter 共 5 轮、14 个完整 rollout、536 次查询；SmolVLA 历史对照单列。
+```text
+视觉主效应 ΔV = p10 - p00
+语言主效应 ΔT = p01 - p00
+联合净效应 ΔVT = p11 - p00
+概率加性尺度交互 Γ = p11 - p10 - p01 + p00
+```
 
-此前[SmolVLA Spatial init0小试](docs/PHASE1_SMOLVLA_SPATIAL_20261008.md)两方向成功，第91／150步完成，成本62次；两条N已复用到后续三初始化核查。当前以页首最新N/A结果为准，小试结果不改写。
+p 表示预定义失败事件的概率。联合失败更多不能单独证明协同；还需报告原始四项、主效应、区间与独立复现。CoVLA 子实验进一步要求任务等义、补丁合法及弱单模态合规，完整判据见[Phase 2](plans/黑盒跨模态攻击/04_行为刻画与脆弱性发现.md)。
 
-## 固定版本
+## 方法与阶段路线
 
-| 模型 | Python | PyTorch / CUDA wheel | 仿真 | 权重 |
-|---|---|---|---|---|
-| SmolVLA | 3.12.14 | 2.11.0 / cu128 | LeRobot 0.6.1、hf-libero 0.1.4、MuJoCo 3.3.2 | `HuggingFaceVLA/smolvla_libero` |
-| VLA-Adapter 原版 | 3.10.16 | 2.2.0 / cu121 | 原版 LIBERO、robosuite 1.4.1、MuJoCo 2.3.7 | Spatial、Goal 已下载；其他套件按需下载 |
-| PulseVLA-LIBERO 0.5B | 3.12.14 | 2.11.0 / cu128 | 发布者指定的 LeRobot 提交、hf-libero 0.1.3、MuJoCo 3.3.2 | `verapulse/pulsevla-libero-0.5b` |
+```mermaid
+flowchart LR
+    A[Phase 1 正常能力与行为刻画] --> B[Phase 2 交互与时序脆弱性]
+    B --> C[Phase 3 独立范围验证]
+    C --> D[Phase 4 黑盒搜索与等预算评价]
+    B --> E[CoVLA 等义协同子实验]
+    E --> C
+```
 
-完整依赖版本在 `requirements/*.lock`，源代码和权重提交在 [sources.json](configs/sources.json)。VLA-Adapter 使用原版权重配合 `use_pro_version=False`，保持版本一致。Flash Attention 不是当前上游评测入口的必需依赖；训练所需的 Flash Attention 和 CUDA 编译工具链另行安装。
+| 阶段 | 主要输出 | 继续条件 |
+| --- | --- | --- |
+| Phase 1 行为刻画 | 正常基线、语义及事件清单、双向事实冲突图谱 | 指代与正确事实可用，输入和真值有效 |
+| Phase 2 脆弱性发现 | 四分支交互、等义协同、阶段及恢复边界 | 现象可复测，排除目标变化及明显主效应解释 |
+| Phase 3 范围验证 | 留出初始化、模板、任务及合格模型结果 | 冻结构造后独立确认，失效与负结果同列 |
+| Phase 4 方法设计 | 动作筛选＋任务反馈校正、预算曲线与迁移 | 等预算方法收益，独立最终评价；协同搜索以协同证据为前提 |
 
-## 在 Windows 项目目录中运行
+一般黑盒方法可依据条件依赖或时序风险成立，协同是待验证子问题。白盒机制分析为可选解释，不提供搜索反馈。
 
-本机安装使用 Ubuntu 的 root 用户，无需等待 Linux 用户初始化。在 `C:\VLA-LIBERO` 的 PowerShell 中可以直接调用项目启动脚本：
+## 当前实证进度
+
+最新 N/A 核查来自 2026-10-08，2026-10-09 另有两条独立中性追加诊断。**当前主模型为 SmolVLA；Phase 1 停在正常能力核查，正确辅助事实 A 未通过。**
+
+| 已完成工作 | 结果与解释 | 记录 |
+| --- | --- | --- |
+| 三模型环境与推理检查 | CUDA、双相机、动作预测及 30 步真实观测闭环通过 | [配置状态](docs/SETUP_STATUS.md) |
+| Spatial 每任务 1 个 episode 基线 | SmolVLA 8/10、Adapter 10/10、PulseVLA 9/10；不同栈结果不作统一排名 | [基线报告](docs/SPATIAL_BASELINE_20261006.md) |
+| SmolVLA 原双碗 init0..2 的 N/A | 两方向 N 均 2/3，A 均 0/3；真值、画面与等长预检通过，A 行为未通过 | [最新 N/A 核查](docs/PHASE1_SMOLVLA_SPATIAL_NA_20261008.md) |
+| SmolVLA init0 独立中性追加 | 两方向均 neither，新增 2 条／60 次查询；不能单独隔离长度、换行或参照物提及因素 | [诊断报告](docs/PHASE1_SMOLVLA_SPATIAL_NEUTRAL_20261009.md) |
+| VLA-Adapter 候选诊断 | 14 条完整 rollout、536 次查询；双碗第二方向未通过，单碗及措辞结果有各自边界 | [历史汇总](docs/PHASE1_EXPERIMENT_SUMMARY_20261008.md) |
+
+N/A 共 12 条结果、360 次 rollout 查询及 2 次旧诊断；该轮新增 10 条、300 次查询，两条旧 init0 N 只复用一次。中性追加的 2 条独立 U 探针另计，未加入正式矩阵。正式 X/U 冲突矩阵、80 条扩样、CoVLA 四分支及攻击搜索仍未启动。当前先重新设计并冻结辅助事实载体，再核查 A；四个 Q×N/A 块各至少 2/3 正确独占完成才进入条件性 X/U。该门槛仅用于探索推进。
+
+原版指代、固定初始化及停止规则见[执行入口](docs/PHASE1_ENTRY.md)，成本见[路线与查询账本](plans/黑盒跨模态攻击/07_实施路线与查询预算.md)。已测模板、失败和中止均属于已见探索，不充作独立测试。更早 SmolVLA 与 Adapter 结果保留在[接续记录](docs/RESUME.md)及对应历史报告中。
+
+## 模型与运行基础
+
+| 模型 | 当前角色 | 权重／配置 |
+| --- | --- | --- |
+| SmolVLA | 主模型、首先用于能力核查与后续发现 | `HuggingFaceVLA/smolvla_libero`，原生 hf-libero／MuJoCo 3.3.2 栈 |
+| VLA-Adapter 原版 | 历史对照与验证候选 | Spatial／Goal 已配置，`use_pro_version=False`，原版 LIBERO 栈 |
+| PulseVLA-LIBERO 0.5B | 验证候选 | `verapulse/pulsevla-libero-0.5b`，发布者指定栈 |
+
+每个模型使用独立 Python 环境，保留自己的图像处理、动作转换和执行块长度。验证模型通过自身正常能力核查后加入；原始 SR 或动作 L2 不直接用于跨模型排名。版本以 [sources.json](configs/sources.json)、`requirements/*.lock` 和每轮 manifest 为准。
+
+本机通过 WSL2／Ubuntu 22.04 运行，从项目根目录的 PowerShell 调用：
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\scripts\vla.ps1 doctor all --policy
-powershell -ExecutionPolicy Bypass -File .\scripts\vla.ps1 eval vla-adapter --suite libero_spatial --episodes 1
+powershell -ExecutionPolicy Bypass -File .\scripts\vla.ps1 eval smolvla --suite libero_spatial --episodes 1
 ```
 
-启动脚本将参数传给 WSL 中的 `scripts/vla.py`。下面的步骤保留了从头安装和 Ubuntu 终端使用方式。
+这些命令用于环境检查与基线评测，研究矩阵按独立冻结的执行协议运行。完整安装、固定依赖、下载、渲染和评测说明见[环境与运行](docs/RUNNING.md)。本机 RTX 3070 8GB 默认逐模型、单环境运行；权重、缓存、完整视频及运行输出不提交 Git。
 
-## 1. 重启后完成 WSL / Ubuntu 安装
+## 文档与目录
 
-在仓库目录的 PowerShell 中运行；脚本会请求 Windows UAC 管理员权限，且不会自动重启：
+| 入口 | 用途 |
+| --- | --- |
+| [完整研究方案](plans/研究方案.md) | CoVLA 形式的背景、问题、权限、形式化、方法、实验、风险与里程碑 |
+| [专题索引](plans/README.md) | 文献、设定、模型、行为、搜索、评估和预算细节 |
+| [当前进度与接续](docs/RESUME.md) | 当前决定、证据、产物位置与下一步 |
+| [Phase 1 执行协议](docs/PHASE1_ENTRY.md) | 冻结场景、指令、条件、门槛及复用规则 |
+| [历史实验汇总](docs/PHASE1_EXPERIMENT_SUMMARY_20261008.md) | 对应日期的逐轮结果、成本与结论边界 |
+| [环境与运行](docs/RUNNING.md) | 安装、版本、下载、检查和基线评测 |
 
-```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\scripts\bootstrap_wsl.ps1
-```
-
-如果提示需要重启，请保存工作并重启，再运行同一条命令。如需个人 Linux 用户，可打开 Ubuntu 22.04 完成用户名和密码初始化；本机已经使用 root 完成安装，项目启动脚本无需这一步。确认是 WSL2：
-
-```powershell
-wsl --list --verbose
-wsl -d Ubuntu-22.04 -- nvidia-smi
-```
-
-WSL 使用 Windows NVIDIA 驱动，不要在 Ubuntu 中安装 Linux NVIDIA 显卡驱动。`nvidia-smi` 显示的 CUDA 版本是驱动支持上限；脚本安装各模型需要的 CUDA wheel，无需安装完整 CUDA Toolkit。
-
-## 2. 在 Ubuntu 中安装三个环境
-
-以下命令在 Ubuntu 终端中运行。当前仓库的 WSL 路径是：
-
-```bash
-cd /mnt/c/VLA-LIBERO
-bash scripts/setup_linux.sh all
-```
-
-脚本安装系统渲染库、FFmpeg、uv 和托管 Python，随后依次创建 `.venvs/smolvla`、`.venvs/vla-adapter`、`.venvs/pulsevla`，按锁文件安装依赖，并检查依赖一致性。首次执行 `sudo` 需要你输入刚创建的 Linux 密码。单独安装某个环境可将 `all` 替换为模型名称。
-
-安装默认使用当前 checkout，也可以把整个仓库复制到 WSL 的 Linux 文件系统后执行，以改善小文件读写性能。移动已安装环境后需要重新创建 `.venvs`，不要直接移动虚拟环境。模型和 Python 下载需要访问 GitHub、PyPI、PyTorch wheel 源及 Hugging Face。缓存和环境可能占用几十 GB，请预留空间。
-
-## 3. 下载权重和检查
-
-先下载三个模型；VLA-Adapter 默认仅下载 Spatial 权重：
-
-```bash
-python3 scripts/vla.py download all
-python3 scripts/vla.py doctor all --policy
-```
-
-如果要评测四个套件，再下载 VLA-Adapter 的其余权重：
-
-```bash
-python3 scripts/vla.py download vla-adapter --suite all
-```
-
-`doctor` 逐个检查 CUDA、任务初始状态、两个相机画面和仿真动作执行；`--policy` 额外加载权重并做一次 7 维动作预测。诊断图像和 JSON 写入 `outputs/diagnostics/<model>/`。预测检查使用合成观测。短程闭环检查读取真实仿真观测，使用各模型原有处理和动作执行流程：
-
-```bash
-python3 scripts/vla.py rollout all --steps 30
-```
-
-该命令只运行 Spatial 的第 0 个任务，用于检查接口衔接；完整行为与成功率通过下面的评测验证。
-
-启动脚本在 WSL 初始设置 `MUJOCO_GL=glfw`；robosuite 可能在导入时切换渲染后端。本机三个环境实测均使用 EGL 渲染成功。如果相机初始化失败，可用 CPU 软件渲染检查，模型仍使用 CUDA：
-
-```bash
-MUJOCO_GL=osmesa python3 scripts/vla.py doctor all --policy
-```
-
-原生 Linux NVIDIA 环境默认使用 `egl`；也可显式设置 `MUJOCO_GL=egl`。不要在 WSL 中假定 CUDA 可用就表示 NVIDIA EGL 可用。
-
-## 4. 运行评测
-
-先用每任务 1 个 episode 验证三个模型能完整闭环运行（每个套件 10 个任务）：
-
-```bash
-python3 scripts/vla.py eval all --suite libero_spatial --episodes 1
-```
-
-正式评测四个套件，每任务 10 个 episode：
-
-```bash
-python3 scripts/vla.py eval smolvla --suite all --episodes 10 --seed 1
-python3 scripts/vla.py eval vla-adapter --suite all --episodes 10 --seed 1
-python3 scripts/vla.py eval pulsevla --suite all --episodes 10 --seed 1
-```
-
-输出位于 `outputs/<model>/<suite>-<timestamp>/`，包含运行参数、权重版本和实际安装依赖。SmolVLA 使用官方 LeRobot CLI，PulseVLA 使用随权重发布的 `eval_libero.py`，VLA-Adapter 使用官方 `run_libero_eval.py`。VLA-Adapter 上游视频输出在 `third_party/vla-adapter/rollouts/`。
-
-RTX 3070 8GB 默认逐模型运行、单个仿真环境，并配置 TensorFlow 按需分配显存。本机三个模型已通过实际加载和短程闭环检查；运行时仍需为模型预留显存。`--device cpu` 仅供 SmolVLA / PulseVLA 排查，速度会明显降低。
-
-不同模型保留各自的图像处理、归一化和动作转换；默认 SmolVLA / PulseVLA 每次执行 10 个动作，VLA-Adapter 执行上游默认的 8 个动作。它们使用不同评测器及仿真版本，结果不可视作完全统一条件下的排名。当前公共配置不承诺复现论文成功率。
-
-## 来源
-
-- [HF LIBERO 场景资源](https://huggingface.co/datasets/lerobot/libero-assets)
-- [LIBERO 官方代码](https://github.com/Lifelong-Robot-Learning/LIBERO)
-- [LeRobot LIBERO 文档](https://huggingface.co/docs/lerobot/en/libero)
-- [SmolVLA LIBERO 权重](https://huggingface.co/HuggingFaceVLA/smolvla_libero)
-- [VLA-Adapter 官方代码和安装说明](https://github.com/OpenHelix-Team/VLA-Adapter)
-- [PulseVLA-LIBERO 权重和复现说明](https://huggingface.co/verapulse/pulsevla-libero-0.5b)
+`configs/` 保存源版本与实验配置，`scripts/` 保存启动和核查脚本，`requirements/` 保存依赖锁，`papers/` 保存已有文献，`outputs/` 与 `logs/` 保存本地产物。历史报告按原统计范围保留，研究方案不将假设或计划写成实验结论。
