@@ -1,0 +1,736 @@
+{
+  "status": "completed",
+  "completed_at": "2026-10-09T06:19:22.672922+00:00",
+  "model": "smolvla",
+  "suite": "libero_spatial",
+  "physical_task_id": 8,
+  "init_ids": [
+    0
+  ],
+  "episodes": 2,
+  "results": [
+    {
+      "init_id": 0,
+      "question": "plate_side",
+      "condition": "T",
+      "text": "pick up the black bowl next to the plate and place it on the plate The table is flat.",
+      "expected_source": "bowl1",
+      "category": "neither",
+      "success": false,
+      "goal_events": {
+        "bowl1": false,
+        "bowl2": false
+      },
+      "first_event_steps": {
+        "bowl1": null,
+        "bowl2": null
+      },
+      "final_goal_events": {
+        "bowl1": false,
+        "bowl2": false
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": 64,
+          "grasp_contact_state_count": 5,
+          "max_height_gain_m": 0.03040074330708653,
+          "max_displacement_m": 0.04509345858275574
+        },
+        "bowl2": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 2.786076397365278e-07,
+          "max_displacement_m": 2.78607640728492e-07
+        }
+      },
+      "steps": 300,
+      "policy_calls": 30,
+      "token_audit": {
+        "actual_token_ids": [
+          18188,
+          614,
+          260,
+          2632,
+          12505,
+          1867,
+          288,
+          260,
+          6496,
+          284,
+          1379,
+          357,
+          335,
+          260,
+          6496,
+          378,
+          3252,
+          314,
+          5562,
+          30,
+          198
+        ],
+        "actual_attention_mask": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "full_token_count": 20,
+        "effective_token_count": 21,
+        "max_length": 48,
+        "decoded_effective_text": "pick up the black bowl next to the plate and place it on the plate The table is flat.\n",
+        "truncated": false,
+        "actual_image_shapes": {
+          "observation.images.image": [
+            1,
+            3,
+            360,
+            360
+          ],
+          "observation.images.image2": [
+            1,
+            3,
+            360,
+            360
+          ]
+        }
+      },
+      "paired_initial_hashes": {
+        "observation_sha256": true,
+        "simulator_state_sha256": true,
+        "initial_state_sha256": true
+      },
+      "reused": false
+    },
+    {
+      "init_id": 0,
+      "question": "ramekin_side",
+      "condition": "T",
+      "text": "pick up the black bowl next to the ramekin and place it on the plate The table is flat.",
+      "expected_source": "bowl2",
+      "category": "neither",
+      "success": false,
+      "goal_events": {
+        "bowl1": false,
+        "bowl2": false
+      },
+      "first_event_steps": {
+        "bowl1": null,
+        "bowl2": null
+      },
+      "final_goal_events": {
+        "bowl1": false,
+        "bowl2": false
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 2.786076397365278e-07,
+          "max_displacement_m": 2.786076407285085e-07
+        },
+        "bowl2": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 0.011587562003391505,
+          "max_displacement_m": 0.014910613805059545
+        }
+      },
+      "steps": 300,
+      "policy_calls": 30,
+      "token_audit": {
+        "actual_token_ids": [
+          18188,
+          614,
+          260,
+          2632,
+          12505,
+          1867,
+          288,
+          260,
+          689,
+          1558,
+          7109,
+          284,
+          1379,
+          357,
+          335,
+          260,
+          6496,
+          378,
+          3252,
+          314,
+          5562,
+          30,
+          198
+        ],
+        "actual_attention_mask": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "full_token_count": 22,
+        "effective_token_count": 23,
+        "max_length": 48,
+        "decoded_effective_text": "pick up the black bowl next to the ramekin and place it on the plate The table is flat.\n",
+        "truncated": false,
+        "actual_image_shapes": {
+          "observation.images.image": [
+            1,
+            3,
+            360,
+            360
+          ],
+          "observation.images.image2": [
+            1,
+            3,
+            360,
+            360
+          ]
+        }
+      },
+      "paired_initial_hashes": {
+        "observation_sha256": true,
+        "simulator_state_sha256": true,
+        "initial_state_sha256": true
+      },
+      "reused": false
+    }
+  ],
+  "baseline_references": [
+    {
+      "init_id": 0,
+      "question": "plate_side",
+      "condition": "N",
+      "text": "pick up the black bowl next to the plate and place it on the plate",
+      "expected_source": "bowl1",
+      "category": "bowl1_only",
+      "success": true,
+      "goal_events": {
+        "bowl1": true,
+        "bowl2": false
+      },
+      "first_event_steps": {
+        "bowl1": 91,
+        "bowl2": null
+      },
+      "final_goal_events": {
+        "bowl1": true,
+        "bowl2": false
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": 63,
+          "grasp_contact_state_count": 32,
+          "max_height_gain_m": 0.08965611745023783,
+          "max_displacement_m": 0.14287331442744286
+        },
+        "bowl2": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 2.786076397365278e-07,
+          "max_displacement_m": 2.78607640728492e-07
+        }
+      },
+      "steps": 300,
+      "policy_calls": 30,
+      "token_audit": {
+        "actual_token_ids": [
+          18188,
+          614,
+          260,
+          2632,
+          12505,
+          1867,
+          288,
+          260,
+          6496,
+          284,
+          1379,
+          357,
+          335,
+          260,
+          6496,
+          198
+        ],
+        "actual_attention_mask": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "full_token_count": 15,
+        "effective_token_count": 16,
+        "max_length": 48,
+        "decoded_effective_text": "pick up the black bowl next to the plate and place it on the plate\n",
+        "truncated": false,
+        "actual_image_shapes": {
+          "observation.images.image": [
+            1,
+            3,
+            360,
+            360
+          ],
+          "observation.images.image2": [
+            1,
+            3,
+            360,
+            360
+          ]
+        }
+      },
+      "paired_initial_hashes": {
+        "observation_sha256": true,
+        "simulator_state_sha256": true,
+        "initial_state_sha256": true
+      },
+      "reused": true,
+      "reused_episode_path": "/mnt/c/VLA-LIBERO/outputs/phase1/smolvla-spatial-reference-20261008/episodes/spatial8-init0-seed1-plate_side-N.json",
+      "reused_episode_sha256": "f35e579ff02b95bc16e40b9fab6e4b9e19a2f5ff8b9a29040b15b234f2c483d9"
+    },
+    {
+      "init_id": 0,
+      "question": "plate_side",
+      "condition": "S",
+      "text": "pick up the black bowl next to the plate and place it on the plate Initially, the plate and the ramekin are both resting on the table surface.",
+      "expected_source": "bowl1",
+      "category": "neither",
+      "success": false,
+      "goal_events": {
+        "bowl1": false,
+        "bowl2": false
+      },
+      "first_event_steps": {
+        "bowl1": null,
+        "bowl2": null
+      },
+      "final_goal_events": {
+        "bowl1": false,
+        "bowl2": false
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 0.011311448250279743,
+          "max_displacement_m": 0.01995897571320974
+        },
+        "bowl2": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 2.786076397365278e-07,
+          "max_displacement_m": 2.78607640728492e-07
+        }
+      },
+      "steps": 300,
+      "policy_calls": 30,
+      "token_audit": {
+        "actual_token_ids": [
+          18188,
+          614,
+          260,
+          2632,
+          12505,
+          1867,
+          288,
+          260,
+          6496,
+          284,
+          1379,
+          357,
+          335,
+          260,
+          6496,
+          20979,
+          28,
+          260,
+          6496,
+          284,
+          260,
+          689,
+          1558,
+          7109,
+          359,
+          1062,
+          15419,
+          335,
+          260,
+          3252,
+          2376,
+          30,
+          198
+        ],
+        "actual_attention_mask": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "full_token_count": 32,
+        "effective_token_count": 33,
+        "max_length": 48,
+        "decoded_effective_text": "pick up the black bowl next to the plate and place it on the plate Initially, the plate and the ramekin are both resting on the table surface.\n",
+        "truncated": false,
+        "actual_image_shapes": {
+          "observation.images.image": [
+            1,
+            3,
+            360,
+            360
+          ],
+          "observation.images.image2": [
+            1,
+            3,
+            360,
+            360
+          ]
+        }
+      },
+      "paired_initial_hashes": {
+        "observation_sha256": true,
+        "simulator_state_sha256": true,
+        "initial_state_sha256": true
+      },
+      "reused": true,
+      "reused_episode_path": "/mnt/c/VLA-LIBERO/outputs/phase1/smolvla-spatial-separator-20261009/episodes/spatial8-init0-seed1-plate_side-S.json",
+      "reused_episode_sha256": "e625566a205cdef7f99d69e577dc4b9b190939070cc5cf521dd43e60bfbaa83b"
+    },
+    {
+      "init_id": 0,
+      "question": "ramekin_side",
+      "condition": "N",
+      "text": "pick up the black bowl next to the ramekin and place it on the plate",
+      "expected_source": "bowl2",
+      "category": "bowl2_only",
+      "success": true,
+      "goal_events": {
+        "bowl1": false,
+        "bowl2": true
+      },
+      "first_event_steps": {
+        "bowl1": null,
+        "bowl2": 150
+      },
+      "final_goal_events": {
+        "bowl1": false,
+        "bowl2": true
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 0.004107329098097745,
+          "max_displacement_m": 0.007181639180169506
+        },
+        "bowl2": {
+          "first_grasp_contact_step": 104,
+          "grasp_contact_state_count": 51,
+          "max_height_gain_m": 0.13300899566418667,
+          "max_displacement_m": 0.2608438273761241
+        }
+      },
+      "steps": 300,
+      "policy_calls": 30,
+      "token_audit": {
+        "actual_token_ids": [
+          18188,
+          614,
+          260,
+          2632,
+          12505,
+          1867,
+          288,
+          260,
+          689,
+          1558,
+          7109,
+          284,
+          1379,
+          357,
+          335,
+          260,
+          6496,
+          198
+        ],
+        "actual_attention_mask": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "full_token_count": 17,
+        "effective_token_count": 18,
+        "max_length": 48,
+        "decoded_effective_text": "pick up the black bowl next to the ramekin and place it on the plate\n",
+        "truncated": false,
+        "actual_image_shapes": {
+          "observation.images.image": [
+            1,
+            3,
+            360,
+            360
+          ],
+          "observation.images.image2": [
+            1,
+            3,
+            360,
+            360
+          ]
+        }
+      },
+      "paired_initial_hashes": {
+        "observation_sha256": true,
+        "simulator_state_sha256": true,
+        "initial_state_sha256": true
+      },
+      "reused": true,
+      "reused_episode_path": "/mnt/c/VLA-LIBERO/outputs/phase1/smolvla-spatial-reference-20261008/episodes/spatial8-init0-seed1-ramekin_side-N.json",
+      "reused_episode_sha256": "9e5c9a43ff59213e21d71eb4d91f491863f74a594e5f22ba7151d165bfa32980"
+    },
+    {
+      "init_id": 0,
+      "question": "ramekin_side",
+      "condition": "S",
+      "text": "pick up the black bowl next to the ramekin and place it on the plate Initially, the plate and the ramekin are both resting on the table surface.",
+      "expected_source": "bowl2",
+      "category": "neither",
+      "success": false,
+      "goal_events": {
+        "bowl1": false,
+        "bowl2": false
+      },
+      "first_event_steps": {
+        "bowl1": null,
+        "bowl2": null
+      },
+      "final_goal_events": {
+        "bowl1": false,
+        "bowl2": false
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": 104,
+          "grasp_contact_state_count": 80,
+          "max_height_gain_m": 0.16235029692380198,
+          "max_displacement_m": 0.285737405261455
+        },
+        "bowl2": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 0.016519211700302794,
+          "max_displacement_m": 0.03624535140898301
+        }
+      },
+      "steps": 300,
+      "policy_calls": 30,
+      "token_audit": {
+        "actual_token_ids": [
+          18188,
+          614,
+          260,
+          2632,
+          12505,
+          1867,
+          288,
+          260,
+          689,
+          1558,
+          7109,
+          284,
+          1379,
+          357,
+          335,
+          260,
+          6496,
+          20979,
+          28,
+          260,
+          6496,
+          284,
+          260,
+          689,
+          1558,
+          7109,
+          359,
+          1062,
+          15419,
+          335,
+          260,
+          3252,
+          2376,
+          30,
+          198
+        ],
+        "actual_attention_mask": [
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true,
+          true
+        ],
+        "full_token_count": 34,
+        "effective_token_count": 35,
+        "max_length": 48,
+        "decoded_effective_text": "pick up the black bowl next to the ramekin and place it on the plate Initially, the plate and the ramekin are both resting on the table surface.\n",
+        "truncated": false,
+        "actual_image_shapes": {
+          "observation.images.image": [
+            1,
+            3,
+            360,
+            360
+          ],
+          "observation.images.image2": [
+            1,
+            3,
+            360,
+            360
+          ]
+        }
+      },
+      "paired_initial_hashes": {
+        "observation_sha256": true,
+        "simulator_state_sha256": true,
+        "initial_state_sha256": true
+      },
+      "reused": true,
+      "reused_episode_path": "/mnt/c/VLA-LIBERO/outputs/phase1/smolvla-spatial-separator-20261009/episodes/spatial8-init0-seed1-ramekin_side-S.json",
+      "reused_episode_sha256": "b8ec0d3be65f14e9db2027650ed8c6283f12f9b24efcc9db680eba70d56b0013"
+    }
+  ],
+  "short_both_directions_passed": false,
+  "new_rollout_policy_calls": 60,
+  "reused_baseline_policy_calls": 120,
+  "diagnostic_policy_calls_new": 0,
+  "formal_matrix_rollouts_new": 0,
+  "conflict_rollouts": 0,
+  "formal_conflict_matrix": false,
+  "short_fact": "The table is flat.",
+  "token_deltas": {
+    "plate_side": -12,
+    "ramekin_side": -12
+  },
+  "interpretation": "Two short neutral-expression probes; lexical/content changes confounded with length. A eligibility remains separately untested for new templates."
+}
