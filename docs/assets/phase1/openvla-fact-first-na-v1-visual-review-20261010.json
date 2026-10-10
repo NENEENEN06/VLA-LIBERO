@@ -1,0 +1,75 @@
+{
+  "passed": true,
+  "reviewer": "Codex visually inspected all six actual policy224 images",
+  "reviewed_at_utc": "2026-10-10T10:04:52.815045+00:00",
+  "preflight_sha256": "d1d09feb7985e6c8fdbd51677f2688016ab072ed76d4ecd48c4afaf4ef9e20f7",
+  "policy_queries": 0,
+  "records": [
+    {
+      "task": "ramekin",
+      "init_id": 0,
+      "image_file": "preflight-ramekin-init0-policy224.png",
+      "image_file_sha256": "330e9668bbaf78fb5200e32b7b75cde11f0a5f1aaa7a6d56110cfa9693ea8341",
+      "target_bowl_identifiable": true,
+      "alternative_bowl_identifiable": true,
+      "plate_visible": true,
+      "ramekin_visible": true,
+      "observation": "Both bowls, plate and ramekin identifiable in the actual policy224 image; same start as the audited native N/A reference."
+    },
+    {
+      "task": "ramekin",
+      "init_id": 1,
+      "image_file": "preflight-ramekin-init1-policy224.png",
+      "image_file_sha256": "c35f59354dba2146c24e1fb3d518618b6cc85877fb96709f26bfa634ce427dd6",
+      "target_bowl_identifiable": true,
+      "alternative_bowl_identifiable": true,
+      "plate_visible": true,
+      "ramekin_visible": true,
+      "observation": "Both bowls, plate and ramekin identifiable in the actual policy224 image; same start as the audited native N/A reference."
+    },
+    {
+      "task": "ramekin",
+      "init_id": 2,
+      "image_file": "preflight-ramekin-init2-policy224.png",
+      "image_file_sha256": "c502dba82818e316c7f5e95d5e93b4b2072fbfe09b723214191aaefb9e0a5371",
+      "target_bowl_identifiable": true,
+      "alternative_bowl_identifiable": true,
+      "plate_visible": true,
+      "ramekin_visible": true,
+      "observation": "Both bowls, plate and ramekin identifiable in the actual policy224 image; same start as the audited native N/A reference."
+    },
+    {
+      "task": "plate",
+      "init_id": 0,
+      "image_file": "preflight-plate-init0-policy224.png",
+      "image_file_sha256": "2ef4ffa5988353cd4833864424f0df168e3205ebd4a4cf49267ff7198a3051a0",
+      "target_bowl_identifiable": true,
+      "alternative_bowl_identifiable": true,
+      "plate_visible": true,
+      "ramekin_visible": true,
+      "observation": "Both bowls, plate and ramekin identifiable in the actual policy224 image; same start as the audited native N/A reference."
+    },
+    {
+      "task": "plate",
+      "init_id": 1,
+      "image_file": "preflight-plate-init1-policy224.png",
+      "image_file_sha256": "c896572104933a9b37dabc70f3b9ca9e07a331a1069d9a06a38ea94b108f7e2d",
+      "target_bowl_identifiable": true,
+      "alternative_bowl_identifiable": true,
+      "plate_visible": true,
+      "ramekin_visible": true,
+      "observation": "Target bowl partly clipped at left edge but identifiable; both bowls and plate/ramekin visible. Same start as the audited native N/A reference."
+    },
+    {
+      "task": "plate",
+      "init_id": 2,
+      "image_file": "preflight-plate-init2-policy224.png",
+      "image_file_sha256": "c099661b8e97ec22e19387b4328b2c80c3cd94d11aab971d9feaf1e0065acd12",
+      "target_bowl_identifiable": true,
+      "alternative_bowl_identifiable": true,
+      "plate_visible": true,
+      "ramekin_visible": true,
+      "observation": "Both bowls, plate and ramekin identifiable in the actual policy224 image; same start as the audited native N/A reference."
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "checks": {
+    "actions_equal_for_first_112": true,
+    "state_trace_equal_for_first_112": true,
+    "actual_inputs_equal_for_first_112": true
+  },
+  "interrupted_queries_counted_once": 112,
+  "reused_policy_queries": 0,
+  "source_partial_sha256": "b35158c441544bde9bb28a041e1bcf6ab0e1121dce93ab84fe69c132a7a7070b",
+  "fresh_episode_sha256": "1c8c94503ca5c3e37dacf732a4781125a2aaa4f1097f03704faa17748f6fa121",
+  "same_scientific_config_and_runtime": true
+}

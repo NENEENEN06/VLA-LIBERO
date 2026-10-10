@@ -1,0 +1,24 @@
+{
+  "reviewer": "Codex visual inspection",
+  "policy_image_hash_audit": "preflight-policy-image-audit.json",
+  "policy_queries": 0,
+  "findings": [
+    "All three actual 224px cropped primary-camera images contain two distinguishable black bowls, the plate and the white ramekin.",
+    "The lower/plate-side bowl is bowl1; the upper/ramekin-side bowl is bowl2, consistent with independently audited geometry.",
+    "At init1 the plate-side bowl is near the left boundary and partly clipped, but remains identifiable; retain this input limitation.",
+    "Both normal directions use this same task8 scene; no alternate physical task1 scene is substituted."
+  ],
+  "reviewed_at": "2026-10-09",
+  "passed_scope": "Initial reference visibility and true A facts; model behavior assessed separately.",
+  "reviewed_init_ids": [
+    0,
+    1,
+    2
+  ],
+  "images": [
+    "images/preflight-init0-policy224.png",
+    "images/preflight-init1-policy224.png",
+    "images/preflight-init2-policy224.png"
+  ],
+  "passed": true
+}

@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "reused_episodes": 3,
+  "policy_queries": 0,
+  "already_accounted_source_calls": 329,
+  "source_manifest_sha256": "4c5b0606ac0fb9bfa9bb268b433e347189ea2de8b5f669ee52d7c504baa39152",
+  "source_summary_sha256": "0498ea9771d36874560f5476bb98603390d5246f9310d3686adb993d227dfef2",
+  "records": [
+    {
+      "init_id": 0,
+      "source_episode": "/mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/native-ramekin-20261010/episodes/native-spatial1-init0-seed1-ramekin-N.json",
+      "sha256": "eb96b8a5145897f4165dfe208e24dd9dda551343505ccd5c301b61a38c9b1b44",
+      "state_input_runtime_termination_checks": "passed"
+    },
+    {
+      "init_id": 1,
+      "source_episode": "/mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/native-ramekin-20261010/episodes/native-spatial1-init1-seed1-ramekin-N.json",
+      "sha256": "d1546344c8d3ee76bac48ca0fc7af3906645c1afd9dc752e8cecf7ce7749edf1",
+      "state_input_runtime_termination_checks": "passed"
+    },
+    {
+      "init_id": 2,
+      "source_episode": "/mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/native-ramekin-20261010/episodes/native-spatial1-init2-seed1-ramekin-N.json",
+      "sha256": "dca5cb7352344168b18a63be4e644bead895b1aa85ee8985142ed17def112fba",
+      "state_input_runtime_termination_checks": "passed"
+    }
+  ]
+}

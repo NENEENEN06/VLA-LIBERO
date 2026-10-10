@@ -1,0 +1,16 @@
+{
+  "protocol": "openvla-fact-first-native-NA-v1",
+  "init_ids": [0, 1, 2],
+  "tasks": ["ramekin", "plate"],
+  "new_A_init_ids": [1, 2],
+  "reused_N_episodes": 6,
+  "reused_A_init0_episodes": 2,
+  "already_accounted_source_calls": 1062,
+  "max_new_policy_queries": 1200,
+  "max_new_episodes": 4,
+  "diagnostic_policy_queries": 0,
+  "normal_gate": "Every task/N and task/A block has three cases and at least two correct-exclusive native successes.",
+  "old_qualifications_changed": false,
+  "formal_conflict_rollouts": 0,
+  "main_model_promotion": false
+}

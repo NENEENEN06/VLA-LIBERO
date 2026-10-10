@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "reviewer": "Codex visually inspected both actual policy224 images",
+  "reviewed_at_utc": "2026-10-10T08:51:18.844158+00:00",
+  "preflight_sha256": "84b81719e4f2dfe3ce907bd06ad62a0dcc16985dcc7e454003aa2c372c2fca5d",
+  "policy_queries": 0,
+  "records": [
+    {
+      "task": "ramekin",
+      "init_id": 0,
+      "image_file": "preflight-ramekin-init0-policy224.png",
+      "image_file_sha256": "330e9668bbaf78fb5200e32b7b75cde11f0a5f1aaa7a6d56110cfa9693ea8341",
+      "target_bowl_identifiable": true,
+      "alternative_bowl_identifiable": true,
+      "plate_visible": true,
+      "ramekin_visible": true,
+      "observation": "Both bowls, plate and ramekin identifiable in the actual policy224 image; same start as the audited native N/A reference."
+    },
+    {
+      "task": "plate",
+      "init_id": 0,
+      "image_file": "preflight-plate-init0-policy224.png",
+      "image_file_sha256": "2ef4ffa5988353cd4833864424f0df168e3205ebd4a4cf49267ff7198a3051a0",
+      "target_bowl_identifiable": true,
+      "alternative_bowl_identifiable": true,
+      "plate_visible": true,
+      "ramekin_visible": true,
+      "observation": "Both bowls, plate and ramekin identifiable in the actual policy224 image; same start as the audited native N/A reference."
+    }
+  ]
+}

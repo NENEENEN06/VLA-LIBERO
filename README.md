@@ -4,7 +4,7 @@
 
 本项目在 LIBERO 操作仿真中研究视觉与语言如何共同影响 VLA 的目标选择和闭环执行，并探索这些行为规律能否提高有限查询预算下的黑盒攻击效率。研究方案按 CoVLA 的结构组织：正常能力与语义约束、配对反事实、交互度量、候选搜索、独立验证及失效边界。
 
-更新日期：2026-10-09（Asia/Shanghai）。研究设计、当前实测与条件性后续安排分别注明；协同现象尚未得到本项目实验证实。
+更新日期：2026-10-10（Asia/Shanghai）。研究设计、当前实测与条件性后续安排分别注明；协同现象尚未得到本项目实验证实。
 
 [完整研究方案](plans/研究方案.md) · [专题文档](plans/README.md) · [当前进度](docs/RESUME.md) · [Phase 1 执行协议](docs/PHASE1_ENTRY.md) · [环境与运行](docs/RUNNING.md)
 
@@ -67,7 +67,7 @@ flowchart LR
 
 ## 当前实证进度
 
-最新 N/A 核查来自 2026-10-08，2026-10-09 另有两条独立中性追加诊断。**当前主模型为 SmolVLA；Phase 1 停在正常能力核查，正确辅助事实 A 未通过。**
+SmolVLA N/A 核查来自2026-10-08，10月9日另有中性追加、空格拼接、短中性句三轮独立诊断。10月10日新增OpenVLA Spatial 4-bit同场景及原生任务内核查。**Phase 1仍停在前置能力门槛：SmolVLA的A未通过；OpenVLA旧同场景双向N未通过，新的原生任务内配对A也未通过。**
 
 | 已完成工作 | 结果与解释 | 记录 |
 | --- | --- | --- |
@@ -75,11 +75,21 @@ flowchart LR
 | Spatial 每任务 1 个 episode 基线 | SmolVLA 8/10、Adapter 10/10、PulseVLA 9/10；不同栈结果不作统一排名 | [基线报告](docs/SPATIAL_BASELINE_20261006.md) |
 | SmolVLA 原双碗 init0..2 的 N/A | 两方向 N 均 2/3，A 均 0/3；真值、画面与等长预检通过，A 行为未通过 | [最新 N/A 核查](docs/PHASE1_SMOLVLA_SPATIAL_NA_20261008.md) |
 | SmolVLA init0 独立中性追加 | 两方向均 neither，新增 2 条／60 次查询；不能单独隔离长度、换行或参照物提及因素 | [诊断报告](docs/PHASE1_SMOLVLA_SPATIAL_NEUTRAL_20261009.md) |
+| SmolVLA 空格拼接／短中性句 | 两轮各新增2条／60次查询，两方向仍均neither；未隔离单一失败原因 | [空格对照](docs/PHASE1_SMOLVLA_SPATIAL_SEPARATOR_20261009.md)、[短句对照](docs/PHASE1_SMOLVLA_SPATIAL_SHORT_NEUTRAL_20261009.md) |
+| OpenVLA Spatial 4-bit三初始化N | 盘子方向2/3、ramekin方向0/3；新增6条／1800次查询，N未通过，A未运行 | [候选核查](docs/OPENVLA_SPATIAL_4BIT_SCREEN_20261010.md) |
+| OpenVLA 原生ramekin任务对照 | task1自己场景／初始化下3/3正确独占成功，第114／99／116步；新增329次查询，独立于task8资格 | [原生任务报告](docs/OPENVLA_NATIVE_RAMEKIN_20261010.md) |
+| OpenVLA 原生任务内N/A配对v1 | task1 N3/3、task8 N2/3，A均0/3；新增9条／2312次查询，三条旧N来源核验后复用 | [新N/A报告](docs/PHASE1_OPENVLA_NATIVE_NA_20261010.md) |
+| OpenVLA 同长度中性追加v1 | 两个原生任务init0：ramekin第111步成功，plate满300步neither；新增411次查询，A门槛不改写 | [中性追加报告](docs/OPENVLA_NATIVE_NEUTRAL_V1_20261010.md) |
+| OpenVLA 原问题先结束、事实置后v1 | 两N成功；plate A第133步成功、ramekin A失败；U为ramekin成功、plate失败；重跑新增1074次，首轮I/O中止112次另计 | [包装诊断](docs/OPENVLA_QUESTION_CONTEXT_V1_20261010.md) |
+| OpenVLA 事实先行、原问题收尾v1 | 两任务init0 N/A/U六条全成功；其中前置无关事实U分别132／91步成功，新增665次 | [事实先行报告](docs/OPENVLA_FACT_FIRST_V1_20261010.md) |
+| OpenVLA 事实先行三初始化N/A | N为ramekin 3/3、plate 2/3；A均1/3，新增四条／1200次查询，门槛未通过，现已暂停 | [三初始化结果](docs/PHASE1_OPENVLA_FACT_FIRST_NA_RESULTS_20261010.md)、[接续汇总](docs/EXPERIMENT_CONTINUATION_20261010.md) |
 | VLA-Adapter 候选诊断 | 14 条完整 rollout、536 次查询；双碗第二方向未通过，单碗及措辞结果有各自边界 | [历史汇总](docs/PHASE1_EXPERIMENT_SUMMARY_20261008.md) |
 
-N/A 共 12 条结果、360 次 rollout 查询及 2 次旧诊断；该轮新增 10 条、300 次查询，两条旧 init0 N 只复用一次。中性追加的 2 条独立 U 探针另计，未加入正式矩阵。正式 X/U 冲突矩阵、80 条扩样、CoVLA 四分支及攻击搜索仍未启动。当前先重新设计并冻结辅助事实载体，再核查 A；四个 Q×N/A 块各至少 2/3 正确独占完成才进入条件性 X/U。该门槛仅用于探索推进。
+SmolVLA N/A共12条结果、360次rollout查询及2次旧诊断；该轮新增10条、300次查询，两条旧init0 N只复用一次。三轮中性／拼接诊断共新增6条、180次查询，未加入正式矩阵。OpenVLA断电未完成轮按用户要求删除后重新运行，旧消耗单列；新N门槛不通过，未进入A。正式X/U冲突矩阵、80条扩样、CoVLA四分支及攻击搜索仍未启动。模型／载体改动另立前置核查；四个Q×N/A块各至少2/3正确独占完成才进入条件性X/U。该门槛仅用于探索推进。
 
 原版指代、固定初始化及停止规则见[执行入口](docs/PHASE1_ENTRY.md)，成本见[路线与查询账本](plans/黑盒跨模态攻击/07_实施路线与查询预算.md)。已测模板、失败和中止均属于已见探索，不充作独立测试。更早 SmolVLA 与 Adapter 结果保留在[接续记录](docs/RESUME.md)及对应历史报告中。
+
+原生ramekin对照支持当前OpenVLA配置具备该原生任务的执行能力。未修改追加包装的[任务内配对v1](docs/PHASE1_OPENVLA_NATIVE_PAIRS_V1_20261010.md)两个A均0/3；[问题先结束、事实置后](docs/OPENVLA_QUESTION_CONTEXT_V1_20261010.md)使plate init0 A成功、ramekin A仍失败。[事实先行](docs/OPENVLA_FACT_FIRST_V1_20261010.md)的两个init0 N/A/U六条全成功，但[三初始化N/A](docs/PHASE1_OPENVLA_FACT_FIRST_NA_RESULTS_20261010.md)两个A均仅1/3，正常门槛未通过。按用户要求完成本轮后暂停，前置无关事实已经试过，不重复或补测。连续接续新增3462次查询，OpenVLA累计至少8287次；I/O中止成本单列，旧资格及原生3厘米判据不改写，正式冲突未启动。
 
 ## 模型与运行基础
 
@@ -88,8 +98,11 @@ N/A 共 12 条结果、360 次 rollout 查询及 2 次旧诊断；该轮新增 1
 | SmolVLA | 主模型、首先用于能力核查与后续发现 | `HuggingFaceVLA/smolvla_libero`，原生 hf-libero／MuJoCo 3.3.2 栈 |
 | VLA-Adapter 原版 | 历史对照与验证候选 | Spatial／Goal 已配置，`use_pro_version=False`，原版 LIBERO 栈 |
 | PulseVLA-LIBERO 0.5B | 验证候选 | `verapulse/pulsevla-libero-0.5b`，发布者指定栈 |
+| OpenVLA Spatial 4-bit原版 | 运行可用；旧同场景双向N及新原生配对A均未通过 | `openvla/openvla-7b-finetuned-libero-spatial`，原版LIBERO、单相机、FP4／SDPA |
 
 每个模型使用独立 Python 环境，保留自己的图像处理、动作转换和执行块长度。验证模型通过自身正常能力核查后加入；原始 SR 或动作 L2 不直接用于跨模型排名。版本以 [sources.json](configs/sources.json)、`requirements/*.lock` 和每轮 manifest 为准。
+
+OpenVLA候选使用[独立配置](configs/openvla-spatial-4bit.json)及`scripts/openvla.ps1`入口。已在本机8GB GPU通过4-bit加载、重置一致性和一条官方原任务基线，见[运行核查](docs/OPENVLA_SPATIAL_4BIT_READINESS_20261009.md)；双向N/A核查与断电重跑记录见[冻结入口](docs/OPENVLA_SPATIAL_4BIT_ENTRY.md)。正式Phase 1仍须通过正常能力门槛。
 
 本机通过 WSL2／Ubuntu 22.04 运行，从项目根目录的 PowerShell 调用：
 

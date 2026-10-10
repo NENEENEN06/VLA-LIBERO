@@ -1,0 +1,24 @@
+{
+  "status": "passed",
+  "policy_queries": 0,
+  "records": [
+    {
+      "init_id": 0,
+      "path": "/mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/readiness-retry2-20261009/images/preflight-init0-policy224.png",
+      "processed_image_sha256": "3def199596c36820da30cf3aba1ac4232453c013a26f57c0ccffde6baff1d6a0",
+      "all_N_A_input_images_matched": true
+    },
+    {
+      "init_id": 1,
+      "path": "/mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/readiness-retry2-20261009/images/preflight-init1-policy224.png",
+      "processed_image_sha256": "13c2432ae3b8a06e078a23e080cfd54bc1434b915cabae2db8f441415f9529d2",
+      "all_N_A_input_images_matched": true
+    },
+    {
+      "init_id": 2,
+      "path": "/mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/readiness-retry2-20261009/images/preflight-init2-policy224.png",
+      "processed_image_sha256": "543369b3eb7b292d8a7b28abca4ccb3a40c20b1095806afea1ea13ce9c58b755",
+      "all_N_A_input_images_matched": true
+    }
+  ]
+}

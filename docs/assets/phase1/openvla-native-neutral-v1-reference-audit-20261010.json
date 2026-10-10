@@ -1,0 +1,53 @@
+{
+  "status": "passed",
+  "role": "seen N/A reference only; no matrix rows added",
+  "policy_queries": 0,
+  "reference_summary_sha256": "ce01ef1d92c76c78a9480e1a3691aa5103563b7a24f32a064fb775e2f70c8641",
+  "reference_manifest_sha256": "7f5df12cd21541d18cae75764f0af1af7fd0ae1340a400a13483d95ffc0463e6",
+  "records": [
+    {
+      "task": "ramekin",
+      "condition": "N",
+      "init_id": 0,
+      "source_episode": "/mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/native-ramekin-20261010/episodes/native-spatial1-init0-seed1-ramekin-N.json",
+      "source_episode_sha256": "eb96b8a5145897f4165dfe208e24dd9dda551343505ccd5c301b61a38c9b1b44",
+      "success": true,
+      "category": "bowl1_only",
+      "steps": 114,
+      "already_accounted_policy_calls": 114
+    },
+    {
+      "task": "ramekin",
+      "condition": "A",
+      "init_id": 0,
+      "source_episode": "/mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/native-pairs-v1-20261010/episodes/native-pairs-spatial1-init0-A.json",
+      "source_episode_sha256": "7a4a4272772f347cd0e2415a7e75148ace71bd08a6689cafcd6f715fda4da4df",
+      "success": false,
+      "category": "neither",
+      "steps": 300,
+      "already_accounted_policy_calls": 300
+    },
+    {
+      "task": "plate",
+      "condition": "N",
+      "init_id": 0,
+      "source_episode": "/mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/native-pairs-v1-20261010/episodes/native-pairs-spatial8-init0-N.json",
+      "source_episode_sha256": "585fcdc80fe8dc156cf8b6a91b04d1a884e3cf8757f0e712b77b54413d0e07e8",
+      "success": true,
+      "category": "bowl1_only",
+      "steps": 107,
+      "already_accounted_policy_calls": 107
+    },
+    {
+      "task": "plate",
+      "condition": "A",
+      "init_id": 0,
+      "source_episode": "/mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/native-pairs-v1-20261010/episodes/native-pairs-spatial8-init0-A.json",
+      "source_episode_sha256": "c907cd05a489046fb38555a4f9561a94519ceb81d8c39d7af3403edc6150de5d",
+      "success": false,
+      "category": "neither",
+      "steps": 300,
+      "already_accounted_policy_calls": 300
+    }
+  ]
+}

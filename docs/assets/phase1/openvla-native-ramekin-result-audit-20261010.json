@@ -1,0 +1,155 @@
+{
+  "status": "passed",
+  "episodes": 3,
+  "new_queries": 329,
+  "native_successes": 3,
+  "native_skill_diagnostic_passed": true,
+  "qualification_passed": false,
+  "source_and_input_checks": "passed",
+  "rows": [
+    {
+      "key": "native-spatial1-init0-seed1-ramekin-N",
+      "init_id": 0,
+      "category": "bowl1_only",
+      "native_success": true,
+      "correct_exclusive_success": true,
+      "steps": 114,
+      "policy_calls": 114,
+      "first_event_steps": {
+        "bowl1": 114,
+        "bowl2": null
+      },
+      "first_black_bowl_bilateral_contact": {
+        "step": 67,
+        "bowls": [
+          "bowl1"
+        ]
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": 67,
+          "grasp_contact_state_count": 48,
+          "max_height_gain_m": 0.1939690619894856,
+          "max_displacement_m": 0.3502925406646429
+        },
+        "bowl2": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 2.786076397365278e-07,
+          "max_displacement_m": 2.786076407285072e-07
+        }
+      },
+      "rollout_seconds": 107.09054581499993,
+      "effective_tokens": 32,
+      "mean_query_seconds": 0.7814137749298241,
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.027669801597764103
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.2815928217050549
+        }
+      }
+    },
+    {
+      "key": "native-spatial1-init1-seed1-ramekin-N",
+      "init_id": 1,
+      "category": "bowl1_only",
+      "native_success": true,
+      "correct_exclusive_success": true,
+      "steps": 99,
+      "policy_calls": 99,
+      "first_event_steps": {
+        "bowl1": 99,
+        "bowl2": null
+      },
+      "first_black_bowl_bilateral_contact": {
+        "step": 57,
+        "bowls": [
+          "bowl1"
+        ]
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": 57,
+          "grasp_contact_state_count": 43,
+          "max_height_gain_m": 0.14616936653817736,
+          "max_displacement_m": 0.2642795821956516
+        },
+        "bowl2": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 2.786076397365278e-07,
+          "max_displacement_m": 2.786076407285242e-07
+        }
+      },
+      "rollout_seconds": 98.44064813599994,
+      "effective_tokens": 32,
+      "mean_query_seconds": 0.8388698021111152,
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.010405570107810468
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.2658947364403871
+        }
+      }
+    },
+    {
+      "key": "native-spatial1-init2-seed1-ramekin-N",
+      "init_id": 2,
+      "category": "bowl1_only",
+      "native_success": true,
+      "correct_exclusive_success": true,
+      "steps": 116,
+      "policy_calls": 116,
+      "first_event_steps": {
+        "bowl1": 116,
+        "bowl2": null
+      },
+      "first_black_bowl_bilateral_contact": {
+        "step": 68,
+        "bowls": [
+          "bowl1"
+        ]
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": 68,
+          "grasp_contact_state_count": 49,
+          "max_height_gain_m": 0.15541528352288525,
+          "max_displacement_m": 0.27012170374861577
+        },
+        "bowl2": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 2.786076397365278e-07,
+          "max_displacement_m": 2.786076407285072e-07
+        }
+      },
+      "rollout_seconds": 120.38706810200006,
+      "effective_tokens": 32,
+      "mean_query_seconds": 0.8794087193793044,
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.0037044897796822697
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.28944052763855854
+        }
+      }
+    }
+  ]
+}

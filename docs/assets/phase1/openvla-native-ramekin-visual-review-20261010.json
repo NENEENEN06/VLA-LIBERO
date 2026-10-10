@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "reviewer": "Codex visual inspection of all three actual policy224 images",
+  "reviewed_at_utc": "2026-10-10T05:25:31.4383024Z",
+  "preflight_sha256": "8499f064fae2a07cafe62b3f9603ad9c1be4d49afadd6b8347f4a2402ebbb1b2",
+  "policy_queries": 0,
+  "records": [
+    {
+      "init_id": 0,
+      "image_file": "preflight-init0-policy224.png",
+      "image_file_sha256": "330e9668bbaf78fb5200e32b7b75cde11f0a5f1aaa7a6d56110cfa9693ea8341",
+      "target_bowl_visible": true,
+      "alternate_bowl_visible": true,
+      "ramekin_visible": true,
+      "plate_visible": true,
+      "observation": "Target black bowl at upper left beside the small white ramekin; alternate black bowl at lower center/right; plate at lower left. All present in crop."
+    },
+    {
+      "init_id": 1,
+      "image_file": "preflight-init1-policy224.png",
+      "image_file_sha256": "c35f59354dba2146c24e1fb3d518618b6cc85877fb96709f26bfa634ce427dd6",
+      "target_bowl_visible": true,
+      "alternate_bowl_visible": true,
+      "ramekin_visible": true,
+      "plate_visible": true,
+      "observation": "Target black bowl at upper left beside the small white ramekin; alternate black bowl at lower center/right; plate at lower left. All present in crop."
+    },
+    {
+      "init_id": 2,
+      "image_file": "preflight-init2-policy224.png",
+      "image_file_sha256": "c502dba82818e316c7f5e95d5e93b4b2072fbfe09b723214191aaefb9e0a5371",
+      "target_bowl_visible": true,
+      "alternate_bowl_visible": true,
+      "ramekin_visible": true,
+      "plate_visible": true,
+      "observation": "Target black bowl at upper left beside the small white ramekin; alternate black bowl at lower center/right; plate at lower left. All present in crop."
+    }
+  ]
+}

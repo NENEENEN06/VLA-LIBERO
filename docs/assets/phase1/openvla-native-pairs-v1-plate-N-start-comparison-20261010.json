@@ -1,0 +1,29 @@
+{
+  "policy_queries": 0,
+  "old_preflight_sha256": "9a3ff2266769534d3017e2dec6fc849bdacb64047fc05373aa3761b1fecdf2c6",
+  "new_preflight_sha256": "d47e74ed049c6d7c10561e00190f5efb535f657d3cf1c3611b4550723a9c9451",
+  "comparison": "Same task8 starts and inputs; independent new rollouts because termination window differs.",
+  "records": [
+    {
+      "init_id": 0,
+      "observation_same": true,
+      "simulator_state_same": true,
+      "source_initial_state_same": true,
+      "policy_pixels_same": true
+    },
+    {
+      "init_id": 1,
+      "observation_same": true,
+      "simulator_state_same": true,
+      "source_initial_state_same": true,
+      "policy_pixels_same": true
+    },
+    {
+      "init_id": 2,
+      "observation_same": true,
+      "simulator_state_same": true,
+      "source_initial_state_same": true,
+      "policy_pixels_same": true
+    }
+  ]
+}

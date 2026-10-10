@@ -1,0 +1,93 @@
+{
+  "status": "passed",
+  "new_queries": 411,
+  "episodes": 2,
+  "successes": 1,
+  "source_and_input_checks": "passed",
+  "rows": [
+    {
+      "key": "native-pairs-spatial1-init0-U",
+      "task": "ramekin",
+      "init_id": 0,
+      "condition": "U",
+      "category": "bowl1_only",
+      "success": true,
+      "steps": 111,
+      "policy_calls": 111,
+      "first_event_steps": {
+        "bowl1": 111,
+        "bowl2": null
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": 65,
+          "grasp_contact_state_count": 47,
+          "max_height_gain_m": 0.1789583982706504,
+          "max_displacement_m": 0.32825346903211045
+        },
+        "bowl2": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 2.786076397365278e-07,
+          "max_displacement_m": 2.786076407285072e-07
+        }
+      },
+      "effective_tokens": 52,
+      "mean_query_seconds": 0.7848853473963876,
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.020731580995589437
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.2797979563924549
+        }
+      }
+    },
+    {
+      "key": "native-pairs-spatial8-init0-U",
+      "task": "plate",
+      "init_id": 0,
+      "condition": "U",
+      "category": "neither",
+      "success": false,
+      "steps": 300,
+      "policy_calls": 300,
+      "first_event_steps": {
+        "bowl1": null,
+        "bowl2": null
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": 106,
+          "grasp_contact_state_count": 89,
+          "max_height_gain_m": 0.03199830485114874,
+          "max_displacement_m": 0.09499663603420941
+        },
+        "bowl2": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 2.786076397365278e-07,
+          "max_displacement_m": 2.78607640728492e-07
+        }
+      },
+      "effective_tokens": 50,
+      "mean_query_seconds": 0.8632174778866738,
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": false,
+          "xy_distance_m": 0.058907812847115174
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.2840969305661321
+        }
+      }
+    }
+  ]
+}

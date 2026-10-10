@@ -1,0 +1,19 @@
+{
+  "protocol": "openvla-native-neutral-v1",
+  "base_config": "configs/phase1-openvla-native-pairs-v1.json",
+  "reference_run": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010",
+  "init_ids": [0],
+  "run_conditions": ["U"],
+  "max_new_rollout_queries": 600,
+  "max_new_episodes": 2,
+  "diagnostic_policy_queries": 0,
+  "reference_only_conditions": ["N", "A"],
+  "reused_results_in_formal_matrix": 0,
+  "zero_query_preflight_conditions": ["N", "A", "X", "U"],
+  "text_rule": "Original task instruction + one newline + the already frozen equal-length neutral initial table-support sentence.",
+  "tasks": ["ramekin", "plate"],
+  "interpretation": "Two seen init0 diagnostics distinguish response to this neutral append from response to the tested relation facts; they do not isolate pure length or newline effects.",
+  "formal_conflict_rollouts": 0,
+  "normal_NA_gate_changed": false,
+  "main_model_promotion": false
+}

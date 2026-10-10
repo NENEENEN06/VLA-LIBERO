@@ -1,0 +1,222 @@
+{
+  "status": "completed",
+  "mode": "question_context_probe_v1",
+  "baseline_passed": true,
+  "blocks": {
+    "ramekin/N": {
+      "successes": 1,
+      "episodes": 1
+    },
+    "ramekin/A": {
+      "successes": 0,
+      "episodes": 1
+    },
+    "ramekin/U": {
+      "successes": 1,
+      "episodes": 1
+    },
+    "plate/N": {
+      "successes": 1,
+      "episodes": 1
+    },
+    "plate/A": {
+      "successes": 1,
+      "episodes": 1
+    },
+    "plate/U": {
+      "successes": 0,
+      "episodes": 1
+    }
+  },
+  "results": [
+    {
+      "key": "native-pairs-spatial1-init0-N",
+      "task": "ramekin",
+      "init_id": 0,
+      "condition": "N",
+      "origin": "new",
+      "category": "bowl1_only",
+      "success": true,
+      "steps": 114,
+      "policy_calls": 114,
+      "new_policy_calls": 114,
+      "first_event_steps": {
+        "bowl1": 114,
+        "bowl2": null
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": 67,
+          "grasp_contact_state_count": 48,
+          "max_height_gain_m": 0.1939690619894856,
+          "max_displacement_m": 0.3502925406646429
+        },
+        "bowl2": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 2.786076397365278e-07,
+          "max_displacement_m": 2.786076407285072e-07
+        }
+      }
+    },
+    {
+      "key": "native-pairs-spatial8-init0-N",
+      "task": "plate",
+      "init_id": 0,
+      "condition": "N",
+      "origin": "new",
+      "category": "bowl1_only",
+      "success": true,
+      "steps": 107,
+      "policy_calls": 107,
+      "new_policy_calls": 107,
+      "first_event_steps": {
+        "bowl1": 107,
+        "bowl2": null
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": 78,
+          "grasp_contact_state_count": 30,
+          "max_height_gain_m": 0.10996739807724443,
+          "max_displacement_m": 0.16389386493819044
+        },
+        "bowl2": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 2.786076397365278e-07,
+          "max_displacement_m": 2.78607640728492e-07
+        }
+      }
+    },
+    {
+      "key": "native-pairs-spatial1-init0-A",
+      "task": "ramekin",
+      "init_id": 0,
+      "condition": "A",
+      "origin": "new",
+      "category": "neither",
+      "success": false,
+      "steps": 300,
+      "policy_calls": 300,
+      "new_policy_calls": 300,
+      "first_event_steps": {
+        "bowl1": null,
+        "bowl2": null
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 0.030586530265025225,
+          "max_displacement_m": 0.03584896255277414
+        },
+        "bowl2": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 2.786076397365278e-07,
+          "max_displacement_m": 2.786076407285072e-07
+        }
+      }
+    },
+    {
+      "key": "native-pairs-spatial8-init0-A",
+      "task": "plate",
+      "init_id": 0,
+      "condition": "A",
+      "origin": "new",
+      "category": "bowl1_only",
+      "success": true,
+      "steps": 133,
+      "policy_calls": 133,
+      "new_policy_calls": 133,
+      "first_event_steps": {
+        "bowl1": 133,
+        "bowl2": null
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": 95,
+          "grasp_contact_state_count": 28,
+          "max_height_gain_m": 0.10600570992206948,
+          "max_displacement_m": 0.1433923818057666
+        },
+        "bowl2": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 2.786076397365278e-07,
+          "max_displacement_m": 2.78607640728492e-07
+        }
+      }
+    },
+    {
+      "key": "native-pairs-spatial1-init0-U",
+      "task": "ramekin",
+      "init_id": 0,
+      "condition": "U",
+      "origin": "new",
+      "category": "bowl1_only",
+      "success": true,
+      "steps": 120,
+      "policy_calls": 120,
+      "new_policy_calls": 120,
+      "first_event_steps": {
+        "bowl1": 120,
+        "bowl2": null
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": 71,
+          "grasp_contact_state_count": 50,
+          "max_height_gain_m": 0.16670943063295796,
+          "max_displacement_m": 0.3232847941125381
+        },
+        "bowl2": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 2.786076397365278e-07,
+          "max_displacement_m": 2.786076407285072e-07
+        }
+      }
+    },
+    {
+      "key": "native-pairs-spatial8-init0-U",
+      "task": "plate",
+      "init_id": 0,
+      "condition": "U",
+      "origin": "new",
+      "category": "neither",
+      "success": false,
+      "steps": 300,
+      "policy_calls": 300,
+      "new_policy_calls": 300,
+      "first_event_steps": {
+        "bowl1": null,
+        "bowl2": null
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": 101,
+          "grasp_contact_state_count": 58,
+          "max_height_gain_m": 0.07138606184197527,
+          "max_displacement_m": 0.10147305710654282
+        },
+        "bowl2": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 2.786081043648636e-07,
+          "max_displacement_m": 2.7860810536275667e-07
+        }
+      }
+    }
+  ],
+  "new_rollout_policy_calls": 1074,
+  "diagnostic_policy_calls": 0,
+  "formal_matrix_rows_added": 0,
+  "formal_conflict_rollouts": 0,
+  "normal_NA_gate_changed": false,
+  "main_model_promotion": false,
+  "completed_at": "2026-10-10T09:16:04.071568+00:00",
+  "peak_allocated_bytes": 5100620288,
+  "peak_reserved_bytes": 5236588544
+}

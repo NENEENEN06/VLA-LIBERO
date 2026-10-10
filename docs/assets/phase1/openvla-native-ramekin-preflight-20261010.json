@@ -1,0 +1,337 @@
+{
+  "status": "passed",
+  "policy_queries": 0,
+  "records": [
+    {
+      "init_id": 0,
+      "reset_meta": {
+        "init_id": 0,
+        "physical_task_id": 1,
+        "env_seed": 1,
+        "policy_seed": 1,
+        "observation_sha256": "ddc0ce3b6de79da13ff2f592b96d1b14ebb8f6fe6ed993caea45692c9c9a23e6",
+        "simulator_state_sha256": "0446940caedadcd680d4f016773334e071ea65038eefa70eef388d0dc58fbd82",
+        "initial_state_sha256": "d116842e01703fbea595511db813a3816c8d9f2302b4e979ebec4f15b7a750a2",
+        "source_xy_distances_m": {
+          "bowl1": {
+            "plate": 0.29354422720611445,
+            "ramekin": 0.12178137474743649
+          },
+          "bowl2": {
+            "plate": 0.28159282165025556,
+            "ramekin": 0.42739429577660126
+          }
+        },
+        "initial_objects_xyz": {
+          "akita_black_bowl_1": [
+            -0.19484799124892493,
+            0.3152207559428477,
+            0.8984038715812133
+          ],
+          "akita_black_bowl_2": [
+            0.1381927443692594,
+            -0.08498284707716587,
+            0.8984038715812133
+          ],
+          "plate_1": [
+            0.0697781794278259,
+            0.18817272125126308,
+            0.9024995808477997
+          ],
+          "glazed_rim_porcelain_ramekin_1": [
+            -0.1857803919348109,
+            0.193777428097905,
+            0.899341119995436
+          ]
+        },
+        "evaluator_goal": [
+          [
+            "on",
+            "akita_black_bowl_1",
+            "plate_1"
+          ]
+        ],
+        "preflight_initial_hashes": {
+          "observation_sha256": true,
+          "simulator_state_sha256": true,
+          "initial_state_sha256": true
+        }
+      },
+      "reference_margin_m": 0.30561292102916476,
+      "expected_bowl": "bowl1",
+      "actual_input": {
+        "prompt": "In: What action should the robot take to pick up the black bowl next to the ramekin and place it on the plate?\nOut:",
+        "actual_token_ids": [
+          1,
+          512,
+          29901,
+          1724,
+          3158,
+          881,
+          278,
+          19964,
+          2125,
+          304,
+          5839,
+          701,
+          278,
+          4628,
+          12580,
+          29880,
+          2446,
+          304,
+          278,
+          364,
+          420,
+          9089,
+          322,
+          2058,
+          372,
+          373,
+          278,
+          15284,
+          29973,
+          13,
+          3744,
+          29901
+        ],
+        "effective_token_count": 32,
+        "decoded_effective_text": "<s> In: What action should the robot take to pick up the black bowl next to the ramekin and place it on the plate?\nOut:",
+        "truncated": false,
+        "pixel_shape": [
+          1,
+          6,
+          224,
+          224
+        ],
+        "pixel_sha256": "a0d880125327d5ca5d40e5d60aeb26e348a311aff97ccca083e37c6d3dceb0c5",
+        "processed_image_sha256": "47cf762c1334cd73eff6cb727b7bf3ac9e2ca3b399e5e13af4fa8dbf3370c15a",
+        "camera_count": 1,
+        "proprio_input": false
+      },
+      "policy_image_file": "preflight-init0-policy224.png",
+      "policy_image_file_sha256": "330e9668bbaf78fb5200e32b7b75cde11f0a5f1aaa7a6d56110cfa9693ea8341"
+    },
+    {
+      "init_id": 1,
+      "reset_meta": {
+        "init_id": 1,
+        "physical_task_id": 1,
+        "env_seed": 1,
+        "policy_seed": 1,
+        "observation_sha256": "967ebafbbe453754071e0b49f1c662664c7fe8e0d2085521bd111154f1c8f5a6",
+        "simulator_state_sha256": "f69678d839fc64fa458d447af4eea2769a1b269b38525cba18ed5c054799950e",
+        "initial_state_sha256": "b8757ca36fc25bb010af8934ff98b8d3a221cbd3a5e38e7b07cc8055c3108a0b",
+        "source_xy_distances_m": {
+          "bowl1": {
+            "plate": 0.2502054551054404,
+            "ramekin": 0.11736384097256232
+          },
+          "bowl2": {
+            "plate": 0.2659642063011849,
+            "ramekin": 0.402098534169809
+          }
+        },
+        "initial_objects_xyz": {
+          "akita_black_bowl_1": [
+            -0.16527007431627605,
+            0.31316837174242484,
+            0.8984038715812133
+          ],
+          "akita_black_bowl_2": [
+            0.11993689438035264,
+            -0.06069173194305425,
+            0.8984038715812133
+          ],
+          "plate_1": [
+            0.056665120570595036,
+            0.19763682178724115,
+            0.9024995808477997
+          ],
+          "glazed_rim_porcelain_ramekin_1": [
+            -0.18789258333620934,
+            0.1980054729708329,
+            0.899341119995436
+          ]
+        },
+        "evaluator_goal": [
+          [
+            "on",
+            "akita_black_bowl_1",
+            "plate_1"
+          ]
+        ],
+        "preflight_initial_hashes": {
+          "observation_sha256": true,
+          "simulator_state_sha256": true,
+          "initial_state_sha256": true
+        }
+      },
+      "reference_margin_m": 0.2847346931972467,
+      "expected_bowl": "bowl1",
+      "actual_input": {
+        "prompt": "In: What action should the robot take to pick up the black bowl next to the ramekin and place it on the plate?\nOut:",
+        "actual_token_ids": [
+          1,
+          512,
+          29901,
+          1724,
+          3158,
+          881,
+          278,
+          19964,
+          2125,
+          304,
+          5839,
+          701,
+          278,
+          4628,
+          12580,
+          29880,
+          2446,
+          304,
+          278,
+          364,
+          420,
+          9089,
+          322,
+          2058,
+          372,
+          373,
+          278,
+          15284,
+          29973,
+          13,
+          3744,
+          29901
+        ],
+        "effective_token_count": 32,
+        "decoded_effective_text": "<s> In: What action should the robot take to pick up the black bowl next to the ramekin and place it on the plate?\nOut:",
+        "truncated": false,
+        "pixel_shape": [
+          1,
+          6,
+          224,
+          224
+        ],
+        "pixel_sha256": "f20c61f1769a1d09041490b3c96cd564acb41a7fa4104ab2edfacccbe00c11d9",
+        "processed_image_sha256": "da132790fd790bd6744691a53a22c7f61b05cb3236e5939c3d73272fa70b3630",
+        "camera_count": 1,
+        "proprio_input": false
+      },
+      "policy_image_file": "preflight-init1-policy224.png",
+      "policy_image_file_sha256": "c35f59354dba2146c24e1fb3d518618b6cc85877fb96709f26bfa634ce427dd6"
+    },
+    {
+      "init_id": 2,
+      "reset_meta": {
+        "init_id": 2,
+        "physical_task_id": 1,
+        "env_seed": 1,
+        "policy_seed": 1,
+        "observation_sha256": "d41ecf406f85dd0ef491d84a62a1635b811d155743ea2aefc4d4fa9daf7cfc36",
+        "simulator_state_sha256": "c449ee87c90032a837988a6760cebf625d37f59841b012ffc069995929b4c293",
+        "initial_state_sha256": "d45a8bb759e662331e34b0ade8f7a4ca847993b682d3299aaa4894b340c845a0",
+        "source_xy_distances_m": {
+          "bowl1": {
+            "plate": 0.246397819044523,
+            "ramekin": 0.1001275211696199
+          },
+          "bowl2": {
+            "plate": 0.2894473074502949,
+            "ramekin": 0.45238336760611314
+          }
+        },
+        "initial_objects_xyz": {
+          "akita_black_bowl_1": [
+            -0.17692425808545223,
+            0.30840773947744615,
+            0.8984038715812133
+          ],
+          "akita_black_bowl_2": [
+            0.1385880586960913,
+            -0.07049202195522444,
+            0.8984038715812133
+          ],
+          "plate_1": [
+            0.04616740225837775,
+            0.20380374187252343,
+            0.9024995808477997
+          ],
+          "glazed_rim_porcelain_ramekin_1": [
+            -0.21248766282152448,
+            0.2148087825433489,
+            0.899341119995436
+          ]
+        },
+        "evaluator_goal": [
+          [
+            "on",
+            "akita_black_bowl_1",
+            "plate_1"
+          ]
+        ],
+        "preflight_initial_hashes": {
+          "observation_sha256": true,
+          "simulator_state_sha256": true,
+          "initial_state_sha256": true
+        }
+      },
+      "reference_margin_m": 0.3522558464364932,
+      "expected_bowl": "bowl1",
+      "actual_input": {
+        "prompt": "In: What action should the robot take to pick up the black bowl next to the ramekin and place it on the plate?\nOut:",
+        "actual_token_ids": [
+          1,
+          512,
+          29901,
+          1724,
+          3158,
+          881,
+          278,
+          19964,
+          2125,
+          304,
+          5839,
+          701,
+          278,
+          4628,
+          12580,
+          29880,
+          2446,
+          304,
+          278,
+          364,
+          420,
+          9089,
+          322,
+          2058,
+          372,
+          373,
+          278,
+          15284,
+          29973,
+          13,
+          3744,
+          29901
+        ],
+        "effective_token_count": 32,
+        "decoded_effective_text": "<s> In: What action should the robot take to pick up the black bowl next to the ramekin and place it on the plate?\nOut:",
+        "truncated": false,
+        "pixel_shape": [
+          1,
+          6,
+          224,
+          224
+        ],
+        "pixel_sha256": "4f5879b2d68dc80431fdd4753c227fdbf35dea506dc0425fd78112e52d768e07",
+        "processed_image_sha256": "7d8ac674961f302224aa52d7096be9d447bd4c1b69750c688e524c5575869057",
+        "camera_count": 1,
+        "proprio_input": false
+      },
+      "policy_image_file": "preflight-init2-policy224.png",
+      "policy_image_file_sha256": "c502dba82818e316c7f5e95d5e93b4b2072fbfe09b723214191aaefb9e0a5371"
+    }
+  ],
+  "rule": "Native bowl1 is closest to ramekin by >=0.05m."
+}

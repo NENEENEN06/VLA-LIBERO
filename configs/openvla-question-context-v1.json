@@ -1,0 +1,18 @@
+{
+  "protocol": "openvla-question-context-v1",
+  "base_config": "configs/phase1-openvla-native-pairs-v1.json",
+  "init_ids": [0],
+  "tasks": ["ramekin", "plate"],
+  "run_conditions_after_N": ["A", "U"],
+  "baseline_rule": "Fresh native N for both tasks must succeed before any appended condition.",
+  "max_new_rollout_queries": 1800,
+  "max_new_episodes": 6,
+  "diagnostic_policy_queries": 0,
+  "text_variant": "Question mark immediately follows the unchanged original instruction; the unchanged fact line follows outside that question, before Out:.",
+  "input_control": "N unchanged; A/X/U retain the old character and token multisets and token lengths, only ordering around the question mark changes.",
+  "reference_only": "Prior init0 N/A and neutral U; no old rows or costs added.",
+  "formal_matrix_rows_added": 0,
+  "formal_conflict_rollouts": 0,
+  "normal_NA_gate_changed": false,
+  "main_model_promotion": false
+}

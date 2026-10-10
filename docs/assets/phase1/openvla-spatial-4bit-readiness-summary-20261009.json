@@ -1,0 +1,42 @@
+{
+  "status": "completed",
+  "mode": "readiness",
+  "official_baseline_passed": true,
+  "results": [
+    {
+      "key": "official-task8-init0",
+      "init_id": 0,
+      "question": "plate_side",
+      "condition": "N",
+      "category": "bowl1_only",
+      "success": true,
+      "steps": 101,
+      "policy_calls": 101,
+      "first_event_steps": {
+        "bowl1": 101,
+        "bowl2": null
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": 76,
+          "grasp_contact_state_count": 26,
+          "max_height_gain_m": 0.082737210855369,
+          "max_displacement_m": 0.11801647730249092
+        },
+        "bowl2": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 2.786076397365278e-07,
+          "max_displacement_m": 2.78607640728492e-07
+        }
+      }
+    }
+  ],
+  "diagnostic_policy_calls": 2,
+  "new_rollout_policy_calls": 101,
+  "qualification_passed": false,
+  "visual_review_required_before_screen": true,
+  "completed_at": "2026-10-09T14:44:18.494048+00:00",
+  "peak_allocated_bytes": 5074533376,
+  "peak_reserved_bytes": 5194645504
+}

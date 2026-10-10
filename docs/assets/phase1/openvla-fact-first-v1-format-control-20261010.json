@@ -1,0 +1,64 @@
+{
+  "status": "passed",
+  "policy_queries": 0,
+  "formatter_sha256": "6c57466a5f5312c3bca5021dc3b909ef234e794cc9c7146dd31065f6e1d72e25",
+  "source_preflight_sha256": "d47e74ed049c6d7c10561e00190f5efb535f657d3cf1c3611b4550723a9c9451",
+  "rows": [
+    {
+      "task": "ramekin",
+      "condition": "N",
+      "prompt": "In: What action should the robot take to pick up the black bowl next to the ramekin and place it on the plate?\nOut:",
+      "effective_tokens": 32,
+      "character_and_token_multisets_equal": true
+    },
+    {
+      "task": "ramekin",
+      "condition": "A",
+      "prompt": "In:\ninitially, the black bowl farther from the cookies is next to the ramekin. What action should the robot take to pick up the black bowl next to the ramekin and place it on the plate?\nOut:",
+      "effective_tokens": 52,
+      "character_and_token_multisets_equal": true
+    },
+    {
+      "task": "ramekin",
+      "condition": "X",
+      "prompt": "In:\ninitially, the black bowl closer to the cookies is next to the ramekin. What action should the robot take to pick up the black bowl next to the ramekin and place it on the plate?\nOut:",
+      "effective_tokens": 52,
+      "character_and_token_multisets_equal": true
+    },
+    {
+      "task": "ramekin",
+      "condition": "U",
+      "prompt": "In:\ninitially, the plate and the ramekin are both resting on the table surface. What action should the robot take to pick up the black bowl next to the ramekin and place it on the plate?\nOut:",
+      "effective_tokens": 52,
+      "character_and_token_multisets_equal": true
+    },
+    {
+      "task": "plate",
+      "condition": "N",
+      "prompt": "In: What action should the robot take to pick up the black bowl next to the plate and place it on the plate?\nOut:",
+      "effective_tokens": 30,
+      "character_and_token_multisets_equal": true
+    },
+    {
+      "task": "plate",
+      "condition": "A",
+      "prompt": "In:\ninitially, the black bowl farther from the ramekin is next to the plate. What action should the robot take to pick up the black bowl next to the plate and place it on the plate?\nOut:",
+      "effective_tokens": 50,
+      "character_and_token_multisets_equal": true
+    },
+    {
+      "task": "plate",
+      "condition": "X",
+      "prompt": "In:\ninitially, the black bowl closer to the ramekin is next to the plate. What action should the robot take to pick up the black bowl next to the plate and place it on the plate?\nOut:",
+      "effective_tokens": 50,
+      "character_and_token_multisets_equal": true
+    },
+    {
+      "task": "plate",
+      "condition": "U",
+      "prompt": "In:\ninitially, the plate and the ramekin are both resting on the table surface. What action should the robot take to pick up the black bowl next to the plate and place it on the plate?\nOut:",
+      "effective_tokens": 50,
+      "character_and_token_multisets_equal": true
+    }
+  ]
+}

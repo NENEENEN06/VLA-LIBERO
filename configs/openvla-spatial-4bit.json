@@ -1,0 +1,41 @@
+{
+  "model": "openvla-spatial-4bit",
+  "python": "3.10.16",
+  "torch_backend": "cu121",
+  "source": {
+    "url": "https://github.com/openvla/openvla.git",
+    "revision": "c8f03f48af692657d3060c19588038c7220e9af9"
+  },
+  "checkpoint": {
+    "repo_id": "openvla/openvla-7b-finetuned-libero-spatial",
+    "revision": "962318cec55ac10993ff0f5f43eda9a270b4c873"
+  },
+  "hf_code": {
+    "repo_id": "openvla/openvla-7b",
+    "revision": "47a0ec7fc4ec123775a391911046cf33cf9ed83f",
+    "files": ["configuration_prismatic.py", "modeling_prismatic.py", "processing_prismatic.py"]
+  },
+  "libero_source_revision": "8f1084e3132a39270c3a13ebe37270a43ece2a01",
+  "quantization": {
+    "load_in_4bit": true,
+    "bnb_4bit_quant_type": "fp4",
+    "bnb_4bit_compute_dtype": "float32",
+    "bnb_4bit_use_double_quant": false,
+    "note": "Explicit bitsandbytes defaults used by upstream load_in_4bit=True; unquantized modules use bfloat16."
+  },
+  "attention": "sdpa",
+  "attention_note": "PyTorch SDPA instead of upstream flash_attention_2; this configuration is validated independently.",
+  "device_map": {"": 0},
+  "cpu_offload": false,
+  "input": {
+    "camera": "agentview_image",
+    "proprio": false,
+    "resolution_sim": 256,
+    "resolution_policy": 224,
+    "center_crop_area": 0.9,
+    "native_prompt": "In: What action should the robot take to {task_label.lower()}?\nOut:"
+  },
+  "action_steps_per_query": 1,
+  "role": "candidate_under_validation",
+  "advance_rule": "Load and real-observation smoke check, then original task8 baseline; paired N before A; no X/U or automatic main-model promotion."
+}

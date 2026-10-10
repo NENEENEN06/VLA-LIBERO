@@ -1,0 +1,26 @@
+{
+  "protocol": "openvla-fact-first-v1",
+  "base_config": "configs/phase1-openvla-native-pairs-v1.json",
+  "init_ids": [
+    0
+  ],
+  "tasks": [
+    "ramekin",
+    "plate"
+  ],
+  "run_conditions_after_N": [
+    "A",
+    "U"
+  ],
+  "baseline_rule": "Fresh native N for both tasks must succeed before any appended condition.",
+  "max_new_rollout_queries": 1800,
+  "max_new_episodes": 6,
+  "diagnostic_policy_queries": 0,
+  "text_variant": "In: newline; unchanged initial fact, one space, then unchanged original action question and Out. N unchanged.",
+  "input_control": "N unchanged; A/X/U retain old characters, token multisets and token lengths; fact precedes original action question.",
+  "reference_only": "Prior init0 N/A and neutral U; no old rows or costs added.",
+  "formal_matrix_rows_added": 0,
+  "formal_conflict_rollouts": 0,
+  "normal_NA_gate_changed": false,
+  "main_model_promotion": false
+}

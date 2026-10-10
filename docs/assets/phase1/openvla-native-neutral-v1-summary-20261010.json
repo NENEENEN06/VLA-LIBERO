@@ -1,0 +1,77 @@
+{
+  "status": "completed",
+  "mode": "native_neutral_probe_v1",
+  "results": [
+    {
+      "key": "native-pairs-spatial1-init0-U",
+      "task": "ramekin",
+      "init_id": 0,
+      "condition": "U",
+      "origin": "new",
+      "category": "bowl1_only",
+      "success": true,
+      "steps": 111,
+      "policy_calls": 111,
+      "new_policy_calls": 111,
+      "first_event_steps": {
+        "bowl1": 111,
+        "bowl2": null
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": 65,
+          "grasp_contact_state_count": 47,
+          "max_height_gain_m": 0.1789583982706504,
+          "max_displacement_m": 0.32825346903211045
+        },
+        "bowl2": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 2.786076397365278e-07,
+          "max_displacement_m": 2.786076407285072e-07
+        }
+      }
+    },
+    {
+      "key": "native-pairs-spatial8-init0-U",
+      "task": "plate",
+      "init_id": 0,
+      "condition": "U",
+      "origin": "new",
+      "category": "neither",
+      "success": false,
+      "steps": 300,
+      "policy_calls": 300,
+      "new_policy_calls": 300,
+      "first_event_steps": {
+        "bowl1": null,
+        "bowl2": null
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": 106,
+          "grasp_contact_state_count": 89,
+          "max_height_gain_m": 0.03199830485114874,
+          "max_displacement_m": 0.09499663603420941
+        },
+        "bowl2": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 2.786076397365278e-07,
+          "max_displacement_m": 2.78607640728492e-07
+        }
+      }
+    }
+  ],
+  "successes": 1,
+  "episodes": 2,
+  "new_rollout_policy_calls": 411,
+  "diagnostic_policy_calls": 0,
+  "formal_matrix_rows_added": 0,
+  "formal_conflict_rollouts": 0,
+  "normal_NA_gate_changed": false,
+  "main_model_promotion": false,
+  "completed_at": "2026-10-10T08:03:04.352865+00:00",
+  "peak_allocated_bytes": 5100620288,
+  "peak_reserved_bytes": 5236588544
+}

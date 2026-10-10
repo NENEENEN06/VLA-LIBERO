@@ -1,0 +1,261 @@
+{
+  "status": "passed",
+  "new_queries": 1074,
+  "episodes": 6,
+  "baseline_passed": true,
+  "source_and_input_checks": "passed",
+  "rows": [
+    {
+      "key": "native-pairs-spatial1-init0-N",
+      "task": "ramekin",
+      "init_id": 0,
+      "condition": "N",
+      "category": "bowl1_only",
+      "success": true,
+      "steps": 114,
+      "policy_calls": 114,
+      "first_event_steps": {
+        "bowl1": 114,
+        "bowl2": null
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": 67,
+          "grasp_contact_state_count": 48,
+          "max_height_gain_m": 0.1939690619894856,
+          "max_displacement_m": 0.3502925406646429
+        },
+        "bowl2": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 2.786076397365278e-07,
+          "max_displacement_m": 2.786076407285072e-07
+        }
+      },
+      "effective_tokens": 32,
+      "mean_query_seconds": 0.7765509863157851,
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.027669801597764103
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.2815928217050549
+        }
+      }
+    },
+    {
+      "key": "native-pairs-spatial8-init0-N",
+      "task": "plate",
+      "init_id": 0,
+      "condition": "N",
+      "category": "bowl1_only",
+      "success": true,
+      "steps": 107,
+      "policy_calls": 107,
+      "first_event_steps": {
+        "bowl1": 107,
+        "bowl2": null
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": 78,
+          "grasp_contact_state_count": 30,
+          "max_height_gain_m": 0.10996739807724443,
+          "max_displacement_m": 0.16389386493819044
+        },
+        "bowl2": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 2.786076397365278e-07,
+          "max_displacement_m": 2.78607640728492e-07
+        }
+      },
+      "effective_tokens": 30,
+      "mean_query_seconds": 0.8191198150280388,
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.01219457692894298
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.26430683602523924
+        }
+      }
+    },
+    {
+      "key": "native-pairs-spatial1-init0-A",
+      "task": "ramekin",
+      "init_id": 0,
+      "condition": "A",
+      "category": "neither",
+      "success": false,
+      "steps": 300,
+      "policy_calls": 300,
+      "first_event_steps": {
+        "bowl1": null,
+        "bowl2": null
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 0.030586530265025225,
+          "max_displacement_m": 0.03584896255277414
+        },
+        "bowl2": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 2.786076397365278e-07,
+          "max_displacement_m": 2.786076407285072e-07
+        }
+      },
+      "effective_tokens": 52,
+      "mean_query_seconds": 0.8777989419166677,
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.3180606362207012
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.2815928217050549
+        }
+      }
+    },
+    {
+      "key": "native-pairs-spatial8-init0-A",
+      "task": "plate",
+      "init_id": 0,
+      "condition": "A",
+      "category": "bowl1_only",
+      "success": true,
+      "steps": 133,
+      "policy_calls": 133,
+      "first_event_steps": {
+        "bowl1": 133,
+        "bowl2": null
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": 95,
+          "grasp_contact_state_count": 28,
+          "max_height_gain_m": 0.10600570992206948,
+          "max_displacement_m": 0.1433923818057666
+        },
+        "bowl2": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 2.786076397365278e-07,
+          "max_displacement_m": 2.78607640728492e-07
+        }
+      },
+      "effective_tokens": 50,
+      "mean_query_seconds": 0.8643069369172992,
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.026158970578597472
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.2625641523237855
+        }
+      }
+    },
+    {
+      "key": "native-pairs-spatial1-init0-U",
+      "task": "ramekin",
+      "init_id": 0,
+      "condition": "U",
+      "category": "bowl1_only",
+      "success": true,
+      "steps": 120,
+      "policy_calls": 120,
+      "first_event_steps": {
+        "bowl1": 120,
+        "bowl2": null
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": 71,
+          "grasp_contact_state_count": 50,
+          "max_height_gain_m": 0.16670943063295796,
+          "max_displacement_m": 0.3232847941125381
+        },
+        "bowl2": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 2.786076397365278e-07,
+          "max_displacement_m": 2.786076407285072e-07
+        }
+      },
+      "effective_tokens": 52,
+      "mean_query_seconds": 0.8710224384583304,
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.013841208357568633
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.279940736760522
+        }
+      }
+    },
+    {
+      "key": "native-pairs-spatial8-init0-U",
+      "task": "plate",
+      "init_id": 0,
+      "condition": "U",
+      "category": "neither",
+      "success": false,
+      "steps": 300,
+      "policy_calls": 300,
+      "first_event_steps": {
+        "bowl1": null,
+        "bowl2": null
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": 101,
+          "grasp_contact_state_count": 58,
+          "max_height_gain_m": 0.07138606184197527,
+          "max_displacement_m": 0.10147305710654282
+        },
+        "bowl2": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 2.786081043648636e-07,
+          "max_displacement_m": 2.7860810536275667e-07
+        }
+      },
+      "effective_tokens": 50,
+      "mean_query_seconds": 0.9227839047766686,
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.04719531867614917
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.2667116686980613
+        }
+      }
+    }
+  ]
+}

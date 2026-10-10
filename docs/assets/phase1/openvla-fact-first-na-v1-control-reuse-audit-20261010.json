@@ -1,0 +1,97 @@
+{
+  "status": "passed",
+  "policy_queries": 0,
+  "reused_N_episodes": 6,
+  "reused_A_episodes": 2,
+  "already_accounted_source_calls": 1062,
+  "records": [
+    {
+      "task": "ramekin",
+      "init_id": 0,
+      "condition": "N",
+      "source_wrapper_sha256": "7e8699605038aae8825d4a855eb69e64d237db516b7ba624169408f767170e5d",
+      "source_episode": "/mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/native-ramekin-20261010/episodes/native-spatial1-init0-seed1-ramekin-N.json",
+      "source_episode_sha256": "eb96b8a5145897f4165dfe208e24dd9dda551343505ccd5c301b61a38c9b1b44",
+      "source_manifest_sha256": "7f5df12cd21541d18cae75764f0af1af7fd0ae1340a400a13483d95ffc0463e6",
+      "source_summary_sha256": "ce01ef1d92c76c78a9480e1a3691aa5103563b7a24f32a064fb775e2f70c8641",
+      "checks": "state, full input, runtime, seeds, native goal and stopping verified"
+    },
+    {
+      "task": "ramekin",
+      "init_id": 1,
+      "condition": "N",
+      "source_wrapper_sha256": "8cef63394687b4bd48a621b43f6edd1f195fa05d270e02f9df6f96cd2c83d3e8",
+      "source_episode": "/mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/native-ramekin-20261010/episodes/native-spatial1-init1-seed1-ramekin-N.json",
+      "source_episode_sha256": "d1546344c8d3ee76bac48ca0fc7af3906645c1afd9dc752e8cecf7ce7749edf1",
+      "source_manifest_sha256": "7f5df12cd21541d18cae75764f0af1af7fd0ae1340a400a13483d95ffc0463e6",
+      "source_summary_sha256": "ce01ef1d92c76c78a9480e1a3691aa5103563b7a24f32a064fb775e2f70c8641",
+      "checks": "state, full input, runtime, seeds, native goal and stopping verified"
+    },
+    {
+      "task": "ramekin",
+      "init_id": 2,
+      "condition": "N",
+      "source_wrapper_sha256": "30650fe18592c644f3e61eb94f61c465c0457feab44bbd15cab2e1ab82543149",
+      "source_episode": "/mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/native-ramekin-20261010/episodes/native-spatial1-init2-seed1-ramekin-N.json",
+      "source_episode_sha256": "dca5cb7352344168b18a63be4e644bead895b1aa85ee8985142ed17def112fba",
+      "source_manifest_sha256": "7f5df12cd21541d18cae75764f0af1af7fd0ae1340a400a13483d95ffc0463e6",
+      "source_summary_sha256": "ce01ef1d92c76c78a9480e1a3691aa5103563b7a24f32a064fb775e2f70c8641",
+      "checks": "state, full input, runtime, seeds, native goal and stopping verified"
+    },
+    {
+      "task": "plate",
+      "init_id": 0,
+      "condition": "N",
+      "source_wrapper_sha256": "585fcdc80fe8dc156cf8b6a91b04d1a884e3cf8757f0e712b77b54413d0e07e8",
+      "source_episode": "/mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/native-pairs-v1-20261010/episodes/native-pairs-spatial8-init0-N.json",
+      "source_episode_sha256": "585fcdc80fe8dc156cf8b6a91b04d1a884e3cf8757f0e712b77b54413d0e07e8",
+      "source_manifest_sha256": "7f5df12cd21541d18cae75764f0af1af7fd0ae1340a400a13483d95ffc0463e6",
+      "source_summary_sha256": "ce01ef1d92c76c78a9480e1a3691aa5103563b7a24f32a064fb775e2f70c8641",
+      "checks": "state, full input, runtime, seeds, native goal and stopping verified"
+    },
+    {
+      "task": "plate",
+      "init_id": 1,
+      "condition": "N",
+      "source_wrapper_sha256": "003c7a2742084f5aaceecf069dd861157a1419d60b035038e2c9f6275a1a3f15",
+      "source_episode": "/mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/native-pairs-v1-20261010/episodes/native-pairs-spatial8-init1-N.json",
+      "source_episode_sha256": "003c7a2742084f5aaceecf069dd861157a1419d60b035038e2c9f6275a1a3f15",
+      "source_manifest_sha256": "7f5df12cd21541d18cae75764f0af1af7fd0ae1340a400a13483d95ffc0463e6",
+      "source_summary_sha256": "ce01ef1d92c76c78a9480e1a3691aa5103563b7a24f32a064fb775e2f70c8641",
+      "checks": "state, full input, runtime, seeds, native goal and stopping verified"
+    },
+    {
+      "task": "plate",
+      "init_id": 2,
+      "condition": "N",
+      "source_wrapper_sha256": "d3a1e043a179a2f5e90a5b835dd29534e0dcf7c87accc0b12533e8a1900bfc8a",
+      "source_episode": "/mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/native-pairs-v1-20261010/episodes/native-pairs-spatial8-init2-N.json",
+      "source_episode_sha256": "d3a1e043a179a2f5e90a5b835dd29534e0dcf7c87accc0b12533e8a1900bfc8a",
+      "source_manifest_sha256": "7f5df12cd21541d18cae75764f0af1af7fd0ae1340a400a13483d95ffc0463e6",
+      "source_summary_sha256": "ce01ef1d92c76c78a9480e1a3691aa5103563b7a24f32a064fb775e2f70c8641",
+      "checks": "state, full input, runtime, seeds, native goal and stopping verified"
+    },
+    {
+      "task": "ramekin",
+      "init_id": 0,
+      "condition": "A",
+      "source_wrapper_sha256": "a91db0e0ff70771b79c6c68636670aa82a2608e4c65522ccee4924abe5aed8f7",
+      "source_episode": "/mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/fact-first-v1-20261010/episodes/native-pairs-spatial1-init0-A.json",
+      "source_episode_sha256": "a91db0e0ff70771b79c6c68636670aa82a2608e4c65522ccee4924abe5aed8f7",
+      "source_manifest_sha256": "9dd6f8fb6dc9b30a61f77ff74ea89271be0eddfc3cf6ac7356093e3070ab9cdc",
+      "source_summary_sha256": "dfa0cafa3c6e3199c4c201870ae046c3f798257c30ce94b8452f7ec91868ed51",
+      "checks": "state, full input, runtime, seeds, native goal and stopping verified"
+    },
+    {
+      "task": "plate",
+      "init_id": 0,
+      "condition": "A",
+      "source_wrapper_sha256": "5c72858907b561ec806b7be266a9cba746110cdc571cb586f18d8639fe917c86",
+      "source_episode": "/mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/fact-first-v1-20261010/episodes/native-pairs-spatial8-init0-A.json",
+      "source_episode_sha256": "5c72858907b561ec806b7be266a9cba746110cdc571cb586f18d8639fe917c86",
+      "source_manifest_sha256": "9dd6f8fb6dc9b30a61f77ff74ea89271be0eddfc3cf6ac7356093e3070ab9cdc",
+      "source_summary_sha256": "dfa0cafa3c6e3199c4c201870ae046c3f798257c30ce94b8452f7ec91868ed51",
+      "checks": "state, full input, runtime, seeds, native goal and stopping verified"
+    }
+  ]
+}

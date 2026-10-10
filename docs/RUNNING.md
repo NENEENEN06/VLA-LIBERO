@@ -11,8 +11,45 @@
 | SmolVLA | 3.12.14 | 2.11.0 / cu128 | LeRobot 0.6.1、hf-libero 0.1.4、MuJoCo 3.3.2 | `HuggingFaceVLA/smolvla_libero` |
 | VLA-Adapter 原版 | 3.10.16 | 2.2.0 / cu121 | 原版 LIBERO、robosuite 1.4.1、MuJoCo 2.3.7 | Spatial、Goal 已下载；其他套件按需下载 |
 | PulseVLA-LIBERO 0.5B | 3.12.14 | 2.11.0 / cu128 | 发布者指定的 LeRobot 提交、hf-libero 0.1.3、MuJoCo 3.3.2 | `verapulse/pulsevla-libero-0.5b` |
+| OpenVLA Spatial 4-bit候选 | 3.10.16 | 2.2.0 / cu121 | 原版 LIBERO、robosuite 1.4.1、MuJoCo 2.3.7 | `openvla/openvla-7b-finetuned-libero-spatial`，bitsandbytes 0.43.1／FP4 |
 
 完整依赖版本在 `requirements/*.lock`，源代码和权重提交在 [sources.json](../configs/sources.json)。VLA-Adapter 使用原版权重配合 `use_pro_version=False`，保持版本一致。Flash Attention 不是当前上游评测入口的必需依赖；训练所需的 Flash Attention 和 CUDA 编译工具链另行安装。
+
+OpenVLA使用[独立固定配置](../configs/openvla-spatial-4bit.json)、[依赖锁](../requirements/openvla-spatial-4bit.lock)和`openvla.ps1`入口。原版单相机、JPEG/Lanczos缩放与90%面积裁剪、Spatial动作反归一化及夹爪转换保留，注意力使用PyTorch SDPA。4-bit加载与一条真实任务已在本机8GB GPU通过，见[运行核查](OPENVLA_SPATIAL_4BIT_READINESS_20261009.md)；双向指代与A资格按[候选核查入口](OPENVLA_SPATIAL_4BIT_ENTRY.md)另测。
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts/openvla.ps1 setup
+powershell -ExecutionPolicy Bypass -File scripts/openvla.ps1 download
+powershell -ExecutionPolicy Bypass -File scripts/openvla.ps1 readiness --output /mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/readiness-new
+```
+
+2026-10-10新增[原生ramekin任务对照](OPENVLA_NATIVE_RAMEKIN_ENTRY_20261010.md)：task1使用自己的场景、初始化和目标，三条最多900次查询，独立于task8双向资格。命令中的readiness须指向已通过运行核查的目录；运行器在开始rollout前等待三个实际模型输入图的审阅记录。
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts/openvla.ps1 native-ramekin --output /mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/native-ramekin-new --readiness /mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/readiness-retry2-20261009
+```
+
+后续[原生任务内配对v1](PHASE1_OPENVLA_NATIVE_PAIRS_V1_20261010.md)在task1／task8各自场景核查N/A，完整核对后复用三条task1原生N、重跑task8 N，最多2700次新增查询；实际图像审阅后继续，X/U仅预检。
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts/openvla.ps1 native-pairs --output /mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/native-pairs-v1-new --native-N /mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/native-ramekin-20261010
+```
+
+正常A未通过后，可按各自冻结规则运行[同长度中性追加诊断](OPENVLA_NATIVE_NEUTRAL_V1_ENTRY_20261010.md)或[问题／事实包装诊断](OPENVLA_QUESTION_CONTEXT_V1_ENTRY_20261010.md)。它们引用已完成原生N/A作为来源核验，不增加正式冲突矩阵；实际224图像审阅通过后才开始查询。输出目录必须是新目录，避免覆盖历史记录。
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts/openvla.ps1 native-neutral --output /mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/native-neutral-new --reference /mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/native-pairs-v1-20261010
+powershell -ExecutionPolicy Bypass -File scripts/openvla.ps1 question-context --output /mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/question-context-new --reference /mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/native-pairs-v1-20261010
+powershell -ExecutionPolicy Bypass -File scripts/openvla.ps1 fact-first --output /mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/fact-first-new --reference /mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/native-pairs-v1-20261010
+```
+
+事实先行pilot完成后，按[三初始化N/A规则](PHASE1_OPENVLA_FACT_FIRST_NA_V1_20261010.md)核验复用六N／两A，再新增四条A。运行器等待六幅实际224图像的审阅记录，不放宽原生成功判据。
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts/openvla.ps1 fact-first-na --output /mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/fact-first-na-new --normal-N /mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/native-pairs-v1-20261010 --pilot /mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/fact-first-v1-20261010
+```
+
+下面的`vla.ps1`／`vla.py all`命令管理SmolVLA、VLA-Adapter、PulseVLA三个既有环境；OpenVLA候选按独立入口运行。
 
 ## 在 Windows 项目目录中运行
 

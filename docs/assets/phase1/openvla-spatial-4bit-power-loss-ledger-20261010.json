@@ -1,0 +1,16 @@
+{
+  "last_status_step": 281,
+  "last_query_completion_unknown": true,
+  "checkpointed_calls": 280,
+  "reason": "Power loss; user requested deletion and fresh rerun",
+  "recorded_on": "2026-10-10",
+  "status": "discarded_by_user_after_power_loss",
+  "completed_episodes": 0,
+  "rerun_reuses_interrupted_queries": false,
+  "run": "screen-20261009",
+  "known_completed_policy_calls": 281,
+  "counted_as_qualification_sample": false,
+  "known_completed_calls_lower_bound": 281,
+  "last_logged_in_progress_queries": 1,
+  "additional_unlogged_tail_cost": "unknown after power loss; do not assume zero or a reliable upper bound"
+}

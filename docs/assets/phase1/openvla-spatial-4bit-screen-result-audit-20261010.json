@@ -1,0 +1,219 @@
+{
+  "status": "passed",
+  "episodes": 6,
+  "new_queries": 1800,
+  "qualification_passed": false,
+  "rows": [
+    {
+      "key": "spatial8-init0-seed1-plate_side-N",
+      "init_id": 0,
+      "question": "plate_side",
+      "condition": "N",
+      "category": "bowl1_only",
+      "success": true,
+      "steps": 300,
+      "policy_calls": 300,
+      "first_event_steps": {
+        "bowl1": 107,
+        "bowl2": null
+      },
+      "final_goal_events": {
+        "bowl1": true,
+        "bowl2": false
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": 78,
+          "grasp_contact_state_count": 32,
+          "max_height_gain_m": 0.10996739807724443,
+          "max_displacement_m": 0.16389386493819044
+        },
+        "bowl2": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 2.786076397365278e-07,
+          "max_displacement_m": 2.78607640728492e-07
+        }
+      },
+      "rollout_seconds": 279.17085392,
+      "effective_tokens": 30,
+      "mean_query_seconds": 0.7803605577866701
+    },
+    {
+      "key": "spatial8-init0-seed1-ramekin_side-N",
+      "init_id": 0,
+      "question": "ramekin_side",
+      "condition": "N",
+      "category": "neither",
+      "success": false,
+      "steps": 300,
+      "policy_calls": 300,
+      "first_event_steps": {
+        "bowl1": null,
+        "bowl2": null
+      },
+      "final_goal_events": {
+        "bowl1": false,
+        "bowl2": false
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 0.02241604213340498,
+          "max_displacement_m": 0.025958602482543988
+        },
+        "bowl2": {
+          "first_grasp_contact_step": 76,
+          "grasp_contact_state_count": 44,
+          "max_height_gain_m": 0.11377353220276576,
+          "max_displacement_m": 0.21486386870058624
+        }
+      },
+      "rollout_seconds": 300.02811665599995,
+      "effective_tokens": 32,
+      "mean_query_seconds": 0.8474224951033326
+    },
+    {
+      "key": "spatial8-init1-seed1-plate_side-N",
+      "init_id": 1,
+      "question": "plate_side",
+      "condition": "N",
+      "category": "bowl1_only",
+      "success": true,
+      "steps": 300,
+      "policy_calls": 300,
+      "first_event_steps": {
+        "bowl1": 105,
+        "bowl2": null
+      },
+      "final_goal_events": {
+        "bowl1": true,
+        "bowl2": false
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": 65,
+          "grasp_contact_state_count": 40,
+          "max_height_gain_m": 0.13041000936609515,
+          "max_displacement_m": 0.18722450074271527
+        },
+        "bowl2": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 2.786076397365278e-07,
+          "max_displacement_m": 2.78607640728492e-07
+        }
+      },
+      "rollout_seconds": 301.9668718549999,
+      "effective_tokens": 30,
+      "mean_query_seconds": 0.8551883943866634
+    },
+    {
+      "key": "spatial8-init1-seed1-ramekin_side-N",
+      "init_id": 1,
+      "question": "ramekin_side",
+      "condition": "N",
+      "category": "neither",
+      "success": false,
+      "steps": 300,
+      "policy_calls": 300,
+      "first_event_steps": {
+        "bowl1": null,
+        "bowl2": null
+      },
+      "final_goal_events": {
+        "bowl1": false,
+        "bowl2": false
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 2.786076397365278e-07,
+          "max_displacement_m": 2.786076407285069e-07
+        },
+        "bowl2": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 0.004125510252783293,
+          "max_displacement_m": 0.016142829097646506
+        }
+      },
+      "rollout_seconds": 305.64214525400007,
+      "effective_tokens": 32,
+      "mean_query_seconds": 0.8677651577100035
+    },
+    {
+      "key": "spatial8-init2-seed1-plate_side-N",
+      "init_id": 2,
+      "question": "plate_side",
+      "condition": "N",
+      "category": "neither",
+      "success": false,
+      "steps": 300,
+      "policy_calls": 300,
+      "first_event_steps": {
+        "bowl1": null,
+        "bowl2": null
+      },
+      "final_goal_events": {
+        "bowl1": false,
+        "bowl2": false
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 1.5686176768614501e-07,
+          "max_displacement_m": 1.574860102572842e-07
+        },
+        "bowl2": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 2.786076397365278e-07,
+          "max_displacement_m": 2.78607640728492e-07
+        }
+      },
+      "rollout_seconds": 317.94602808700006,
+      "effective_tokens": 30,
+      "mean_query_seconds": 0.9074691078200007
+    },
+    {
+      "key": "spatial8-init2-seed1-ramekin_side-N",
+      "init_id": 2,
+      "question": "ramekin_side",
+      "condition": "N",
+      "category": "neither",
+      "success": false,
+      "steps": 300,
+      "policy_calls": 300,
+      "first_event_steps": {
+        "bowl1": null,
+        "bowl2": null
+      },
+      "final_goal_events": {
+        "bowl1": false,
+        "bowl2": false
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 1.5686176768614501e-07,
+          "max_displacement_m": 1.574860102572842e-07
+        },
+        "bowl2": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 0.012983713623739068,
+          "max_displacement_m": 0.014988010542449345
+        }
+      },
+      "rollout_seconds": 317.274675353,
+      "effective_tokens": 32,
+      "mean_query_seconds": 0.9074050056166728
+    }
+  ],
+  "source_and_input_checks": "passed"
+}

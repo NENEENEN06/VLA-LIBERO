@@ -1,0 +1,53 @@
+{
+  "protocol": "openvla-native-task-pairs-v1",
+  "model_config": "configs/openvla-spatial-4bit.json",
+  "init_ids": [0, 1, 2],
+  "env_seed": 1,
+  "policy_seed": 1,
+  "settling_steps": 10,
+  "step_cap": 300,
+  "steps_per_query": 1,
+  "reference_margin_m": 0.05,
+  "tasks": {
+    "ramekin": {
+      "task_id": 1,
+      "text": "pick up the black bowl next to the ramekin and place it on the plate",
+      "reference": "ramekin",
+      "secondary_reference": "cookies",
+      "expected_bowl": "bowl1",
+      "alternative_bowl": "bowl2",
+      "A": "Initially, the black bowl farther from the cookies is next to the ramekin.",
+      "X": "Initially, the black bowl closer to the cookies is next to the ramekin.",
+      "U": "Initially, the plate and the ramekin are both resting on the table surface.",
+      "effective_tokens": {"N": 32, "A": 52, "X": 52, "U": 52}
+    },
+    "plate": {
+      "task_id": 8,
+      "text": "pick up the black bowl next to the plate and place it on the plate",
+      "reference": "plate",
+      "secondary_reference": "ramekin",
+      "expected_bowl": "bowl1",
+      "alternative_bowl": "bowl2",
+      "A": "Initially, the black bowl farther from the ramekin is next to the plate.",
+      "X": "Initially, the black bowl closer to the ramekin is next to the plate.",
+      "U": "Initially, the plate and the ramekin are both resting on the table surface.",
+      "effective_tokens": {"N": 30, "A": 50, "X": 50, "U": 50}
+    }
+  },
+  "termination": "Unmodified original native goal On(bowl1, plate), or 300 policy steps.",
+  "success": "Only bowl1 has an On-plate ever event before native termination or cap.",
+  "N_reuse": "Reuse all three native task1 N episodes only if model, scene, states, input, seeds, cap, native termination and independent events match. Otherwise stop before rollout.",
+  "new_N_tasks": ["plate"],
+  "N_gate": "Both task/N blocks need at least 2/3 correct-exclusive successes before any A.",
+  "NA_gate": "All four task x N/A blocks need at least 2/3 correct-exclusive successes.",
+  "max_new_rollout_queries": 2700,
+  "max_new_episodes": 9,
+  "reused_N_episodes": 3,
+  "reused_policy_calls_already_accounted": 329,
+  "extra_policy_diagnostics": 0,
+  "run_conditions": ["N", "A"],
+  "X_U": "Zero-query input/truth preflight only in this run; no behavior queries.",
+  "cross_task_state_pairing": false,
+  "old_task8_dual_direction_qualification_changed": false,
+  "main_model_promotion": false
+}

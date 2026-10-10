@@ -1,0 +1,411 @@
+{
+  "status": "completed",
+  "mode": "fact_first_native_NA_v1",
+  "blocks": {
+    "ramekin/N": {
+      "successes": 3,
+      "episodes": 3
+    },
+    "ramekin/A": {
+      "successes": 1,
+      "episodes": 3
+    },
+    "plate/N": {
+      "successes": 2,
+      "episodes": 3
+    },
+    "plate/A": {
+      "successes": 1,
+      "episodes": 3
+    }
+  },
+  "results": [
+    {
+      "key": "native-pairs-spatial1-init0-N",
+      "task": "ramekin",
+      "init_id": 0,
+      "condition": "N",
+      "category": "bowl1_only",
+      "success": true,
+      "steps": 114,
+      "policy_calls": 114,
+      "first_event_steps": {
+        "bowl1": 114,
+        "bowl2": null
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": 67,
+          "grasp_contact_state_count": 48,
+          "max_height_gain_m": 0.1939690619894856,
+          "max_displacement_m": 0.3502925406646429
+        },
+        "bowl2": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 2.786076397365278e-07,
+          "max_displacement_m": 2.786076407285072e-07
+        }
+      },
+      "origin": "reused",
+      "new_policy_calls": 0,
+      "source_episode": "/mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/native-ramekin-20261010/episodes/native-spatial1-init0-seed1-ramekin-N.json",
+      "source_episode_sha256": "eb96b8a5145897f4165dfe208e24dd9dda551343505ccd5c301b61a38c9b1b44"
+    },
+    {
+      "key": "native-pairs-spatial1-init1-N",
+      "task": "ramekin",
+      "init_id": 1,
+      "condition": "N",
+      "category": "bowl1_only",
+      "success": true,
+      "steps": 99,
+      "policy_calls": 99,
+      "first_event_steps": {
+        "bowl1": 99,
+        "bowl2": null
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": 57,
+          "grasp_contact_state_count": 43,
+          "max_height_gain_m": 0.14616936653817736,
+          "max_displacement_m": 0.2642795821956516
+        },
+        "bowl2": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 2.786076397365278e-07,
+          "max_displacement_m": 2.786076407285242e-07
+        }
+      },
+      "origin": "reused",
+      "new_policy_calls": 0,
+      "source_episode": "/mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/native-ramekin-20261010/episodes/native-spatial1-init1-seed1-ramekin-N.json",
+      "source_episode_sha256": "d1546344c8d3ee76bac48ca0fc7af3906645c1afd9dc752e8cecf7ce7749edf1"
+    },
+    {
+      "key": "native-pairs-spatial1-init2-N",
+      "task": "ramekin",
+      "init_id": 2,
+      "condition": "N",
+      "category": "bowl1_only",
+      "success": true,
+      "steps": 116,
+      "policy_calls": 116,
+      "first_event_steps": {
+        "bowl1": 116,
+        "bowl2": null
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": 68,
+          "grasp_contact_state_count": 49,
+          "max_height_gain_m": 0.15541528352288525,
+          "max_displacement_m": 0.27012170374861577
+        },
+        "bowl2": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 2.786076397365278e-07,
+          "max_displacement_m": 2.786076407285072e-07
+        }
+      },
+      "origin": "reused",
+      "new_policy_calls": 0,
+      "source_episode": "/mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/native-ramekin-20261010/episodes/native-spatial1-init2-seed1-ramekin-N.json",
+      "source_episode_sha256": "dca5cb7352344168b18a63be4e644bead895b1aa85ee8985142ed17def112fba"
+    },
+    {
+      "key": "native-pairs-spatial8-init0-N",
+      "task": "plate",
+      "init_id": 0,
+      "condition": "N",
+      "category": "bowl1_only",
+      "success": true,
+      "steps": 107,
+      "policy_calls": 107,
+      "first_event_steps": {
+        "bowl1": 107,
+        "bowl2": null
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": 78,
+          "grasp_contact_state_count": 30,
+          "max_height_gain_m": 0.10996739807724443,
+          "max_displacement_m": 0.16389386493819044
+        },
+        "bowl2": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 2.786076397365278e-07,
+          "max_displacement_m": 2.78607640728492e-07
+        }
+      },
+      "origin": "reused",
+      "new_policy_calls": 0,
+      "source_episode": "/mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/native-pairs-v1-20261010/episodes/native-pairs-spatial8-init0-N.json",
+      "source_episode_sha256": "585fcdc80fe8dc156cf8b6a91b04d1a884e3cf8757f0e712b77b54413d0e07e8"
+    },
+    {
+      "key": "native-pairs-spatial8-init1-N",
+      "task": "plate",
+      "init_id": 1,
+      "condition": "N",
+      "category": "bowl1_only",
+      "success": true,
+      "steps": 105,
+      "policy_calls": 105,
+      "first_event_steps": {
+        "bowl1": 105,
+        "bowl2": null
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": 65,
+          "grasp_contact_state_count": 40,
+          "max_height_gain_m": 0.13041000936609515,
+          "max_displacement_m": 0.18722450074271527
+        },
+        "bowl2": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 2.786076397365278e-07,
+          "max_displacement_m": 2.78607640728492e-07
+        }
+      },
+      "origin": "reused",
+      "new_policy_calls": 0,
+      "source_episode": "/mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/native-pairs-v1-20261010/episodes/native-pairs-spatial8-init1-N.json",
+      "source_episode_sha256": "003c7a2742084f5aaceecf069dd861157a1419d60b035038e2c9f6275a1a3f15"
+    },
+    {
+      "key": "native-pairs-spatial8-init2-N",
+      "task": "plate",
+      "init_id": 2,
+      "condition": "N",
+      "category": "neither",
+      "success": false,
+      "steps": 300,
+      "policy_calls": 300,
+      "first_event_steps": {
+        "bowl1": null,
+        "bowl2": null
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 1.5686176768614501e-07,
+          "max_displacement_m": 1.574860102572842e-07
+        },
+        "bowl2": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 2.786076397365278e-07,
+          "max_displacement_m": 2.78607640728492e-07
+        }
+      },
+      "origin": "reused",
+      "new_policy_calls": 0,
+      "source_episode": "/mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/native-pairs-v1-20261010/episodes/native-pairs-spatial8-init2-N.json",
+      "source_episode_sha256": "d3a1e043a179a2f5e90a5b835dd29534e0dcf7c87accc0b12533e8a1900bfc8a"
+    },
+    {
+      "key": "native-pairs-spatial1-init0-A",
+      "task": "ramekin",
+      "init_id": 0,
+      "condition": "A",
+      "category": "bowl1_only",
+      "success": true,
+      "steps": 113,
+      "policy_calls": 113,
+      "first_event_steps": {
+        "bowl1": 113,
+        "bowl2": null
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": 85,
+          "grasp_contact_state_count": 29,
+          "max_height_gain_m": 0.150013449351184,
+          "max_displacement_m": 0.31608883534534693
+        },
+        "bowl2": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 2.786076397365278e-07,
+          "max_displacement_m": 2.786076407285072e-07
+        }
+      },
+      "origin": "reused",
+      "new_policy_calls": 0,
+      "source_episode": "/mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/fact-first-v1-20261010/episodes/native-pairs-spatial1-init0-A.json",
+      "source_episode_sha256": "a91db0e0ff70771b79c6c68636670aa82a2608e4c65522ccee4924abe5aed8f7"
+    },
+    {
+      "key": "native-pairs-spatial8-init0-A",
+      "task": "plate",
+      "init_id": 0,
+      "condition": "A",
+      "category": "bowl1_only",
+      "success": true,
+      "steps": 108,
+      "policy_calls": 108,
+      "first_event_steps": {
+        "bowl1": 108,
+        "bowl2": null
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": 80,
+          "grasp_contact_state_count": 19,
+          "max_height_gain_m": 0.09813572144704497,
+          "max_displacement_m": 0.14770985200431255
+        },
+        "bowl2": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 2.786076397365278e-07,
+          "max_displacement_m": 2.78607640728492e-07
+        }
+      },
+      "origin": "reused",
+      "new_policy_calls": 0,
+      "source_episode": "/mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/fact-first-v1-20261010/episodes/native-pairs-spatial8-init0-A.json",
+      "source_episode_sha256": "5c72858907b561ec806b7be266a9cba746110cdc571cb586f18d8639fe917c86"
+    },
+    {
+      "key": "native-pairs-spatial1-init1-A",
+      "task": "ramekin",
+      "init_id": 1,
+      "condition": "A",
+      "origin": "new",
+      "category": "neither",
+      "success": false,
+      "steps": 300,
+      "policy_calls": 300,
+      "new_policy_calls": 300,
+      "first_event_steps": {
+        "bowl1": null,
+        "bowl2": null
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 2.786076397365278e-07,
+          "max_displacement_m": 2.78607640728492e-07
+        },
+        "bowl2": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 2.786076397365278e-07,
+          "max_displacement_m": 2.786076407285242e-07
+        }
+      }
+    },
+    {
+      "key": "native-pairs-spatial1-init2-A",
+      "task": "ramekin",
+      "init_id": 2,
+      "condition": "A",
+      "origin": "new",
+      "category": "neither",
+      "success": false,
+      "steps": 300,
+      "policy_calls": 300,
+      "new_policy_calls": 300,
+      "first_event_steps": {
+        "bowl1": null,
+        "bowl2": null
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 2.786076397365278e-07,
+          "max_displacement_m": 2.78607640728492e-07
+        },
+        "bowl2": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 2.786076397365278e-07,
+          "max_displacement_m": 2.786076407285072e-07
+        }
+      }
+    },
+    {
+      "key": "native-pairs-spatial8-init1-A",
+      "task": "plate",
+      "init_id": 1,
+      "condition": "A",
+      "origin": "new",
+      "category": "neither",
+      "success": false,
+      "steps": 300,
+      "policy_calls": 300,
+      "new_policy_calls": 300,
+      "first_event_steps": {
+        "bowl1": null,
+        "bowl2": null
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": 129,
+          "grasp_contact_state_count": 12,
+          "max_height_gain_m": 0.08831319688509531,
+          "max_displacement_m": 0.10530700147656381
+        },
+        "bowl2": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 2.7861649265492616e-07,
+          "max_displacement_m": 2.7861649376317645e-07
+        }
+      }
+    },
+    {
+      "key": "native-pairs-spatial8-init2-A",
+      "task": "plate",
+      "init_id": 2,
+      "condition": "A",
+      "origin": "new",
+      "category": "neither",
+      "success": false,
+      "steps": 300,
+      "policy_calls": 300,
+      "new_policy_calls": 300,
+      "first_event_steps": {
+        "bowl1": null,
+        "bowl2": null
+      },
+      "source_diagnostics": {
+        "bowl1": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 0.008171384461674425,
+          "max_displacement_m": 0.028295505960040535
+        },
+        "bowl2": {
+          "first_grasp_contact_step": null,
+          "grasp_contact_state_count": 0,
+          "max_height_gain_m": 2.786076397365278e-07,
+          "max_displacement_m": 2.78607640728492e-07
+        }
+      }
+    }
+  ],
+  "normal_gate_passed": false,
+  "new_rollout_episodes": 4,
+  "new_rollout_policy_calls": 1200,
+  "diagnostic_policy_calls": 0,
+  "reused_control_episodes": 8,
+  "already_accounted_source_calls": 1062,
+  "old_qualifications_changed": false,
+  "normal_gate_rule_changed": false,
+  "formal_conflict_rollouts": 0,
+  "main_model_promotion": false,
+  "completed_at": "2026-10-10T10:30:46.331261+00:00"
+}

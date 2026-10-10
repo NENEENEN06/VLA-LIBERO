@@ -1,0 +1,15 @@
+{
+  "run": "question-context-v1-20261010",
+  "status": "interrupted_io_error",
+  "known_completed_policy_calls": 112,
+  "completed_episodes": 0,
+  "A_U_episodes": 0,
+  "counted_as_qualification_sample": false,
+  "reused_queries_in_retry": false,
+  "error": "PermissionError(13) while atomically replacing current-status.json",
+  "status_sha256": "50a8d07d52cfb0157031953d25e070bb23be0d455faef68982a23af6d743df00",
+  "active_episode_sha256": "b35158c441544bde9bb28a041e1bcf6ab0e1121dce93ab84fe69c132a7a7070b",
+  "manifest_sha256": "5d68f4151baf660ef58a02dc3b5ffb7d6a1fb6ff34aaeeb0c7f291b7a7594db5",
+  "log_sha256": "2f9d0d16392d8b5ec4d62c1b2fb0d18db8b9a193427d6a6f4b88e9f2942889b3",
+  "recorded_on": "2026-10-10"
+}

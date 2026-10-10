@@ -1,0 +1,26 @@
+{
+  "checkpoint_revision": "962318cec55ac10993ff0f5f43eda9a270b4c873",
+  "status": "passed",
+  "files": [
+    {
+      "size": 4925122448,
+      "filename": "model-00001-of-00004.safetensors",
+      "sha256": "094ba8d798d0e13152230897e893d4d12ca3fe11ddb218f27545b1e6e7536134"
+    },
+    {
+      "size": 4947392496,
+      "filename": "model-00002-of-00004.safetensors",
+      "sha256": "086780bb21b61eee9fb54acc0b938017c599e9d741bcdda18da23c4617fa36d7"
+    },
+    {
+      "size": 4947417456,
+      "filename": "model-00003-of-00004.safetensors",
+      "sha256": "d696e042cf49abd0b5846e73cbd4931d75a5467ae44857bf8e54a90ed6588308"
+    },
+    {
+      "size": 262668432,
+      "filename": "model-00004-of-00004.safetensors",
+      "sha256": "234f92229d4055749c17e904e4d3f1c9a9af3eb13f96f14eaaa4530c0c376473"
+    }
+  ]
+}

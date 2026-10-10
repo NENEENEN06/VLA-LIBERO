@@ -1,0 +1,8 @@
+{
+  "status": "error",
+  "error": "ModuleNotFoundError(\"No module named 'matplotlib'\")",
+  "active": null,
+  "completed": 0,
+  "policy_calls": 0,
+  "query_in_progress": false
+}

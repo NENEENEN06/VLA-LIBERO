@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "policy_queries": 0,
+  "reference_manifest_sha256": "7f5df12cd21541d18cae75764f0af1af7fd0ae1340a400a13483d95ffc0463e6",
+  "reference_summary_sha256": "ce01ef1d92c76c78a9480e1a3691aa5103563b7a24f32a064fb775e2f70c8641",
+  "records": [
+    {
+      "task": "ramekin",
+      "init_id": 0,
+      "state_and_pixels_equal": true,
+      "N_actual_input_equal": true,
+      "A_X_U_character_token_multisets_equal": true
+    },
+    {
+      "task": "plate",
+      "init_id": 0,
+      "state_and_pixels_equal": true,
+      "N_actual_input_equal": true,
+      "A_X_U_character_token_multisets_equal": true
+    }
+  ]
+}
