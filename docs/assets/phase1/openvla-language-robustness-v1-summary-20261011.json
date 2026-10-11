@@ -1,0 +1,1176 @@
+{
+  "status": "completed",
+  "mode": "language_robustness_v1",
+  "blocks": {
+    "ramekin/N": {
+      "episodes": 3,
+      "successes": 3,
+      "correct_contact_episodes": 3,
+      "wrong_contact_episodes": 0,
+      "stages": {
+        "correct_exclusive_completion": 3
+      }
+    },
+    "ramekin/P": {
+      "episodes": 3,
+      "successes": 1,
+      "correct_contact_episodes": 2,
+      "wrong_contact_episodes": 0,
+      "stages": {
+        "correct_contact_and_lift_without_completion": 1,
+        "correct_exclusive_completion": 1,
+        "no_bilateral_contact": 1
+      }
+    },
+    "ramekin/U0": {
+      "episodes": 3,
+      "successes": 2,
+      "correct_contact_episodes": 2,
+      "wrong_contact_episodes": 0,
+      "stages": {
+        "correct_exclusive_completion": 2,
+        "no_bilateral_contact": 1
+      }
+    },
+    "ramekin/A0": {
+      "episodes": 3,
+      "successes": 1,
+      "correct_contact_episodes": 2,
+      "wrong_contact_episodes": 0,
+      "stages": {
+        "correct_contact_and_lift_without_completion": 1,
+        "correct_exclusive_completion": 1,
+        "no_bilateral_contact": 1
+      }
+    },
+    "plate/N": {
+      "episodes": 3,
+      "successes": 2,
+      "correct_contact_episodes": 2,
+      "wrong_contact_episodes": 0,
+      "stages": {
+        "correct_exclusive_completion": 2,
+        "no_bilateral_contact": 1
+      }
+    },
+    "plate/P": {
+      "episodes": 3,
+      "successes": 1,
+      "correct_contact_episodes": 1,
+      "wrong_contact_episodes": 0,
+      "stages": {
+        "correct_exclusive_completion": 1,
+        "no_bilateral_contact": 2
+      }
+    },
+    "plate/U0": {
+      "episodes": 3,
+      "successes": 1,
+      "correct_contact_episodes": 2,
+      "wrong_contact_episodes": 0,
+      "stages": {
+        "correct_contact_and_lift_without_completion": 1,
+        "correct_exclusive_completion": 1,
+        "no_bilateral_contact": 1
+      }
+    },
+    "plate/A0": {
+      "episodes": 3,
+      "successes": 2,
+      "correct_contact_episodes": 2,
+      "wrong_contact_episodes": 0,
+      "stages": {
+        "correct_exclusive_completion": 2,
+        "no_bilateral_contact": 1
+      }
+    }
+  },
+  "comparisons": {
+    "ramekin/N-P": {
+      "paired_success_rate_drop": 0.6666666666666666,
+      "paired_correct_contact_rate_drop": 0.3333333333333333,
+      "paired_cases": [
+        {
+          "init_id": 0,
+          "N_success": true,
+          "condition_success": true
+        },
+        {
+          "init_id": 1,
+          "N_success": true,
+          "condition_success": false
+        },
+        {
+          "init_id": 2,
+          "N_success": true,
+          "condition_success": false
+        }
+      ]
+    },
+    "ramekin/N-U0": {
+      "paired_success_rate_drop": 0.3333333333333333,
+      "paired_correct_contact_rate_drop": 0.3333333333333333,
+      "paired_cases": [
+        {
+          "init_id": 0,
+          "N_success": true,
+          "condition_success": true
+        },
+        {
+          "init_id": 1,
+          "N_success": true,
+          "condition_success": false
+        },
+        {
+          "init_id": 2,
+          "N_success": true,
+          "condition_success": true
+        }
+      ]
+    },
+    "ramekin/N-A0": {
+      "paired_success_rate_drop": 0.6666666666666666,
+      "paired_correct_contact_rate_drop": 0.3333333333333333,
+      "paired_cases": [
+        {
+          "init_id": 0,
+          "N_success": true,
+          "condition_success": false
+        },
+        {
+          "init_id": 1,
+          "N_success": true,
+          "condition_success": false
+        },
+        {
+          "init_id": 2,
+          "N_success": true,
+          "condition_success": true
+        }
+      ]
+    },
+    "plate/N-P": {
+      "paired_success_rate_drop": 0.3333333333333333,
+      "paired_correct_contact_rate_drop": 0.3333333333333333,
+      "paired_cases": [
+        {
+          "init_id": 0,
+          "N_success": true,
+          "condition_success": false
+        },
+        {
+          "init_id": 1,
+          "N_success": true,
+          "condition_success": true
+        },
+        {
+          "init_id": 2,
+          "N_success": false,
+          "condition_success": false
+        }
+      ]
+    },
+    "plate/N-U0": {
+      "paired_success_rate_drop": 0.3333333333333333,
+      "paired_correct_contact_rate_drop": 0.0,
+      "paired_cases": [
+        {
+          "init_id": 0,
+          "N_success": true,
+          "condition_success": false
+        },
+        {
+          "init_id": 1,
+          "N_success": true,
+          "condition_success": true
+        },
+        {
+          "init_id": 2,
+          "N_success": false,
+          "condition_success": false
+        }
+      ]
+    },
+    "plate/N-A0": {
+      "paired_success_rate_drop": 0.0,
+      "paired_correct_contact_rate_drop": 0.0,
+      "paired_cases": [
+        {
+          "init_id": 0,
+          "N_success": true,
+          "condition_success": true
+        },
+        {
+          "init_id": 1,
+          "N_success": true,
+          "condition_success": true
+        },
+        {
+          "init_id": 2,
+          "N_success": false,
+          "condition_success": false
+        }
+      ]
+    }
+  },
+  "results": [
+    {
+      "key": "robustness-spatial1-init0-N",
+      "task": "ramekin",
+      "init_id": 0,
+      "condition": "N",
+      "origin": "reused",
+      "new_policy_calls": 0,
+      "source_episode": "/mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/native-ramekin-20261010/episodes/native-spatial1-init0-seed1-ramekin-N.json",
+      "source_episode_sha256": "eb96b8a5145897f4165dfe208e24dd9dda551343505ccd5c301b61a38c9b1b44",
+      "steps": 114,
+      "policy_calls": 114,
+      "category": "bowl1_only",
+      "success": true,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 67,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 48,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.1939690619894856,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_exclusive_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.027669801597764103
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.2815928217050549
+        }
+      }
+    },
+    {
+      "key": "robustness-spatial1-init1-N",
+      "task": "ramekin",
+      "init_id": 1,
+      "condition": "N",
+      "origin": "reused",
+      "new_policy_calls": 0,
+      "source_episode": "/mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/native-ramekin-20261010/episodes/native-spatial1-init1-seed1-ramekin-N.json",
+      "source_episode_sha256": "d1546344c8d3ee76bac48ca0fc7af3906645c1afd9dc752e8cecf7ce7749edf1",
+      "steps": 99,
+      "policy_calls": 99,
+      "category": "bowl1_only",
+      "success": true,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 57,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 43,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.14616936653817736,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_exclusive_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.010405570107810468
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.2658947364403871
+        }
+      }
+    },
+    {
+      "key": "robustness-spatial1-init2-N",
+      "task": "ramekin",
+      "init_id": 2,
+      "condition": "N",
+      "origin": "reused",
+      "new_policy_calls": 0,
+      "source_episode": "/mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/native-ramekin-20261010/episodes/native-spatial1-init2-seed1-ramekin-N.json",
+      "source_episode_sha256": "dca5cb7352344168b18a63be4e644bead895b1aa85ee8985142ed17def112fba",
+      "steps": 116,
+      "policy_calls": 116,
+      "category": "bowl1_only",
+      "success": true,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 68,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 49,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.15541528352288525,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_exclusive_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.0037044897796822697
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.28944052763855854
+        }
+      }
+    },
+    {
+      "key": "robustness-spatial8-init0-N",
+      "task": "plate",
+      "init_id": 0,
+      "condition": "N",
+      "origin": "reused",
+      "new_policy_calls": 0,
+      "source_episode": "/mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/native-pairs-v1-20261010/episodes/native-pairs-spatial8-init0-N.json",
+      "source_episode_sha256": "585fcdc80fe8dc156cf8b6a91b04d1a884e3cf8757f0e712b77b54413d0e07e8",
+      "steps": 107,
+      "policy_calls": 107,
+      "category": "bowl1_only",
+      "success": true,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 78,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 30,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.10996739807724443,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_exclusive_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.01219457692894298
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.26430683602523924
+        }
+      }
+    },
+    {
+      "key": "robustness-spatial8-init1-N",
+      "task": "plate",
+      "init_id": 1,
+      "condition": "N",
+      "origin": "reused",
+      "new_policy_calls": 0,
+      "source_episode": "/mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/native-pairs-v1-20261010/episodes/native-pairs-spatial8-init1-N.json",
+      "source_episode_sha256": "003c7a2742084f5aaceecf069dd861157a1419d60b035038e2c9f6275a1a3f15",
+      "steps": 105,
+      "policy_calls": 105,
+      "category": "bowl1_only",
+      "success": true,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 65,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 40,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.13041000936609515,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_exclusive_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.029248174179788974
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.26910547332243245
+        }
+      }
+    },
+    {
+      "key": "robustness-spatial8-init2-N",
+      "task": "plate",
+      "init_id": 2,
+      "condition": "N",
+      "origin": "reused",
+      "new_policy_calls": 0,
+      "source_episode": "/mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/native-pairs-v1-20261010/episodes/native-pairs-spatial8-init2-N.json",
+      "source_episode_sha256": "d3a1e043a179a2f5e90a5b835dd29534e0dcf7c87accc0b12533e8a1900bfc8a",
+      "steps": 300,
+      "policy_calls": 300,
+      "category": "neither",
+      "success": false,
+      "correct_bilateral_contact": false,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": null,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 0,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 1.5686176768614501e-07,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "no_bilateral_contact",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.15241498455477212
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.28227316365372096
+        }
+      }
+    },
+    {
+      "key": "robustness-spatial1-init0-P",
+      "task": "ramekin",
+      "init_id": 0,
+      "condition": "P",
+      "origin": "new",
+      "new_policy_calls": 111,
+      "steps": 111,
+      "policy_calls": 111,
+      "category": "bowl1_only",
+      "success": true,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 64,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 48,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.17473012686514644,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_exclusive_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.018302320795116133
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.2815381342813175
+        }
+      }
+    },
+    {
+      "key": "robustness-spatial1-init1-P",
+      "task": "ramekin",
+      "init_id": 1,
+      "condition": "P",
+      "origin": "new",
+      "new_policy_calls": 300,
+      "steps": 300,
+      "policy_calls": 300,
+      "category": "neither",
+      "success": false,
+      "correct_bilateral_contact": false,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": null,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 0,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.010836730006281603,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "no_bilateral_contact",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.25328906778184335
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.2706458383028609
+        }
+      }
+    },
+    {
+      "key": "robustness-spatial1-init2-P",
+      "task": "ramekin",
+      "init_id": 2,
+      "condition": "P",
+      "origin": "new",
+      "new_policy_calls": 300,
+      "steps": 300,
+      "policy_calls": 300,
+      "category": "neither",
+      "success": false,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 115,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 14,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.14171478391494952,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_contact_and_lift_without_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.06374324266550456
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.2911633725684824
+        }
+      }
+    },
+    {
+      "key": "robustness-spatial8-init0-P",
+      "task": "plate",
+      "init_id": 0,
+      "condition": "P",
+      "origin": "new",
+      "new_policy_calls": 300,
+      "steps": 300,
+      "policy_calls": 300,
+      "category": "neither",
+      "success": false,
+      "correct_bilateral_contact": false,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": null,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 0,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 2.786076397365278e-07,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "no_bilateral_contact",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.119382278621566
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.2634131919469138
+        }
+      }
+    },
+    {
+      "key": "robustness-spatial8-init1-P",
+      "task": "plate",
+      "init_id": 1,
+      "condition": "P",
+      "origin": "new",
+      "new_policy_calls": 106,
+      "steps": 106,
+      "policy_calls": 106,
+      "category": "bowl1_only",
+      "success": true,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 70,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 36,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.12355493847547128,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_exclusive_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.018987569007149863
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.2741117215087833
+        }
+      }
+    },
+    {
+      "key": "robustness-spatial8-init2-P",
+      "task": "plate",
+      "init_id": 2,
+      "condition": "P",
+      "origin": "new",
+      "new_policy_calls": 300,
+      "steps": 300,
+      "policy_calls": 300,
+      "category": "neither",
+      "success": false,
+      "correct_bilateral_contact": false,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": null,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 0,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 1.5686176768614501e-07,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "no_bilateral_contact",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.15241498455477212
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.28227316365372096
+        }
+      }
+    },
+    {
+      "key": "robustness-spatial1-init0-U0",
+      "task": "ramekin",
+      "init_id": 0,
+      "condition": "U0",
+      "origin": "new",
+      "new_policy_calls": 109,
+      "steps": 109,
+      "policy_calls": 109,
+      "category": "bowl1_only",
+      "success": true,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 68,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 42,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.1512914588073293,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_exclusive_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.008384360763070618
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.2815831100261876
+        }
+      }
+    },
+    {
+      "key": "robustness-spatial1-init1-U0",
+      "task": "ramekin",
+      "init_id": 1,
+      "condition": "U0",
+      "origin": "new",
+      "new_policy_calls": 300,
+      "steps": 300,
+      "policy_calls": 300,
+      "category": "neither",
+      "success": false,
+      "correct_bilateral_contact": false,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": null,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 0,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.0059425325225417325,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "no_bilateral_contact",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.2584842581099963
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.26299807653218565
+        }
+      }
+    },
+    {
+      "key": "robustness-spatial1-init2-U0",
+      "task": "ramekin",
+      "init_id": 2,
+      "condition": "U0",
+      "origin": "new",
+      "new_policy_calls": 140,
+      "steps": 140,
+      "policy_calls": 140,
+      "category": "bowl1_only",
+      "success": true,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 122,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 19,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.17047055369875186,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_exclusive_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.017582943159005493
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.28944309844934435
+        }
+      }
+    },
+    {
+      "key": "robustness-spatial8-init0-U0",
+      "task": "plate",
+      "init_id": 0,
+      "condition": "U0",
+      "origin": "new",
+      "new_policy_calls": 300,
+      "steps": 300,
+      "policy_calls": 300,
+      "category": "neither",
+      "success": false,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 73,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 37,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.08145766152501488,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_contact_and_lift_without_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.04081357632999587
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.29444345563068763
+        }
+      }
+    },
+    {
+      "key": "robustness-spatial8-init1-U0",
+      "task": "plate",
+      "init_id": 1,
+      "condition": "U0",
+      "origin": "new",
+      "new_policy_calls": 99,
+      "steps": 99,
+      "policy_calls": 99,
+      "category": "bowl1_only",
+      "success": true,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 66,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 34,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.1149211301896047,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_exclusive_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.02510583651620259
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.26883383466603145
+        }
+      }
+    },
+    {
+      "key": "robustness-spatial8-init2-U0",
+      "task": "plate",
+      "init_id": 2,
+      "condition": "U0",
+      "origin": "new",
+      "new_policy_calls": 300,
+      "steps": 300,
+      "policy_calls": 300,
+      "category": "neither",
+      "success": false,
+      "correct_bilateral_contact": false,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": null,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 0,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 1.5686176768614501e-07,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "no_bilateral_contact",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.15241498455477212
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.28227316365372096
+        }
+      }
+    },
+    {
+      "key": "robustness-spatial1-init0-A0",
+      "task": "ramekin",
+      "init_id": 0,
+      "condition": "A0",
+      "origin": "new",
+      "new_policy_calls": 300,
+      "steps": 300,
+      "policy_calls": 300,
+      "category": "neither",
+      "success": false,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 63,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 52,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.18367157051663452,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_contact_and_lift_without_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.03212341080086619
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.27908467686553956
+        }
+      }
+    },
+    {
+      "key": "robustness-spatial1-init1-A0",
+      "task": "ramekin",
+      "init_id": 1,
+      "condition": "A0",
+      "origin": "new",
+      "new_policy_calls": 300,
+      "steps": 300,
+      "policy_calls": 300,
+      "category": "neither",
+      "success": false,
+      "correct_bilateral_contact": false,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": null,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 0,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 2.786076397365278e-07,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "no_bilateral_contact",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.23653462669900296
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.327512127522312
+        }
+      }
+    },
+    {
+      "key": "robustness-spatial1-init2-A0",
+      "task": "ramekin",
+      "init_id": 2,
+      "condition": "A0",
+      "origin": "new",
+      "new_policy_calls": 129,
+      "steps": 129,
+      "policy_calls": 129,
+      "category": "bowl1_only",
+      "success": true,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 75,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 55,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.21687183688920975,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_exclusive_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.027989584986680843
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.2884077544045407
+        }
+      }
+    },
+    {
+      "key": "robustness-spatial8-init0-A0",
+      "task": "plate",
+      "init_id": 0,
+      "condition": "A0",
+      "origin": "new",
+      "new_policy_calls": 211,
+      "steps": 211,
+      "policy_calls": 211,
+      "category": "bowl1_only",
+      "success": true,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 128,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 66,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.12533074627728125,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_exclusive_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.029429377986509356
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.24077403893986737
+        }
+      }
+    },
+    {
+      "key": "robustness-spatial8-init1-A0",
+      "task": "plate",
+      "init_id": 1,
+      "condition": "A0",
+      "origin": "new",
+      "new_policy_calls": 131,
+      "steps": 131,
+      "policy_calls": 131,
+      "category": "bowl1_only",
+      "success": true,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 111,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 20,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.08889952800328671,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_exclusive_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.012660682236996564
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.2686538456864276
+        }
+      }
+    },
+    {
+      "key": "robustness-spatial8-init2-A0",
+      "task": "plate",
+      "init_id": 2,
+      "condition": "A0",
+      "origin": "new",
+      "new_policy_calls": 300,
+      "steps": 300,
+      "policy_calls": 300,
+      "category": "neither",
+      "success": false,
+      "correct_bilateral_contact": false,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": null,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 0,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 1.5686176768614501e-07,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "no_bilateral_contact",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.15241498455477212
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.28227316365372096
+        }
+      }
+    }
+  ],
+  "new_rollout_episodes": 18,
+  "new_rollout_policy_calls": 4036,
+  "diagnostic_policy_calls": 0,
+  "reused_N_episodes": 6,
+  "already_accounted_N_calls": 841,
+  "A0_exploration_gate_passed": false,
+  "formal_conflict_rollouts": 0,
+  "old_qualifications_changed": false,
+  "independent_confirmation": false,
+  "completed_at": "2026-10-11T11:11:57.049086+00:00"
+}

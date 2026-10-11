@@ -1,6 +1,24 @@
 # 当前进度与接续
 
-文档整理日期：2026-10-10（Asia/Shanghai）；原SmolVLA N/A与各模型的新核查分开登记。工作目录：C:\VLA-LIBERO；WSL：/mnt/c/VLA-LIBERO。
+文档整理日期：2026-10-11（Asia/Shanghai）；原SmolVLA N/A与各模型的新核查分开登记。工作目录：C:\VLA-LIBERO；WSL：/mnt/c/VLA-LIBERO。
+
+[本次总结](EXPERIMENT_SUMMARY_20261011.md)：文献审查及两轮开发实验已完成，共24条新完整轨迹、4934次新策略调用，两轮独立复核通过；精简审计资产归档，完整轨迹／视频／日志保留本地。
+
+## 2026-10-11 早期事实撤除诊断已完成
+
+用户指示“试试”，已冻结[早期事实撤除v1](OPENVLA_TEMPORAL_WITHDRAW_V1_ENTRY_20261011.md)：前60次调用使用现有U0，第61次起恢复原生N，时点独立于抓取／成功事件。两原生任务各三个初始化，共6条新轨迹、最多1800次新调用；先核验复用六N的841次旧调用和六全程U0的1248次旧调用，再逐幅审阅实际224输入图。完整重新预测，不重放前缀；旧U1不重复或补测。
+
+20:15（Asia/Shanghai）运行完成，退出码0；6条新轨迹、898次新调用（U0前缀360／N后缀538），独立复核通过。ramekin从全程U0的2/3恢复为3/3，plate从1/3恢复为2/3，与N逐初始化成功／失败一致；恢复ramekin init1与plate init0，原成功三条均保留，plate init2仍失败。六条前60次实际输入、动作与0..60步记录状态完全相同，最大动作差0；3厘米判据未改。全部为已见开发数据，不能代替A0资格或留出确认。见[完整结果](OPENVLA_TEMPORAL_WITHDRAW_V1_RESULTS_20261011.md)与[独立审计](assets/phase1/openvla-temporal-withdraw-v1-result-audit-20261011.json)。
+
+本轮实验进程已退出，新诊断／中止均0；OpenVLA累计至少13221次、近期研究至少14451次，旧未知中止另列。状态在`outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/current-status.json`，日志`logs/openvla-temporal-withdraw-v1-20261011.log`。没有自动启动A0撤除、留出确认、训练、更换模型／任务或正式事实冲突。
+
+## 2026-10-11 文献与实验设计审查
+
+**本轮语言扰动诊断已完成，实验进程已退出。** 2026-10-11 19:11完成，18条新rollout／4036次新调用，独立核验通过。N为ramekin 3/3、plate 2/3（六条来源核验复用）；P各1/3；U0分别2/3、1/3；A0分别1/3、2/3。A0整体门槛未通过，严格事实冲突继续不放行。18条中8成功、10失败，失败为7条无双侧接触、3条正确接触／抬升后放置中心距超限；均无错误碗双侧接触或上盘子。两次预检错误各0策略查询，完整保留；旧前置U未重复或补测。见[完整结果](OPENVLA_LANGUAGE_ROBUSTNESS_V1_RESULTS_20261011.md)与[独立审计](assets/phase1/openvla-language-robustness-v1-result-audit-20261011.json)。OpenVLA累计至少12323次、近期研究至少13553次，旧未知中止另列。本轮三初始化均为开发数据，未开展留出确认、CAG、训练或攻击搜索。
+
+文献审查后用户授权“照这个做”，按[语言扰动诊断v1冻结入口](OPENVLA_LANGUAGE_ROBUSTNESS_V1_ENTRY_20261011.md)完成上述P/U0/A0开发诊断：两原生任务×三个初始化×三条件，共18条、最多5400次新查询；六N核验复用，旧前置U不重复、不补测。现有30条唯一完整来源轨迹的零查询重分析已通过，见[历史阶段审计](assets/phase1/language-robustness-history-audit-20261011.json)。两次墙材质元数据核验错误均在零策略查询时退出，记录和运行器快照保留；修正后完整状态在`outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/current-status.json`。[CAG官方接口核对](CAG_INTERFACE_CHECK_20261011.md)也已完成，不修改当前策略。后来授权的早期撤除诊断见本文件首节。
+
+已核对本地VLM论文，并补查Stable Language Guidance、LIBERO-Plus、LIBERO-CF及ICBench／IGAR。见[无关事实失败：论文与调整建议](LANGUAGE_DISTRACTION_LITERATURE_REVIEW_20261011.md)。审查阶段新增策略查询0；其分层诊断建议后来另冻结并完成，原历史协议与门槛保持。前置U1已有结果仍不重复或补测，严格事实冲突继续以一致条件能力为前提。
 
 ## 2026-10-10 接续诊断已完成，现已暂停
 

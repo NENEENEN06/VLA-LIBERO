@@ -51,6 +51,18 @@ powershell -ExecutionPolicy Bypass -File scripts/openvla.ps1 fact-first-na --out
 
 下面的`vla.ps1`／`vla.py all`命令管理SmolVLA、VLA-Adapter、PulseVLA三个既有环境；OpenVLA候选按独立入口运行。
 
+2026-10-11新增[语言扰动诊断v1](OPENVLA_LANGUAGE_ROBUSTNESS_V1_ENTRY_20261011.md)：两原生任务各三个初始化的P/U0/A0，共18条、最多5400次新调用；先核验复用六N，再审阅六幅实际输入图。旧前置U不重复或补测。
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts/openvla.ps1 language-robustness --output /mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/language-robustness-new --normal-N /mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/native-pairs-v1-20261010
+```
+
+后续[早期事实撤除v1](OPENVLA_TEMPORAL_WITHDRAW_V1_ENTRY_20261011.md)固定前60次调用输入U0、第61次起输入原生N；六条新完整轨迹最多1800次调用。六N与六全程U0须零查询核验复用，六图审阅通过后继续；原生3厘米放置判据保留。旧U1不重复、不补测。
+
+```powershell
+powershell -ExecutionPolicy Bypass -File scripts/openvla.ps1 temporal-withdraw --output /mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/temporal-withdraw-new --normal-N /mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/native-pairs-v1-20261010 --full-U0 /mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011
+```
+
 ## 在 Windows 项目目录中运行
 
 本机安装使用 Ubuntu 的 root 用户，无需等待 Linux 用户初始化。在 `C:\VLA-LIBERO` 的 PowerShell 中可以直接调用项目启动脚本：

@@ -1,0 +1,29 @@
+{
+  "status": "completed",
+  "new_complete_episodes": 18,
+  "new_policy_calls": 4036,
+  "condition_costs": {
+    "P": 1417,
+    "U0": 1248,
+    "A0": 1371
+  },
+  "reused_N_calls_already_accounted": 841,
+  "new_diagnostic_queries": 0,
+  "new_interrupted_policy_calls": 0,
+  "zero_query_preflight_errors": [
+    {
+      "directory": "language-robustness-v1-20261011",
+      "cause": "Wrong environment arena attribute",
+      "policy_calls": 0
+    },
+    {
+      "directory": "language-robustness-v1-retry1-20261011",
+      "cause": "Default XML wall filename instead of runtime style filename",
+      "policy_calls": 0
+    }
+  ],
+  "openvla_recorded_lower_bound": 12323,
+  "recent_research_recorded_lower_bound": 13553,
+  "unknown_old_interruption_costs_excluded": true,
+  "completed_at": "2026-10-11T11:11:57.049086+00:00"
+}

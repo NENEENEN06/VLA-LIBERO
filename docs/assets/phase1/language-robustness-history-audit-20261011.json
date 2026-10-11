@@ -1,0 +1,1739 @@
+{
+  "status": "passed",
+  "policy_queries": 0,
+  "rows": [
+    {
+      "carrier": "original_append",
+      "task": "ramekin",
+      "init_id": 0,
+      "condition": "N",
+      "source_episode": "C:\\VLA-LIBERO\\outputs\\openvla-spatial-4bit\\native-ramekin-20261010\\episodes\\native-spatial1-init0-seed1-ramekin-N.json",
+      "source_episode_sha256": "eb96b8a5145897f4165dfe208e24dd9dda551343505ccd5c301b61a38c9b1b44",
+      "source_summary_sha256": "ce01ef1d92c76c78a9480e1a3691aa5103563b7a24f32a064fb775e2f70c8641",
+      "steps": 114,
+      "policy_calls": 114,
+      "category": "bowl1_only",
+      "success": true,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 67,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 48,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.1939690619894856,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_exclusive_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.027669801597764103
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.2815928217050549
+        }
+      }
+    },
+    {
+      "carrier": "original_append",
+      "task": "ramekin",
+      "init_id": 1,
+      "condition": "N",
+      "source_episode": "C:\\VLA-LIBERO\\outputs\\openvla-spatial-4bit\\native-ramekin-20261010\\episodes\\native-spatial1-init1-seed1-ramekin-N.json",
+      "source_episode_sha256": "d1546344c8d3ee76bac48ca0fc7af3906645c1afd9dc752e8cecf7ce7749edf1",
+      "source_summary_sha256": "ce01ef1d92c76c78a9480e1a3691aa5103563b7a24f32a064fb775e2f70c8641",
+      "steps": 99,
+      "policy_calls": 99,
+      "category": "bowl1_only",
+      "success": true,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 57,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 43,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.14616936653817736,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_exclusive_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.010405570107810468
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.2658947364403871
+        }
+      }
+    },
+    {
+      "carrier": "original_append",
+      "task": "ramekin",
+      "init_id": 2,
+      "condition": "N",
+      "source_episode": "C:\\VLA-LIBERO\\outputs\\openvla-spatial-4bit\\native-ramekin-20261010\\episodes\\native-spatial1-init2-seed1-ramekin-N.json",
+      "source_episode_sha256": "dca5cb7352344168b18a63be4e644bead895b1aa85ee8985142ed17def112fba",
+      "source_summary_sha256": "ce01ef1d92c76c78a9480e1a3691aa5103563b7a24f32a064fb775e2f70c8641",
+      "steps": 116,
+      "policy_calls": 116,
+      "category": "bowl1_only",
+      "success": true,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 68,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 49,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.15541528352288525,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_exclusive_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.0037044897796822697
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.28944052763855854
+        }
+      }
+    },
+    {
+      "carrier": "original_append",
+      "task": "plate",
+      "init_id": 0,
+      "condition": "N",
+      "source_episode": "C:\\VLA-LIBERO\\outputs\\openvla-spatial-4bit\\native-pairs-v1-20261010\\episodes\\native-pairs-spatial8-init0-N.json",
+      "source_episode_sha256": "585fcdc80fe8dc156cf8b6a91b04d1a884e3cf8757f0e712b77b54413d0e07e8",
+      "source_summary_sha256": "ce01ef1d92c76c78a9480e1a3691aa5103563b7a24f32a064fb775e2f70c8641",
+      "steps": 107,
+      "policy_calls": 107,
+      "category": "bowl1_only",
+      "success": true,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 78,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 30,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.10996739807724443,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_exclusive_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.01219457692894298
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.26430683602523924
+        }
+      }
+    },
+    {
+      "carrier": "original_append",
+      "task": "plate",
+      "init_id": 1,
+      "condition": "N",
+      "source_episode": "C:\\VLA-LIBERO\\outputs\\openvla-spatial-4bit\\native-pairs-v1-20261010\\episodes\\native-pairs-spatial8-init1-N.json",
+      "source_episode_sha256": "003c7a2742084f5aaceecf069dd861157a1419d60b035038e2c9f6275a1a3f15",
+      "source_summary_sha256": "ce01ef1d92c76c78a9480e1a3691aa5103563b7a24f32a064fb775e2f70c8641",
+      "steps": 105,
+      "policy_calls": 105,
+      "category": "bowl1_only",
+      "success": true,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 65,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 40,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.13041000936609515,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_exclusive_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.029248174179788974
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.26910547332243245
+        }
+      }
+    },
+    {
+      "carrier": "original_append",
+      "task": "plate",
+      "init_id": 2,
+      "condition": "N",
+      "source_episode": "C:\\VLA-LIBERO\\outputs\\openvla-spatial-4bit\\native-pairs-v1-20261010\\episodes\\native-pairs-spatial8-init2-N.json",
+      "source_episode_sha256": "d3a1e043a179a2f5e90a5b835dd29534e0dcf7c87accc0b12533e8a1900bfc8a",
+      "source_summary_sha256": "ce01ef1d92c76c78a9480e1a3691aa5103563b7a24f32a064fb775e2f70c8641",
+      "steps": 300,
+      "policy_calls": 300,
+      "category": "neither",
+      "success": false,
+      "correct_bilateral_contact": false,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": null,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 0,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 1.5686176768614501e-07,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "no_bilateral_contact",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.15241498455477212
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.28227316365372096
+        }
+      }
+    },
+    {
+      "carrier": "original_append",
+      "task": "ramekin",
+      "init_id": 0,
+      "condition": "A",
+      "source_episode": "C:\\VLA-LIBERO\\outputs\\openvla-spatial-4bit\\native-pairs-v1-20261010\\episodes\\native-pairs-spatial1-init0-A.json",
+      "source_episode_sha256": "7a4a4272772f347cd0e2415a7e75148ace71bd08a6689cafcd6f715fda4da4df",
+      "source_summary_sha256": "ce01ef1d92c76c78a9480e1a3691aa5103563b7a24f32a064fb775e2f70c8641",
+      "steps": 300,
+      "policy_calls": 300,
+      "category": "neither",
+      "success": false,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 78,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 51,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.16818256753473126,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_contact_and_lift_without_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.03559425291613031
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.28002609693820285
+        }
+      }
+    },
+    {
+      "carrier": "original_append",
+      "task": "ramekin",
+      "init_id": 1,
+      "condition": "A",
+      "source_episode": "C:\\VLA-LIBERO\\outputs\\openvla-spatial-4bit\\native-pairs-v1-20261010\\episodes\\native-pairs-spatial1-init1-A.json",
+      "source_episode_sha256": "e87a9986e93f7e6c6276b6e1e6e3f66e52a22d3703feae5981f0e42f500c75fd",
+      "source_summary_sha256": "ce01ef1d92c76c78a9480e1a3691aa5103563b7a24f32a064fb775e2f70c8641",
+      "steps": 300,
+      "policy_calls": 300,
+      "category": "neither",
+      "success": false,
+      "correct_bilateral_contact": false,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": null,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 0,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 2.786076397365278e-07,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "no_bilateral_contact",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.2410044374013721
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.26825979491882207
+        }
+      }
+    },
+    {
+      "carrier": "original_append",
+      "task": "ramekin",
+      "init_id": 2,
+      "condition": "A",
+      "source_episode": "C:\\VLA-LIBERO\\outputs\\openvla-spatial-4bit\\native-pairs-v1-20261010\\episodes\\native-pairs-spatial1-init2-A.json",
+      "source_episode_sha256": "f6beca8f43e29da36d9d907eed5b2750f72027779d44c34f4903329c85fc4a3e",
+      "source_summary_sha256": "ce01ef1d92c76c78a9480e1a3691aa5103563b7a24f32a064fb775e2f70c8641",
+      "steps": 300,
+      "policy_calls": 300,
+      "category": "neither",
+      "success": false,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 77,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 12,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.05450863530318195,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_contact_and_lift_without_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.2815098611154836
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.2894473075044596
+        }
+      }
+    },
+    {
+      "carrier": "original_append",
+      "task": "plate",
+      "init_id": 0,
+      "condition": "A",
+      "source_episode": "C:\\VLA-LIBERO\\outputs\\openvla-spatial-4bit\\native-pairs-v1-20261010\\episodes\\native-pairs-spatial8-init0-A.json",
+      "source_episode_sha256": "c907cd05a489046fb38555a4f9561a94519ceb81d8c39d7af3403edc6150de5d",
+      "source_summary_sha256": "ce01ef1d92c76c78a9480e1a3691aa5103563b7a24f32a064fb775e2f70c8641",
+      "steps": 300,
+      "policy_calls": 300,
+      "category": "neither",
+      "success": false,
+      "correct_bilateral_contact": false,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": null,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 0,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.0917111348975792,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "no_bilateral_contact",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.0321523759900732
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.26451517846069733
+        }
+      }
+    },
+    {
+      "carrier": "original_append",
+      "task": "plate",
+      "init_id": 1,
+      "condition": "A",
+      "source_episode": "C:\\VLA-LIBERO\\outputs\\openvla-spatial-4bit\\native-pairs-v1-20261010\\episodes\\native-pairs-spatial8-init1-A.json",
+      "source_episode_sha256": "898abb1a0f5a81bcef21b50f55454279f760a50bac8e8461a14038496053098e",
+      "source_summary_sha256": "ce01ef1d92c76c78a9480e1a3691aa5103563b7a24f32a064fb775e2f70c8641",
+      "steps": 300,
+      "policy_calls": 300,
+      "category": "neither",
+      "success": false,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 71,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 37,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.12896540059376216,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_contact_and_lift_without_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.03954933607041088
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.26176197176449617
+        }
+      }
+    },
+    {
+      "carrier": "original_append",
+      "task": "plate",
+      "init_id": 2,
+      "condition": "A",
+      "source_episode": "C:\\VLA-LIBERO\\outputs\\openvla-spatial-4bit\\native-pairs-v1-20261010\\episodes\\native-pairs-spatial8-init2-A.json",
+      "source_episode_sha256": "bbdda06c444dc775c7195db1a2ceae0213f71f157d8e147b3cecbedfdf77f2f6",
+      "source_summary_sha256": "ce01ef1d92c76c78a9480e1a3691aa5103563b7a24f32a064fb775e2f70c8641",
+      "steps": 300,
+      "policy_calls": 300,
+      "category": "neither",
+      "success": false,
+      "correct_bilateral_contact": false,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": null,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 0,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 1.5686176768614501e-07,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "no_bilateral_contact",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.15241498455477212
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.28227316365372096
+        }
+      }
+    },
+    {
+      "carrier": "original_append_U",
+      "task": "ramekin",
+      "init_id": 0,
+      "condition": "U",
+      "source_episode": "C:\\VLA-LIBERO\\outputs\\openvla-spatial-4bit\\native-neutral-v1-20261010\\episodes\\native-pairs-spatial1-init0-U.json",
+      "source_episode_sha256": "a3803a16e9e3207e5e5ef0467a8e6b5eba618c20ea64973ab50fedab11bceb12",
+      "source_summary_sha256": "3c683af2981d964798f8d8130d07303ce1612fb0a36d748e70fb816c2320acaf",
+      "steps": 111,
+      "policy_calls": 111,
+      "category": "bowl1_only",
+      "success": true,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 65,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 47,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.1789583982706504,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_exclusive_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.020731580995589437
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.2797979563924549
+        }
+      }
+    },
+    {
+      "carrier": "original_append_U",
+      "task": "plate",
+      "init_id": 0,
+      "condition": "U",
+      "source_episode": "C:\\VLA-LIBERO\\outputs\\openvla-spatial-4bit\\native-neutral-v1-20261010\\episodes\\native-pairs-spatial8-init0-U.json",
+      "source_episode_sha256": "b72828b9bf3da1325d20d4c1b68f982958a536e3572738eeca8aab436c897220",
+      "source_summary_sha256": "3c683af2981d964798f8d8130d07303ce1612fb0a36d748e70fb816c2320acaf",
+      "steps": 300,
+      "policy_calls": 300,
+      "category": "neither",
+      "success": false,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 106,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 89,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.03199830485114874,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_contact_and_lift_without_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": false,
+          "xy_distance_m": 0.058907812847115174
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.2840969305661321
+        }
+      }
+    },
+    {
+      "carrier": "question_then_fact",
+      "task": "ramekin",
+      "init_id": 0,
+      "condition": "N",
+      "source_episode": "C:\\VLA-LIBERO\\outputs\\openvla-spatial-4bit\\question-context-v1-retry1-20261010\\episodes\\native-pairs-spatial1-init0-N.json",
+      "source_episode_sha256": "1c8c94503ca5c3e37dacf732a4781125a2aaa4f1097f03704faa17748f6fa121",
+      "source_summary_sha256": "2f587c1b65a406a4408faa2168c2455672d2fa3e5f041f90b85c7b7a69572b78",
+      "steps": 114,
+      "policy_calls": 114,
+      "category": "bowl1_only",
+      "success": true,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 67,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 48,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.1939690619894856,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_exclusive_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.027669801597764103
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.2815928217050549
+        }
+      }
+    },
+    {
+      "carrier": "question_then_fact",
+      "task": "plate",
+      "init_id": 0,
+      "condition": "N",
+      "source_episode": "C:\\VLA-LIBERO\\outputs\\openvla-spatial-4bit\\question-context-v1-retry1-20261010\\episodes\\native-pairs-spatial8-init0-N.json",
+      "source_episode_sha256": "a97faf57d9ee8962a5f080f0eb9c5b527eb0c6cc5a92a28379f9d8cb5737537b",
+      "source_summary_sha256": "2f587c1b65a406a4408faa2168c2455672d2fa3e5f041f90b85c7b7a69572b78",
+      "steps": 107,
+      "policy_calls": 107,
+      "category": "bowl1_only",
+      "success": true,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 78,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 30,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.10996739807724443,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_exclusive_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.01219457692894298
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.26430683602523924
+        }
+      }
+    },
+    {
+      "carrier": "question_then_fact",
+      "task": "ramekin",
+      "init_id": 0,
+      "condition": "A",
+      "source_episode": "C:\\VLA-LIBERO\\outputs\\openvla-spatial-4bit\\question-context-v1-retry1-20261010\\episodes\\native-pairs-spatial1-init0-A.json",
+      "source_episode_sha256": "3f210a24fa8da01babf9da23ebb7524731d4d0370f0c4b59c986038667f42852",
+      "source_summary_sha256": "2f587c1b65a406a4408faa2168c2455672d2fa3e5f041f90b85c7b7a69572b78",
+      "steps": 300,
+      "policy_calls": 300,
+      "category": "neither",
+      "success": false,
+      "correct_bilateral_contact": false,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": null,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 0,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.030586530265025225,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "no_bilateral_contact",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.3180606362207012
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.2815928217050549
+        }
+      }
+    },
+    {
+      "carrier": "question_then_fact",
+      "task": "plate",
+      "init_id": 0,
+      "condition": "A",
+      "source_episode": "C:\\VLA-LIBERO\\outputs\\openvla-spatial-4bit\\question-context-v1-retry1-20261010\\episodes\\native-pairs-spatial8-init0-A.json",
+      "source_episode_sha256": "b991f060dc909b2f6930c4f5cf0e3d1d6b20018e35f39cf0c5c3d94543fc228a",
+      "source_summary_sha256": "2f587c1b65a406a4408faa2168c2455672d2fa3e5f041f90b85c7b7a69572b78",
+      "steps": 133,
+      "policy_calls": 133,
+      "category": "bowl1_only",
+      "success": true,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 95,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 28,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.10600570992206948,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_exclusive_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.026158970578597472
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.2625641523237855
+        }
+      }
+    },
+    {
+      "carrier": "question_then_fact",
+      "task": "ramekin",
+      "init_id": 0,
+      "condition": "U",
+      "source_episode": "C:\\VLA-LIBERO\\outputs\\openvla-spatial-4bit\\question-context-v1-retry1-20261010\\episodes\\native-pairs-spatial1-init0-U.json",
+      "source_episode_sha256": "b360d098cd373c00c292a3c95383e02e1ffca94d04a336cda5fc42cccb822c86",
+      "source_summary_sha256": "2f587c1b65a406a4408faa2168c2455672d2fa3e5f041f90b85c7b7a69572b78",
+      "steps": 120,
+      "policy_calls": 120,
+      "category": "bowl1_only",
+      "success": true,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 71,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 50,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.16670943063295796,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_exclusive_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.013841208357568633
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.279940736760522
+        }
+      }
+    },
+    {
+      "carrier": "question_then_fact",
+      "task": "plate",
+      "init_id": 0,
+      "condition": "U",
+      "source_episode": "C:\\VLA-LIBERO\\outputs\\openvla-spatial-4bit\\question-context-v1-retry1-20261010\\episodes\\native-pairs-spatial8-init0-U.json",
+      "source_episode_sha256": "261384d4f62353d38024e570bcdfd6f69cb8cec7a664e8c08cbb56842deb2b5d",
+      "source_summary_sha256": "2f587c1b65a406a4408faa2168c2455672d2fa3e5f041f90b85c7b7a69572b78",
+      "steps": 300,
+      "policy_calls": 300,
+      "category": "neither",
+      "success": false,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 101,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 58,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.07138606184197527,
+        "bowl2": 2.786081043648636e-07
+      },
+      "descriptive_stage": "correct_contact_and_lift_without_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.04719531867614917
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.2667116686980613
+        }
+      }
+    },
+    {
+      "carrier": "fact_first_pilot",
+      "task": "ramekin",
+      "init_id": 0,
+      "condition": "N",
+      "source_episode": "C:\\VLA-LIBERO\\outputs\\openvla-spatial-4bit\\fact-first-v1-20261010\\episodes\\native-pairs-spatial1-init0-N.json",
+      "source_episode_sha256": "c2eb00f149e6d02a3be7a48479da441be6a1ea8404a3090d59c1eb06f55d76f5",
+      "source_summary_sha256": "dfa0cafa3c6e3199c4c201870ae046c3f798257c30ce94b8452f7ec91868ed51",
+      "steps": 114,
+      "policy_calls": 114,
+      "category": "bowl1_only",
+      "success": true,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 67,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 48,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.1939690619894856,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_exclusive_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.027669801597764103
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.2815928217050549
+        }
+      }
+    },
+    {
+      "carrier": "fact_first_pilot",
+      "task": "plate",
+      "init_id": 0,
+      "condition": "N",
+      "source_episode": "C:\\VLA-LIBERO\\outputs\\openvla-spatial-4bit\\fact-first-v1-20261010\\episodes\\native-pairs-spatial8-init0-N.json",
+      "source_episode_sha256": "891fe97784d4675254ff6703979fee383a9b144502080c719d889da8010fb451",
+      "source_summary_sha256": "dfa0cafa3c6e3199c4c201870ae046c3f798257c30ce94b8452f7ec91868ed51",
+      "steps": 107,
+      "policy_calls": 107,
+      "category": "bowl1_only",
+      "success": true,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 78,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 30,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.10996739807724443,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_exclusive_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.01219457692894298
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.26430683602523924
+        }
+      }
+    },
+    {
+      "carrier": "fact_first_pilot",
+      "task": "ramekin",
+      "init_id": 0,
+      "condition": "A",
+      "source_episode": "C:\\VLA-LIBERO\\outputs\\openvla-spatial-4bit\\fact-first-v1-20261010\\episodes\\native-pairs-spatial1-init0-A.json",
+      "source_episode_sha256": "a91db0e0ff70771b79c6c68636670aa82a2608e4c65522ccee4924abe5aed8f7",
+      "source_summary_sha256": "dfa0cafa3c6e3199c4c201870ae046c3f798257c30ce94b8452f7ec91868ed51",
+      "steps": 113,
+      "policy_calls": 113,
+      "category": "bowl1_only",
+      "success": true,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 85,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 29,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.150013449351184,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_exclusive_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.017738846658145367
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.28153586425576055
+        }
+      }
+    },
+    {
+      "carrier": "fact_first_pilot",
+      "task": "plate",
+      "init_id": 0,
+      "condition": "A",
+      "source_episode": "C:\\VLA-LIBERO\\outputs\\openvla-spatial-4bit\\fact-first-v1-20261010\\episodes\\native-pairs-spatial8-init0-A.json",
+      "source_episode_sha256": "5c72858907b561ec806b7be266a9cba746110cdc571cb586f18d8639fe917c86",
+      "source_summary_sha256": "dfa0cafa3c6e3199c4c201870ae046c3f798257c30ce94b8452f7ec91868ed51",
+      "steps": 108,
+      "policy_calls": 108,
+      "category": "bowl1_only",
+      "success": true,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 80,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 19,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.09813572144704497,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_exclusive_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.02846082044907576
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.2645007137618185
+        }
+      }
+    },
+    {
+      "carrier": "fact_first_pilot",
+      "task": "ramekin",
+      "init_id": 0,
+      "condition": "U",
+      "source_episode": "C:\\VLA-LIBERO\\outputs\\openvla-spatial-4bit\\fact-first-v1-20261010\\episodes\\native-pairs-spatial1-init0-U.json",
+      "source_episode_sha256": "9048233cc3075d56360a70752a2626333178c65c264100ebc598f3b462bf39b5",
+      "source_summary_sha256": "dfa0cafa3c6e3199c4c201870ae046c3f798257c30ce94b8452f7ec91868ed51",
+      "steps": 132,
+      "policy_calls": 132,
+      "category": "bowl1_only",
+      "success": true,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 85,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 48,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.1634720440720634,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_exclusive_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.004584820238304744
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.28151094033909674
+        }
+      }
+    },
+    {
+      "carrier": "fact_first_pilot",
+      "task": "plate",
+      "init_id": 0,
+      "condition": "U",
+      "source_episode": "C:\\VLA-LIBERO\\outputs\\openvla-spatial-4bit\\fact-first-v1-20261010\\episodes\\native-pairs-spatial8-init0-U.json",
+      "source_episode_sha256": "22114c66dc725928eeaca328cbf64f37a59bc46a439d8d367837bd8af4d76c95",
+      "source_summary_sha256": "dfa0cafa3c6e3199c4c201870ae046c3f798257c30ce94b8452f7ec91868ed51",
+      "steps": 91,
+      "policy_calls": 91,
+      "category": "bowl1_only",
+      "success": true,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 68,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 24,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.08882239881024112,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_exclusive_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.02675091950258574
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.26346256403535684
+        }
+      }
+    },
+    {
+      "carrier": "fact_first_three_init",
+      "task": "ramekin",
+      "init_id": 0,
+      "condition": "N",
+      "source_episode": "C:\\VLA-LIBERO\\outputs\\openvla-spatial-4bit\\native-ramekin-20261010\\episodes\\native-spatial1-init0-seed1-ramekin-N.json",
+      "source_episode_sha256": "eb96b8a5145897f4165dfe208e24dd9dda551343505ccd5c301b61a38c9b1b44",
+      "source_summary_sha256": "94d340924ed278a60493a6c90f8045790a86b107debfe09628acda14d2cc3bc3",
+      "steps": 114,
+      "policy_calls": 114,
+      "category": "bowl1_only",
+      "success": true,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 67,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 48,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.1939690619894856,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_exclusive_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.027669801597764103
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.2815928217050549
+        }
+      }
+    },
+    {
+      "carrier": "fact_first_three_init",
+      "task": "ramekin",
+      "init_id": 1,
+      "condition": "N",
+      "source_episode": "C:\\VLA-LIBERO\\outputs\\openvla-spatial-4bit\\native-ramekin-20261010\\episodes\\native-spatial1-init1-seed1-ramekin-N.json",
+      "source_episode_sha256": "d1546344c8d3ee76bac48ca0fc7af3906645c1afd9dc752e8cecf7ce7749edf1",
+      "source_summary_sha256": "94d340924ed278a60493a6c90f8045790a86b107debfe09628acda14d2cc3bc3",
+      "steps": 99,
+      "policy_calls": 99,
+      "category": "bowl1_only",
+      "success": true,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 57,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 43,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.14616936653817736,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_exclusive_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.010405570107810468
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.2658947364403871
+        }
+      }
+    },
+    {
+      "carrier": "fact_first_three_init",
+      "task": "ramekin",
+      "init_id": 2,
+      "condition": "N",
+      "source_episode": "C:\\VLA-LIBERO\\outputs\\openvla-spatial-4bit\\native-ramekin-20261010\\episodes\\native-spatial1-init2-seed1-ramekin-N.json",
+      "source_episode_sha256": "dca5cb7352344168b18a63be4e644bead895b1aa85ee8985142ed17def112fba",
+      "source_summary_sha256": "94d340924ed278a60493a6c90f8045790a86b107debfe09628acda14d2cc3bc3",
+      "steps": 116,
+      "policy_calls": 116,
+      "category": "bowl1_only",
+      "success": true,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 68,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 49,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.15541528352288525,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_exclusive_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.0037044897796822697
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.28944052763855854
+        }
+      }
+    },
+    {
+      "carrier": "fact_first_three_init",
+      "task": "plate",
+      "init_id": 0,
+      "condition": "N",
+      "source_episode": "C:\\VLA-LIBERO\\outputs\\openvla-spatial-4bit\\native-pairs-v1-20261010\\episodes\\native-pairs-spatial8-init0-N.json",
+      "source_episode_sha256": "585fcdc80fe8dc156cf8b6a91b04d1a884e3cf8757f0e712b77b54413d0e07e8",
+      "source_summary_sha256": "94d340924ed278a60493a6c90f8045790a86b107debfe09628acda14d2cc3bc3",
+      "steps": 107,
+      "policy_calls": 107,
+      "category": "bowl1_only",
+      "success": true,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 78,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 30,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.10996739807724443,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_exclusive_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.01219457692894298
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.26430683602523924
+        }
+      }
+    },
+    {
+      "carrier": "fact_first_three_init",
+      "task": "plate",
+      "init_id": 1,
+      "condition": "N",
+      "source_episode": "C:\\VLA-LIBERO\\outputs\\openvla-spatial-4bit\\native-pairs-v1-20261010\\episodes\\native-pairs-spatial8-init1-N.json",
+      "source_episode_sha256": "003c7a2742084f5aaceecf069dd861157a1419d60b035038e2c9f6275a1a3f15",
+      "source_summary_sha256": "94d340924ed278a60493a6c90f8045790a86b107debfe09628acda14d2cc3bc3",
+      "steps": 105,
+      "policy_calls": 105,
+      "category": "bowl1_only",
+      "success": true,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 65,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 40,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.13041000936609515,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_exclusive_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.029248174179788974
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.26910547332243245
+        }
+      }
+    },
+    {
+      "carrier": "fact_first_three_init",
+      "task": "plate",
+      "init_id": 2,
+      "condition": "N",
+      "source_episode": "C:\\VLA-LIBERO\\outputs\\openvla-spatial-4bit\\native-pairs-v1-20261010\\episodes\\native-pairs-spatial8-init2-N.json",
+      "source_episode_sha256": "d3a1e043a179a2f5e90a5b835dd29534e0dcf7c87accc0b12533e8a1900bfc8a",
+      "source_summary_sha256": "94d340924ed278a60493a6c90f8045790a86b107debfe09628acda14d2cc3bc3",
+      "steps": 300,
+      "policy_calls": 300,
+      "category": "neither",
+      "success": false,
+      "correct_bilateral_contact": false,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": null,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 0,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 1.5686176768614501e-07,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "no_bilateral_contact",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.15241498455477212
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.28227316365372096
+        }
+      }
+    },
+    {
+      "carrier": "fact_first_three_init",
+      "task": "ramekin",
+      "init_id": 0,
+      "condition": "A",
+      "source_episode": "C:\\VLA-LIBERO\\outputs\\openvla-spatial-4bit\\fact-first-v1-20261010\\episodes\\native-pairs-spatial1-init0-A.json",
+      "source_episode_sha256": "a91db0e0ff70771b79c6c68636670aa82a2608e4c65522ccee4924abe5aed8f7",
+      "source_summary_sha256": "94d340924ed278a60493a6c90f8045790a86b107debfe09628acda14d2cc3bc3",
+      "steps": 113,
+      "policy_calls": 113,
+      "category": "bowl1_only",
+      "success": true,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 85,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 29,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.150013449351184,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_exclusive_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.017738846658145367
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.28153586425576055
+        }
+      }
+    },
+    {
+      "carrier": "fact_first_three_init",
+      "task": "plate",
+      "init_id": 0,
+      "condition": "A",
+      "source_episode": "C:\\VLA-LIBERO\\outputs\\openvla-spatial-4bit\\fact-first-v1-20261010\\episodes\\native-pairs-spatial8-init0-A.json",
+      "source_episode_sha256": "5c72858907b561ec806b7be266a9cba746110cdc571cb586f18d8639fe917c86",
+      "source_summary_sha256": "94d340924ed278a60493a6c90f8045790a86b107debfe09628acda14d2cc3bc3",
+      "steps": 108,
+      "policy_calls": 108,
+      "category": "bowl1_only",
+      "success": true,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 80,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 19,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.09813572144704497,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_exclusive_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.02846082044907576
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.2645007137618185
+        }
+      }
+    },
+    {
+      "carrier": "fact_first_three_init",
+      "task": "ramekin",
+      "init_id": 1,
+      "condition": "A",
+      "source_episode": "C:\\VLA-LIBERO\\outputs\\openvla-spatial-4bit\\fact-first-na-v1-20261010\\episodes\\native-pairs-spatial1-init1-A.json",
+      "source_episode_sha256": "9f90ce577d859ecb2e78333427c1d6565f6a6d5a5a45d8e73fabf97d4d5b8c77",
+      "source_summary_sha256": "94d340924ed278a60493a6c90f8045790a86b107debfe09628acda14d2cc3bc3",
+      "steps": 300,
+      "policy_calls": 300,
+      "category": "neither",
+      "success": false,
+      "correct_bilateral_contact": false,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": null,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 0,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 2.786076397365278e-07,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "no_bilateral_contact",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.2502054550734261
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.26596420635601375
+        }
+      }
+    },
+    {
+      "carrier": "fact_first_three_init",
+      "task": "ramekin",
+      "init_id": 2,
+      "condition": "A",
+      "source_episode": "C:\\VLA-LIBERO\\outputs\\openvla-spatial-4bit\\fact-first-na-v1-20261010\\episodes\\native-pairs-spatial1-init2-A.json",
+      "source_episode_sha256": "d86484570bb4dc1db9aa47441ded1f1dae8ab321c71917a17c566c7a0ad88a53",
+      "source_summary_sha256": "94d340924ed278a60493a6c90f8045790a86b107debfe09628acda14d2cc3bc3",
+      "steps": 300,
+      "policy_calls": 300,
+      "category": "neither",
+      "success": false,
+      "correct_bilateral_contact": false,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": null,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 0,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 2.786076397365278e-07,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "no_bilateral_contact",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.23983453383991188
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.2805932568750304
+        }
+      }
+    },
+    {
+      "carrier": "fact_first_three_init",
+      "task": "plate",
+      "init_id": 1,
+      "condition": "A",
+      "source_episode": "C:\\VLA-LIBERO\\outputs\\openvla-spatial-4bit\\fact-first-na-v1-20261010\\episodes\\native-pairs-spatial8-init1-A.json",
+      "source_episode_sha256": "92a547eb3a331f2542f766db41df9408d8290ba83dd9011c77c1e2a52cda35c5",
+      "source_summary_sha256": "94d340924ed278a60493a6c90f8045790a86b107debfe09628acda14d2cc3bc3",
+      "steps": 300,
+      "policy_calls": 300,
+      "category": "neither",
+      "success": false,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 129,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 12,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.08831319688509531,
+        "bowl2": 2.7861649265492616e-07
+      },
+      "descriptive_stage": "correct_contact_and_lift_without_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.08596210725824979
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.2686070967880479
+        }
+      }
+    },
+    {
+      "carrier": "fact_first_three_init",
+      "task": "plate",
+      "init_id": 2,
+      "condition": "A",
+      "source_episode": "C:\\VLA-LIBERO\\outputs\\openvla-spatial-4bit\\fact-first-na-v1-20261010\\episodes\\native-pairs-spatial8-init2-A.json",
+      "source_episode_sha256": "13fea33658395f34f7cc946a9c6984424d8a69212cc767687cb2b51fabe54b0e",
+      "source_summary_sha256": "94d340924ed278a60493a6c90f8045790a86b107debfe09628acda14d2cc3bc3",
+      "steps": 300,
+      "policy_calls": 300,
+      "category": "neither",
+      "success": false,
+      "correct_bilateral_contact": false,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": null,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 0,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.008171384461674425,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "no_bilateral_contact",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.1328526817964009
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.2878485307092567
+        }
+      }
+    }
+  ],
+  "blocks": {
+    "original_append/ramekin/N": {
+      "episodes": 3,
+      "successes": 3,
+      "correct_contact_episodes": 3,
+      "wrong_contact_episodes": 0,
+      "stages": {
+        "correct_exclusive_completion": 3
+      }
+    },
+    "original_append/plate/N": {
+      "episodes": 3,
+      "successes": 2,
+      "correct_contact_episodes": 2,
+      "wrong_contact_episodes": 0,
+      "stages": {
+        "correct_exclusive_completion": 2,
+        "no_bilateral_contact": 1
+      }
+    },
+    "original_append/ramekin/A": {
+      "episodes": 3,
+      "successes": 0,
+      "correct_contact_episodes": 2,
+      "wrong_contact_episodes": 0,
+      "stages": {
+        "correct_contact_and_lift_without_completion": 2,
+        "no_bilateral_contact": 1
+      }
+    },
+    "original_append/plate/A": {
+      "episodes": 3,
+      "successes": 0,
+      "correct_contact_episodes": 1,
+      "wrong_contact_episodes": 0,
+      "stages": {
+        "no_bilateral_contact": 2,
+        "correct_contact_and_lift_without_completion": 1
+      }
+    },
+    "original_append_U/ramekin/U": {
+      "episodes": 1,
+      "successes": 1,
+      "correct_contact_episodes": 1,
+      "wrong_contact_episodes": 0,
+      "stages": {
+        "correct_exclusive_completion": 1
+      }
+    },
+    "original_append_U/plate/U": {
+      "episodes": 1,
+      "successes": 0,
+      "correct_contact_episodes": 1,
+      "wrong_contact_episodes": 0,
+      "stages": {
+        "correct_contact_and_lift_without_completion": 1
+      }
+    },
+    "question_then_fact/ramekin/N": {
+      "episodes": 1,
+      "successes": 1,
+      "correct_contact_episodes": 1,
+      "wrong_contact_episodes": 0,
+      "stages": {
+        "correct_exclusive_completion": 1
+      }
+    },
+    "question_then_fact/plate/N": {
+      "episodes": 1,
+      "successes": 1,
+      "correct_contact_episodes": 1,
+      "wrong_contact_episodes": 0,
+      "stages": {
+        "correct_exclusive_completion": 1
+      }
+    },
+    "question_then_fact/ramekin/A": {
+      "episodes": 1,
+      "successes": 0,
+      "correct_contact_episodes": 0,
+      "wrong_contact_episodes": 0,
+      "stages": {
+        "no_bilateral_contact": 1
+      }
+    },
+    "question_then_fact/plate/A": {
+      "episodes": 1,
+      "successes": 1,
+      "correct_contact_episodes": 1,
+      "wrong_contact_episodes": 0,
+      "stages": {
+        "correct_exclusive_completion": 1
+      }
+    },
+    "question_then_fact/ramekin/U": {
+      "episodes": 1,
+      "successes": 1,
+      "correct_contact_episodes": 1,
+      "wrong_contact_episodes": 0,
+      "stages": {
+        "correct_exclusive_completion": 1
+      }
+    },
+    "question_then_fact/plate/U": {
+      "episodes": 1,
+      "successes": 0,
+      "correct_contact_episodes": 1,
+      "wrong_contact_episodes": 0,
+      "stages": {
+        "correct_contact_and_lift_without_completion": 1
+      }
+    },
+    "fact_first_pilot/ramekin/N": {
+      "episodes": 1,
+      "successes": 1,
+      "correct_contact_episodes": 1,
+      "wrong_contact_episodes": 0,
+      "stages": {
+        "correct_exclusive_completion": 1
+      }
+    },
+    "fact_first_pilot/plate/N": {
+      "episodes": 1,
+      "successes": 1,
+      "correct_contact_episodes": 1,
+      "wrong_contact_episodes": 0,
+      "stages": {
+        "correct_exclusive_completion": 1
+      }
+    },
+    "fact_first_pilot/ramekin/A": {
+      "episodes": 1,
+      "successes": 1,
+      "correct_contact_episodes": 1,
+      "wrong_contact_episodes": 0,
+      "stages": {
+        "correct_exclusive_completion": 1
+      }
+    },
+    "fact_first_pilot/plate/A": {
+      "episodes": 1,
+      "successes": 1,
+      "correct_contact_episodes": 1,
+      "wrong_contact_episodes": 0,
+      "stages": {
+        "correct_exclusive_completion": 1
+      }
+    },
+    "fact_first_pilot/ramekin/U": {
+      "episodes": 1,
+      "successes": 1,
+      "correct_contact_episodes": 1,
+      "wrong_contact_episodes": 0,
+      "stages": {
+        "correct_exclusive_completion": 1
+      }
+    },
+    "fact_first_pilot/plate/U": {
+      "episodes": 1,
+      "successes": 1,
+      "correct_contact_episodes": 1,
+      "wrong_contact_episodes": 0,
+      "stages": {
+        "correct_exclusive_completion": 1
+      }
+    },
+    "fact_first_three_init/ramekin/N": {
+      "episodes": 3,
+      "successes": 3,
+      "correct_contact_episodes": 3,
+      "wrong_contact_episodes": 0,
+      "stages": {
+        "correct_exclusive_completion": 3
+      }
+    },
+    "fact_first_three_init/plate/N": {
+      "episodes": 3,
+      "successes": 2,
+      "correct_contact_episodes": 2,
+      "wrong_contact_episodes": 0,
+      "stages": {
+        "correct_exclusive_completion": 2,
+        "no_bilateral_contact": 1
+      }
+    },
+    "fact_first_three_init/ramekin/A": {
+      "episodes": 3,
+      "successes": 1,
+      "correct_contact_episodes": 1,
+      "wrong_contact_episodes": 0,
+      "stages": {
+        "correct_exclusive_completion": 1,
+        "no_bilateral_contact": 2
+      }
+    },
+    "fact_first_three_init/plate/A": {
+      "episodes": 3,
+      "successes": 1,
+      "correct_contact_episodes": 2,
+      "wrong_contact_episodes": 0,
+      "stages": {
+        "correct_exclusive_completion": 1,
+        "correct_contact_and_lift_without_completion": 1,
+        "no_bilateral_contact": 1
+      }
+    }
+  },
+  "unique_completed_source_episodes": 30,
+  "already_accounted_unique_source_calls": 5991,
+  "descriptive_lift_threshold_m": 0.02,
+  "contact_interpretation": "Native bilateral finger contact proxy; not proof of stable grasp.",
+  "lift_interpretation": "Descriptive stage only, not a change to native 3cm placement success.",
+  "rows_across_carriers_are_not_independent": true
+}

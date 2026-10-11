@@ -1,0 +1,75 @@
+{
+  "passed": true,
+  "reviewer": "Codex; directly inspected all six fresh policy224 PNGs",
+  "preflight_sha256": "f8d1a5277b8cb89af7580eb78335b758a82a6358029dac0312f7b719d1cac402",
+  "policy_queries": 0,
+  "records": [
+    {
+      "task": "ramekin",
+      "init_id": 0,
+      "passed": true,
+      "actual_policy_image_sha256": "47cf762c1334cd73eff6cb727b7bf3ac9e2ca3b399e5e13af4fa8dbf3370c15a",
+      "correct_bowl_reference_destination_identifiable": true,
+      "table_and_gray_background_wall_visible": true,
+      "target_partly_cropped": false,
+      "limitation": "No material crop limitation observed.",
+      "same_processed_image_as_full_U0_preflight": true
+    },
+    {
+      "task": "ramekin",
+      "init_id": 1,
+      "passed": true,
+      "actual_policy_image_sha256": "da132790fd790bd6744691a53a22c7f61b05cb3236e5939c3d73272fa70b3630",
+      "correct_bowl_reference_destination_identifiable": true,
+      "table_and_gray_background_wall_visible": true,
+      "target_partly_cropped": false,
+      "limitation": "No material crop limitation observed.",
+      "same_processed_image_as_full_U0_preflight": true
+    },
+    {
+      "task": "ramekin",
+      "init_id": 2,
+      "passed": true,
+      "actual_policy_image_sha256": "7d8ac674961f302224aa52d7096be9d447bd4c1b69750c688e524c5575869057",
+      "correct_bowl_reference_destination_identifiable": true,
+      "table_and_gray_background_wall_visible": true,
+      "target_partly_cropped": false,
+      "limitation": "No material crop limitation observed.",
+      "same_processed_image_as_full_U0_preflight": true
+    },
+    {
+      "task": "plate",
+      "init_id": 0,
+      "passed": true,
+      "actual_policy_image_sha256": "3def199596c36820da30cf3aba1ac4232453c013a26f57c0ccffde6baff1d6a0",
+      "correct_bowl_reference_destination_identifiable": true,
+      "table_and_gray_background_wall_visible": true,
+      "target_partly_cropped": false,
+      "limitation": "Target near left edge.",
+      "same_processed_image_as_full_U0_preflight": true
+    },
+    {
+      "task": "plate",
+      "init_id": 1,
+      "passed": true,
+      "actual_policy_image_sha256": "13c2432ae3b8a06e078a23e080cfd54bc1434b915cabae2db8f441415f9529d2",
+      "correct_bowl_reference_destination_identifiable": true,
+      "table_and_gray_background_wall_visible": true,
+      "target_partly_cropped": true,
+      "limitation": "Target partly cropped at left edge; existing limitation retained.",
+      "same_processed_image_as_full_U0_preflight": true
+    },
+    {
+      "task": "plate",
+      "init_id": 2,
+      "passed": true,
+      "actual_policy_image_sha256": "543369b3eb7b292d8a7b28abca4ccb3a40c20b1095806afea1ea13ce9c58b755",
+      "correct_bowl_reference_destination_identifiable": true,
+      "table_and_gray_background_wall_visible": true,
+      "target_partly_cropped": false,
+      "limitation": "Target near left edge.",
+      "same_processed_image_as_full_U0_preflight": true
+    }
+  ],
+  "reviewed_at": "2026-10-11T11:56:22.321924+00:00"
+}

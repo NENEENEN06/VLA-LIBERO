@@ -1,0 +1,52 @@
+{
+  "status": "passed",
+  "policy_queries": 0,
+  "already_accounted_source_calls": 1248,
+  "source_summary_sha256": "4df8dc2ae212873aef31e5ea82d0712cb8439c26d70e75991564df9357ece5ad",
+  "source_manifest_sha256": "54e9358acafdd5ecb24e99fce4a33fa1b1fc145576ce1aec995f85102ff7b7cf",
+  "source_result_audit_sha256": "dfbfa1a75742d8bf35a04a65f78702f8f797ce9e37b6c3af4f8169c29f8fe2dd",
+  "records": [
+    {
+      "task": "ramekin",
+      "init_id": 0,
+      "source_episode": "/mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial1-init0-U0.json",
+      "source_episode_sha256": "8a40c4d474be152c59d60abd8526d811018d4627894428de0d8d92a2ac1254b5",
+      "already_accounted_calls": 109
+    },
+    {
+      "task": "ramekin",
+      "init_id": 1,
+      "source_episode": "/mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial1-init1-U0.json",
+      "source_episode_sha256": "e28d918c192fc7c4808a30ed4001e9a06d47aa5469974f73ea236bdca71ae886",
+      "already_accounted_calls": 300
+    },
+    {
+      "task": "ramekin",
+      "init_id": 2,
+      "source_episode": "/mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial1-init2-U0.json",
+      "source_episode_sha256": "679f673494b8ee02a60680c4af0029508b4510b703f9fc558acfad3fae189d6e",
+      "already_accounted_calls": 140
+    },
+    {
+      "task": "plate",
+      "init_id": 0,
+      "source_episode": "/mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial8-init0-U0.json",
+      "source_episode_sha256": "ea1ef42d193e70c9bf5fcf119eab1701938877eef249f47ebf8dd4fdf2f53652",
+      "already_accounted_calls": 300
+    },
+    {
+      "task": "plate",
+      "init_id": 1,
+      "source_episode": "/mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial8-init1-U0.json",
+      "source_episode_sha256": "8ed11af714bf30b4448c9848bd795056cfdeb97b6873673c4b88a126dd2aa090",
+      "already_accounted_calls": 99
+    },
+    {
+      "task": "plate",
+      "init_id": 2,
+      "source_episode": "/mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial8-init2-U0.json",
+      "source_episode_sha256": "d62a2af04bfc6d99f84ab70dedd9a29e9912a3ed5475ed9cd5af170517f3bc77",
+      "already_accounted_calls": 300
+    }
+  ]
+}

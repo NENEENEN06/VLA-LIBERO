@@ -1,0 +1,229 @@
+{
+  "status": "passed",
+  "policy_queries": 0,
+  "summary_sha256": "4df8dc2ae212873aef31e5ea82d0712cb8439c26d70e75991564df9357ece5ad",
+  "manifest_sha256": "54e9358acafdd5ecb24e99fce4a33fa1b1fc145576ce1aec995f85102ff7b7cf",
+  "new_episodes": 18,
+  "new_calls": 4036,
+  "reused_calls_already_accounted": 841,
+  "derived_blocks": {
+    "ramekin/N": {
+      "episodes": 3,
+      "successes": 3,
+      "correct_contact_episodes": 3,
+      "wrong_contact_episodes": 0
+    },
+    "plate/N": {
+      "episodes": 3,
+      "successes": 2,
+      "correct_contact_episodes": 2,
+      "wrong_contact_episodes": 0
+    },
+    "ramekin/P": {
+      "episodes": 3,
+      "successes": 1,
+      "correct_contact_episodes": 2,
+      "wrong_contact_episodes": 0
+    },
+    "plate/P": {
+      "episodes": 3,
+      "successes": 1,
+      "correct_contact_episodes": 1,
+      "wrong_contact_episodes": 0
+    },
+    "ramekin/U0": {
+      "episodes": 3,
+      "successes": 2,
+      "correct_contact_episodes": 2,
+      "wrong_contact_episodes": 0
+    },
+    "plate/U0": {
+      "episodes": 3,
+      "successes": 1,
+      "correct_contact_episodes": 2,
+      "wrong_contact_episodes": 0
+    },
+    "ramekin/A0": {
+      "episodes": 3,
+      "successes": 1,
+      "correct_contact_episodes": 2,
+      "wrong_contact_episodes": 0
+    },
+    "plate/A0": {
+      "episodes": 3,
+      "successes": 2,
+      "correct_contact_episodes": 2,
+      "wrong_contact_episodes": 0
+    }
+  },
+  "records": [
+    {
+      "key": "robustness-spatial1-init0-N",
+      "passed": true,
+      "episode_sha256": "812ea2da8564e84245ff76150ff9bb19c9021e021149fe123d6288296f458b85",
+      "category": "bowl1_only",
+      "steps": 114
+    },
+    {
+      "key": "robustness-spatial1-init1-N",
+      "passed": true,
+      "episode_sha256": "a8b8affe92eedf81d9afd4306816280619483713e60d87d5826f63782c075733",
+      "category": "bowl1_only",
+      "steps": 99
+    },
+    {
+      "key": "robustness-spatial1-init2-N",
+      "passed": true,
+      "episode_sha256": "1779a1ea56850990b93eeeaee195a4e812c2d16444f41ecc19994f66432c1b47",
+      "category": "bowl1_only",
+      "steps": 116
+    },
+    {
+      "key": "robustness-spatial8-init0-N",
+      "passed": true,
+      "episode_sha256": "297d728fed9dde7f27b48508fe26f91e0e64e5d1d6c454081e4893916066cd90",
+      "category": "bowl1_only",
+      "steps": 107
+    },
+    {
+      "key": "robustness-spatial8-init1-N",
+      "passed": true,
+      "episode_sha256": "ad99768d8a2b785907698eb804ca2534b332eff6f80e94e8f8506e31b0729b4e",
+      "category": "bowl1_only",
+      "steps": 105
+    },
+    {
+      "key": "robustness-spatial8-init2-N",
+      "passed": true,
+      "episode_sha256": "a5ad761208f42ac288e3461a0f8314e08aed4bb431843043b2ed021ca6834e1c",
+      "category": "neither",
+      "steps": 300
+    },
+    {
+      "key": "robustness-spatial1-init0-P",
+      "passed": true,
+      "episode_sha256": "c91de70fc290c3f2b0c78031494a755dd1cd9d03a85da1a348c2c90e20d804c5",
+      "category": "bowl1_only",
+      "steps": 111
+    },
+    {
+      "key": "robustness-spatial1-init1-P",
+      "passed": true,
+      "episode_sha256": "f9d9da3fe828d6e9bcaecc9ae61225ea83bacca259a65d1d7625e8d818b7a071",
+      "category": "neither",
+      "steps": 300
+    },
+    {
+      "key": "robustness-spatial1-init2-P",
+      "passed": true,
+      "episode_sha256": "1ca92dee5b822164a9135e13d214988a9b77cdfdd77aa0ba3f48f411140a7a8f",
+      "category": "neither",
+      "steps": 300
+    },
+    {
+      "key": "robustness-spatial8-init0-P",
+      "passed": true,
+      "episode_sha256": "a6745e5e10f604d3a32795364e772d86ce308ec71415699e8b08a59d79753793",
+      "category": "neither",
+      "steps": 300
+    },
+    {
+      "key": "robustness-spatial8-init1-P",
+      "passed": true,
+      "episode_sha256": "6af4d59682f1a6837000fd98770950606ec7e4097b2f62ded42d841b9eb2eebe",
+      "category": "bowl1_only",
+      "steps": 106
+    },
+    {
+      "key": "robustness-spatial8-init2-P",
+      "passed": true,
+      "episode_sha256": "a95f1cfa64099d1372f11286ee7041acfb939913a6b95690d50a0dc11e6cae50",
+      "category": "neither",
+      "steps": 300
+    },
+    {
+      "key": "robustness-spatial1-init0-U0",
+      "passed": true,
+      "episode_sha256": "8a40c4d474be152c59d60abd8526d811018d4627894428de0d8d92a2ac1254b5",
+      "category": "bowl1_only",
+      "steps": 109
+    },
+    {
+      "key": "robustness-spatial1-init1-U0",
+      "passed": true,
+      "episode_sha256": "e28d918c192fc7c4808a30ed4001e9a06d47aa5469974f73ea236bdca71ae886",
+      "category": "neither",
+      "steps": 300
+    },
+    {
+      "key": "robustness-spatial1-init2-U0",
+      "passed": true,
+      "episode_sha256": "679f673494b8ee02a60680c4af0029508b4510b703f9fc558acfad3fae189d6e",
+      "category": "bowl1_only",
+      "steps": 140
+    },
+    {
+      "key": "robustness-spatial8-init0-U0",
+      "passed": true,
+      "episode_sha256": "ea1ef42d193e70c9bf5fcf119eab1701938877eef249f47ebf8dd4fdf2f53652",
+      "category": "neither",
+      "steps": 300
+    },
+    {
+      "key": "robustness-spatial8-init1-U0",
+      "passed": true,
+      "episode_sha256": "8ed11af714bf30b4448c9848bd795056cfdeb97b6873673c4b88a126dd2aa090",
+      "category": "bowl1_only",
+      "steps": 99
+    },
+    {
+      "key": "robustness-spatial8-init2-U0",
+      "passed": true,
+      "episode_sha256": "d62a2af04bfc6d99f84ab70dedd9a29e9912a3ed5475ed9cd5af170517f3bc77",
+      "category": "neither",
+      "steps": 300
+    },
+    {
+      "key": "robustness-spatial1-init0-A0",
+      "passed": true,
+      "episode_sha256": "2483168bfc72ddf764fadef8122f70082aed1d865e3abd07f6febb46d686dd44",
+      "category": "neither",
+      "steps": 300
+    },
+    {
+      "key": "robustness-spatial1-init1-A0",
+      "passed": true,
+      "episode_sha256": "976f824ba8ac8e0990e76bfe10436db5a341f67b72f1b352d788ee7af5074125",
+      "category": "neither",
+      "steps": 300
+    },
+    {
+      "key": "robustness-spatial1-init2-A0",
+      "passed": true,
+      "episode_sha256": "e7293722dcc7331d38b3c410da78136666b6bf8d570b06432a183ae55f253c8f",
+      "category": "bowl1_only",
+      "steps": 129
+    },
+    {
+      "key": "robustness-spatial8-init0-A0",
+      "passed": true,
+      "episode_sha256": "80cd671d542c7902b8f3136260a752f7ab9ff8c37cca050b1ba3f1b0eb97bafe",
+      "category": "bowl1_only",
+      "steps": 211
+    },
+    {
+      "key": "robustness-spatial8-init1-A0",
+      "passed": true,
+      "episode_sha256": "4126a5543f56c0d04bf0cde6db0a44a2180fa2fe5d208ccc35313f532551e1a7",
+      "category": "bowl1_only",
+      "steps": 131
+    },
+    {
+      "key": "robustness-spatial8-init2-A0",
+      "passed": true,
+      "episode_sha256": "173cd98bd7147a08b6e07ac4d683e154cf1e7246226fa991e489e27157550287",
+      "category": "neither",
+      "steps": 300
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "status": "completed",
+  "protocol": "openvla-temporal-withdraw-v1",
+  "new_complete_episodes": 6,
+  "new_complete_rollout_policy_calls": 898,
+  "new_diagnostic_policy_calls": 0,
+  "new_interrupted_policy_calls": 0,
+  "new_failed_preflight_policy_calls": 0,
+  "new_total_policy_calls": 898,
+  "phase_calls": {
+    "U0": 360,
+    "N": 538
+  },
+  "reused_N_episodes": 6,
+  "reused_N_calls_already_accounted": 841,
+  "reused_U0_episodes": 6,
+  "reused_U0_calls_already_accounted": 1248,
+  "reused_calls_added_to_new_cost": 0,
+  "max_new_policy_queries": 1800,
+  "openvla_cumulative_known_minimum": 13221,
+  "recent_research_cumulative_known_minimum": 14451,
+  "historical_unknown_interruption_costs": "Kept separate; not estimated or counted as zero.",
+  "process_exit_code": 0,
+  "completed_at": "2026-10-11T12:15:34.424899+00:00"
+}

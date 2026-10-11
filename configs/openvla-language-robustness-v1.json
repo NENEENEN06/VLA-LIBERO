@@ -1,0 +1,41 @@
+{
+  "protocol": "openvla-language-robustness-v1",
+  "base_config": "configs/phase1-openvla-native-pairs-v1.json",
+  "model_config": "configs/openvla-spatial-4bit.json",
+  "tasks": ["ramekin", "plate"],
+  "init_ids": [0, 1, 2],
+  "conditions": ["P", "U0", "A0"],
+  "schedule": "condition, then task, then init; all eighteen cases fixed before queries",
+  "carrier": "Existing fact_first_v1 for U0/A0; unmodified native wrapper for P/N",
+  "step_cap": 300,
+  "max_new_policy_queries": 5400,
+  "new_episodes": 18,
+  "reused_N_episodes": 6,
+  "already_accounted_N_calls": 841,
+  "diagnostic_policy_queries": 0,
+  "descriptive_lift_threshold_m": 0.02,
+  "U0": "Initially, the table has a flat surface, and the wall in the background is gray.",
+  "task_texts": {
+    "ramekin": {
+      "P": "lift the black bowl next to the ramekin and put it on the plate",
+      "A0": "Initially, the black bowl next to the ramekin is on the table surface.",
+      "effective_tokens": {"N": 32, "P": 31, "U0": 52, "A0": 52}
+    },
+    "plate": {
+      "P": "lift the black bowl next to the plate and put it on the plate",
+      "A0": "Initially, the black bowl next to the plate is resting on the table surface.",
+      "effective_tokens": {"N": 30, "P": 29, "U0": 50, "A0": 50}
+    }
+  },
+  "truth_rules": {
+    "A0": "Unique bowl1 next-to reference, >=0.05m relative XY distance margin; bowl1 initially contacts table",
+    "U0": "Horizontal box table geometry and gray plaster wall material; actual 224 image review confirms visible table and gray background wall",
+    "P": "Same bowl, reference, destination, pickup and placement sequence; no additional constraint"
+  },
+  "normal_gate": "N source each task has >=2/3 correct-exclusive native completions; no U0/A0 success gate for diagnostic completion",
+  "interpretation": "Development language-robustness diagnostic; native contact is a proxy, not stable grasp",
+  "old_U": "Historical references only; do not rerun old fact-first U or add its init1/2",
+  "formal_conflict_rollouts": 0,
+  "old_qualifications_changed": false,
+  "confirmation_data": "Not used in this round; init0/1/2 and all current candidates are development data"
+}

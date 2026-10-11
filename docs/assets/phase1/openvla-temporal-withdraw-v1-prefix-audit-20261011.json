@@ -1,0 +1,91 @@
+{
+  "status": "passed",
+  "policy_queries": 0,
+  "all_prefixes_exact": true,
+  "records": [
+    {
+      "task": "ramekin",
+      "init_id": 0,
+      "checked_calls": 60,
+      "expected_calls": 60,
+      "all_input_audits_equal": true,
+      "all_executed_actions_equal": true,
+      "all_recorded_states_equal": true,
+      "exact_prefix_equal": true,
+      "max_action_abs_diff": 0.0,
+      "first_input_difference_call": null,
+      "first_action_difference_call": null,
+      "first_recorded_state_difference_step": null
+    },
+    {
+      "task": "ramekin",
+      "init_id": 1,
+      "checked_calls": 60,
+      "expected_calls": 60,
+      "all_input_audits_equal": true,
+      "all_executed_actions_equal": true,
+      "all_recorded_states_equal": true,
+      "exact_prefix_equal": true,
+      "max_action_abs_diff": 0.0,
+      "first_input_difference_call": null,
+      "first_action_difference_call": null,
+      "first_recorded_state_difference_step": null
+    },
+    {
+      "task": "ramekin",
+      "init_id": 2,
+      "checked_calls": 60,
+      "expected_calls": 60,
+      "all_input_audits_equal": true,
+      "all_executed_actions_equal": true,
+      "all_recorded_states_equal": true,
+      "exact_prefix_equal": true,
+      "max_action_abs_diff": 0.0,
+      "first_input_difference_call": null,
+      "first_action_difference_call": null,
+      "first_recorded_state_difference_step": null
+    },
+    {
+      "task": "plate",
+      "init_id": 0,
+      "checked_calls": 60,
+      "expected_calls": 60,
+      "all_input_audits_equal": true,
+      "all_executed_actions_equal": true,
+      "all_recorded_states_equal": true,
+      "exact_prefix_equal": true,
+      "max_action_abs_diff": 0.0,
+      "first_input_difference_call": null,
+      "first_action_difference_call": null,
+      "first_recorded_state_difference_step": null
+    },
+    {
+      "task": "plate",
+      "init_id": 1,
+      "checked_calls": 60,
+      "expected_calls": 60,
+      "all_input_audits_equal": true,
+      "all_executed_actions_equal": true,
+      "all_recorded_states_equal": true,
+      "exact_prefix_equal": true,
+      "max_action_abs_diff": 0.0,
+      "first_input_difference_call": null,
+      "first_action_difference_call": null,
+      "first_recorded_state_difference_step": null
+    },
+    {
+      "task": "plate",
+      "init_id": 2,
+      "checked_calls": 60,
+      "expected_calls": 60,
+      "all_input_audits_equal": true,
+      "all_executed_actions_equal": true,
+      "all_recorded_states_equal": true,
+      "exact_prefix_equal": true,
+      "max_action_abs_diff": 0.0,
+      "first_input_difference_call": null,
+      "first_action_difference_call": null,
+      "first_recorded_state_difference_step": null
+    }
+  ]
+}
