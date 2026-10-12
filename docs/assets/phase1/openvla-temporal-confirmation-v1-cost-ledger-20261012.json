@@ -1,0 +1,35 @@
+{
+  "status": "passed",
+  "mode": "temporal_confirmation_v1",
+  "completed_at": "2026-10-12T13:28:02.099014+00:00",
+  "process_exit_code": 0,
+  "new_complete_episodes": 18,
+  "new_rollout_policy_calls": 3292,
+  "condition_policy_calls": {
+    "N": 1078,
+    "U0": 1206,
+    "U0_early60": 1008
+  },
+  "text_phase_policy_calls": {
+    "N": 1726,
+    "U0": 1566
+  },
+  "early60_phase_policy_calls": {
+    "U0": 360,
+    "N": 648
+  },
+  "diagnostic_policy_calls": 0,
+  "interrupted_policy_calls": 0,
+  "failed_preflight_policy_calls": 0,
+  "reused_rollout_episodes": 0,
+  "maximum_new_policy_calls": 5400,
+  "remaining_budget_not_consumed": 2108,
+  "prior_openvla_known_minimum_calls": 13221,
+  "openvla_known_minimum_calls": 16513,
+  "prior_recent_research_known_minimum_calls": 14451,
+  "recent_research_known_minimum_calls": 17743,
+  "historical_unknown_interrupted_calls": "kept separate; unknown does not mean zero",
+  "formal_conflict_rollouts": 0,
+  "summary_sha256": "4d1de50f2f5b2fcd142ee90c9038ad5cd467cd1a006e1f116880f4ae7cd5b877",
+  "result_audit_sha256": "b6d70099a195a54af16cda3a93c2cf1b37b64b67e9757b5b95c558df75f7ff72"
+}

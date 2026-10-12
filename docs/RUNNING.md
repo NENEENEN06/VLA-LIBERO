@@ -63,6 +63,16 @@ powershell -ExecutionPolicy Bypass -File scripts/openvla.ps1 language-robustness
 powershell -ExecutionPolicy Bypass -File scripts/openvla.ps1 temporal-withdraw --output /mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/temporal-withdraw-new --normal-N /mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/native-pairs-v1-20261010 --full-U0 /mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011
 ```
 
+2026-10-12的[未见初始化确认v1](OPENVLA_TEMPORAL_CONFIRMATION_V1_ENTRY_20261012.md)固定task1／8各init3、4、5，三个条件全部新跑，共18条、最多5400次调用，不按N结果筛状态。先制作历史曝光清单、原生状态哈希，再启动模型并审阅六幅实际输入图。重跑需新输出目录并重新冻结确认范围，不能把已跑状态再称未见。
+
+[本轮结果](OPENVLA_TEMPORAL_CONFIRMATION_V1_RESULTS_20261012.md)已完成，18条／3292次调用，独立审计通过：N4/6、全程U0 3/6、撤除4/6，恢复1组、退化0；所有前60次配对一致。完整输出为`outputs/openvla-spatial-4bit/temporal-confirmation-v1-20261012/`，实验进程已退出。
+
+```powershell
+python scripts/prepare_openvla_temporal_confirmation.py inventory --output .runtime/openvla-temporal-confirmation-seen-20261012.json
+wsl -d Ubuntu-22.04 --cd /mnt/c/VLA-LIBERO --exec .venvs/openvla-spatial-4bit/bin/python scripts/prepare_openvla_temporal_confirmation.py identities --inventory /mnt/c/VLA-LIBERO/.runtime/openvla-temporal-confirmation-seen-20261012.json --output /mnt/c/VLA-LIBERO/.runtime/openvla-temporal-confirmation-identities-20261012.json
+powershell -ExecutionPolicy Bypass -File scripts/openvla.ps1 temporal-confirmation --output /mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/temporal-confirmation-new --seen-inventory /mnt/c/VLA-LIBERO/.runtime/openvla-temporal-confirmation-seen-20261012.json --candidate-identities /mnt/c/VLA-LIBERO/.runtime/openvla-temporal-confirmation-identities-20261012.json --development-reference /mnt/c/VLA-LIBERO/outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011
+```
+
 ## 在 Windows 项目目录中运行
 
 本机安装使用 Ubuntu 的 root 用户，无需等待 Linux 用户初始化。在 `C:\VLA-LIBERO` 的 PowerShell 中可以直接调用项目启动脚本：

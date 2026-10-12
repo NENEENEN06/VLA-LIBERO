@@ -1,0 +1,4870 @@
+{
+  "status": "passed",
+  "policy_queries": 0,
+  "scanned_roots": [
+    "outputs",
+    "docs/assets"
+  ],
+  "created_at": "2026-10-12T11:54:33.735022+00:00",
+  "candidate_tasks": {
+    "ramekin": 1,
+    "plate": 8
+  },
+  "candidate_init_ids": [
+    3,
+    4,
+    5
+  ],
+  "candidate_identity_collisions": [],
+  "prior_initial_state_sha256": [
+    "00807a6ba9dbbac9b3b21e413ce7301c65bd69a2bb392f87c45f5013a0cacfc7",
+    "01cbc7824b55a08fadaa6fb0397f43a3baf0ebdb90f25ec7d1d3db51313c4e94",
+    "062dc4b945081bf31237b402969b8503a99fda3500b396d3fe98449c8872dfd4",
+    "1b7b03eb038b60bd3d265226a1f5832c44ebb968731ac264f8983ceebb1774e5",
+    "1e80c5a11d420bddc4e28295404eb575e178fbb4285e9703d7fcea5226604d07",
+    "2a08ef860403ae614c793ed6347d8480d6500fcc945c8b51c43b1ff531b80965",
+    "2b61811f6b6a9a61b89a236fd0b30a5b10539a70b67c34209624cfdf52af4e5a",
+    "2e3f91b350eaef1b23c2d4ee14c513b2158a106bff7ed6c249b58e2cf89367f4",
+    "2fe669827623c130cb212d851d2ac5189aa22d888856b2c056ee744b2b698bcc",
+    "36424fa758f0e72399a35cefa285d0658e4b5bd17bfb3e2127f85aa2e0944517",
+    "3668c3fb4286512ee868fdc5db8223e6fa7125484974299225c3a87b37759f40",
+    "37a6335a9df3d3d5a8fa5a41f6ddfb9097309c755a561166b5d4557ada91bf1f",
+    "3a92ca9cb754b9daca5db603179f05e323c01209edfaf5d287655d5998252f9f",
+    "3e49f03083abbbd947b9cf8d36193a508c65e7ea2da641cf1dc7682a72328a5c",
+    "3f628d77bb395ff9ff2b248e18e5dea19d9b1103ed48b55df4eafa29188bd9f0",
+    "4463e2e153ce61661d48384171f0532d4eb4c45158ab9c0325012e26c0a9d830",
+    "458b021de5c47d7b23306d6e7f714ef3c2c55174aa4b2281816d6c3792f408cb",
+    "4e3eaf7a315bc3bafb6db4837c8eef0e5f8aea717782a2a3ea33139392d966ed",
+    "50873b51eb943c92ce71438551a26675e253fe37622918167c060a16477577f7",
+    "511083ce2369f1adead2b041ca54f270b1d7fd989c35df019d252af75bed6ece",
+    "58efbae8fa8cdf03edfa2542dbbda4caf806bdf5268b8320a00f1549b00bec95",
+    "5c2dd7b336c4b24847a71bddd11564db8cf57a2b1f3df5a00089be4965bd04dd",
+    "60e685de756466234c8da57d7070518f2d1d6063e99eb4ddf2273240d84f7ba3",
+    "63dbd6b627e35e377a62f3e791055bc9051a74cab6fef9eadce7892671160536",
+    "6600fb90ac0ceaf178c64291eef075068efa4daaa075cc9004b763b2076f7b41",
+    "66b1883f351c4c374c742516714921b55bd5eca7fd6f0fa8e2e0a86abff19ccd",
+    "6a71ea6e55326efc34ec666f301a018286ad06f19222511f0c3af44896801580",
+    "6aac318bd2ff7b4e940c094d4d4eb128449f99e34ce1fc2fb6e3bdba1c474b95",
+    "6c2936dc25a97728b811f9db579687d011cbd231d5472e985775a67ca9892cf8",
+    "6ccefe4bd69954c98ddc32f1acdcff81b5a66ed4304391089bbc027172b66d64",
+    "6cd4976519943bdc84677396a6e2942e9816ae87e56fc72943914e147f9b6e1e",
+    "6dac57dbcf0ffc62ca6a37b1334c61683200e4b3e944c2de2eb98563b1c6df56",
+    "706ad2dac4ccce35cf8f5ec117bcad7ba3ae44e8866bb359c8fdaef470ed1e65",
+    "784dba596f01025199c62c3e262748c68f1f3b6ff92df2fd36aab8b5263bc0ce",
+    "7d5f3b9821665f85bbf943b1da3fa03d53b694bc8751b4503a39a7351734f89b",
+    "7e950b4903eb62f247605b60952d62aca17222446e05c299de3d8b615756a2fb",
+    "904c8983a02abc68413c2b0c2b1863f9b7f97a5948b718b9ae113727777ae23a",
+    "a5d4b6d871eb48c276a3fc8499e1429ec1c59df278466aa82de44a93260087a0",
+    "aef30979e2ee8c9893c9161c881264362f750a34df952f381e3969a567688451",
+    "b547d4ec9158ada6e317f0271636f20c0b2ea8fd222d07e943cb49c98929ed0a",
+    "b58022b980ae6497859d4ad985cfa89b16832f4c7f82cd2abb8b03cb2e0f6119",
+    "b87346216738a7ce42130dcd154c43380035d684b66a383eaa412aa7d7295b7c",
+    "b8757ca36fc25bb010af8934ff98b8d3a221cbd3a5e38e7b07cc8055c3108a0b",
+    "c12064bdc97da3ba4ca3675548ba9c76ed096ea772bbec9ca9422628c41b1588",
+    "c9c2f8022034e9a0705daab34a7f5bf9947ac939dfc5cf5a0ab493a377028a02",
+    "cc809ea238ea9d71bcd0fa683f60c51f7d2a3864963da43149e4df35d0eed85f",
+    "ccf1b9956a832c5ba7e57eed974483435a70a1e7ab668b172a5555c75933abfe",
+    "d116842e01703fbea595511db813a3816c8d9f2302b4e979ebec4f15b7a750a2",
+    "d1f552d41794709fdcdccf886e4be6384f15a50c1d0e6227a99e08d86e19e23e",
+    "d297dd693cb3e13a607d16f211730e28c50b463f597f066ef2a424a8a036186c",
+    "d45a8bb759e662331e34b0ade8f7a4ca847993b682d3299aaa4894b340c845a0",
+    "d5a2a728be37ce588fd1326df08b48cb9e1913b333c6719bb7059308783d4731",
+    "d60041b13e4f125b32f1d55912b939701a3ddfc2815acb15484be856e2943dae",
+    "e92c3b68aa6af756d9ae0fbee9eefd5c04fb9d5739453b832e9707c8fe290096",
+    "eacc257cf75be38a89bdf75e5300cded0aee0ec1d0a2ac4b91d4c4cdb11c763b",
+    "f90125fb43ad6d5983af928adc76f7ad7520f2ce624dbd25bb45e1888a5a9e56"
+  ],
+  "prior_spatial_states": [
+    {
+      "task_id": 0,
+      "init_id": 0,
+      "source": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task0-init0-seed1-clean.json"
+    },
+    {
+      "task_id": 0,
+      "init_id": 0,
+      "source": "outputs/readiness/smolvla-20261006-screening/episodes/libero_spatial-task0-init0-seed1-clean.json"
+    },
+    {
+      "task_id": 0,
+      "init_id": 1,
+      "source": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task0-init1-seed1-clean.json"
+    },
+    {
+      "task_id": 0,
+      "init_id": 2,
+      "source": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task0-init2-seed1-clean.json"
+    },
+    {
+      "task_id": 0,
+      "init_id": 3,
+      "source": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task0-init3-seed1-clean.json"
+    },
+    {
+      "task_id": 0,
+      "init_id": 4,
+      "source": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task0-init4-seed1-clean.json"
+    },
+    {
+      "task_id": 0,
+      "init_id": 5,
+      "source": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task0-init5-seed1-clean.json"
+    },
+    {
+      "task_id": 0,
+      "init_id": 6,
+      "source": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task0-init6-seed1-clean.json"
+    },
+    {
+      "task_id": 0,
+      "init_id": 7,
+      "source": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task0-init7-seed1-clean.json"
+    },
+    {
+      "task_id": 0,
+      "init_id": 8,
+      "source": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task0-init8-seed1-clean.json"
+    },
+    {
+      "task_id": 0,
+      "init_id": 9,
+      "source": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task0-init9-seed1-clean.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "docs/assets/phase1/openvla-fact-first-na-v1-result-audit-20261010.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "docs/assets/phase1/openvla-fact-first-na-v1-summary-20261010.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "docs/assets/phase1/openvla-fact-first-v1-result-audit-20261010.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "docs/assets/phase1/openvla-fact-first-v1-summary-20261010.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "docs/assets/phase1/openvla-language-robustness-v1-result-audit-20261011.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "docs/assets/phase1/openvla-language-robustness-v1-summary-20261011.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "docs/assets/phase1/openvla-native-neutral-v1-result-audit-20261010.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "docs/assets/phase1/openvla-native-neutral-v1-summary-20261010.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "docs/assets/phase1/openvla-native-pairs-v1-result-audit-20261010.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "docs/assets/phase1/openvla-native-pairs-v1-summary-20261010.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "docs/assets/phase1/openvla-native-ramekin-result-audit-20261010.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "docs/assets/phase1/openvla-native-ramekin-summary-20261010.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "docs/assets/phase1/openvla-question-context-v1-result-audit-20261010.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "docs/assets/phase1/openvla-question-context-v1-summary-20261010.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "docs/assets/phase1/openvla-temporal-withdraw-v1-result-audit-20261011.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "docs/assets/phase1/openvla-temporal-withdraw-v1-summary-20261011.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/control-reuse-audit.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/current-status.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/episodes/native-pairs-spatial1-init0-A.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/episodes/native-pairs-spatial1-init0-N.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/partial-summary.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/preflight-image-review.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/preflight.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/result-audit.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/summary.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/fact-first-v1-20261010/current-status.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/fact-first-v1-20261010/episodes/native-pairs-spatial1-init0-A.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/fact-first-v1-20261010/episodes/native-pairs-spatial1-init0-N.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/fact-first-v1-20261010/episodes/native-pairs-spatial1-init0-U.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/fact-first-v1-20261010/partial-summary.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/fact-first-v1-20261010/preflight-image-review.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/fact-first-v1-20261010/preflight.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/fact-first-v1-20261010/reference-audit.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/fact-first-v1-20261010/result-audit.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/fact-first-v1-20261010/summary.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/N-reuse-audit.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/current-status.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial1-init0-A0.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial1-init0-N.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial1-init0-P.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial1-init0-U0.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/partial-summary.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/preflight-image-review.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/preflight.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/result-audit.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/summary.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/native-neutral-v1-20261010/current-status.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/native-neutral-v1-20261010/episodes/native-pairs-spatial1-init0-U.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/native-neutral-v1-20261010/partial-summary.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/native-neutral-v1-20261010/preflight-image-review.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/native-neutral-v1-20261010/preflight.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/native-neutral-v1-20261010/reference-audit.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/native-neutral-v1-20261010/result-audit.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/native-neutral-v1-20261010/summary.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/current-status.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/episodes/native-pairs-spatial1-init0-A.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/episodes/native-pairs-spatial1-init0-N.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/partial-summary.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/preflight-image-review.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/preflight.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/result-audit.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/summary.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/native-ramekin-20261010/current-status.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/native-ramekin-20261010/episodes/native-spatial1-init0-seed1-ramekin-N.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/native-ramekin-20261010/partial-summary.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/native-ramekin-20261010/preflight.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/native-ramekin-20261010/result-audit.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/native-ramekin-20261010/summary.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/question-context-v1-20261010/active-episode.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/question-context-v1-20261010/preflight-image-review.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/question-context-v1-20261010/preflight.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/question-context-v1-20261010/reference-audit.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/question-context-v1-retry1-20261010/current-status.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/question-context-v1-retry1-20261010/episodes/native-pairs-spatial1-init0-A.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/question-context-v1-retry1-20261010/episodes/native-pairs-spatial1-init0-N.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/question-context-v1-retry1-20261010/episodes/native-pairs-spatial1-init0-U.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/question-context-v1-retry1-20261010/partial-summary.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/question-context-v1-retry1-20261010/preflight-image-review.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/question-context-v1-retry1-20261010/preflight.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/question-context-v1-retry1-20261010/reference-audit.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/question-context-v1-retry1-20261010/result-audit.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/question-context-v1-retry1-20261010/summary.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/N-reuse-audit.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/U0-reuse-audit.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/current-status.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/episodes/robustness-spatial1-init0-N.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/episodes/temporal-spatial1-init0-U0.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/episodes/temporal-spatial1-init0-U0_early60.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/partial-summary.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/prefix-audit.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/preflight-image-review.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/preflight.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/result-audit.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/summary.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "docs/assets/phase1/openvla-fact-first-na-v1-result-audit-20261010.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "docs/assets/phase1/openvla-fact-first-na-v1-summary-20261010.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "docs/assets/phase1/openvla-language-robustness-v1-result-audit-20261011.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "docs/assets/phase1/openvla-language-robustness-v1-summary-20261011.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "docs/assets/phase1/openvla-native-pairs-v1-result-audit-20261010.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "docs/assets/phase1/openvla-native-pairs-v1-summary-20261010.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "docs/assets/phase1/openvla-native-ramekin-result-audit-20261010.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "docs/assets/phase1/openvla-native-ramekin-summary-20261010.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "docs/assets/phase1/openvla-temporal-withdraw-v1-result-audit-20261011.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "docs/assets/phase1/openvla-temporal-withdraw-v1-summary-20261011.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/control-reuse-audit.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/current-status.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/episodes/native-pairs-spatial1-init1-A.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/episodes/native-pairs-spatial1-init1-N.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/partial-summary.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/preflight-image-review.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/preflight.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/result-audit.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/summary.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/N-reuse-audit.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/current-status.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial1-init1-A0.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial1-init1-N.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial1-init1-P.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial1-init1-U0.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/partial-summary.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/preflight-image-review.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/preflight.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/result-audit.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/summary.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/current-status.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/episodes/native-pairs-spatial1-init1-A.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/episodes/native-pairs-spatial1-init1-N.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/partial-summary.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/preflight-image-review.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/preflight.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/result-audit.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/summary.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/native-ramekin-20261010/current-status.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/native-ramekin-20261010/episodes/native-spatial1-init1-seed1-ramekin-N.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/native-ramekin-20261010/partial-summary.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/native-ramekin-20261010/preflight.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/native-ramekin-20261010/result-audit.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/native-ramekin-20261010/summary.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/N-reuse-audit.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/U0-reuse-audit.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/current-status.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/episodes/robustness-spatial1-init1-N.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/episodes/temporal-spatial1-init1-U0.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/episodes/temporal-spatial1-init1-U0_early60.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/partial-summary.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/prefix-audit.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/preflight-image-review.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/preflight.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/result-audit.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/summary.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "docs/assets/phase1/openvla-fact-first-na-v1-result-audit-20261010.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "docs/assets/phase1/openvla-fact-first-na-v1-summary-20261010.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "docs/assets/phase1/openvla-language-robustness-v1-result-audit-20261011.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "docs/assets/phase1/openvla-language-robustness-v1-summary-20261011.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "docs/assets/phase1/openvla-native-pairs-v1-result-audit-20261010.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "docs/assets/phase1/openvla-native-pairs-v1-summary-20261010.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "docs/assets/phase1/openvla-native-ramekin-result-audit-20261010.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "docs/assets/phase1/openvla-native-ramekin-summary-20261010.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "docs/assets/phase1/openvla-temporal-withdraw-v1-result-audit-20261011.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "docs/assets/phase1/openvla-temporal-withdraw-v1-summary-20261011.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/control-reuse-audit.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/current-status.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/episodes/native-pairs-spatial1-init2-A.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/episodes/native-pairs-spatial1-init2-N.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/partial-summary.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/preflight-image-review.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/preflight.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/result-audit.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/summary.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/N-reuse-audit.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/current-status.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial1-init2-A0.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial1-init2-N.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial1-init2-P.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial1-init2-U0.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/partial-summary.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/preflight-image-review.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/preflight.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/result-audit.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/summary.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/current-status.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/episodes/native-pairs-spatial1-init2-A.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/episodes/native-pairs-spatial1-init2-N.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/partial-summary.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/preflight-image-review.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/preflight.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/result-audit.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/summary.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/native-ramekin-20261010/active-episode.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/native-ramekin-20261010/current-status.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/native-ramekin-20261010/episodes/native-spatial1-init2-seed1-ramekin-N.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/native-ramekin-20261010/partial-summary.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/native-ramekin-20261010/preflight.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/native-ramekin-20261010/result-audit.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/native-ramekin-20261010/summary.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/N-reuse-audit.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/U0-reuse-audit.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/current-status.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/episodes/robustness-spatial1-init2-N.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/episodes/temporal-spatial1-init2-U0.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/episodes/temporal-spatial1-init2-U0_early60.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/partial-summary.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/prefix-audit.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/preflight-image-review.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/preflight.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/result-audit.json"
+    },
+    {
+      "task_id": 1,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/summary.json"
+    },
+    {
+      "task_id": 3,
+      "init_id": 0,
+      "source": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task3-init0-seed1-clean.json"
+    },
+    {
+      "task_id": 3,
+      "init_id": 1,
+      "source": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task3-init1-seed1-clean.json"
+    },
+    {
+      "task_id": 3,
+      "init_id": 2,
+      "source": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task3-init2-seed1-clean.json"
+    },
+    {
+      "task_id": 3,
+      "init_id": 3,
+      "source": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task3-init3-seed1-clean.json"
+    },
+    {
+      "task_id": 3,
+      "init_id": 4,
+      "source": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task3-init4-seed1-clean.json"
+    },
+    {
+      "task_id": 3,
+      "init_id": 5,
+      "source": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task3-init5-seed1-clean.json"
+    },
+    {
+      "task_id": 3,
+      "init_id": 6,
+      "source": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task3-init6-seed1-clean.json"
+    },
+    {
+      "task_id": 3,
+      "init_id": 7,
+      "source": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task3-init7-seed1-clean.json"
+    },
+    {
+      "task_id": 3,
+      "init_id": 8,
+      "source": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task3-init8-seed1-clean.json"
+    },
+    {
+      "task_id": 3,
+      "init_id": 9,
+      "source": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task3-init9-seed1-clean.json"
+    },
+    {
+      "task_id": 4,
+      "init_id": 0,
+      "source": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task4-init0-seed1-clean.json"
+    },
+    {
+      "task_id": 4,
+      "init_id": 1,
+      "source": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task4-init1-seed1-clean.json"
+    },
+    {
+      "task_id": 4,
+      "init_id": 2,
+      "source": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task4-init2-seed1-clean.json"
+    },
+    {
+      "task_id": 4,
+      "init_id": 3,
+      "source": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task4-init3-seed1-clean.json"
+    },
+    {
+      "task_id": 4,
+      "init_id": 4,
+      "source": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task4-init4-seed1-clean.json"
+    },
+    {
+      "task_id": 4,
+      "init_id": 5,
+      "source": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task4-init5-seed1-clean.json"
+    },
+    {
+      "task_id": 4,
+      "init_id": 6,
+      "source": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task4-init6-seed1-clean.json"
+    },
+    {
+      "task_id": 4,
+      "init_id": 7,
+      "source": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task4-init7-seed1-clean.json"
+    },
+    {
+      "task_id": 4,
+      "init_id": 8,
+      "source": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task4-init8-seed1-clean.json"
+    },
+    {
+      "task_id": 4,
+      "init_id": 9,
+      "source": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task4-init9-seed1-clean.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "docs/assets/phase1/experiment-summary-20261008.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "docs/assets/phase1/openvla-fact-first-na-v1-result-audit-20261010.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "docs/assets/phase1/openvla-fact-first-na-v1-summary-20261010.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "docs/assets/phase1/openvla-fact-first-v1-result-audit-20261010.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "docs/assets/phase1/openvla-fact-first-v1-summary-20261010.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "docs/assets/phase1/openvla-language-robustness-v1-result-audit-20261011.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "docs/assets/phase1/openvla-language-robustness-v1-summary-20261011.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "docs/assets/phase1/openvla-native-neutral-v1-result-audit-20261010.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "docs/assets/phase1/openvla-native-neutral-v1-summary-20261010.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "docs/assets/phase1/openvla-native-pairs-v1-result-audit-20261010.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "docs/assets/phase1/openvla-native-pairs-v1-summary-20261010.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "docs/assets/phase1/openvla-question-context-v1-result-audit-20261010.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "docs/assets/phase1/openvla-question-context-v1-summary-20261010.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "docs/assets/phase1/openvla-spatial-4bit-screen-result-audit-20261010.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "docs/assets/phase1/openvla-spatial-4bit-screen-summary-20261010.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "docs/assets/phase1/openvla-temporal-withdraw-v1-result-audit-20261011.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "docs/assets/phase1/openvla-temporal-withdraw-v1-summary-20261011.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "docs/assets/phase1/ramekin-wording-summary-20261008.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "docs/assets/phase1/single-bowl-summary-20261008.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "docs/assets/phase1/smolvla-spatial-na-preflight-20261008.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "docs/assets/phase1/smolvla-spatial-na-summary-20261008.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "docs/assets/phase1/smolvla-spatial-neutral-manifest-20261009.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "docs/assets/phase1/smolvla-spatial-neutral-preflight-20261009.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "docs/assets/phase1/smolvla-spatial-neutral-summary-20261009.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "docs/assets/phase1/smolvla-spatial-reset-audit-20261008.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "docs/assets/phase1/smolvla-spatial-separator-manifest-20261009.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "docs/assets/phase1/smolvla-spatial-separator-preflight-20261009.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "docs/assets/phase1/smolvla-spatial-separator-summary-20261009.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "docs/assets/phase1/smolvla-spatial-short-neutral-manifest-20261009.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "docs/assets/phase1/smolvla-spatial-short-neutral-preflight-20261009.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "docs/assets/phase1/smolvla-spatial-short-neutral-summary-20261009.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "docs/assets/phase1/spatial-source-summary-20261008.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/control-reuse-audit.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/current-status.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/episodes/native-pairs-spatial8-init0-A.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/episodes/native-pairs-spatial8-init0-N.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/partial-summary.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/preflight-image-review.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/preflight.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/result-audit.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/summary.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/fact-first-v1-20261010/active-episode.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/fact-first-v1-20261010/current-status.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/fact-first-v1-20261010/episodes/native-pairs-spatial8-init0-A.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/fact-first-v1-20261010/episodes/native-pairs-spatial8-init0-N.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/fact-first-v1-20261010/episodes/native-pairs-spatial8-init0-U.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/fact-first-v1-20261010/partial-summary.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/fact-first-v1-20261010/preflight-image-review.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/fact-first-v1-20261010/preflight.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/fact-first-v1-20261010/reference-audit.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/fact-first-v1-20261010/result-audit.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/fact-first-v1-20261010/summary.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/N-reuse-audit.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/current-status.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial8-init0-A0.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial8-init0-N.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial8-init0-P.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial8-init0-U0.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/partial-summary.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/preflight-image-review.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/preflight.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/result-audit.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/summary.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/native-neutral-v1-20261010/active-episode.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/native-neutral-v1-20261010/current-status.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/native-neutral-v1-20261010/episodes/native-pairs-spatial8-init0-U.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/native-neutral-v1-20261010/partial-summary.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/native-neutral-v1-20261010/preflight-image-review.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/native-neutral-v1-20261010/preflight.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/native-neutral-v1-20261010/reference-audit.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/native-neutral-v1-20261010/result-audit.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/native-neutral-v1-20261010/summary.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/current-status.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/episodes/native-pairs-spatial8-init0-A.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/episodes/native-pairs-spatial8-init0-N.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/partial-summary.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/preflight-image-review.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/preflight.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/result-audit.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/summary.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/question-context-v1-20261010/preflight-image-review.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/question-context-v1-20261010/preflight.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/question-context-v1-20261010/reference-audit.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/question-context-v1-retry1-20261010/active-episode.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/question-context-v1-retry1-20261010/current-status.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/question-context-v1-retry1-20261010/episodes/native-pairs-spatial8-init0-A.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/question-context-v1-retry1-20261010/episodes/native-pairs-spatial8-init0-N.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/question-context-v1-retry1-20261010/episodes/native-pairs-spatial8-init0-U.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/question-context-v1-retry1-20261010/partial-summary.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/question-context-v1-retry1-20261010/preflight-image-review.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/question-context-v1-retry1-20261010/preflight.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/question-context-v1-retry1-20261010/reference-audit.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/question-context-v1-retry1-20261010/result-audit.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/question-context-v1-retry1-20261010/summary.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/screen-20261010/current-status.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/screen-20261010/episodes/spatial8-init0-seed1-plate_side-N.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/screen-20261010/episodes/spatial8-init0-seed1-ramekin_side-N.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/screen-20261010/partial-summary.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/screen-20261010/result-audit.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/screen-20261010/summary.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/N-reuse-audit.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/U0-reuse-audit.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/current-status.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/episodes/robustness-spatial8-init0-N.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/episodes/temporal-spatial8-init0-U0.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/episodes/temporal-spatial8-init0-U0_early60.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/partial-summary.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/prefix-audit.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/preflight-image-review.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/preflight.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/result-audit.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/summary.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/phase1/smolvla-spatial-NA-20261008-retry1/current-status.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/phase1/smolvla-spatial-NA-20261008-retry1/episodes/spatial8-init0-seed1-plate_side-A.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/phase1/smolvla-spatial-NA-20261008-retry1/episodes/spatial8-init0-seed1-ramekin_side-A.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/phase1/smolvla-spatial-NA-20261008-retry1/preflight.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/phase1/smolvla-spatial-NA-20261008-retry1/summary.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/phase1/smolvla-spatial-neutral-20261009/current-status.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/phase1/smolvla-spatial-neutral-20261009/episodes/spatial8-init0-seed1-plate_side-U.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/phase1/smolvla-spatial-neutral-20261009/episodes/spatial8-init0-seed1-ramekin_side-U.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/phase1/smolvla-spatial-neutral-20261009/preflight.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/phase1/smolvla-spatial-neutral-20261009/run-manifest.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/phase1/smolvla-spatial-neutral-20261009/summary.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/phase1/smolvla-spatial-reference-20261008/episodes/spatial8-init0-seed1-plate_side-N.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/phase1/smolvla-spatial-reference-20261008/episodes/spatial8-init0-seed1-ramekin_side-N.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/phase1/smolvla-spatial-reference-20261008/reset-audit.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/phase1/smolvla-spatial-separator-20261009/current-status.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/phase1/smolvla-spatial-separator-20261009/episodes/spatial8-init0-seed1-plate_side-S.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/phase1/smolvla-spatial-separator-20261009/episodes/spatial8-init0-seed1-ramekin_side-S.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/phase1/smolvla-spatial-separator-20261009/preflight.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/phase1/smolvla-spatial-separator-20261009/run-manifest.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/phase1/smolvla-spatial-separator-20261009/summary.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/phase1/smolvla-spatial-short-neutral-20261009/current-status.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/phase1/smolvla-spatial-short-neutral-20261009/episodes/spatial8-init0-seed1-plate_side-T.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/phase1/smolvla-spatial-short-neutral-20261009/episodes/spatial8-init0-seed1-ramekin_side-T.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/phase1/smolvla-spatial-short-neutral-20261009/preflight.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/phase1/smolvla-spatial-short-neutral-20261009/run-manifest.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/phase1/smolvla-spatial-short-neutral-20261009/summary.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/phase1/vla-adapter-ramekin-wording-20261008/active-episode.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/phase1/vla-adapter-ramekin-wording-20261008/current-status.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/phase1/vla-adapter-ramekin-wording-20261008/episodes/spatial8-init0-seed1-descriptive_side-N.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/phase1/vla-adapter-ramekin-wording-20261008/episodes/spatial8-init0-seed1-ramekin_side-N.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/phase1/vla-adapter-ramekin-wording-20261008/summary.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/phase1/vla-adapter-single-bowl-20261008-retry1/active-episode.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/phase1/vla-adapter-single-bowl-20261008-retry1/current-status.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/phase1/vla-adapter-single-bowl-20261008-retry1/episodes/spatial8-init0-seed1-plate_side-N.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/phase1/vla-adapter-single-bowl-20261008-retry1/episodes/spatial8-init0-seed1-ramekin_side-N.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/phase1/vla-adapter-single-bowl-20261008-retry1/summary.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/phase1/vla-adapter-spatial-reference-N-20261008/active-episode.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/phase1/vla-adapter-spatial-reference-N-20261008/current-status.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/phase1/vla-adapter-spatial-reference-N-20261008/episodes/spatial8-init0-seed1-plate_side-N.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/phase1/vla-adapter-spatial-reference-N-20261008/episodes/spatial8-init0-seed1-ramekin_side-N.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 0,
+      "source": "outputs/phase1/vla-adapter-spatial-reference-N-20261008/summary.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "docs/assets/phase1/openvla-fact-first-na-v1-result-audit-20261010.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "docs/assets/phase1/openvla-fact-first-na-v1-summary-20261010.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "docs/assets/phase1/openvla-language-robustness-v1-result-audit-20261011.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "docs/assets/phase1/openvla-language-robustness-v1-summary-20261011.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "docs/assets/phase1/openvla-native-pairs-v1-result-audit-20261010.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "docs/assets/phase1/openvla-native-pairs-v1-summary-20261010.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "docs/assets/phase1/openvla-spatial-4bit-screen-result-audit-20261010.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "docs/assets/phase1/openvla-spatial-4bit-screen-summary-20261010.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "docs/assets/phase1/openvla-temporal-withdraw-v1-result-audit-20261011.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "docs/assets/phase1/openvla-temporal-withdraw-v1-summary-20261011.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "docs/assets/phase1/smolvla-spatial-na-preflight-20261008.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "docs/assets/phase1/smolvla-spatial-na-summary-20261008.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/control-reuse-audit.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/current-status.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/episodes/native-pairs-spatial8-init1-A.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/episodes/native-pairs-spatial8-init1-N.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/partial-summary.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/preflight-image-review.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/preflight.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/result-audit.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/summary.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/N-reuse-audit.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/current-status.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial8-init1-A0.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial8-init1-N.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial8-init1-P.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial8-init1-U0.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/partial-summary.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/preflight-image-review.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/preflight.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/result-audit.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/summary.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/current-status.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/episodes/native-pairs-spatial8-init1-A.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/episodes/native-pairs-spatial8-init1-N.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/partial-summary.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/preflight-image-review.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/preflight.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/result-audit.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/summary.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/screen-20261010/current-status.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/screen-20261010/episodes/spatial8-init1-seed1-plate_side-N.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/screen-20261010/episodes/spatial8-init1-seed1-ramekin_side-N.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/screen-20261010/partial-summary.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/screen-20261010/result-audit.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/screen-20261010/summary.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/N-reuse-audit.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/U0-reuse-audit.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/current-status.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/episodes/robustness-spatial8-init1-N.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/episodes/temporal-spatial8-init1-U0.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/episodes/temporal-spatial8-init1-U0_early60.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/partial-summary.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/prefix-audit.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/preflight-image-review.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/preflight.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/result-audit.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/summary.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/phase1/smolvla-spatial-NA-20261008-retry1/current-status.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/phase1/smolvla-spatial-NA-20261008-retry1/episodes/spatial8-init1-seed1-plate_side-A.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/phase1/smolvla-spatial-NA-20261008-retry1/episodes/spatial8-init1-seed1-plate_side-N.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/phase1/smolvla-spatial-NA-20261008-retry1/episodes/spatial8-init1-seed1-ramekin_side-A.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/phase1/smolvla-spatial-NA-20261008-retry1/episodes/spatial8-init1-seed1-ramekin_side-N.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/phase1/smolvla-spatial-NA-20261008-retry1/preflight.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 1,
+      "source": "outputs/phase1/smolvla-spatial-NA-20261008-retry1/summary.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "docs/assets/phase1/openvla-fact-first-na-v1-result-audit-20261010.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "docs/assets/phase1/openvla-fact-first-na-v1-summary-20261010.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "docs/assets/phase1/openvla-language-robustness-v1-result-audit-20261011.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "docs/assets/phase1/openvla-language-robustness-v1-summary-20261011.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "docs/assets/phase1/openvla-native-pairs-v1-result-audit-20261010.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "docs/assets/phase1/openvla-native-pairs-v1-summary-20261010.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "docs/assets/phase1/openvla-spatial-4bit-screen-result-audit-20261010.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "docs/assets/phase1/openvla-spatial-4bit-screen-summary-20261010.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "docs/assets/phase1/openvla-temporal-withdraw-v1-result-audit-20261011.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "docs/assets/phase1/openvla-temporal-withdraw-v1-summary-20261011.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "docs/assets/phase1/smolvla-spatial-na-preflight-20261008.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "docs/assets/phase1/smolvla-spatial-na-summary-20261008.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/active-episode.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/control-reuse-audit.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/current-status.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/episodes/native-pairs-spatial8-init2-A.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/episodes/native-pairs-spatial8-init2-N.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/partial-summary.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/preflight-image-review.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/preflight.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/result-audit.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/summary.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/N-reuse-audit.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/active-episode.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/current-status.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial8-init2-A0.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial8-init2-N.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial8-init2-P.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial8-init2-U0.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/latest-truth-check.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/partial-summary.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/preflight-image-review.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/preflight.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/result-audit.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/summary.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/active-episode.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/current-status.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/episodes/native-pairs-spatial8-init2-A.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/episodes/native-pairs-spatial8-init2-N.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/partial-summary.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/preflight-image-review.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/preflight.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/result-audit.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/summary.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/screen-20261010/active-episode.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/screen-20261010/current-status.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/screen-20261010/episodes/spatial8-init2-seed1-plate_side-N.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/screen-20261010/episodes/spatial8-init2-seed1-ramekin_side-N.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/screen-20261010/partial-summary.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/screen-20261010/result-audit.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/screen-20261010/summary.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/N-reuse-audit.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/U0-reuse-audit.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/active-episode.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/current-status.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/episodes/robustness-spatial8-init2-N.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/episodes/temporal-spatial8-init2-U0.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/episodes/temporal-spatial8-init2-U0_early60.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/latest-truth-check.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/partial-summary.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/prefix-audit.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/preflight-image-review.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/preflight.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/result-audit.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/summary.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/phase1/smolvla-spatial-NA-20261008-retry1/current-status.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/phase1/smolvla-spatial-NA-20261008-retry1/episodes/spatial8-init2-seed1-plate_side-A.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/phase1/smolvla-spatial-NA-20261008-retry1/episodes/spatial8-init2-seed1-plate_side-N.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/phase1/smolvla-spatial-NA-20261008-retry1/episodes/spatial8-init2-seed1-ramekin_side-A.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/phase1/smolvla-spatial-NA-20261008-retry1/episodes/spatial8-init2-seed1-ramekin_side-N.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/phase1/smolvla-spatial-NA-20261008-retry1/preflight.json"
+    },
+    {
+      "task_id": 8,
+      "init_id": 2,
+      "source": "outputs/phase1/smolvla-spatial-NA-20261008-retry1/summary.json"
+    }
+  ],
+  "source_files": [
+    {
+      "path": "outputs/diagnostics/pulsevla/policy.json",
+      "sha256": "a9eb513b09d2bac8ff066f0e2e67facfbec2cfb6aafb12d98df3a5771a0295e5"
+    },
+    {
+      "path": "outputs/diagnostics/pulsevla/rollout.json",
+      "sha256": "a376fd107f41cc40e71b8c9a25f9b7a597bf8b433b1d4d4dc23c912810a0cba1"
+    },
+    {
+      "path": "outputs/diagnostics/pulsevla/simulation.json",
+      "sha256": "b16624d262f1d1fa9f14949730cde5430b62f2a7c093ef9bf73c2fda893bb50f"
+    },
+    {
+      "path": "outputs/diagnostics/smolvla/policy.json",
+      "sha256": "ac4186dbb0fb46e142114742b4059572e2c26e712c50aa7a850d9c9569afcbf0"
+    },
+    {
+      "path": "outputs/diagnostics/smolvla/rollout.json",
+      "sha256": "d6028b3d94f8a9adf5f6ab9cfaff46f66554c4b9b52e615700d938654453a71d"
+    },
+    {
+      "path": "outputs/diagnostics/smolvla/simulation.json",
+      "sha256": "851df15dd057bd74d55b067c69a0b0a46cc26d6606d159e64ad06e512b3f9c33"
+    },
+    {
+      "path": "outputs/diagnostics/vla-adapter/policy.json",
+      "sha256": "0c7eb38710d049f031ca59016ea89ceb6fae598794477394d46272543114e21e"
+    },
+    {
+      "path": "outputs/diagnostics/vla-adapter/rollout.json",
+      "sha256": "5a67268329230398912074d2b3b8efdce1cd393494609b1b9ed2ed3d83539e46"
+    },
+    {
+      "path": "outputs/diagnostics/vla-adapter/simulation.json",
+      "sha256": "788ab1196b19515a71eab6fd54e799630aaf615a9ba00d28e5c69133927b377b"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/active-episode.json",
+      "sha256": "d76d4241e35f155c9a566f588b903824ce540d1c37e36dfad9d36287fedfe9ca"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/control-reuse-audit.json",
+      "sha256": "34ff26b1f0a26ead8625b1e22db387c211b21393ef357b7e2d5fc32351383052"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/current-status.json",
+      "sha256": "94d340924ed278a60493a6c90f8045790a86b107debfe09628acda14d2cc3bc3"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/episodes/native-pairs-spatial1-init0-A.json",
+      "sha256": "a1792401dc1b03f20be19d1b6ae727cd59a29c930eeeb471bab81de79d71206b"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/episodes/native-pairs-spatial1-init0-N.json",
+      "sha256": "f14b1bfa6797ad169bc3f2a25f6bffef1cfd5c1ab89efd083cf864979ebac8ed"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/episodes/native-pairs-spatial1-init1-A.json",
+      "sha256": "9f90ce577d859ecb2e78333427c1d6565f6a6d5a5a45d8e73fabf97d4d5b8c77"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/episodes/native-pairs-spatial1-init1-N.json",
+      "sha256": "fbd89f554f7353d8a8ca0198be85cf4fb3e63501d43ac9991f6a5d9b78a7df2b"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/episodes/native-pairs-spatial1-init2-A.json",
+      "sha256": "d86484570bb4dc1db9aa47441ded1f1dae8ab321c71917a17c566c7a0ad88a53"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/episodes/native-pairs-spatial1-init2-N.json",
+      "sha256": "29296c83c17d9ec7b6ed80a886aaa12d0b33c9b806b1090bd049540545865ba8"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/episodes/native-pairs-spatial8-init0-A.json",
+      "sha256": "a15aa0320c1955248fb284bf1f72327c2b7ef8714945ec60987be74dbb743942"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/episodes/native-pairs-spatial8-init0-N.json",
+      "sha256": "64ae55ff067d10971beb3a8950bafae8e8977319488da02133430a8039b3e489"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/episodes/native-pairs-spatial8-init1-A.json",
+      "sha256": "92a547eb3a331f2542f766db41df9408d8290ba83dd9011c77c1e2a52cda35c5"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/episodes/native-pairs-spatial8-init1-N.json",
+      "sha256": "9eee1a3dbcc9f0499d09258699b3a3648bf851e32631b3bf74ade65bdbe7de83"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/episodes/native-pairs-spatial8-init2-A.json",
+      "sha256": "13fea33658395f34f7cc946a9c6984424d8a69212cc767687cb2b51fabe54b0e"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/episodes/native-pairs-spatial8-init2-N.json",
+      "sha256": "4b7b1077ed41a7743fbd35ad403ba4e6bb2720660f8b24da889587fdaa4a3c1f"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/partial-summary.json",
+      "sha256": "9ebc4965468a2cd2c3ac46f6004c83b91c1e1261619f52c6ce4dd57b055e4499"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/preflight-image-review.json",
+      "sha256": "4b41e947b3ac6581152f17a5fb1448d8a4f4ead7e786a8c2e6be00edc054bf1f"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/preflight.json",
+      "sha256": "d1d09feb7985e6c8fdbd51677f2688016ab072ed76d4ecd48c4afaf4ef9e20f7"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/result-audit.json",
+      "sha256": "6286353d9dc2085c67dddae4893a160695cb819d110ad1bb08138db6a4826e12"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/run-manifest.json",
+      "sha256": "38e64e69dd3955ad64af465352f3be839e257571aa5ababd32aec3192fd46c55"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/fact-first-na-v1-20261010/summary.json",
+      "sha256": "94d340924ed278a60493a6c90f8045790a86b107debfe09628acda14d2cc3bc3"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/fact-first-v1-20261010/active-episode.json",
+      "sha256": "f2fe4aa4d092f615a91e2f144d7ddf6cd08737da4ba776a0827377279f6e0bfe"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/fact-first-v1-20261010/current-status.json",
+      "sha256": "dfa0cafa3c6e3199c4c201870ae046c3f798257c30ce94b8452f7ec91868ed51"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/fact-first-v1-20261010/episodes/native-pairs-spatial1-init0-A.json",
+      "sha256": "a91db0e0ff70771b79c6c68636670aa82a2608e4c65522ccee4924abe5aed8f7"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/fact-first-v1-20261010/episodes/native-pairs-spatial1-init0-N.json",
+      "sha256": "c2eb00f149e6d02a3be7a48479da441be6a1ea8404a3090d59c1eb06f55d76f5"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/fact-first-v1-20261010/episodes/native-pairs-spatial1-init0-U.json",
+      "sha256": "9048233cc3075d56360a70752a2626333178c65c264100ebc598f3b462bf39b5"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/fact-first-v1-20261010/episodes/native-pairs-spatial8-init0-A.json",
+      "sha256": "5c72858907b561ec806b7be266a9cba746110cdc571cb586f18d8639fe917c86"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/fact-first-v1-20261010/episodes/native-pairs-spatial8-init0-N.json",
+      "sha256": "891fe97784d4675254ff6703979fee383a9b144502080c719d889da8010fb451"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/fact-first-v1-20261010/episodes/native-pairs-spatial8-init0-U.json",
+      "sha256": "22114c66dc725928eeaca328cbf64f37a59bc46a439d8d367837bd8af4d76c95"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/fact-first-v1-20261010/partial-summary.json",
+      "sha256": "6a383ebcd6d07e2e5f77fa2f9cd7db0301d535f85e324a9d6ea42118fea17e89"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/fact-first-v1-20261010/preflight-image-review.json",
+      "sha256": "81b5acaf0e9b5bc339cd7827a2588e475e461240b9cd80bb7cf842445e77e6e2"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/fact-first-v1-20261010/preflight.json",
+      "sha256": "cdfeb8c36b916354cdf1c2de0b8f269feacdec412b8f17cce906f9af0e3a62cd"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/fact-first-v1-20261010/reference-audit.json",
+      "sha256": "f8e5de781a823d6dc22d7d28fb7706f98bc75f8afffc19137c0e606bd612d8c1"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/fact-first-v1-20261010/result-audit.json",
+      "sha256": "9d4b295f205ceeb3f71fa6a7e0ddf6b8f75d508a430ce2b6c2eeaf45c6005521"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/fact-first-v1-20261010/run-manifest.json",
+      "sha256": "9dd6f8fb6dc9b30a61f77ff74ea89271be0eddfc3cf6ac7356093e3070ab9cdc"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/fact-first-v1-20261010/summary.json",
+      "sha256": "dfa0cafa3c6e3199c4c201870ae046c3f798257c30ce94b8452f7ec91868ed51"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/language-robustness-v1-20261011/current-status.json",
+      "sha256": "7771bcf77c36338e562b873a3ca473aa2a63156962e3f5694f40d94b6468619c"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/language-robustness-v1-20261011/run-manifest.json",
+      "sha256": "835330fe374f73375fa3eeb9d1034b79870c16e7642accb7b1273d29d6db62a6"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/language-robustness-v1-retry1-20261011/current-status.json",
+      "sha256": "580576d6878fa610aa159a0752c393ee55674fa839f4890ab8a4ff46a665c35b"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/language-robustness-v1-retry1-20261011/run-manifest.json",
+      "sha256": "2fc02bb36e7d7cdb7622d92d968b84a9e6224a8ac841ad3cd258c38a9e5b3e17"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/active-episode.json",
+      "sha256": "ba8f99d45da3eede11e8110f04701de980c454df6d67f54a15ed14ec7b51b0d2"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/current-status.json",
+      "sha256": "4df8dc2ae212873aef31e5ea82d0712cb8439c26d70e75991564df9357ece5ad"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial1-init0-A0.json",
+      "sha256": "2483168bfc72ddf764fadef8122f70082aed1d865e3abd07f6febb46d686dd44"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial1-init0-N.json",
+      "sha256": "812ea2da8564e84245ff76150ff9bb19c9021e021149fe123d6288296f458b85"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial1-init0-P.json",
+      "sha256": "c91de70fc290c3f2b0c78031494a755dd1cd9d03a85da1a348c2c90e20d804c5"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial1-init0-U0.json",
+      "sha256": "8a40c4d474be152c59d60abd8526d811018d4627894428de0d8d92a2ac1254b5"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial1-init1-A0.json",
+      "sha256": "976f824ba8ac8e0990e76bfe10436db5a341f67b72f1b352d788ee7af5074125"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial1-init1-N.json",
+      "sha256": "a8b8affe92eedf81d9afd4306816280619483713e60d87d5826f63782c075733"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial1-init1-P.json",
+      "sha256": "f9d9da3fe828d6e9bcaecc9ae61225ea83bacca259a65d1d7625e8d818b7a071"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial1-init1-U0.json",
+      "sha256": "e28d918c192fc7c4808a30ed4001e9a06d47aa5469974f73ea236bdca71ae886"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial1-init2-A0.json",
+      "sha256": "e7293722dcc7331d38b3c410da78136666b6bf8d570b06432a183ae55f253c8f"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial1-init2-N.json",
+      "sha256": "1779a1ea56850990b93eeeaee195a4e812c2d16444f41ecc19994f66432c1b47"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial1-init2-P.json",
+      "sha256": "1ca92dee5b822164a9135e13d214988a9b77cdfdd77aa0ba3f48f411140a7a8f"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial1-init2-U0.json",
+      "sha256": "679f673494b8ee02a60680c4af0029508b4510b703f9fc558acfad3fae189d6e"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial8-init0-A0.json",
+      "sha256": "80cd671d542c7902b8f3136260a752f7ab9ff8c37cca050b1ba3f1b0eb97bafe"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial8-init0-N.json",
+      "sha256": "297d728fed9dde7f27b48508fe26f91e0e64e5d1d6c454081e4893916066cd90"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial8-init0-P.json",
+      "sha256": "a6745e5e10f604d3a32795364e772d86ce308ec71415699e8b08a59d79753793"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial8-init0-U0.json",
+      "sha256": "ea1ef42d193e70c9bf5fcf119eab1701938877eef249f47ebf8dd4fdf2f53652"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial8-init1-A0.json",
+      "sha256": "4126a5543f56c0d04bf0cde6db0a44a2180fa2fe5d208ccc35313f532551e1a7"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial8-init1-N.json",
+      "sha256": "ad99768d8a2b785907698eb804ca2534b332eff6f80e94e8f8506e31b0729b4e"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial8-init1-P.json",
+      "sha256": "6af4d59682f1a6837000fd98770950606ec7e4097b2f62ded42d841b9eb2eebe"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial8-init1-U0.json",
+      "sha256": "8ed11af714bf30b4448c9848bd795056cfdeb97b6873673c4b88a126dd2aa090"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial8-init2-A0.json",
+      "sha256": "173cd98bd7147a08b6e07ac4d683e154cf1e7246226fa991e489e27157550287"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial8-init2-N.json",
+      "sha256": "a5ad761208f42ac288e3461a0f8314e08aed4bb431843043b2ed021ca6834e1c"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial8-init2-P.json",
+      "sha256": "a95f1cfa64099d1372f11286ee7041acfb939913a6b95690d50a0dc11e6cae50"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/episodes/robustness-spatial8-init2-U0.json",
+      "sha256": "d62a2af04bfc6d99f84ab70dedd9a29e9912a3ed5475ed9cd5af170517f3bc77"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/latest-truth-check.json",
+      "sha256": "04ca49cee3cab700745b4e01751027c6d8efc2246e7ea80cc1665805d496793d"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/N-reuse-audit.json",
+      "sha256": "72ae5272df5c295598b16be3091a5c2be629a463203364986549c2db47b1a1d3"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/partial-summary.json",
+      "sha256": "3bd5d7317d01f7e26834b44a0c4c6ed7d4740a6c599cdef2cc0c824169f91f3b"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/preflight-image-review.json",
+      "sha256": "0c57a6dcacdb65379eed232c6427557eabb8e70e68d60c24f186de7948122deb"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/preflight.json",
+      "sha256": "f8d1a5277b8cb89af7580eb78335b758a82a6358029dac0312f7b719d1cac402"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/result-audit.json",
+      "sha256": "dfbfa1a75742d8bf35a04a65f78702f8f797ce9e37b6c3af4f8169c29f8fe2dd"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/run-manifest.json",
+      "sha256": "54e9358acafdd5ecb24e99fce4a33fa1b1fc145576ce1aec995f85102ff7b7cf"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/language-robustness-v1-retry2-20261011/summary.json",
+      "sha256": "4df8dc2ae212873aef31e5ea82d0712cb8439c26d70e75991564df9357ece5ad"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/native-neutral-v1-20261010/active-episode.json",
+      "sha256": "e29e23ab0300912f9228f11ec8e0a2832cff5d0ac162f29d6f14eab8b362361c"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/native-neutral-v1-20261010/current-status.json",
+      "sha256": "3c683af2981d964798f8d8130d07303ce1612fb0a36d748e70fb816c2320acaf"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/native-neutral-v1-20261010/episodes/native-pairs-spatial1-init0-U.json",
+      "sha256": "a3803a16e9e3207e5e5ef0467a8e6b5eba618c20ea64973ab50fedab11bceb12"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/native-neutral-v1-20261010/episodes/native-pairs-spatial8-init0-U.json",
+      "sha256": "b72828b9bf3da1325d20d4c1b68f982958a536e3572738eeca8aab436c897220"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/native-neutral-v1-20261010/partial-summary.json",
+      "sha256": "4ef3a3364c9480dd7b6eefa01c52e4358d46a5ca97635d623f0b43c848791657"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/native-neutral-v1-20261010/preflight-image-review.json",
+      "sha256": "6d7df79d16430474f01985801129babb40006ab5a3b42e2790255f06a2c14a95"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/native-neutral-v1-20261010/preflight.json",
+      "sha256": "e6a5a37ebb6ca72579f8316d7be1f48167f5ae9360c599fe6ab4899d10147de8"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/native-neutral-v1-20261010/reference-audit.json",
+      "sha256": "2bd507ec7e582c53f5294bcdc78c1131c808bc6a5a6aa53ada7ad96767237e43"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/native-neutral-v1-20261010/result-audit.json",
+      "sha256": "630168153d2797ef987a3af921d03a9b7637c6b9b74e1b5aeeb8ec1994136d3b"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/native-neutral-v1-20261010/run-manifest.json",
+      "sha256": "dc648ebcbeeae0b3d65c61627ea594b28c3dfacbb2dde7a7614db391879897c3"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/native-neutral-v1-20261010/summary.json",
+      "sha256": "3c683af2981d964798f8d8130d07303ce1612fb0a36d748e70fb816c2320acaf"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/active-episode.json",
+      "sha256": "0da0c27893dfaa5e6e39179f927f9627c960b05b9adf39a5709da8eb9616d4a2"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/current-status.json",
+      "sha256": "ce01ef1d92c76c78a9480e1a3691aa5103563b7a24f32a064fb775e2f70c8641"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/episodes/native-pairs-spatial1-init0-A.json",
+      "sha256": "7a4a4272772f347cd0e2415a7e75148ace71bd08a6689cafcd6f715fda4da4df"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/episodes/native-pairs-spatial1-init0-N.json",
+      "sha256": "7e8699605038aae8825d4a855eb69e64d237db516b7ba624169408f767170e5d"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/episodes/native-pairs-spatial1-init1-A.json",
+      "sha256": "e87a9986e93f7e6c6276b6e1e6e3f66e52a22d3703feae5981f0e42f500c75fd"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/episodes/native-pairs-spatial1-init1-N.json",
+      "sha256": "8cef63394687b4bd48a621b43f6edd1f195fa05d270e02f9df6f96cd2c83d3e8"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/episodes/native-pairs-spatial1-init2-A.json",
+      "sha256": "f6beca8f43e29da36d9d907eed5b2750f72027779d44c34f4903329c85fc4a3e"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/episodes/native-pairs-spatial1-init2-N.json",
+      "sha256": "30650fe18592c644f3e61eb94f61c465c0457feab44bbd15cab2e1ab82543149"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/episodes/native-pairs-spatial8-init0-A.json",
+      "sha256": "c907cd05a489046fb38555a4f9561a94519ceb81d8c39d7af3403edc6150de5d"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/episodes/native-pairs-spatial8-init0-N.json",
+      "sha256": "585fcdc80fe8dc156cf8b6a91b04d1a884e3cf8757f0e712b77b54413d0e07e8"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/episodes/native-pairs-spatial8-init1-A.json",
+      "sha256": "898abb1a0f5a81bcef21b50f55454279f760a50bac8e8461a14038496053098e"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/episodes/native-pairs-spatial8-init1-N.json",
+      "sha256": "003c7a2742084f5aaceecf069dd861157a1419d60b035038e2c9f6275a1a3f15"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/episodes/native-pairs-spatial8-init2-A.json",
+      "sha256": "bbdda06c444dc775c7195db1a2ceae0213f71f157d8e147b3cecbedfdf77f2f6"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/episodes/native-pairs-spatial8-init2-N.json",
+      "sha256": "d3a1e043a179a2f5e90a5b835dd29534e0dcf7c87accc0b12533e8a1900bfc8a"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/N-reuse-audit.json",
+      "sha256": "01b1a77048b6bd9f761bba9a7ff88faa94fc5cbaecc2baaa134e58d7c7c3232c"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/partial-summary.json",
+      "sha256": "086271edb9498cfc87a3886740c66d0e729b1a5f688ea012d3823e308c33f5b7"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/plate-N-start-comparison.json",
+      "sha256": "a9681e1e3dd19e93894b7ac256eb5f1975bd85aefd40514b3630a52a2f4019e2"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/preflight-image-review.json",
+      "sha256": "3856c7a04befa089743a1bdffcb22ace94eb7821062f5b7864104b5c5409c827"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/preflight.json",
+      "sha256": "d47e74ed049c6d7c10561e00190f5efb535f657d3cf1c3611b4550723a9c9451"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/result-audit.json",
+      "sha256": "4ed4ce935b92e47e32b30f9f741a1e202dd56df4584f1c259de4b13a31668a6b"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/run-manifest.json",
+      "sha256": "7f5df12cd21541d18cae75764f0af1af7fd0ae1340a400a13483d95ffc0463e6"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/native-pairs-v1-20261010/summary.json",
+      "sha256": "ce01ef1d92c76c78a9480e1a3691aa5103563b7a24f32a064fb775e2f70c8641"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/native-ramekin-20261010/active-episode.json",
+      "sha256": "7fbf2039b25b9bbcaa3a01f18a701e6e673f2e17526a5ddcdaeef9d4abe77288"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/native-ramekin-20261010/current-status.json",
+      "sha256": "0498ea9771d36874560f5476bb98603390d5246f9310d3686adb993d227dfef2"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/native-ramekin-20261010/episodes/native-spatial1-init0-seed1-ramekin-N.json",
+      "sha256": "eb96b8a5145897f4165dfe208e24dd9dda551343505ccd5c301b61a38c9b1b44"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/native-ramekin-20261010/episodes/native-spatial1-init1-seed1-ramekin-N.json",
+      "sha256": "d1546344c8d3ee76bac48ca0fc7af3906645c1afd9dc752e8cecf7ce7749edf1"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/native-ramekin-20261010/episodes/native-spatial1-init2-seed1-ramekin-N.json",
+      "sha256": "dca5cb7352344168b18a63be4e644bead895b1aa85ee8985142ed17def112fba"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/native-ramekin-20261010/partial-summary.json",
+      "sha256": "078189a906c2baac8e926cdb8a116fa56239baec1ccbea8063c278d3d90a9001"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/native-ramekin-20261010/preflight-image-review.json",
+      "sha256": "4e448d749de87d54224b475b64234218101f1abc2446cef48af4cca5d2118c17"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/native-ramekin-20261010/preflight.json",
+      "sha256": "8499f064fae2a07cafe62b3f9603ad9c1be4d49afadd6b8347f4a2402ebbb1b2"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/native-ramekin-20261010/result-audit.json",
+      "sha256": "32cea59eda5354683bed15b12e06961c03b0d38915aca5136e5bcfd8791ac22d"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/native-ramekin-20261010/run-manifest.json",
+      "sha256": "4c5b0606ac0fb9bfa9bb268b433e347189ea2de8b5f669ee52d7c504baa39152"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/native-ramekin-20261010/summary.json",
+      "sha256": "0498ea9771d36874560f5476bb98603390d5246f9310d3686adb993d227dfef2"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/question-context-v1-20261010/active-episode.json",
+      "sha256": "b35158c441544bde9bb28a041e1bcf6ab0e1121dce93ab84fe69c132a7a7070b"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/question-context-v1-20261010/current-status.json",
+      "sha256": "50a8d07d52cfb0157031953d25e070bb23be0d455faef68982a23af6d743df00"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/question-context-v1-20261010/preflight-image-review.json",
+      "sha256": "6070a612a8ddce023eb54701ee59dddab115ff63b8490cbad95bdd61d5376ca1"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/question-context-v1-20261010/preflight.json",
+      "sha256": "84b81719e4f2dfe3ce907bd06ad62a0dcc16985dcc7e454003aa2c372c2fca5d"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/question-context-v1-20261010/reference-audit.json",
+      "sha256": "f8e5de781a823d6dc22d7d28fb7706f98bc75f8afffc19137c0e606bd612d8c1"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/question-context-v1-20261010/run-manifest.json",
+      "sha256": "5d68f4151baf660ef58a02dc3b5ffb7d6a1fb6ff34aaeeb0c7f291b7a7594db5"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/question-context-v1-retry1-20261010/active-episode.json",
+      "sha256": "344740fefa1a1cfe66bf0f5617b80227a613948e5eff4c09a8fb56a5f08bc0ae"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/question-context-v1-retry1-20261010/current-status.json",
+      "sha256": "2f587c1b65a406a4408faa2168c2455672d2fa3e5f041f90b85c7b7a69572b78"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/question-context-v1-retry1-20261010/episodes/native-pairs-spatial1-init0-A.json",
+      "sha256": "3f210a24fa8da01babf9da23ebb7524731d4d0370f0c4b59c986038667f42852"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/question-context-v1-retry1-20261010/episodes/native-pairs-spatial1-init0-N.json",
+      "sha256": "1c8c94503ca5c3e37dacf732a4781125a2aaa4f1097f03704faa17748f6fa121"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/question-context-v1-retry1-20261010/episodes/native-pairs-spatial1-init0-U.json",
+      "sha256": "b360d098cd373c00c292a3c95383e02e1ffca94d04a336cda5fc42cccb822c86"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/question-context-v1-retry1-20261010/episodes/native-pairs-spatial8-init0-A.json",
+      "sha256": "b991f060dc909b2f6930c4f5cf0e3d1d6b20018e35f39cf0c5c3d94543fc228a"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/question-context-v1-retry1-20261010/episodes/native-pairs-spatial8-init0-N.json",
+      "sha256": "a97faf57d9ee8962a5f080f0eb9c5b527eb0c6cc5a92a28379f9d8cb5737537b"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/question-context-v1-retry1-20261010/episodes/native-pairs-spatial8-init0-U.json",
+      "sha256": "261384d4f62353d38024e570bcdfd6f69cb8cec7a664e8c08cbb56842deb2b5d"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/question-context-v1-retry1-20261010/partial-summary.json",
+      "sha256": "0d8ff4c464d134fec16f651e505e1452065ce61bc301432a0958f91119c3d585"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/question-context-v1-retry1-20261010/preflight-image-review.json",
+      "sha256": "031e595aefe86589352433c3f376cd326744267597ffad6183382b5e19c66153"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/question-context-v1-retry1-20261010/preflight.json",
+      "sha256": "84b81719e4f2dfe3ce907bd06ad62a0dcc16985dcc7e454003aa2c372c2fca5d"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/question-context-v1-retry1-20261010/reference-audit.json",
+      "sha256": "f8e5de781a823d6dc22d7d28fb7706f98bc75f8afffc19137c0e606bd612d8c1"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/question-context-v1-retry1-20261010/result-audit.json",
+      "sha256": "037171dedc77ca1e9250d1fe6202c735fd571c191f98c1c9904faffeb86da267"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/question-context-v1-retry1-20261010/retry-integrity-audit.json",
+      "sha256": "d667b709fb50a052dbfd350744e703a46baafec09324d973b06d8c2783e59525"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/question-context-v1-retry1-20261010/run-manifest.json",
+      "sha256": "6f6ef63be9c67a49c171fd6f559adcd7e1da28601255dd4279b1e3dae90832e8"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/question-context-v1-retry1-20261010/summary.json",
+      "sha256": "2f587c1b65a406a4408faa2168c2455672d2fa3e5f041f90b85c7b7a69572b78"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/readiness-20261009/current-status.json",
+      "sha256": "ab51ada959f1e0185463aa44a443ad1f46de1301d12743f548444262223d22cc"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/readiness-retry1-20261009/current-status.json",
+      "sha256": "219bae53aa934c5121c8fa9f8456087b8450d2af8ad37acbf145c8e2270bb55f"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/readiness-retry2-20261009/active-episode.json",
+      "sha256": "3ba3ea6c3a557cbe4a5866113ca15af81f8bb4e879e539377adc980af903a1c1"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/readiness-retry2-20261009/current-status.json",
+      "sha256": "402a6a84ca09c965a44aaf8f0caf420f77fedb7a9ba2d6eedda501ff85385f3a"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/readiness-retry2-20261009/episodes/official-task8-init0.json",
+      "sha256": "d64d82a45885a5cf52d2914a01ae2abbb92cf1d8047deb74dd53c3b08262f8f6"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/readiness-retry2-20261009/partial-summary.json",
+      "sha256": "751a7fe0780ebd494a7fb25cc34678c29aae8363c63b7c5ae9976f597fd53a1e"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/readiness-retry2-20261009/preflight-image-review.json",
+      "sha256": "9969c1c3a257fe5a482d80a8e7c5f90ba600edf62a6ad4b977a634e289628f92"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/readiness-retry2-20261009/preflight-policy-image-audit.json",
+      "sha256": "446f87d5ff5e655cc5fa4b535ae8c6b6fe806a29faaae1ef17b72349271f0db6"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/readiness-retry2-20261009/preflight.json",
+      "sha256": "9a3ff2266769534d3017e2dec6fc849bdacb64047fc05373aa3761b1fecdf2c6"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/readiness-retry2-20261009/reset-audit.json",
+      "sha256": "bd4b7a6f7a94ef1f87f2998953c5f0bdfe4a6fbe51904fbd5d31ecd38054fe30"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/readiness-retry2-20261009/run-manifest.json",
+      "sha256": "df5725e48f8d26959a2492096ea61ab69b2d765f34544f25cac58614c82a6e12"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/readiness-retry2-20261009/summary.json",
+      "sha256": "402a6a84ca09c965a44aaf8f0caf420f77fedb7a9ba2d6eedda501ff85385f3a"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/screen-20261010/active-episode.json",
+      "sha256": "340c8ea11f5f9ea731e1fc2135d8905afe61843b5ff94ac157402e6e4147b617"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/screen-20261010/current-status.json",
+      "sha256": "15c3266727db77be53080466bafc88092d89065d91f0a8509584ff749af480b8"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/screen-20261010/episodes/spatial8-init0-seed1-plate_side-N.json",
+      "sha256": "31efebfe23ed0bf943749ecb5daec9e2fdbb17c7f350b8ab16a9db820b7be0d8"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/screen-20261010/episodes/spatial8-init0-seed1-ramekin_side-N.json",
+      "sha256": "446e874c9ddd9d212627830022d1c36623ab047d3a9febfdcedf674c0d3d16f0"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/screen-20261010/episodes/spatial8-init1-seed1-plate_side-N.json",
+      "sha256": "36eae7b9ff385004e1b1dd3c4fe25c370e170705d8033a6a6ecced773bae9c65"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/screen-20261010/episodes/spatial8-init1-seed1-ramekin_side-N.json",
+      "sha256": "36513abf741af830667b354e02a60354e35497ca1607ed34a773092994e7035c"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/screen-20261010/episodes/spatial8-init2-seed1-plate_side-N.json",
+      "sha256": "0d429432ac0999ee0e4735b618902f0cd30ea169f6272e20cba0ba5fbd389d08"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/screen-20261010/episodes/spatial8-init2-seed1-ramekin_side-N.json",
+      "sha256": "39793d031caced8ec96196579786ccc631affab95dd8c3c8cc4d90207430cde6"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/screen-20261010/partial-summary.json",
+      "sha256": "46cfd0e1d490f3adab152c61306622f6754177e832ff975af4e6117ccbb7fed0"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/screen-20261010/preflight.json",
+      "sha256": "9a3ff2266769534d3017e2dec6fc849bdacb64047fc05373aa3761b1fecdf2c6"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/screen-20261010/result-audit.json",
+      "sha256": "48a47a80bdf445df0d9025b36335b5097c1a13dbb32df054f02e599d12dc8ee2"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/screen-20261010/run-manifest.json",
+      "sha256": "0391282bfdd81302d781a245cae546dbff27cbf46b11f27627ee9f3cea28fe09"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/screen-20261010/summary.json",
+      "sha256": "15c3266727db77be53080466bafc88092d89065d91f0a8509584ff749af480b8"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/active-episode.json",
+      "sha256": "a22b84c4022ace26346ee860024b73615bc470db7c1c63dea82e5d394513e1a2"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/cost-ledger.json",
+      "sha256": "a7f40dac3b54b5853e1deb88203cc32f24df81a9bc1e3c228bc16bf1f7bbabe1"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/current-status.json",
+      "sha256": "b0c08f7568711e0485123a086e3569640678d9f29b2f48eb317beac759eb973b"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/episodes/robustness-spatial1-init0-N.json",
+      "sha256": "812ea2da8564e84245ff76150ff9bb19c9021e021149fe123d6288296f458b85"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/episodes/robustness-spatial1-init1-N.json",
+      "sha256": "a8b8affe92eedf81d9afd4306816280619483713e60d87d5826f63782c075733"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/episodes/robustness-spatial1-init2-N.json",
+      "sha256": "1779a1ea56850990b93eeeaee195a4e812c2d16444f41ecc19994f66432c1b47"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/episodes/robustness-spatial8-init0-N.json",
+      "sha256": "297d728fed9dde7f27b48508fe26f91e0e64e5d1d6c454081e4893916066cd90"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/episodes/robustness-spatial8-init1-N.json",
+      "sha256": "ad99768d8a2b785907698eb804ca2534b332eff6f80e94e8f8506e31b0729b4e"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/episodes/robustness-spatial8-init2-N.json",
+      "sha256": "a5ad761208f42ac288e3461a0f8314e08aed4bb431843043b2ed021ca6834e1c"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/episodes/temporal-spatial1-init0-U0.json",
+      "sha256": "f69bf2e22d02927f452bcda09821447761f994b37efb2dfed41ec20c98411093"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/episodes/temporal-spatial1-init0-U0_early60.json",
+      "sha256": "6f8cb58eb6acc608b281e22abfc9df0f5d33d6daa0c5a49b6e8390d1f953fecf"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/episodes/temporal-spatial1-init1-U0.json",
+      "sha256": "98d86939769a67def1924680d70c001bfdbaaa59c659835959fd0866029c2940"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/episodes/temporal-spatial1-init1-U0_early60.json",
+      "sha256": "060a97af9fc7af766b87dcae911b0ae3170509d6ff9c00a1919424db055e99a5"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/episodes/temporal-spatial1-init2-U0.json",
+      "sha256": "430707343d72c3e11b9a13ab6cb70a2cf83dc495178226e7c3d60513a88b432a"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/episodes/temporal-spatial1-init2-U0_early60.json",
+      "sha256": "07665baa183dbac6054b50a508fc194d10c966faae6e781f698525521a4f8234"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/episodes/temporal-spatial8-init0-U0.json",
+      "sha256": "95017d64d1d3eba9dc14b8830d17f6d047fb4895d78816bd10e4588273badecf"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/episodes/temporal-spatial8-init0-U0_early60.json",
+      "sha256": "04abdfb0c6e9f9d25c77196cb77dc567f513eb4a3fa4615aa8eb718e0b78212c"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/episodes/temporal-spatial8-init1-U0.json",
+      "sha256": "fcef2fbf5954c33c3ccafb3e21190aa140eeb7f058ae21032404a8ab4bd9c9a7"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/episodes/temporal-spatial8-init1-U0_early60.json",
+      "sha256": "fbc336cf69870c79a4a9648730fecde5a098d56508d5b846689e764d3f7e39cf"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/episodes/temporal-spatial8-init2-U0.json",
+      "sha256": "c6627b0ddba976e46ed7059d1e041c8f3f9b4ab2f6f1103be3c02d9bb425fb15"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/episodes/temporal-spatial8-init2-U0_early60.json",
+      "sha256": "e0214a91bd09545e58708240a8acb981998090d2eb27b56a11b327de9d8b178f"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/latest-truth-check.json",
+      "sha256": "04ca49cee3cab700745b4e01751027c6d8efc2246e7ea80cc1665805d496793d"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/N-reuse-audit.json",
+      "sha256": "72ae5272df5c295598b16be3091a5c2be629a463203364986549c2db47b1a1d3"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/partial-summary.json",
+      "sha256": "6403fefad05b5e3ea91270792c57d0d1f2453652c93381c6b390086151c41277"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/prefix-audit.json",
+      "sha256": "414b2ce3af1dda895d6f543c1b601313830d1b0aa4e2e741dcccde901c63c58f"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/preflight-image-review.json",
+      "sha256": "706a2cb1e2640de65e33a39273956d0668612b5070568a8952e735d229fd8aa7"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/preflight.json",
+      "sha256": "f8d1a5277b8cb89af7580eb78335b758a82a6358029dac0312f7b719d1cac402"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/result-audit.json",
+      "sha256": "327975e046150c6267996eff762466bf2aff9bd2060c67506dad24da14c26f80"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/run-manifest.json",
+      "sha256": "bd557af3eccd922fabb08cf15f858a772e20476ea1f7debb6893499d50810935"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/summary.json",
+      "sha256": "b0c08f7568711e0485123a086e3569640678d9f29b2f48eb317beac759eb973b"
+    },
+    {
+      "path": "outputs/openvla-spatial-4bit/temporal-withdraw-v1-20261011/U0-reuse-audit.json",
+      "sha256": "f1c19cc9d1b99ad84f7ecd97d4133582940cf683098e1fdd89a5fedaa6ff2b18"
+    },
+    {
+      "path": "outputs/phase1/smolvla-baseline-N-20261007/current-status.json",
+      "sha256": "8bbd7fc8f894a39230b380190bd33364f9b7bfdd81fa22f387dc4a544ccffe48"
+    },
+    {
+      "path": "outputs/phase1/smolvla-baseline-N-20261007/episodes/goal8-init0-seed1-Q_A-N.json",
+      "sha256": "de20eccc75f19efb643abd15a23d53125435b766923bf0ef20d6f286cfae51ac"
+    },
+    {
+      "path": "outputs/phase1/smolvla-baseline-N-20261007/episodes/goal8-init0-seed1-Q_B-N.json",
+      "sha256": "f95f9fec2d7a54aac19fc613093096be8df547572bbe6116c6b4b10df0ab5b15"
+    },
+    {
+      "path": "outputs/phase1/smolvla-baseline-N-20261007/reset-audit.json",
+      "sha256": "d5a44863dd61202a4c2a3c07792b8de2832f9281f71f16cb512ac1a27b544155"
+    },
+    {
+      "path": "outputs/phase1/smolvla-baseline-N-20261007/run-manifest.json",
+      "sha256": "6f0c8b5c67d87ec7ce2c90bf180537f6b41ab0b2b1ee3efc25246368c1187efd"
+    },
+    {
+      "path": "outputs/phase1/smolvla-cabinet-mention-20261007/contacts/cabinet_fact.json",
+      "sha256": "735f13408c4020779699edc024a9d5e14d33c1619f318d62ed9079e64e3f852e"
+    },
+    {
+      "path": "outputs/phase1/smolvla-cabinet-mention-20261007/contacts/neutral_bottle_fact.json",
+      "sha256": "65a443f4f82c456b3b11fe815644e8ad1c65e3e63dafc9992b44713eecc5be20"
+    },
+    {
+      "path": "outputs/phase1/smolvla-cabinet-mention-20261007/current-status.json",
+      "sha256": "c5ea91be9a7e7a86843c6b250a4edda6a4651123b4169631d6292089e79d59ef"
+    },
+    {
+      "path": "outputs/phase1/smolvla-cabinet-mention-20261007/episodes/goal8-init0-seed1-cabinet_fact-N.json",
+      "sha256": "5ac6a73d863afb7cc9523c58cb5907827dc413c9033f32083a4f37424f60d300"
+    },
+    {
+      "path": "outputs/phase1/smolvla-cabinet-mention-20261007/episodes/goal8-init0-seed1-neutral_bottle_fact-N.json",
+      "sha256": "a1505a2712abe1b14fc6c9a1bd70827e78e9239a0f55e7fe0ccf982891cc80a2"
+    },
+    {
+      "path": "outputs/phase1/smolvla-cabinet-mention-20261007/partial-summary.json",
+      "sha256": "29ef413ef53de07e9a09b624d6b192f65f7f440978797cd2ad1fece5517873c6"
+    },
+    {
+      "path": "outputs/phase1/smolvla-cabinet-mention-20261007/run-manifest.json",
+      "sha256": "6aab193d0fa1e7a5651af75612a370985a0e1dff38163b0e4f05a7f231b05db9"
+    },
+    {
+      "path": "outputs/phase1/smolvla-cabinet-mention-20261007/summary.json",
+      "sha256": "c5ea91be9a7e7a86843c6b250a4edda6a4651123b4169631d6292089e79d59ef"
+    },
+    {
+      "path": "outputs/phase1/smolvla-cabinet-mention-20261007/token-audit.json",
+      "sha256": "ccfb880c613898480ace1b17124b98e4a60c5af542cd9cad18e9cffb7421c59e"
+    },
+    {
+      "path": "outputs/phase1/smolvla-native-plate-20261007/current-status.json",
+      "sha256": "db34477bd4b161d182587e2066188474d2a34bebae31fe396354e5214bc2e148"
+    },
+    {
+      "path": "outputs/phase1/smolvla-native-plate-20261007/episodes/goal8-init0-seed1-native_plate-N.json",
+      "sha256": "5807a8387e0b2985c53578204c0a04aac5540c6449d64872328aa9c1fdec7641"
+    },
+    {
+      "path": "outputs/phase1/smolvla-native-plate-20261007/run-manifest.json",
+      "sha256": "64a760c36e968b0bf4a77bbb7a99ef0cb7017ae7347502d90690139acb1b0327"
+    },
+    {
+      "path": "outputs/phase1/smolvla-native-plate-20261007/summary.json",
+      "sha256": "db34477bd4b161d182587e2066188474d2a34bebae31fe396354e5214bc2e148"
+    },
+    {
+      "path": "outputs/phase1/smolvla-spatial-NA-20261008/current-status.json",
+      "sha256": "61c11a97af4e5bdfbafb9b3db8b3c71645b0bd391c378c31f7747ce2202c1f73"
+    },
+    {
+      "path": "outputs/phase1/smolvla-spatial-NA-20261008/run-manifest.json",
+      "sha256": "c8246c6557f4f60e7ea418de290fdb23b4b55c82de8bb399c3e58b76e58fd71d"
+    },
+    {
+      "path": "outputs/phase1/smolvla-spatial-NA-20261008-retry1/active-episode.json",
+      "sha256": "7ccc76c79702d3036f1f73acdf5cc4c333fa7d9721df7437015a74558db32533"
+    },
+    {
+      "path": "outputs/phase1/smolvla-spatial-NA-20261008-retry1/current-status.json",
+      "sha256": "c13d6c324b0f56740f291f2d0060b751e9159e51af8b0559b8c3b8008831e115"
+    },
+    {
+      "path": "outputs/phase1/smolvla-spatial-NA-20261008-retry1/episodes/spatial8-init0-seed1-plate_side-A.json",
+      "sha256": "f619c123c17462fac36505e4d221b551c7125dda02e4f8a51c194e5086e2496f"
+    },
+    {
+      "path": "outputs/phase1/smolvla-spatial-NA-20261008-retry1/episodes/spatial8-init0-seed1-ramekin_side-A.json",
+      "sha256": "679b69eaed27441932f3c9c82830a5ff0a190f3ddcf45d4f43591c84af676bee"
+    },
+    {
+      "path": "outputs/phase1/smolvla-spatial-NA-20261008-retry1/episodes/spatial8-init1-seed1-plate_side-A.json",
+      "sha256": "a707e2a0186e45f6410a8d581cfc4f88e2cd3fce245252e87aab95eb9d583953"
+    },
+    {
+      "path": "outputs/phase1/smolvla-spatial-NA-20261008-retry1/episodes/spatial8-init1-seed1-plate_side-N.json",
+      "sha256": "52f0664c641dbef70ed38bba335b44fe430068e831d1039b0c370789cdfcef2a"
+    },
+    {
+      "path": "outputs/phase1/smolvla-spatial-NA-20261008-retry1/episodes/spatial8-init1-seed1-ramekin_side-A.json",
+      "sha256": "e6ac7ded242f47d53d4d24aa67b346e72743db5bf1c0b23af2a54147cd49eade"
+    },
+    {
+      "path": "outputs/phase1/smolvla-spatial-NA-20261008-retry1/episodes/spatial8-init1-seed1-ramekin_side-N.json",
+      "sha256": "e222f36b7d5873769cc0f81891c700de09d103336b2d0835777513fa86a30236"
+    },
+    {
+      "path": "outputs/phase1/smolvla-spatial-NA-20261008-retry1/episodes/spatial8-init2-seed1-plate_side-A.json",
+      "sha256": "7018276bb515645de5492e9b4ffaa0d5a5a859679a7b470a62cf03df2d67757f"
+    },
+    {
+      "path": "outputs/phase1/smolvla-spatial-NA-20261008-retry1/episodes/spatial8-init2-seed1-plate_side-N.json",
+      "sha256": "11e10f04bc1686984e880a813934114a0bd6a29675bc43331cb206630e50d925"
+    },
+    {
+      "path": "outputs/phase1/smolvla-spatial-NA-20261008-retry1/episodes/spatial8-init2-seed1-ramekin_side-A.json",
+      "sha256": "befa06ce5aedee4d6b6dbe58b2e02200f9569499556724b2ebd7317f4bf5b175"
+    },
+    {
+      "path": "outputs/phase1/smolvla-spatial-NA-20261008-retry1/episodes/spatial8-init2-seed1-ramekin_side-N.json",
+      "sha256": "957ed6aef5cdcc2e678e1264a9cb86233a19d48d3e30670c55cfa94eb699671f"
+    },
+    {
+      "path": "outputs/phase1/smolvla-spatial-NA-20261008-retry1/partial-summary.json",
+      "sha256": "e1a4ec7d0498ef147410df91a127fc37ea229bea0e705a27dbb987fba4644c43"
+    },
+    {
+      "path": "outputs/phase1/smolvla-spatial-NA-20261008-retry1/preflight-image-review.json",
+      "sha256": "4ddd38ffddef54680fc04010eb238355d76c063315f90ee3b5a027c9cfb3baa2"
+    },
+    {
+      "path": "outputs/phase1/smolvla-spatial-NA-20261008-retry1/preflight.json",
+      "sha256": "2287f69d6037374b99164fffb461a167c7570ea2e8101bec79ce90257665d633"
+    },
+    {
+      "path": "outputs/phase1/smolvla-spatial-NA-20261008-retry1/run-manifest.json",
+      "sha256": "43c90749212daf94a88b5802ec63abcab7659d85abd9809a38b8403053870a58"
+    },
+    {
+      "path": "outputs/phase1/smolvla-spatial-NA-20261008-retry1/summary.json",
+      "sha256": "c13d6c324b0f56740f291f2d0060b751e9159e51af8b0559b8c3b8008831e115"
+    },
+    {
+      "path": "outputs/phase1/smolvla-spatial-neutral-20261009/active-episode.json",
+      "sha256": "7ccc76c79702d3036f1f73acdf5cc4c333fa7d9721df7437015a74558db32533"
+    },
+    {
+      "path": "outputs/phase1/smolvla-spatial-neutral-20261009/current-status.json",
+      "sha256": "4af94eecd2db380b8a7d126730570e9b570619c889d461ecc9aa15c692db5b21"
+    },
+    {
+      "path": "outputs/phase1/smolvla-spatial-neutral-20261009/episodes/spatial8-init0-seed1-plate_side-U.json",
+      "sha256": "975a7beaa15b2e1046c5b4fb825d00fb4f35f179ef19565aed20957f70a95b04"
+    },
+    {
+      "path": "outputs/phase1/smolvla-spatial-neutral-20261009/episodes/spatial8-init0-seed1-ramekin_side-U.json",
+      "sha256": "6abd9d26567f26bec88e812bd9baa2466fbdabaaf596b942035fab116c1de674"
+    },
+    {
+      "path": "outputs/phase1/smolvla-spatial-neutral-20261009/partial-summary.json",
+      "sha256": "079a5618176af2fd265b578f72cf0c5b2c5beda395b05e8cb6b630d330606318"
+    },
+    {
+      "path": "outputs/phase1/smolvla-spatial-neutral-20261009/preflight.json",
+      "sha256": "147dd38704e153c1b0bf3c22bfa1af63579c6d8c37f52172ed4f59ac6385199d"
+    },
+    {
+      "path": "outputs/phase1/smolvla-spatial-neutral-20261009/run-manifest.json",
+      "sha256": "1a06d0fef2ddf1b285e43557c36d6d958ae82ffee4b466e2de2bc1d813b5a624"
+    },
+    {
+      "path": "outputs/phase1/smolvla-spatial-neutral-20261009/summary.json",
+      "sha256": "4af94eecd2db380b8a7d126730570e9b570619c889d461ecc9aa15c692db5b21"
+    },
+    {
+      "path": "outputs/phase1/smolvla-spatial-reference-20261008/active-episode.json",
+      "sha256": "7ccc76c79702d3036f1f73acdf5cc4c333fa7d9721df7437015a74558db32533"
+    },
+    {
+      "path": "outputs/phase1/smolvla-spatial-reference-20261008/current-status.json",
+      "sha256": "68df6c826510705c62bb9e04245da1bec209c5163f91d7d6913558c9c60d1ed4"
+    },
+    {
+      "path": "outputs/phase1/smolvla-spatial-reference-20261008/episodes/spatial8-init0-seed1-plate_side-N.json",
+      "sha256": "f35e579ff02b95bc16e40b9fab6e4b9e19a2f5ff8b9a29040b15b234f2c483d9"
+    },
+    {
+      "path": "outputs/phase1/smolvla-spatial-reference-20261008/episodes/spatial8-init0-seed1-ramekin_side-N.json",
+      "sha256": "9e5c9a43ff59213e21d71eb4d91f491863f74a594e5f22ba7151d165bfa32980"
+    },
+    {
+      "path": "outputs/phase1/smolvla-spatial-reference-20261008/partial-summary.json",
+      "sha256": "74f071e0d9adda82e6e60f88f381fd43607e3776ad7b448734867ff9f7463557"
+    },
+    {
+      "path": "outputs/phase1/smolvla-spatial-reference-20261008/reset-audit.json",
+      "sha256": "a6d81c92e1e8122fa066689a18a708056a3d11056760099669fb1e98d97d10db"
+    },
+    {
+      "path": "outputs/phase1/smolvla-spatial-reference-20261008/run-manifest.json",
+      "sha256": "50afc1e7a062c784ef615f8a7df5f23d21359c77f4a4ba1b900314213ef286b9"
+    },
+    {
+      "path": "outputs/phase1/smolvla-spatial-reference-20261008/summary.json",
+      "sha256": "68df6c826510705c62bb9e04245da1bec209c5163f91d7d6913558c9c60d1ed4"
+    },
+    {
+      "path": "outputs/phase1/smolvla-spatial-separator-20261009/active-episode.json",
+      "sha256": "7ccc76c79702d3036f1f73acdf5cc4c333fa7d9721df7437015a74558db32533"
+    },
+    {
+      "path": "outputs/phase1/smolvla-spatial-separator-20261009/current-status.json",
+      "sha256": "0251c75501897ee4efbcbd77bdae14a9a2a8c9489a8b7f0a520f116860cc6d16"
+    },
+    {
+      "path": "outputs/phase1/smolvla-spatial-separator-20261009/episodes/spatial8-init0-seed1-plate_side-S.json",
+      "sha256": "e625566a205cdef7f99d69e577dc4b9b190939070cc5cf521dd43e60bfbaa83b"
+    },
+    {
+      "path": "outputs/phase1/smolvla-spatial-separator-20261009/episodes/spatial8-init0-seed1-ramekin_side-S.json",
+      "sha256": "b8ec0d3be65f14e9db2027650ed8c6283f12f9b24efcc9db680eba70d56b0013"
+    },
+    {
+      "path": "outputs/phase1/smolvla-spatial-separator-20261009/partial-summary.json",
+      "sha256": "23b1fc1dbb5619e690e6505a679b91a59d7a374721faa2cc69baf8eefe7fbcc3"
+    },
+    {
+      "path": "outputs/phase1/smolvla-spatial-separator-20261009/preflight.json",
+      "sha256": "29dbe574ed5937672c0d0d8f3f75271c9e77d284549e893ff7fdaba2d7b74495"
+    },
+    {
+      "path": "outputs/phase1/smolvla-spatial-separator-20261009/run-manifest.json",
+      "sha256": "787b6435f6e732931e35dab84ed2e37cafe982b0ede76284380a872212f90964"
+    },
+    {
+      "path": "outputs/phase1/smolvla-spatial-separator-20261009/summary.json",
+      "sha256": "0251c75501897ee4efbcbd77bdae14a9a2a8c9489a8b7f0a520f116860cc6d16"
+    },
+    {
+      "path": "outputs/phase1/smolvla-spatial-short-neutral-20261009/active-episode.json",
+      "sha256": "7ccc76c79702d3036f1f73acdf5cc4c333fa7d9721df7437015a74558db32533"
+    },
+    {
+      "path": "outputs/phase1/smolvla-spatial-short-neutral-20261009/current-status.json",
+      "sha256": "ad5df7b8ea230d8769f7f86fab96d72e0e6faa1b24c53de2b3faa702d902302f"
+    },
+    {
+      "path": "outputs/phase1/smolvla-spatial-short-neutral-20261009/episodes/spatial8-init0-seed1-plate_side-T.json",
+      "sha256": "af2f08b724d596bcd146e785ca0f1755452cbe569de92237a991074b67fa521d"
+    },
+    {
+      "path": "outputs/phase1/smolvla-spatial-short-neutral-20261009/episodes/spatial8-init0-seed1-ramekin_side-T.json",
+      "sha256": "f39c996735b8f9933fa39ee1ccb52809ff0080d315f45c8329c563b5d8445586"
+    },
+    {
+      "path": "outputs/phase1/smolvla-spatial-short-neutral-20261009/partial-summary.json",
+      "sha256": "24cd8be285221d7a38c1434f7dc8e7a3475d164bc51af94831ace604fbae4e1c"
+    },
+    {
+      "path": "outputs/phase1/smolvla-spatial-short-neutral-20261009/preflight.json",
+      "sha256": "68849e93d7d4ce7602b7f54e2600175930e81ff0043381621aee1280bbbe3396"
+    },
+    {
+      "path": "outputs/phase1/smolvla-spatial-short-neutral-20261009/run-manifest.json",
+      "sha256": "0aa1efbaf88c4bf9f988e92e1e6943fb4798d13cbfbe2479a590fb578427c1d6"
+    },
+    {
+      "path": "outputs/phase1/smolvla-spatial-short-neutral-20261009/summary.json",
+      "sha256": "ad5df7b8ea230d8769f7f86fab96d72e0e6faa1b24c53de2b3faa702d902302f"
+    },
+    {
+      "path": "outputs/phase1/template-scene-audit-20261007/scene-audit.json",
+      "sha256": "27382e780bf3b185b7e7717e64cdd59220d3b9902be31ee44bb315638a6190b3"
+    },
+    {
+      "path": "outputs/phase1/vla-adapter-model-switch-20261007/current-status.json",
+      "sha256": "e019139ccc8351265c6dfcfd08990684fba0e9e95d9721bede9d9ad4653ed322"
+    },
+    {
+      "path": "outputs/phase1/vla-adapter-model-switch-20261007/episodes/goal8-init0-seed1-cabinet_fact.json",
+      "sha256": "ed5feb3843fe616bcfd43c66561748f9d79458fb6ee0fa9ab4a423c0bc2d9bf9"
+    },
+    {
+      "path": "outputs/phase1/vla-adapter-model-switch-20261007/episodes/goal8-init0-seed1-native_plate.json",
+      "sha256": "f97c73832448ae86bfa60a4f21fe3cf503d100d74731a76b4615283dd1b776ec"
+    },
+    {
+      "path": "outputs/phase1/vla-adapter-model-switch-20261007/episodes/goal8-init0-seed1-native_stove.json",
+      "sha256": "8ae0cdea924793d83e60145073371431657251ac3a394c0f786b18fbfdb576b2"
+    },
+    {
+      "path": "outputs/phase1/vla-adapter-model-switch-20261007/episodes/goal8-init0-seed1-neutral_bottle_fact.json",
+      "sha256": "0ae567e6e608fecfe267061c4791b681ec213a629f90ccfc49f758f47aa65b98"
+    },
+    {
+      "path": "outputs/phase1/vla-adapter-model-switch-20261007/episodes/goal8-init0-seed1-Q_A.json",
+      "sha256": "9440a7f0d13ed5f7485cb8baeb1baf98bcfdd4c06e08441964bda9b8543d1aec"
+    },
+    {
+      "path": "outputs/phase1/vla-adapter-model-switch-20261007/episodes/goal8-init0-seed1-Q_B.json",
+      "sha256": "cdf541ab3b5ca15eb368c68eb0b2643305f5e1a25cc16bc9a94b70076f561d34"
+    },
+    {
+      "path": "outputs/phase1/vla-adapter-model-switch-20261007/partial-summary.json",
+      "sha256": "6cab8a28f02c9983437782b8a35faaed0db56739a098572d2fe9193932b40f77"
+    },
+    {
+      "path": "outputs/phase1/vla-adapter-model-switch-20261007/reset-audit.json",
+      "sha256": "600329fac2373e88479ec63d515852119552216d80737287e3144dee8ea27f0c"
+    },
+    {
+      "path": "outputs/phase1/vla-adapter-model-switch-20261007/run-manifest.json",
+      "sha256": "ab74ff5ceca6ea9ea183b4f9b68c3c2190c669ad32a6081544e1393b082fb5f4"
+    },
+    {
+      "path": "outputs/phase1/vla-adapter-model-switch-20261007/summary.json",
+      "sha256": "e019139ccc8351265c6dfcfd08990684fba0e9e95d9721bede9d9ad4653ed322"
+    },
+    {
+      "path": "outputs/phase1/vla-adapter-ramekin-wording-20261008/active-episode.json",
+      "sha256": "3c3161af7707843d4c09cb71077f8209e19cfb02027224f58aba1db89a5970cb"
+    },
+    {
+      "path": "outputs/phase1/vla-adapter-ramekin-wording-20261008/current-status.json",
+      "sha256": "0809359f56896a3f32b39b08c94159d25f235d554ff99c84a98d91049d46539a"
+    },
+    {
+      "path": "outputs/phase1/vla-adapter-ramekin-wording-20261008/episodes/spatial8-init0-seed1-descriptive_side-N.json",
+      "sha256": "c3ca9c14f256b3758068d7bc61293f838a3e35a8da967186e4453179d8a389fa"
+    },
+    {
+      "path": "outputs/phase1/vla-adapter-ramekin-wording-20261008/episodes/spatial8-init0-seed1-ramekin_side-N.json",
+      "sha256": "b5f906a28e3f8035da922341fbb84c0fe2bde87895eecff16cdfb2a73fd73135"
+    },
+    {
+      "path": "outputs/phase1/vla-adapter-ramekin-wording-20261008/original-replay-audit.json",
+      "sha256": "8ab88996411a857057d4e2ce79bd3e30e8e3dc68658a238da634b57f6c414a4b"
+    },
+    {
+      "path": "outputs/phase1/vla-adapter-ramekin-wording-20261008/partial-summary.json",
+      "sha256": "65825518137b8196792e45d7360eed77c3fe3d6ac9717ac3bd8d936940046a3a"
+    },
+    {
+      "path": "outputs/phase1/vla-adapter-ramekin-wording-20261008/run-manifest.json",
+      "sha256": "ccd7b38d99290d07ccdf5cc9a71c05a0e1a5893a8850593bfe460d421b44a8bc"
+    },
+    {
+      "path": "outputs/phase1/vla-adapter-ramekin-wording-20261008/summary.json",
+      "sha256": "0809359f56896a3f32b39b08c94159d25f235d554ff99c84a98d91049d46539a"
+    },
+    {
+      "path": "outputs/phase1/vla-adapter-ramekin-wording-20261008/text-preflight.json",
+      "sha256": "1b12ddde44a1311e47388b153587ada72e04761d4284f85ae6147b22275044a0"
+    },
+    {
+      "path": "outputs/phase1/vla-adapter-simple-N-20261007/current-status.json",
+      "sha256": "2cae7cd0769b7cee93f37f75a53256b9aae13c7a744a908e3e882f9b8ebf2631"
+    },
+    {
+      "path": "outputs/phase1/vla-adapter-simple-N-20261007/episodes/goal8-init0-seed1-Q_A.json",
+      "sha256": "d037d2dc375970fdf4f54822dd64a9af5bdf040409814314e46672009fc6d865"
+    },
+    {
+      "path": "outputs/phase1/vla-adapter-simple-N-20261007/episodes/goal8-init0-seed1-Q_B.json",
+      "sha256": "e821814225c687365246477d095e7d157e5d3c2290480d4e032196963eac6354"
+    },
+    {
+      "path": "outputs/phase1/vla-adapter-simple-N-20261007/partial-summary.json",
+      "sha256": "afcaae49cb810a39cebbedad4484f25ea06020b11787aa5abbdae77ce44e3097"
+    },
+    {
+      "path": "outputs/phase1/vla-adapter-simple-N-20261007/run-manifest.json",
+      "sha256": "ca6030b6d1b6027c50afcf13f5b2dd542f1409f6ea9bd83c165a5d4e44a5b5c5"
+    },
+    {
+      "path": "outputs/phase1/vla-adapter-simple-N-20261007/summary.json",
+      "sha256": "2cae7cd0769b7cee93f37f75a53256b9aae13c7a744a908e3e882f9b8ebf2631"
+    },
+    {
+      "path": "outputs/phase1/vla-adapter-single-bowl-20261008/current-status.json",
+      "sha256": "c3f6c60e0c0943138602294ceeb8b53c504eacd24136311fb45be4ae0bc9ac94"
+    },
+    {
+      "path": "outputs/phase1/vla-adapter-single-bowl-20261008/forward-refresh-diagnostic.json",
+      "sha256": "f6caefe2d4fbd579d6ebc924a8be9924784bc4200a258d7160de4f81f2f77b1d"
+    },
+    {
+      "path": "outputs/phase1/vla-adapter-single-bowl-20261008/run-manifest.json",
+      "sha256": "ba3572f3eee3e7d7b91e7459b703a43982315aec9a4891a7e2b4482bb467dc0d"
+    },
+    {
+      "path": "outputs/phase1/vla-adapter-single-bowl-20261008-retry1/active-episode.json",
+      "sha256": "61f468601a39d0d6b913d923fe6f2b550bea2e35c063baffe795045c5c6d415a"
+    },
+    {
+      "path": "outputs/phase1/vla-adapter-single-bowl-20261008-retry1/current-status.json",
+      "sha256": "5ca3de5253080fbc952852352cdb53ae70b7eb3dadd63449253cafd3e5eb0a5c"
+    },
+    {
+      "path": "outputs/phase1/vla-adapter-single-bowl-20261008-retry1/episodes/spatial8-init0-seed1-plate_side-N.json",
+      "sha256": "7b8816db7ab018a9669e440638c4884bdc2a6f4e882b0fb17ba2274c4088abe9"
+    },
+    {
+      "path": "outputs/phase1/vla-adapter-single-bowl-20261008-retry1/episodes/spatial8-init0-seed1-ramekin_side-N.json",
+      "sha256": "89c52f21a48379ad4762e9b870fff7156d9eab30e93f91c2116414d665a4c855"
+    },
+    {
+      "path": "outputs/phase1/vla-adapter-single-bowl-20261008-retry1/intervention-preflight.json",
+      "sha256": "732e659f779205cedaff89f9e0849950217be034500dc441f65cb8b332d78278"
+    },
+    {
+      "path": "outputs/phase1/vla-adapter-single-bowl-20261008-retry1/partial-summary.json",
+      "sha256": "5e5da2bb1fd472a9c0d3d6f332d77c967037ac536d33a130d7829467e3506a6d"
+    },
+    {
+      "path": "outputs/phase1/vla-adapter-single-bowl-20261008-retry1/run-manifest.json",
+      "sha256": "cfc972328cd105a64609432d441e87508767695060ff788b16d3d6e53dff747d"
+    },
+    {
+      "path": "outputs/phase1/vla-adapter-single-bowl-20261008-retry1/summary.json",
+      "sha256": "5ca3de5253080fbc952852352cdb53ae70b7eb3dadd63449253cafd3e5eb0a5c"
+    },
+    {
+      "path": "outputs/phase1/vla-adapter-spatial-reference-N-20261008/active-episode.json",
+      "sha256": "61f468601a39d0d6b913d923fe6f2b550bea2e35c063baffe795045c5c6d415a"
+    },
+    {
+      "path": "outputs/phase1/vla-adapter-spatial-reference-N-20261008/current-status.json",
+      "sha256": "c3e9f03ab1c0d3b910518a1c80ab4839401c3aaa61e556e5160e1c17bcf83002"
+    },
+    {
+      "path": "outputs/phase1/vla-adapter-spatial-reference-N-20261008/episodes/spatial8-init0-seed1-plate_side-N.json",
+      "sha256": "6a6c7b6b8e622024aa7439fa4a7b9caa547e26ce0db29fd3d5081c25aeee5b4e"
+    },
+    {
+      "path": "outputs/phase1/vla-adapter-spatial-reference-N-20261008/episodes/spatial8-init0-seed1-ramekin_side-N.json",
+      "sha256": "d188c440a232d239cd951d4c207fdd859206f2e5473f78b48bc5c29358aa4663"
+    },
+    {
+      "path": "outputs/phase1/vla-adapter-spatial-reference-N-20261008/partial-summary.json",
+      "sha256": "62fb525be235b0b238e99a2d6f24c346f7b35ff05038d36b2cac7c50353608ef"
+    },
+    {
+      "path": "outputs/phase1/vla-adapter-spatial-reference-N-20261008/pilot-summary.json",
+      "sha256": "b72ca46ef75d1b8c515f44b2df0e5753a6641f2205252a84af87a557be467aa1"
+    },
+    {
+      "path": "outputs/phase1/vla-adapter-spatial-reference-N-20261008/reset-audit.json",
+      "sha256": "74412e19ee1201059100c0979dcd180d3103a505266cc1c3af70eec192ac18fa"
+    },
+    {
+      "path": "outputs/phase1/vla-adapter-spatial-reference-N-20261008/run-manifest.json",
+      "sha256": "b92532f140d1aa2440af049ccf2053a9296e4c76f9c0e74fffe6b4c2e80885e4"
+    },
+    {
+      "path": "outputs/phase1/vla-adapter-spatial-reference-N-20261008/summary.json",
+      "sha256": "c3e9f03ab1c0d3b910518a1c80ab4839401c3aaa61e556e5160e1c17bcf83002"
+    },
+    {
+      "path": "outputs/pulsevla/libero_spatial-20261006-211614/results.json",
+      "sha256": "d97313c4a794e2cb39dbe952bf637bebc1c1cfb2913b38ea1a17a0db8e7cecd3"
+    },
+    {
+      "path": "outputs/pulsevla/libero_spatial-20261006-211614/run-manifest.json",
+      "sha256": "4a691e0b3ba8b9c9fc83bb7f9e435935ad0c804a49354fe3ae3f198b8ee429de"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006/reset-audit.json",
+      "sha256": "879d64bd1ddad81b2100ed0bc5b8f9f4fec4f4f34c671557512e1398b5ac29f0"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006/run-manifest.json",
+      "sha256": "1e74a5036d35e311e34e61649c2a38aa93b28862279564abab1470f873f260d2"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/episodes/libero_object-task0-init0-seed1-alternative.json",
+      "sha256": "ebdfc9b5737c08e57f75d7133498c3b3d653bf5a7603b764a7584dfe1c38c1cd"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/episodes/libero_object-task0-init0-seed1-clean.json",
+      "sha256": "06c8743d6fae946fedbe91d176d4a0a5a05128b841954597022451e888d894c3"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/episodes/libero_object-task0-init0-seed1-paraphrase.json",
+      "sha256": "f5392f22df950772d7402cda80ee8f3cf73b82061b3e0a0b716b04540b01a7fc"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/episodes/libero_object-task0-init0-seed1-repeat.json",
+      "sha256": "2ae88532bb5d34d462eb792e3345c3505bccd5430942797f5000e648357cc03b"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/episodes/libero_object-task0-init0-seed11-clean.json",
+      "sha256": "869675b4e9b64ecc8dd593109dad85528d788b7fc534e017b3e6fa3ef9b80461"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/episodes/libero_object-task0-init0-seed7-clean.json",
+      "sha256": "e49e8bf919c028208e2693fe27bf0e75b17e78133a26de29462a6920a02155c7"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/episodes/libero_object-task0-init1-seed1-alternative.json",
+      "sha256": "7484e8daca75eff6e4ca029cca32213e60bd28ba5e032fea61fe197adf1c27c5"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/episodes/libero_object-task0-init1-seed1-clean.json",
+      "sha256": "f67eae6a6b03b57ec1d3f7bd7414a8f16cb13ccb3af5b97153f3a5a88654de98"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/episodes/libero_object-task0-init1-seed1-paraphrase.json",
+      "sha256": "1d6595fc5686dd7f0b877fde79dbbc91face5b08b09a06b3c9977ca661885af1"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/episodes/libero_object-task0-init2-seed1-alternative.json",
+      "sha256": "65cf6514f3d7ffefa96332286da36da87e2ed89dd544b1711c7ac1294bec6a6d"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/episodes/libero_object-task0-init2-seed1-clean.json",
+      "sha256": "c4ea3f354a2da9b80ffe53d6f95e1834e01aa3d4f71477fba9bf8ee1b377b0f4"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/episodes/libero_object-task0-init2-seed1-paraphrase.json",
+      "sha256": "157833f4f81e58364675a978c3854b0565d76995fc7746341025f5eed95577e9"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/episodes/libero_object-task0-init3-seed1-clean.json",
+      "sha256": "9711d7e93b5dd6630bd0587349c01c3c7df31f32a35edfce2f6b4be79f3f8c20"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/episodes/libero_object-task0-init4-seed1-clean.json",
+      "sha256": "b4e257792c0581718fc7086b694bf67c7962c0d08a9ac9b2f2b3dedc735049ce"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/episodes/libero_object-task0-init5-seed1-clean.json",
+      "sha256": "05186c660b10d512d29db645726c674eefacebae373911d6d3cc53d82a661fcc"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/episodes/libero_object-task0-init6-seed1-clean.json",
+      "sha256": "19fa8bf9e6a90dce6f3ad2bf47af43ba859afa216aca4e6d36a7c0d9eac89fec"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/episodes/libero_object-task0-init7-seed1-clean.json",
+      "sha256": "8389e3c8400ea46f665ec354e3f34e8d3e640013db84d98d23761a00db12e4d9"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/episodes/libero_object-task0-init8-seed1-clean.json",
+      "sha256": "50cc070ad39ba7e14710c87f3ffcbaf5a78074703a17f0c1f80590a2cde7808c"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/episodes/libero_object-task0-init9-seed1-clean.json",
+      "sha256": "7c09283d2a002061556a8205da4cab3e8a7493bebd28453e84ccf2e26431ab07"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task0-init0-seed1-clean.json",
+      "sha256": "c6e94d8516cbd1d6f1a338ad8cbc8599733d25b83729f87001c8f9d6cc108e61"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task0-init1-seed1-clean.json",
+      "sha256": "5b6efe146c921a9faaee73315bfc4e1be151f8c2beacb93be54b797337a7c613"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task0-init2-seed1-clean.json",
+      "sha256": "a8619d2260137d9b0670db0a1da05ab0e527ab3895f297abe93108b377e35bd3"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task0-init3-seed1-clean.json",
+      "sha256": "1ec2d43f1f48eb15836b0ffb1b39fc115e892f63f6c9a4c851d5d68a41dd7203"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task0-init4-seed1-clean.json",
+      "sha256": "f8f32676a8d0b2998ce908590d7f57806b63e71b2f0f32b0062271269b3d0901"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task0-init5-seed1-clean.json",
+      "sha256": "784be56851a137a4b653907430eae15687b05ffc5a27c07dc2d4e2c22bc2e13b"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task0-init6-seed1-clean.json",
+      "sha256": "7fa44e5d6335e2c1e57e7187ca086484ee784307d89e5018f84fa3c29c7bb1ff"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task0-init7-seed1-clean.json",
+      "sha256": "e711a4cb3ce9471e3a8ba8b4aa13da8ddab3b278db0c22ca985812d1a2bcda68"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task0-init8-seed1-clean.json",
+      "sha256": "28744e13946cbffdeb7bb88546bdedab6ed0cf9ce7c69e2fc59f3f4f7afa6f7f"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task0-init9-seed1-clean.json",
+      "sha256": "7cd7b05252ab937114d0c02ee9eee09a3a72a1807be842337cd88635c2d38747"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task3-init0-seed1-clean.json",
+      "sha256": "5291e5f11e30dc533ad4c14dd6d483cd848e3948e50538724aaedaa9d459a01d"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task3-init1-seed1-clean.json",
+      "sha256": "8dd1c37c7f3bf7ef3069b30b768641e916d188bf049c60e3b50431312b5e9595"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task3-init2-seed1-clean.json",
+      "sha256": "4493131ed9de9df8546ae9a7be9497fdea1535c0895da82e5a9ac8b9c97e09bf"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task3-init3-seed1-clean.json",
+      "sha256": "2ff82d6c2f0729ad0872303a86f5d1aa5edfe4af7f5c090a4fee71b521377d31"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task3-init4-seed1-clean.json",
+      "sha256": "0515ca035c8c2d8277375828b507525ae069a7e3f0cee55e23e0b7a7a773b781"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task3-init5-seed1-clean.json",
+      "sha256": "bb60c2830c56cc49914c4d41014b7372d1294dc0b5d3343532e0ae319d1ab077"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task3-init6-seed1-clean.json",
+      "sha256": "aa20935916ea5724d7fefeddee9b1dbe8ddb8f97185ca4d06872703aa33cea57"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task3-init7-seed1-clean.json",
+      "sha256": "0450ad8f51d6e2458fddf4779e714ac2fecfc9ebd586c60b2040dc063f03ca80"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task3-init8-seed1-clean.json",
+      "sha256": "3ba5fa3dea65b8f121ea65cd7c0b560093c3526aa93ccc32fa1efc75fe2c85cb"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task3-init9-seed1-clean.json",
+      "sha256": "193ce48bfc52ef88ec7d3c8cc09316d8c26158b3818dd576975e4105d71a830b"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task4-init0-seed1-clean.json",
+      "sha256": "b58ff1d1ad9d498ebe42d0ff3b3deee25795914b607d00fb0ae1c353309a4eed"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task4-init1-seed1-clean.json",
+      "sha256": "29ee0af39701fbf11b98f32702129f3c66e73fe133ae9cf0edcde2bbc2274665"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task4-init2-seed1-clean.json",
+      "sha256": "8351046ff3ffec8b3080672b1d8ef4a53f9b22c5b3f4c9c8850ab00c176579d4"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task4-init3-seed1-clean.json",
+      "sha256": "913c68fe4715e99c6204dba3837576751b3a5a09ecb313989fd8fb17e9962fac"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task4-init4-seed1-clean.json",
+      "sha256": "36fcd35b641a1953d1598c8d674aff5f66dc361223dacf74c1f5ffb47628c7c9"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task4-init5-seed1-clean.json",
+      "sha256": "e294b0b20e4131ad2158c80f78ec277e635297ca67f8dc6c5644403b63f18dda"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task4-init6-seed1-clean.json",
+      "sha256": "15231a157bf01fa57e26962edd2defff31383ea7dfc111fb7a9f52bce74b1442"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task4-init7-seed1-clean.json",
+      "sha256": "1fe2f77438e5a7709e1763bfc701ced828003b8bb46de1e3f11db73078cac372"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task4-init8-seed1-clean.json",
+      "sha256": "983ab5078a929ed35d47db481bf26ae47fbc75e4bd1572b2f5179081bf1561c6"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/episodes/libero_spatial-task4-init9-seed1-clean.json",
+      "sha256": "156c242aba829aaa66389a6f258a05dde5c7ec3707ca6f4645634784f12ccb49"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/partial-summary.json",
+      "sha256": "5b3b879f44829074dc56d7484a5861812e4789b337adbd36794e838741028ba1"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/pause-request.json",
+      "sha256": "03ead3197dbe87083dd4ab07d0f7349d69b134349096ab22f85eeb5d9426a624"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/pause-status.json",
+      "sha256": "6c2880dd67b1859a7c09dda3139ff81acb5dd89b7cf60d46cf1752953e8f9d71"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/readiness-analysis.json",
+      "sha256": "e4397e96c1f5ec464386cf2dad34013d020999bbe85bcb8e83e7c0d69c4f0dad"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/reset-audit.json",
+      "sha256": "89daefc028e8866468777b847238dc01a9dbb8b32eda2fac687851b35668409f"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/resume-status.json",
+      "sha256": "b23569031faf7db79dca5765c0075c0cf8237d7414d7c99f53895d653a26cce5"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/run-manifest.json",
+      "sha256": "f043a80e7815ca880392f07e11333a4a7c5a04d94195dbeef2a0581f65469eeb"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-identity/summary.json",
+      "sha256": "f8e39bcb720501db218c37921e18f919bd5a3f262363a72e817c304caa2ab4be"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-screening/episodes/libero_spatial-task0-init0-seed1-clean.json",
+      "sha256": "442afc4283e05a6b5830f29789d67779774778daf3c473feb6b57d62dec89d29"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-screening/reset-audit.json",
+      "sha256": "3d49b787c9bd2e0b3742dfba8b75caac0bd26f9ed91f0b116e2e5402c0774de1"
+    },
+    {
+      "path": "outputs/readiness/smolvla-20261006-screening/run-manifest.json",
+      "sha256": "d35ebaa71b8e8a8f6e60aa0ec313492716fa53c266ebcbc4f6e90bf19d60bbc4"
+    },
+    {
+      "path": "outputs/readiness/smolvla-goal-20261007/current-status.json",
+      "sha256": "8cfb8051bdfdc305fe5f4a32d8b1894056ffbeb414c08b9a84a78777f2c81bfb"
+    },
+    {
+      "path": "outputs/readiness/smolvla-goal-20261007/episodes/goal-base8-init0-seed1-plate.json",
+      "sha256": "973ee405d2e04e5fc8a0542d147f78c277ecfcc46e4bd0ad3977e1b149a50617"
+    },
+    {
+      "path": "outputs/readiness/smolvla-goal-20261007/episodes/goal-base8-init0-seed1-stove.json",
+      "sha256": "59b198df16040d888d29a40c149b4a92d81fafa1683dc7f842e5610c5ef47daa"
+    },
+    {
+      "path": "outputs/readiness/smolvla-goal-20261007/episodes/goal-base8-init1-seed1-plate.json",
+      "sha256": "ec560ec0b5e89e491503f52c4b1177c36eaacd1ed6c5c65a571584c15fbe08de"
+    },
+    {
+      "path": "outputs/readiness/smolvla-goal-20261007/episodes/goal-base8-init1-seed1-stove.json",
+      "sha256": "5a18e8e5fce4eba8487cb13a9bb0485c043ab92575efa30d4f3561a987eaf604"
+    },
+    {
+      "path": "outputs/readiness/smolvla-goal-20261007/episodes/goal-base8-init2-seed1-plate.json",
+      "sha256": "02472f496bdb0f2fa360d0a397ba554442052e4414b0eb9b06b866955d289453"
+    },
+    {
+      "path": "outputs/readiness/smolvla-goal-20261007/episodes/goal-base8-init2-seed1-stove.json",
+      "sha256": "d9d869e95912434e1b0a0dbcd01439fd837a3b57f680b73a400089ac1898a408"
+    },
+    {
+      "path": "outputs/readiness/smolvla-goal-20261007/episodes/goal-base8-init3-seed1-plate.json",
+      "sha256": "395ba1d22d3b75fddfb621fef18eac569e1baa5aa162a6c4bc4c83c147e64bf3"
+    },
+    {
+      "path": "outputs/readiness/smolvla-goal-20261007/episodes/goal-base8-init3-seed1-stove.json",
+      "sha256": "69a78bf859b2542d451e88c550eb5b47717226673657e34b2c81af15fb46b94b"
+    },
+    {
+      "path": "outputs/readiness/smolvla-goal-20261007/episodes/goal-base8-init4-seed1-plate.json",
+      "sha256": "00eaa62f88a118945eca8461ea4477c2d1a7602ef1450fd60bb6cf38acb61ff7"
+    },
+    {
+      "path": "outputs/readiness/smolvla-goal-20261007/episodes/goal-base8-init4-seed1-stove.json",
+      "sha256": "97f08c63edf9b5fe6468931a3240ebc201c6a23bf5bfeaa9843e9643c6c14f65"
+    },
+    {
+      "path": "outputs/readiness/smolvla-goal-20261007/episodes/goal-base8-init5-seed1-plate.json",
+      "sha256": "9943c306c79f688b2af69524d0e42272b4308e5d83df4215b1fc67cdd8b4adfb"
+    },
+    {
+      "path": "outputs/readiness/smolvla-goal-20261007/episodes/goal-base8-init5-seed1-stove.json",
+      "sha256": "3b112bf85654fcb83bd36e5591de75be0e3e5061ee84feb273845cd7ec3642b7"
+    },
+    {
+      "path": "outputs/readiness/smolvla-goal-20261007/episodes/goal-base8-init6-seed1-plate.json",
+      "sha256": "a86825516c44430bd31665b07165c1991b40d67eaf5db660ca296af148a0bfb6"
+    },
+    {
+      "path": "outputs/readiness/smolvla-goal-20261007/episodes/goal-base8-init6-seed1-stove.json",
+      "sha256": "8d4c81ff05dc9b6748cae3b0d7b58819e33147d82555e7a8a3d50e653d467fbd"
+    },
+    {
+      "path": "outputs/readiness/smolvla-goal-20261007/episodes/goal-base8-init7-seed1-plate.json",
+      "sha256": "e0384c653b36e057352efefb0e061d072a055c549faf4a65e2f57c8443c30b1f"
+    },
+    {
+      "path": "outputs/readiness/smolvla-goal-20261007/episodes/goal-base8-init7-seed1-stove.json",
+      "sha256": "6dea8413c4023bebf484322b1e1a81e24e284dae504ab4c4f4ccbadca334310b"
+    },
+    {
+      "path": "outputs/readiness/smolvla-goal-20261007/episodes/goal-base8-init8-seed1-plate.json",
+      "sha256": "6efcaecbcbf17a5b41445d6cf552422da1c73f1f288f11bdf45c99b5bc685e1d"
+    },
+    {
+      "path": "outputs/readiness/smolvla-goal-20261007/episodes/goal-base8-init8-seed1-stove.json",
+      "sha256": "6e5a1aae1a108934d6ef16b221a1d98dd0b5b4aba338ace0489d9a8ac89f2f12"
+    },
+    {
+      "path": "outputs/readiness/smolvla-goal-20261007/episodes/goal-base8-init9-seed1-plate.json",
+      "sha256": "b5957d02829a1e15a1f2d200f56713b8536e9f1fdf706958e9e7247bce5867cd"
+    },
+    {
+      "path": "outputs/readiness/smolvla-goal-20261007/episodes/goal-base8-init9-seed1-stove.json",
+      "sha256": "bc4bc7e16b55098dc0e668254df93c0a2f29bf5472bee3b1cf34e0f5b129b1b4"
+    },
+    {
+      "path": "outputs/readiness/smolvla-goal-20261007/readiness-assessment.json",
+      "sha256": "0b1e62b649e50320f95bba14d10cce912aaee673a52ba04564eea04c790ac4e4"
+    },
+    {
+      "path": "outputs/readiness/smolvla-goal-20261007/reset-audit.json",
+      "sha256": "7dc6f37c3c81b007cb05e9f928937db79cdcc8726e18ec63d7c5436b3ec86691"
+    },
+    {
+      "path": "outputs/readiness/smolvla-goal-20261007/run-manifest.json",
+      "sha256": "e9c2e2b106e5a729ad165304205db9ef39af3af2850e8edd45b69606ab7ea6d1"
+    },
+    {
+      "path": "outputs/readiness/smolvla-goal-20261007/stage1-summary.json",
+      "sha256": "134db3d5d45534e8cb3ebb2a56062472eb094939d8cce50771fcf91a6206b861"
+    },
+    {
+      "path": "outputs/readiness/smolvla-goal-20261007/summary.json",
+      "sha256": "bb4a66569a2c883c9199324e0b0d42aff2be4bfc1c405b9561364cdd68c0c610"
+    },
+    {
+      "path": "outputs/smolvla/libero_spatial-20261006-203213/eval_info.json",
+      "sha256": "62666d4423f846457d28d33df24e35856a4d409a2113146231947de0ecc5f134"
+    },
+    {
+      "path": "outputs/smolvla/libero_spatial-20261006-203213/run-manifest.json",
+      "sha256": "7ffe56051a5b9be8011fe3e3b833fde1ff04857650db83222f0221f7002b8e1f"
+    },
+    {
+      "path": "outputs/vla-adapter/libero_spatial-20261006-205738/run-manifest.json",
+      "sha256": "3646a182eb94f9402d9a5ab11dc147be280abe9e4f40993598e1dcaa65450e44"
+    },
+    {
+      "path": "docs/assets/phase1/adapter-model-switch-input-audit.json",
+      "sha256": "890d82405a672673fdc42bf16f6ae95b9461ce5beaa34de6e8c0e5b293eb5d51"
+    },
+    {
+      "path": "docs/assets/phase1/adapter-model-switch-manifest.json",
+      "sha256": "ab74ff5ceca6ea9ea183b4f9b68c3c2190c669ad32a6081544e1393b082fb5f4"
+    },
+    {
+      "path": "docs/assets/phase1/adapter-model-switch-reset-audit.json",
+      "sha256": "600329fac2373e88479ec63d515852119552216d80737287e3144dee8ea27f0c"
+    },
+    {
+      "path": "docs/assets/phase1/adapter-model-switch-summary.json",
+      "sha256": "e019139ccc8351265c6dfcfd08990684fba0e9e95d9721bede9d9ad4653ed322"
+    },
+    {
+      "path": "docs/assets/phase1/adapter-simple-input-audit.json",
+      "sha256": "9f2e3b5e13ecee1c467f00291d451cf0d4ab4ffd9af6b377f5255b9c8f1644a8"
+    },
+    {
+      "path": "docs/assets/phase1/adapter-simple-manifest.json",
+      "sha256": "ca6030b6d1b6027c50afcf13f5b2dd542f1409f6ea9bd83c165a5d4e44a5b5c5"
+    },
+    {
+      "path": "docs/assets/phase1/adapter-simple-summary.json",
+      "sha256": "2cae7cd0769b7cee93f37f75a53256b9aae13c7a744a908e3e882f9b8ebf2631"
+    },
+    {
+      "path": "docs/assets/phase1/cabinet-mention-summary.json",
+      "sha256": "c5ea91be9a7e7a86843c6b250a4edda6a4651123b4169631d6292089e79d59ef"
+    },
+    {
+      "path": "docs/assets/phase1/contacts/bottle-fact.json",
+      "sha256": "65a443f4f82c456b3b11fe815644e8ad1c65e3e63dafc9992b44713eecc5be20"
+    },
+    {
+      "path": "docs/assets/phase1/contacts/cabinet-fact.json",
+      "sha256": "735f13408c4020779699edc024a9d5e14d33c1619f318d62ed9079e64e3f852e"
+    },
+    {
+      "path": "docs/assets/phase1/experiment-summary-20261008.json",
+      "sha256": "2345d2da88eee1388a007e914e0b315e755b1c0c6a7e781f1f0fe457043e490d"
+    },
+    {
+      "path": "docs/assets/phase1/language-robustness-history-audit-20261011.json",
+      "sha256": "23e5230a6cb26f23f01d6b84dd1db21e0f35516217a778edbbeb42f355e0c23c"
+    },
+    {
+      "path": "docs/assets/phase1/native-plate-summary.json",
+      "sha256": "db34477bd4b161d182587e2066188474d2a34bebae31fe396354e5214bc2e148"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-fact-first-na-v1-control-reuse-audit-20261010.json",
+      "sha256": "34ff26b1f0a26ead8625b1e22db387c211b21393ef357b7e2d5fc32351383052"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-fact-first-na-v1-manifest-20261010.json",
+      "sha256": "38e64e69dd3955ad64af465352f3be839e257571aa5ababd32aec3192fd46c55"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-fact-first-na-v1-preflight-20261010.json",
+      "sha256": "d1d09feb7985e6c8fdbd51677f2688016ab072ed76d4ecd48c4afaf4ef9e20f7"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-fact-first-na-v1-result-audit-20261010.json",
+      "sha256": "6286353d9dc2085c67dddae4893a160695cb819d110ad1bb08138db6a4826e12"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-fact-first-na-v1-summary-20261010.json",
+      "sha256": "94d340924ed278a60493a6c90f8045790a86b107debfe09628acda14d2cc3bc3"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-fact-first-na-v1-visual-review-20261010.json",
+      "sha256": "4b41e947b3ac6581152f17a5fb1448d8a4f4ead7e786a8c2e6be00edc054bf1f"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-fact-first-v1-format-control-20261010.json",
+      "sha256": "d513bbb88d47de5b32fd79351592d1fbc4e69210574b2ab58291c011f6c13dba"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-fact-first-v1-manifest-20261010.json",
+      "sha256": "9dd6f8fb6dc9b30a61f77ff74ea89271be0eddfc3cf6ac7356093e3070ab9cdc"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-fact-first-v1-preflight-20261010.json",
+      "sha256": "cdfeb8c36b916354cdf1c2de0b8f269feacdec412b8f17cce906f9af0e3a62cd"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-fact-first-v1-reference-audit-20261010.json",
+      "sha256": "f8e5de781a823d6dc22d7d28fb7706f98bc75f8afffc19137c0e606bd612d8c1"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-fact-first-v1-result-audit-20261010.json",
+      "sha256": "9d4b295f205ceeb3f71fa6a7e0ddf6b8f75d508a430ce2b6c2eeaf45c6005521"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-fact-first-v1-summary-20261010.json",
+      "sha256": "dfa0cafa3c6e3199c4c201870ae046c3f798257c30ce94b8452f7ec91868ed51"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-fact-first-v1-visual-review-20261010.json",
+      "sha256": "81b5acaf0e9b5bc339cd7827a2588e475e461240b9cd80bb7cf842445e77e6e2"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-language-robustness-v1-cost-ledger-20261011.json",
+      "sha256": "44bdeaed1a7d903ed06fe43590a52e1becebf4b09c9d7293d143d989eba50d8d"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-language-robustness-v1-manifest-20261011.json",
+      "sha256": "54e9358acafdd5ecb24e99fce4a33fa1b1fc145576ce1aec995f85102ff7b7cf"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-language-robustness-v1-N-reuse-audit-20261011.json",
+      "sha256": "72ae5272df5c295598b16be3091a5c2be629a463203364986549c2db47b1a1d3"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-language-robustness-v1-preflight-20261011.json",
+      "sha256": "f8d1a5277b8cb89af7580eb78335b758a82a6358029dac0312f7b719d1cac402"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-language-robustness-v1-result-audit-20261011.json",
+      "sha256": "dfbfa1a75742d8bf35a04a65f78702f8f797ce9e37b6c3af4f8169c29f8fe2dd"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-language-robustness-v1-summary-20261011.json",
+      "sha256": "4df8dc2ae212873aef31e5ea82d0712cb8439c26d70e75991564df9357ece5ad"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-language-robustness-v1-visual-review-20261011.json",
+      "sha256": "0c57a6dcacdb65379eed232c6427557eabb8e70e68d60c24f186de7948122deb"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-native-neutral-v1-manifest-20261010.json",
+      "sha256": "dc648ebcbeeae0b3d65c61627ea594b28c3dfacbb2dde7a7614db391879897c3"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-native-neutral-v1-preflight-20261010.json",
+      "sha256": "e6a5a37ebb6ca72579f8316d7be1f48167f5ae9360c599fe6ab4899d10147de8"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-native-neutral-v1-reference-audit-20261010.json",
+      "sha256": "2bd507ec7e582c53f5294bcdc78c1131c808bc6a5a6aa53ada7ad96767237e43"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-native-neutral-v1-result-audit-20261010.json",
+      "sha256": "630168153d2797ef987a3af921d03a9b7637c6b9b74e1b5aeeb8ec1994136d3b"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-native-neutral-v1-summary-20261010.json",
+      "sha256": "3c683af2981d964798f8d8130d07303ce1612fb0a36d748e70fb816c2320acaf"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-native-neutral-v1-visual-review-20261010.json",
+      "sha256": "6d7df79d16430474f01985801129babb40006ab5a3b42e2790255f06a2c14a95"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-native-pairs-v1-manifest-20261010.json",
+      "sha256": "7f5df12cd21541d18cae75764f0af1af7fd0ae1340a400a13483d95ffc0463e6"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-native-pairs-v1-N-reuse-audit-20261010.json",
+      "sha256": "01b1a77048b6bd9f761bba9a7ff88faa94fc5cbaecc2baaa134e58d7c7c3232c"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-native-pairs-v1-plate-N-start-comparison-20261010.json",
+      "sha256": "a9681e1e3dd19e93894b7ac256eb5f1975bd85aefd40514b3630a52a2f4019e2"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-native-pairs-v1-preflight-20261010.json",
+      "sha256": "d47e74ed049c6d7c10561e00190f5efb535f657d3cf1c3611b4550723a9c9451"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-native-pairs-v1-result-audit-20261010.json",
+      "sha256": "4ed4ce935b92e47e32b30f9f741a1e202dd56df4584f1c259de4b13a31668a6b"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-native-pairs-v1-summary-20261010.json",
+      "sha256": "ce01ef1d92c76c78a9480e1a3691aa5103563b7a24f32a064fb775e2f70c8641"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-native-pairs-v1-visual-review-20261010.json",
+      "sha256": "3856c7a04befa089743a1bdffcb22ace94eb7821062f5b7864104b5c5409c827"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-native-ramekin-manifest-20261010.json",
+      "sha256": "4c5b0606ac0fb9bfa9bb268b433e347189ea2de8b5f669ee52d7c504baa39152"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-native-ramekin-preflight-20261010.json",
+      "sha256": "8499f064fae2a07cafe62b3f9603ad9c1be4d49afadd6b8347f4a2402ebbb1b2"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-native-ramekin-result-audit-20261010.json",
+      "sha256": "32cea59eda5354683bed15b12e06961c03b0d38915aca5136e5bcfd8791ac22d"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-native-ramekin-summary-20261010.json",
+      "sha256": "0498ea9771d36874560f5476bb98603390d5246f9310d3686adb993d227dfef2"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-native-ramekin-visual-review-20261010.json",
+      "sha256": "4e448d749de87d54224b475b64234218101f1abc2446cef48af4cca5d2118c17"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-question-context-v1-interruption-ledger-20261010.json",
+      "sha256": "cdcc256faa171fd767e620f747716040559b81b85298800eaa4da574a5bc191a"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-question-context-v1-manifest-20261010.json",
+      "sha256": "6f6ef63be9c67a49c171fd6f559adcd7e1da28601255dd4279b1e3dae90832e8"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-question-context-v1-preflight-20261010.json",
+      "sha256": "84b81719e4f2dfe3ce907bd06ad62a0dcc16985dcc7e454003aa2c372c2fca5d"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-question-context-v1-reference-audit-20261010.json",
+      "sha256": "f8e5de781a823d6dc22d7d28fb7706f98bc75f8afffc19137c0e606bd612d8c1"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-question-context-v1-result-audit-20261010.json",
+      "sha256": "037171dedc77ca1e9250d1fe6202c735fd571c191f98c1c9904faffeb86da267"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-question-context-v1-retry-integrity-20261010.json",
+      "sha256": "d667b709fb50a052dbfd350744e703a46baafec09324d973b06d8c2783e59525"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-question-context-v1-summary-20261010.json",
+      "sha256": "2f587c1b65a406a4408faa2168c2455672d2fa3e5f041f90b85c7b7a69572b78"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-question-context-v1-visual-review-20261010.json",
+      "sha256": "031e595aefe86589352433c3f376cd326744267597ffad6183382b5e19c66153"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-spatial-4bit-power-loss-ledger-20261010.json",
+      "sha256": "786794687fccaca74f9ab484e85ce785b13f9d497e3713be7592c390c0fbac4c"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-spatial-4bit-readiness-20261009-status.json",
+      "sha256": "ab51ada959f1e0185463aa44a443ad1f46de1301d12743f548444262223d22cc"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-spatial-4bit-readiness-manifest-20261009.json",
+      "sha256": "df5725e48f8d26959a2492096ea61ab69b2d765f34544f25cac58614c82a6e12"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-spatial-4bit-readiness-policy-image-audit-20261009.json",
+      "sha256": "446f87d5ff5e655cc5fa4b535ae8c6b6fe806a29faaae1ef17b72349271f0db6"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-spatial-4bit-readiness-preflight-20261009.json",
+      "sha256": "9a3ff2266769534d3017e2dec6fc849bdacb64047fc05373aa3761b1fecdf2c6"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-spatial-4bit-readiness-reset-audit-20261009.json",
+      "sha256": "bd4b7a6f7a94ef1f87f2998953c5f0bdfe4a6fbe51904fbd5d31ecd38054fe30"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-spatial-4bit-readiness-retry1-20261009-status.json",
+      "sha256": "219bae53aa934c5121c8fa9f8456087b8450d2af8ad37acbf145c8e2270bb55f"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-spatial-4bit-readiness-summary-20261009.json",
+      "sha256": "402a6a84ca09c965a44aaf8f0caf420f77fedb7a9ba2d6eedda501ff85385f3a"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-spatial-4bit-readiness-visual-review-20261009.json",
+      "sha256": "9969c1c3a257fe5a482d80a8e7c5f90ba600edf62a6ad4b977a634e289628f92"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-spatial-4bit-screen-manifest-20261010.json",
+      "sha256": "0391282bfdd81302d781a245cae546dbff27cbf46b11f27627ee9f3cea28fe09"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-spatial-4bit-screen-preflight-20261010.json",
+      "sha256": "9a3ff2266769534d3017e2dec6fc849bdacb64047fc05373aa3761b1fecdf2c6"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-spatial-4bit-screen-result-audit-20261010.json",
+      "sha256": "48a47a80bdf445df0d9025b36335b5097c1a13dbb32df054f02e599d12dc8ee2"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-spatial-4bit-screen-summary-20261010.json",
+      "sha256": "15c3266727db77be53080466bafc88092d89065d91f0a8509584ff749af480b8"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-spatial-4bit-weight-verification-20261009.json",
+      "sha256": "e426859312009374aecb8e14204fc9c58746dca0dd54fa4cc9d020ab9cd6b328"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-temporal-withdraw-v1-cost-ledger-20261011.json",
+      "sha256": "a7f40dac3b54b5853e1deb88203cc32f24df81a9bc1e3c228bc16bf1f7bbabe1"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-temporal-withdraw-v1-manifest-20261011.json",
+      "sha256": "bd557af3eccd922fabb08cf15f858a772e20476ea1f7debb6893499d50810935"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-temporal-withdraw-v1-N-reuse-audit-20261011.json",
+      "sha256": "72ae5272df5c295598b16be3091a5c2be629a463203364986549c2db47b1a1d3"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-temporal-withdraw-v1-prefix-audit-20261011.json",
+      "sha256": "414b2ce3af1dda895d6f543c1b601313830d1b0aa4e2e741dcccde901c63c58f"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-temporal-withdraw-v1-preflight-20261011.json",
+      "sha256": "f8d1a5277b8cb89af7580eb78335b758a82a6358029dac0312f7b719d1cac402"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-temporal-withdraw-v1-result-audit-20261011.json",
+      "sha256": "327975e046150c6267996eff762466bf2aff9bd2060c67506dad24da14c26f80"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-temporal-withdraw-v1-summary-20261011.json",
+      "sha256": "b0c08f7568711e0485123a086e3569640678d9f29b2f48eb317beac759eb973b"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-temporal-withdraw-v1-U0-reuse-audit-20261011.json",
+      "sha256": "f1c19cc9d1b99ad84f7ecd97d4133582940cf683098e1fdd89a5fedaa6ff2b18"
+    },
+    {
+      "path": "docs/assets/phase1/openvla-temporal-withdraw-v1-visual-review-20261011.json",
+      "sha256": "706a2cb1e2640de65e33a39273956d0668612b5070568a8952e735d229fd8aa7"
+    },
+    {
+      "path": "docs/assets/phase1/ramekin-wording-input-audit-20261008.json",
+      "sha256": "8b1fe758dead68f4b6138391d24147c410e121b28aa1ed3a78ee16baab50b36e"
+    },
+    {
+      "path": "docs/assets/phase1/ramekin-wording-manifest-20261008.json",
+      "sha256": "ccd7b38d99290d07ccdf5cc9a71c05a0e1a5893a8850593bfe460d421b44a8bc"
+    },
+    {
+      "path": "docs/assets/phase1/ramekin-wording-replay-audit-20261008.json",
+      "sha256": "8ab88996411a857057d4e2ce79bd3e30e8e3dc68658a238da634b57f6c414a4b"
+    },
+    {
+      "path": "docs/assets/phase1/ramekin-wording-summary-20261008.json",
+      "sha256": "0809359f56896a3f32b39b08c94159d25f235d554ff99c84a98d91049d46539a"
+    },
+    {
+      "path": "docs/assets/phase1/ramekin-wording-text-preflight-20261008.json",
+      "sha256": "1b12ddde44a1311e47388b153587ada72e04761d4284f85ae6147b22275044a0"
+    },
+    {
+      "path": "docs/assets/phase1/single-bowl-forward-refresh-20261008.json",
+      "sha256": "f6caefe2d4fbd579d6ebc924a8be9924784bc4200a258d7160de4f81f2f77b1d"
+    },
+    {
+      "path": "docs/assets/phase1/single-bowl-input-audit-20261008.json",
+      "sha256": "a9eeda39343135db47b9a70e19a6fc356143ca8ed8f5a21cb5162a9e04075b1d"
+    },
+    {
+      "path": "docs/assets/phase1/single-bowl-manifest-20261008.json",
+      "sha256": "cfc972328cd105a64609432d441e87508767695060ff788b16d3d6e53dff747d"
+    },
+    {
+      "path": "docs/assets/phase1/single-bowl-preflight-20261008.json",
+      "sha256": "732e659f779205cedaff89f9e0849950217be034500dc441f65cb8b332d78278"
+    },
+    {
+      "path": "docs/assets/phase1/single-bowl-summary-20261008.json",
+      "sha256": "5ca3de5253080fbc952852352cdb53ae70b7eb3dadd63449253cafd3e5eb0a5c"
+    },
+    {
+      "path": "docs/assets/phase1/smolvla-spatial-input-audit-20261008.json",
+      "sha256": "1033015ac3ef4affa6145f2d9a34f89700b6750e6f8497241cc256b00c5fb037"
+    },
+    {
+      "path": "docs/assets/phase1/smolvla-spatial-manifest-20261008.json",
+      "sha256": "50afc1e7a062c784ef615f8a7df5f23d21359c77f4a4ba1b900314213ef286b9"
+    },
+    {
+      "path": "docs/assets/phase1/smolvla-spatial-na-image-review-20261008.json",
+      "sha256": "4ddd38ffddef54680fc04010eb238355d76c063315f90ee3b5a027c9cfb3baa2"
+    },
+    {
+      "path": "docs/assets/phase1/smolvla-spatial-na-manifest-20261008.json",
+      "sha256": "43c90749212daf94a88b5802ec63abcab7659d85abd9809a38b8403053870a58"
+    },
+    {
+      "path": "docs/assets/phase1/smolvla-spatial-na-preflight-20261008.json",
+      "sha256": "2287f69d6037374b99164fffb461a167c7570ea2e8101bec79ce90257665d633"
+    },
+    {
+      "path": "docs/assets/phase1/smolvla-spatial-na-preflight-error-20261008.json",
+      "sha256": "61c11a97af4e5bdfbafb9b3db8b3c71645b0bd391c378c31f7747ce2202c1f73"
+    },
+    {
+      "path": "docs/assets/phase1/smolvla-spatial-na-summary-20261008.json",
+      "sha256": "c13d6c324b0f56740f291f2d0060b751e9159e51af8b0559b8c3b8008831e115"
+    },
+    {
+      "path": "docs/assets/phase1/smolvla-spatial-neutral-manifest-20261009.json",
+      "sha256": "1a06d0fef2ddf1b285e43557c36d6d958ae82ffee4b466e2de2bc1d813b5a624"
+    },
+    {
+      "path": "docs/assets/phase1/smolvla-spatial-neutral-preflight-20261009.json",
+      "sha256": "147dd38704e153c1b0bf3c22bfa1af63579c6d8c37f52172ed4f59ac6385199d"
+    },
+    {
+      "path": "docs/assets/phase1/smolvla-spatial-neutral-summary-20261009.json",
+      "sha256": "4af94eecd2db380b8a7d126730570e9b570619c889d461ecc9aa15c692db5b21"
+    },
+    {
+      "path": "docs/assets/phase1/smolvla-spatial-reset-audit-20261008.json",
+      "sha256": "a6d81c92e1e8122fa066689a18a708056a3d11056760099669fb1e98d97d10db"
+    },
+    {
+      "path": "docs/assets/phase1/smolvla-spatial-separator-manifest-20261009.json",
+      "sha256": "787b6435f6e732931e35dab84ed2e37cafe982b0ede76284380a872212f90964"
+    },
+    {
+      "path": "docs/assets/phase1/smolvla-spatial-separator-preflight-20261009.json",
+      "sha256": "29dbe574ed5937672c0d0d8f3f75271c9e77d284549e893ff7fdaba2d7b74495"
+    },
+    {
+      "path": "docs/assets/phase1/smolvla-spatial-separator-summary-20261009.json",
+      "sha256": "0251c75501897ee4efbcbd77bdae14a9a2a8c9489a8b7f0a520f116860cc6d16"
+    },
+    {
+      "path": "docs/assets/phase1/smolvla-spatial-short-neutral-manifest-20261009.json",
+      "sha256": "0aa1efbaf88c4bf9f988e92e1e6943fb4798d13cbfbe2479a590fb578427c1d6"
+    },
+    {
+      "path": "docs/assets/phase1/smolvla-spatial-short-neutral-preflight-20261009.json",
+      "sha256": "68849e93d7d4ce7602b7f54e2600175930e81ff0043381621aee1280bbbe3396"
+    },
+    {
+      "path": "docs/assets/phase1/smolvla-spatial-short-neutral-summary-20261009.json",
+      "sha256": "ad5df7b8ea230d8769f7f86fab96d72e0e6faa1b24c53de2b3faa702d902302f"
+    },
+    {
+      "path": "docs/assets/phase1/smolvla-spatial-summary-20261008.json",
+      "sha256": "68df6c826510705c62bb9e04245da1bec209c5163f91d7d6913558c9c60d1ed4"
+    },
+    {
+      "path": "docs/assets/phase1/spatial-source-input-audit-20261008.json",
+      "sha256": "631d64886bf8121fd2f1c2faa4a5908ccbb5bab7c80ab4da53c5938e6cb1b7af"
+    },
+    {
+      "path": "docs/assets/phase1/spatial-source-manifest-20261008.json",
+      "sha256": "b92532f140d1aa2440af049ccf2053a9296e4c76f9c0e74fffe6b4c2e80885e4"
+    },
+    {
+      "path": "docs/assets/phase1/spatial-source-reset-audit-20261008.json",
+      "sha256": "74412e19ee1201059100c0979dcd180d3103a505266cc1c3af70eec192ac18fa"
+    },
+    {
+      "path": "docs/assets/phase1/spatial-source-summary-20261008.json",
+      "sha256": "c3e9f03ab1c0d3b910518a1c80ab4839401c3aaa61e556e5160e1c17bcf83002"
+    },
+    {
+      "path": "docs/assets/readiness/goal-readiness-assessment.json",
+      "sha256": "0b1e62b649e50320f95bba14d10cce912aaee673a52ba04564eea04c790ac4e4"
+    },
+    {
+      "path": "docs/assets/readiness/goal-run-manifest.json",
+      "sha256": "e9c2e2b106e5a729ad165304205db9ef39af3af2850e8edd45b69606ab7ea6d1"
+    },
+    {
+      "path": "docs/assets/readiness/goal-summary.json",
+      "sha256": "bb4a66569a2c883c9199324e0b0d42aff2be4bfc1c405b9561364cdd68c0c610"
+    },
+    {
+      "path": "docs/assets/readiness/identity-readiness-analysis.json",
+      "sha256": "e4397e96c1f5ec464386cf2dad34013d020999bbe85bcb8e83e7c0d69c4f0dad"
+    },
+    {
+      "path": "docs/assets/readiness/identity-run-manifest.json",
+      "sha256": "f043a80e7815ca880392f07e11333a4a7c5a04d94195dbeef2a0581f65469eeb"
+    },
+    {
+      "path": "docs/assets/readiness/identity-summary.json",
+      "sha256": "f8e39bcb720501db218c37921e18f919bd5a3f262363a72e817c304caa2ab4be"
+    },
+    {
+      "path": "docs/assets/readiness/spatial-baseline-summary.json",
+      "sha256": "5a6dc73e71613f073123ed9f33696d62a7824247bd969d1545cadbc7ca538e39"
+    },
+    {
+      "path": "docs/assets/readiness/spatial-pulsevla-results.json",
+      "sha256": "d97313c4a794e2cb39dbe952bf637bebc1c1cfb2913b38ea1a17a0db8e7cecd3"
+    },
+    {
+      "path": "docs/assets/readiness/spatial-smolvla-eval-info.json",
+      "sha256": "62666d4423f846457d28d33df24e35856a4d409a2113146231947de0ecc5f134"
+    }
+  ],
+  "scope": "Prior project JSON state, episode, preflight and archive records; native public assets are not evidence of absence from model training. No outcome-based state selection."
+}

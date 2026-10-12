@@ -1,6 +1,16 @@
 # 当前进度与接续
 
-文档整理日期：2026-10-11（Asia/Shanghai）；原SmolVLA N/A与各模型的新核查分开登记。工作目录：C:\VLA-LIBERO；WSL：/mnt/c/VLA-LIBERO。
+文档整理日期：2026-10-12（Asia/Shanghai）；原SmolVLA N/A与各模型的新核查分开登记。工作目录：C:\VLA-LIBERO；WSL：/mnt/c/VLA-LIBERO。
+
+## 2026-10-12 未见初始化确认已完成
+
+用户同意下一轮只做[未见初始化确认v1](OPENVLA_TEMPORAL_CONFIRMATION_V1_ENTRY_20261012.md)：Spatial task1／8各init3、4、5，每个状态N／全程U0／第60次后撤除，共18条新完整轨迹、最多5400次调用。句子、60次时点、模型／预处理和原生3厘米判据保持，全部条件新跑；不按N成功筛状态，不重复旧U1、不运行A0／X或其他时点。
+
+21:28（Asia/Shanghai）完成，退出码0，18条新完整轨迹、3292次新调用，独立复核通过。ramekin三个条件均2/3；plate N2/3、全程U0 1/3、撤除2/3。撤除相对全程U0恢复plate init5、退化0、均成功3组、均失败2组，与N逐初始化结果一致；ramekin init3和plate init4原生失败完整保留。六组前60次实际输入、动作和0..60步记录状态完全相同，最大动作差0。见[完整结果](OPENVLA_TEMPORAL_CONFIRMATION_V1_RESULTS_20261012.md)与[独立审计](assets/phase1/openvla-temporal-confirmation-v1-result-audit-20261012.json)。
+
+零查询准备与运行时来源核对通过537个历史JSON、56个原始状态哈希及六个新状态身份；六图逐幅审阅。plate init3／4／5目标左缘部分裁剪但可辨认，限制保留。未见仅指项目开发初始化，两个任务、U0模板和模型仍已见；不声称训练留出或普遍有效。固定60次不是统一抓取阶段，ramekin init5与plate init3在此前已记录双侧接触。本轮恢复不替代A0资格，正式X新增0。
+
+实验进程已退出，新诊断／技术中止／旧轨迹复用均0。OpenVLA累计至少16513次、近期研究至少17743次，旧未知中止另列。状态：`outputs/openvla-spatial-4bit/temporal-confirmation-v1-20261012/current-status.json`；日志：`logs/openvla-temporal-confirmation-v1-20261012.log`。精简证据与八幅图已归档；没有自动启动新的实验批次。
 
 [本次总结](EXPERIMENT_SUMMARY_20261011.md)：文献审查及两轮开发实验已完成，共24条新完整轨迹、4934次新策略调用，两轮独立复核通过；精简审计资产归档，完整轨迹／视频／日志保留本地。
 

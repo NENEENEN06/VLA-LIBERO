@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "policy_queries": 0,
+  "historical_source_files_checked": 537,
+  "seen_inventory_sha256": "b509cbfe58d318bb91bb97cdfc346a03be993a1d577166ac73a8b4148fb3b174",
+  "candidate_identities_sha256": "0824f8cc4c819b7c87ee2d6bef2ff13c540f39b994fcec2ba67c240c4270962b",
+  "development_manifest_sha256": "bd557af3eccd922fabb08cf15f858a772e20476ea1f7debb6893499d50810935",
+  "records": [
+    {
+      "task": "ramekin",
+      "init_id": 3,
+      "initial_state_sha256": "9cdfce0fe3434dc2c261272bc32dd3b56956de7c14e1e6d4c8a76aa7323e0f4d",
+      "previously_seen": false
+    },
+    {
+      "task": "ramekin",
+      "init_id": 4,
+      "initial_state_sha256": "97916cb27d2a1b9650016b93bbc33aa2855dfbdd11ded29650da8357c5c418e2",
+      "previously_seen": false
+    },
+    {
+      "task": "ramekin",
+      "init_id": 5,
+      "initial_state_sha256": "d0345028d24b7dda175db33c7eb0e5c1d4df2fdf5620c51dd3641fdc77750964",
+      "previously_seen": false
+    },
+    {
+      "task": "plate",
+      "init_id": 3,
+      "initial_state_sha256": "8d1fbf0d1785c75002a47f290b3b6d195d3a26b8c9a86cf95512ba804fd36d4b",
+      "previously_seen": false
+    },
+    {
+      "task": "plate",
+      "init_id": 4,
+      "initial_state_sha256": "ad6e3d768b047e190024a0a97a7869b0de5c83bfd7079cb2b048725b6c5c90f5",
+      "previously_seen": false
+    },
+    {
+      "task": "plate",
+      "init_id": 5,
+      "initial_state_sha256": "6b4f91c1a15155e7f0a6ce3085bea10bef88c0cb5fa46526cf7115c56ca930e4",
+      "previously_seen": false
+    }
+  ],
+  "reused_rollout_episodes": 0
+}

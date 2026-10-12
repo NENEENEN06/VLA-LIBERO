@@ -2,7 +2,7 @@
 $ErrorActionPreference = 'Stop'
 $TaskRoot = Split-Path -Parent $PSScriptRoot
 if ($args.Count -eq 0) {
-    Write-Host 'Usage: scripts/openvla.ps1 setup | download | readiness | screen | native-ramekin | native-pairs | native-neutral | question-context | fact-first | fact-first-na | language-robustness | temporal-withdraw; rollout commands require --output, diagnostic commands also require source runs.'
+    Write-Host 'Usage: scripts/openvla.ps1 setup | download | readiness | screen | native-ramekin | native-pairs | native-neutral | question-context | fact-first | fact-first-na | language-robustness | temporal-withdraw | temporal-confirmation; rollout commands require --output, diagnostic commands also require source runs.'
     exit 2
 }
 $TaskCommand = $args[0]
@@ -37,6 +37,9 @@ switch ($TaskCommand) {
     }
     'temporal-withdraw' {
         & wsl.exe --distribution Ubuntu-22.04 --user root --cd $TaskRoot --exec .venvs/openvla-spatial-4bit/bin/python scripts/check_openvla_temporal_withdraw.py @TaskRest
+    }
+    'temporal-confirmation' {
+        & wsl.exe --distribution Ubuntu-22.04 --user root --cd $TaskRoot --exec .venvs/openvla-spatial-4bit/bin/python scripts/check_openvla_temporal_confirmation.py @TaskRest
     }
     'fact-first-na' {
         & wsl.exe --distribution Ubuntu-22.04 --user root --cd $TaskRoot --exec .venvs/openvla-spatial-4bit/bin/python scripts/check_openvla_fact_first_na.py @TaskRest

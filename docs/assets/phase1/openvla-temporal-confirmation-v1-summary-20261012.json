@@ -1,0 +1,1009 @@
+{
+  "status": "completed",
+  "mode": "temporal_confirmation_v1",
+  "blocks": {
+    "ramekin/N": {
+      "episodes": 3,
+      "successes": 2,
+      "correct_contact_episodes": 2,
+      "wrong_contact_episodes": 0,
+      "stages": {
+        "correct_exclusive_completion": 2,
+        "no_bilateral_contact": 1
+      }
+    },
+    "ramekin/U0": {
+      "episodes": 3,
+      "successes": 2,
+      "correct_contact_episodes": 2,
+      "wrong_contact_episodes": 0,
+      "stages": {
+        "correct_exclusive_completion": 2,
+        "no_bilateral_contact": 1
+      }
+    },
+    "ramekin/U0_early60": {
+      "episodes": 3,
+      "successes": 2,
+      "correct_contact_episodes": 2,
+      "wrong_contact_episodes": 0,
+      "stages": {
+        "correct_exclusive_completion": 2,
+        "no_bilateral_contact": 1
+      }
+    },
+    "plate/N": {
+      "episodes": 3,
+      "successes": 2,
+      "correct_contact_episodes": 2,
+      "wrong_contact_episodes": 0,
+      "stages": {
+        "correct_exclusive_completion": 2,
+        "no_bilateral_contact": 1
+      }
+    },
+    "plate/U0": {
+      "episodes": 3,
+      "successes": 1,
+      "correct_contact_episodes": 2,
+      "wrong_contact_episodes": 0,
+      "stages": {
+        "correct_contact_and_lift_without_completion": 1,
+        "correct_exclusive_completion": 1,
+        "no_bilateral_contact": 1
+      }
+    },
+    "plate/U0_early60": {
+      "episodes": 3,
+      "successes": 2,
+      "correct_contact_episodes": 2,
+      "wrong_contact_episodes": 0,
+      "stages": {
+        "correct_exclusive_completion": 2,
+        "no_bilateral_contact": 1
+      }
+    }
+  },
+  "paired_cases": [
+    {
+      "task": "ramekin",
+      "init_id": 3,
+      "N_success": false,
+      "U0_success": false,
+      "early60_success": false,
+      "prefix_exact": true,
+      "withdrawal_triggered": true
+    },
+    {
+      "task": "ramekin",
+      "init_id": 4,
+      "N_success": true,
+      "U0_success": true,
+      "early60_success": true,
+      "prefix_exact": true,
+      "withdrawal_triggered": true
+    },
+    {
+      "task": "ramekin",
+      "init_id": 5,
+      "N_success": true,
+      "U0_success": true,
+      "early60_success": true,
+      "prefix_exact": true,
+      "withdrawal_triggered": true
+    },
+    {
+      "task": "plate",
+      "init_id": 3,
+      "N_success": true,
+      "U0_success": true,
+      "early60_success": true,
+      "prefix_exact": true,
+      "withdrawal_triggered": true
+    },
+    {
+      "task": "plate",
+      "init_id": 4,
+      "N_success": false,
+      "U0_success": false,
+      "early60_success": false,
+      "prefix_exact": true,
+      "withdrawal_triggered": true
+    },
+    {
+      "task": "plate",
+      "init_id": 5,
+      "N_success": true,
+      "U0_success": false,
+      "early60_success": true,
+      "prefix_exact": true,
+      "withdrawal_triggered": true
+    }
+  ],
+  "results": [
+    {
+      "key": "confirmation-spatial1-init3-N",
+      "task": "ramekin",
+      "init_id": 3,
+      "condition": "N",
+      "origin": "new",
+      "new_policy_calls": 300,
+      "phase_policy_calls": {
+        "N": 300,
+        "U0": 0
+      },
+      "steps": 300,
+      "policy_calls": 300,
+      "category": "neither",
+      "success": false,
+      "correct_bilateral_contact": false,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": null,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 0,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 2.786076397365278e-07,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "no_bilateral_contact",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.2537563438015363
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.3074143639336941
+        }
+      }
+    },
+    {
+      "key": "confirmation-spatial1-init3-U0",
+      "task": "ramekin",
+      "init_id": 3,
+      "condition": "U0",
+      "origin": "new",
+      "new_policy_calls": 300,
+      "phase_policy_calls": {
+        "N": 0,
+        "U0": 300
+      },
+      "steps": 300,
+      "policy_calls": 300,
+      "category": "neither",
+      "success": false,
+      "correct_bilateral_contact": false,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": null,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 0,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.009184945550697488,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "no_bilateral_contact",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.23212666008314817
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.2993150883522159
+        }
+      }
+    },
+    {
+      "key": "confirmation-spatial1-init3-U0_early60",
+      "task": "ramekin",
+      "init_id": 3,
+      "condition": "U0_early60",
+      "origin": "new",
+      "new_policy_calls": 300,
+      "phase_policy_calls": {
+        "N": 240,
+        "U0": 60
+      },
+      "steps": 300,
+      "policy_calls": 300,
+      "category": "neither",
+      "success": false,
+      "correct_bilateral_contact": false,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": null,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 0,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.009184945550697488,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "no_bilateral_contact",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.2634431823353471
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.2895200703068248
+        }
+      },
+      "prefix_comparison": {
+        "checked_calls": 60,
+        "expected_calls": 60,
+        "all_input_audits_equal": true,
+        "all_executed_actions_equal": true,
+        "all_recorded_states_equal": true,
+        "exact_prefix_equal": true,
+        "max_action_abs_diff": 0.0,
+        "first_input_difference_call": null,
+        "first_action_difference_call": null,
+        "first_recorded_state_difference_step": null,
+        "scheduled_prefix_lengths_equal": true,
+        "withdrawal_triggered": true
+      },
+      "withdrawal_triggered": true
+    },
+    {
+      "key": "confirmation-spatial1-init4-N",
+      "task": "ramekin",
+      "init_id": 4,
+      "condition": "N",
+      "origin": "new",
+      "new_policy_calls": 142,
+      "phase_policy_calls": {
+        "N": 142,
+        "U0": 0
+      },
+      "steps": 142,
+      "policy_calls": 142,
+      "category": "bowl1_only",
+      "success": true,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 83,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 59,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.15896815691641009,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_exclusive_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.02355521849690017
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.2855859273578051
+        }
+      }
+    },
+    {
+      "key": "confirmation-spatial1-init4-U0",
+      "task": "ramekin",
+      "init_id": 4,
+      "condition": "U0",
+      "origin": "new",
+      "new_policy_calls": 124,
+      "phase_policy_calls": {
+        "N": 0,
+        "U0": 124
+      },
+      "steps": 124,
+      "policy_calls": 124,
+      "category": "bowl1_only",
+      "success": true,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 80,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 44,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.1581576420779749,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_exclusive_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.029333513105557693
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.2845112376241983
+        }
+      }
+    },
+    {
+      "key": "confirmation-spatial1-init4-U0_early60",
+      "task": "ramekin",
+      "init_id": 4,
+      "condition": "U0_early60",
+      "origin": "new",
+      "new_policy_calls": 124,
+      "phase_policy_calls": {
+        "N": 64,
+        "U0": 60
+      },
+      "steps": 124,
+      "policy_calls": 124,
+      "category": "bowl1_only",
+      "success": true,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 78,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 47,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.1618021188848504,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_exclusive_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.024073590475564836
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.2855893894398621
+        }
+      },
+      "prefix_comparison": {
+        "checked_calls": 60,
+        "expected_calls": 60,
+        "all_input_audits_equal": true,
+        "all_executed_actions_equal": true,
+        "all_recorded_states_equal": true,
+        "exact_prefix_equal": true,
+        "max_action_abs_diff": 0.0,
+        "first_input_difference_call": null,
+        "first_action_difference_call": null,
+        "first_recorded_state_difference_step": null,
+        "scheduled_prefix_lengths_equal": true,
+        "withdrawal_triggered": true
+      },
+      "withdrawal_triggered": true
+    },
+    {
+      "key": "confirmation-spatial1-init5-N",
+      "task": "ramekin",
+      "init_id": 5,
+      "condition": "N",
+      "origin": "new",
+      "new_policy_calls": 113,
+      "phase_policy_calls": {
+        "N": 113,
+        "U0": 0
+      },
+      "steps": 113,
+      "policy_calls": 113,
+      "category": "bowl1_only",
+      "success": true,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 62,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 52,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.17913578760178694,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_exclusive_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.02837348051529801
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.28438913591410614
+        }
+      }
+    },
+    {
+      "key": "confirmation-spatial1-init5-U0",
+      "task": "ramekin",
+      "init_id": 5,
+      "condition": "U0",
+      "origin": "new",
+      "new_policy_calls": 94,
+      "phase_policy_calls": {
+        "N": 0,
+        "U0": 94
+      },
+      "steps": 94,
+      "policy_calls": 94,
+      "category": "bowl1_only",
+      "success": true,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 58,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 36,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.13113085284433224,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_exclusive_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.012855555834843964
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.28340174072400387
+        }
+      }
+    },
+    {
+      "key": "confirmation-spatial1-init5-U0_early60",
+      "task": "ramekin",
+      "init_id": 5,
+      "condition": "U0_early60",
+      "origin": "new",
+      "new_policy_calls": 92,
+      "phase_policy_calls": {
+        "N": 32,
+        "U0": 60
+      },
+      "steps": 92,
+      "policy_calls": 92,
+      "category": "bowl1_only",
+      "success": true,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 58,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 34,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.13036388672700716,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_exclusive_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.005984716321748631
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.2835607610746329
+        }
+      },
+      "prefix_comparison": {
+        "checked_calls": 60,
+        "expected_calls": 60,
+        "all_input_audits_equal": true,
+        "all_executed_actions_equal": true,
+        "all_recorded_states_equal": true,
+        "exact_prefix_equal": true,
+        "max_action_abs_diff": 0.0,
+        "first_input_difference_call": null,
+        "first_action_difference_call": null,
+        "first_recorded_state_difference_step": null,
+        "scheduled_prefix_lengths_equal": true,
+        "withdrawal_triggered": true
+      },
+      "withdrawal_triggered": true
+    },
+    {
+      "key": "confirmation-spatial8-init3-N",
+      "task": "plate",
+      "init_id": 3,
+      "condition": "N",
+      "origin": "new",
+      "new_policy_calls": 116,
+      "phase_policy_calls": {
+        "N": 116,
+        "U0": 0
+      },
+      "steps": 116,
+      "policy_calls": 116,
+      "category": "bowl1_only",
+      "success": true,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 69,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 39,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.12595915739334507,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_exclusive_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.02912927875549202
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.2659591741791963
+        }
+      }
+    },
+    {
+      "key": "confirmation-spatial8-init3-U0",
+      "task": "plate",
+      "init_id": 3,
+      "condition": "U0",
+      "origin": "new",
+      "new_policy_calls": 88,
+      "phase_policy_calls": {
+        "N": 0,
+        "U0": 88
+      },
+      "steps": 88,
+      "policy_calls": 88,
+      "category": "bowl1_only",
+      "success": true,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 59,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 28,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.10397111876878984,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_exclusive_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.011912569232654678
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.26739963366494185
+        }
+      }
+    },
+    {
+      "key": "confirmation-spatial8-init3-U0_early60",
+      "task": "plate",
+      "init_id": 3,
+      "condition": "U0_early60",
+      "origin": "new",
+      "new_policy_calls": 87,
+      "phase_policy_calls": {
+        "N": 27,
+        "U0": 60
+      },
+      "steps": 87,
+      "policy_calls": 87,
+      "category": "bowl1_only",
+      "success": true,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 59,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 25,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.11563028391217844,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_exclusive_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.02169181444449736
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.26714479215985726
+        }
+      },
+      "prefix_comparison": {
+        "checked_calls": 60,
+        "expected_calls": 60,
+        "all_input_audits_equal": true,
+        "all_executed_actions_equal": true,
+        "all_recorded_states_equal": true,
+        "exact_prefix_equal": true,
+        "max_action_abs_diff": 0.0,
+        "first_input_difference_call": null,
+        "first_action_difference_call": null,
+        "first_recorded_state_difference_step": null,
+        "scheduled_prefix_lengths_equal": true,
+        "withdrawal_triggered": true
+      },
+      "withdrawal_triggered": true
+    },
+    {
+      "key": "confirmation-spatial8-init4-N",
+      "task": "plate",
+      "init_id": 4,
+      "condition": "N",
+      "origin": "new",
+      "new_policy_calls": 300,
+      "phase_policy_calls": {
+        "N": 300,
+        "U0": 0
+      },
+      "steps": 300,
+      "policy_calls": 300,
+      "category": "neither",
+      "success": false,
+      "correct_bilateral_contact": false,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": null,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 0,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.0024902084396470903,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "no_bilateral_contact",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.18875590937956055
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.2843806439389952
+        }
+      }
+    },
+    {
+      "key": "confirmation-spatial8-init4-U0",
+      "task": "plate",
+      "init_id": 4,
+      "condition": "U0",
+      "origin": "new",
+      "new_policy_calls": 300,
+      "phase_policy_calls": {
+        "N": 0,
+        "U0": 300
+      },
+      "steps": 300,
+      "policy_calls": 300,
+      "category": "neither",
+      "success": false,
+      "correct_bilateral_contact": false,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": null,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 0,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.002307470502490805,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "no_bilateral_contact",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.18895035956553463
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.284700499757659
+        }
+      }
+    },
+    {
+      "key": "confirmation-spatial8-init4-U0_early60",
+      "task": "plate",
+      "init_id": 4,
+      "condition": "U0_early60",
+      "origin": "new",
+      "new_policy_calls": 300,
+      "phase_policy_calls": {
+        "N": 240,
+        "U0": 60
+      },
+      "steps": 300,
+      "policy_calls": 300,
+      "category": "neither",
+      "success": false,
+      "correct_bilateral_contact": false,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": null,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 0,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.0009806137681397376,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "no_bilateral_contact",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.17979918736453115
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.2797596741968914
+        }
+      },
+      "prefix_comparison": {
+        "checked_calls": 60,
+        "expected_calls": 60,
+        "all_input_audits_equal": true,
+        "all_executed_actions_equal": true,
+        "all_recorded_states_equal": true,
+        "exact_prefix_equal": true,
+        "max_action_abs_diff": 0.0,
+        "first_input_difference_call": null,
+        "first_action_difference_call": null,
+        "first_recorded_state_difference_step": null,
+        "scheduled_prefix_lengths_equal": true,
+        "withdrawal_triggered": true
+      },
+      "withdrawal_triggered": true
+    },
+    {
+      "key": "confirmation-spatial8-init5-N",
+      "task": "plate",
+      "init_id": 5,
+      "condition": "N",
+      "origin": "new",
+      "new_policy_calls": 107,
+      "phase_policy_calls": {
+        "N": 107,
+        "U0": 0
+      },
+      "steps": 107,
+      "policy_calls": 107,
+      "category": "bowl1_only",
+      "success": true,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 79,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 29,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.10369350359337959,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_exclusive_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.020150470062768547
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.28029979446274766
+        }
+      }
+    },
+    {
+      "key": "confirmation-spatial8-init5-U0",
+      "task": "plate",
+      "init_id": 5,
+      "condition": "U0",
+      "origin": "new",
+      "new_policy_calls": 300,
+      "phase_policy_calls": {
+        "N": 0,
+        "U0": 300
+      },
+      "steps": 300,
+      "policy_calls": 300,
+      "category": "neither",
+      "success": false,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 76,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 38,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.13862868247395543,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_contact_and_lift_without_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.04532439465503013
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.23297596626278957
+        }
+      }
+    },
+    {
+      "key": "confirmation-spatial8-init5-U0_early60",
+      "task": "plate",
+      "init_id": 5,
+      "condition": "U0_early60",
+      "origin": "new",
+      "new_policy_calls": 105,
+      "phase_policy_calls": {
+        "N": 45,
+        "U0": 60
+      },
+      "steps": 105,
+      "policy_calls": 105,
+      "category": "bowl1_only",
+      "success": true,
+      "correct_bilateral_contact": true,
+      "wrong_bilateral_contact": false,
+      "first_bilateral_contact_steps": {
+        "bowl1": 75,
+        "bowl2": null
+      },
+      "bilateral_contact_state_counts": {
+        "bowl1": 30,
+        "bowl2": 0
+      },
+      "max_height_gain_m": {
+        "bowl1": 0.11260385447873011,
+        "bowl2": 2.786076397365278e-07
+      },
+      "descriptive_stage": "correct_exclusive_completion",
+      "final_placement_components": {
+        "bowl1": {
+          "plate_contact": true,
+          "height_ok": true,
+          "xy_distance_m": 0.011630333588333907
+        },
+        "bowl2": {
+          "plate_contact": false,
+          "height_ok": false,
+          "xy_distance_m": 0.28021540770891823
+        }
+      },
+      "prefix_comparison": {
+        "checked_calls": 60,
+        "expected_calls": 60,
+        "all_input_audits_equal": true,
+        "all_executed_actions_equal": true,
+        "all_recorded_states_equal": true,
+        "exact_prefix_equal": true,
+        "max_action_abs_diff": 0.0,
+        "first_input_difference_call": null,
+        "first_action_difference_call": null,
+        "first_recorded_state_difference_step": null,
+        "scheduled_prefix_lengths_equal": true,
+        "withdrawal_triggered": true
+      },
+      "withdrawal_triggered": true
+    }
+  ],
+  "new_rollout_episodes": 18,
+  "new_rollout_policy_calls": 3292,
+  "condition_policy_calls": {
+    "N": 1078,
+    "U0": 1206,
+    "U0_early60": 1008
+  },
+  "diagnostic_policy_calls": 0,
+  "reused_rollout_episodes": 0,
+  "all_prefixes_exact": true,
+  "paired_outcomes": {
+    "recovered": 1,
+    "regressed": 0,
+    "both_success": 3,
+    "both_failed": 2
+  },
+  "independent_initialization_confirmation": true,
+  "old_qualifications_changed": false,
+  "formal_conflict_rollouts": 0,
+  "completed_at": "2026-10-12T13:28:02.099014+00:00"
+}

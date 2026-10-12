@@ -1,0 +1,69 @@
+{
+  "passed": true,
+  "reviewer": "Codex; directly inspected all six fresh policy224 PNGs",
+  "preflight_sha256": "67d95f1aa856780edffa89d3b0c855a3e042339e935ce4a6e28f7fec9cca1e6e",
+  "policy_queries": 0,
+  "records": [
+    {
+      "task": "ramekin",
+      "init_id": 3,
+      "passed": true,
+      "actual_policy_image_sha256": "50c8fd840f5cab20848b124e08267e5eac3e7130ef92486d816d0e49a6df0490",
+      "correct_bowl_reference_destination_identifiable": true,
+      "table_and_gray_background_wall_visible": true,
+      "target_partly_cropped": false,
+      "limitation": "No material crop limitation observed."
+    },
+    {
+      "task": "ramekin",
+      "init_id": 4,
+      "passed": true,
+      "actual_policy_image_sha256": "7c2e9b53c4c8e4f6e637a39fa54b44b4d04d3b1c442aa710bbe2a98b9416fb59",
+      "correct_bowl_reference_destination_identifiable": true,
+      "table_and_gray_background_wall_visible": true,
+      "target_partly_cropped": false,
+      "limitation": "No material crop limitation observed."
+    },
+    {
+      "task": "ramekin",
+      "init_id": 5,
+      "passed": true,
+      "actual_policy_image_sha256": "8ca96a1b55ae6d87e53fcd8ff176584df0a79ebe158e5c8aab10f6c9d4342686",
+      "correct_bowl_reference_destination_identifiable": true,
+      "table_and_gray_background_wall_visible": true,
+      "target_partly_cropped": false,
+      "limitation": "No material crop limitation observed."
+    },
+    {
+      "task": "plate",
+      "init_id": 3,
+      "passed": true,
+      "actual_policy_image_sha256": "725d9ca319c6db50449a17c5f0444f6dd552f646c0458e9dd9bca54c1c2e8341",
+      "correct_bowl_reference_destination_identifiable": true,
+      "table_and_gray_background_wall_visible": true,
+      "target_partly_cropped": true,
+      "limitation": "Target bowl partly cropped at left edge; still identifiable, native preprocessing retained."
+    },
+    {
+      "task": "plate",
+      "init_id": 4,
+      "passed": true,
+      "actual_policy_image_sha256": "57d7e839ec3e3b55b31045093adca1d18ce503eb9c832fee7a6f817bd90b6f6d",
+      "correct_bowl_reference_destination_identifiable": true,
+      "table_and_gray_background_wall_visible": true,
+      "target_partly_cropped": true,
+      "limitation": "Target bowl partly cropped at left edge; still identifiable, native preprocessing retained."
+    },
+    {
+      "task": "plate",
+      "init_id": 5,
+      "passed": true,
+      "actual_policy_image_sha256": "66e2e84ee1fc5fb4b56c18342fbb58244e2811dd5424ce4879da38a6ca51d8bc",
+      "correct_bowl_reference_destination_identifiable": true,
+      "table_and_gray_background_wall_visible": true,
+      "target_partly_cropped": true,
+      "limitation": "Target bowl partly cropped at left edge; still identifiable, native preprocessing retained."
+    }
+  ],
+  "reviewed_at": "2026-10-12T12:19:14.647834+00:00"
+}

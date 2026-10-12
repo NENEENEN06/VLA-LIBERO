@@ -1,0 +1,352 @@
+{
+  "status": "passed",
+  "policy_queries": 0,
+  "new_episodes": 18,
+  "result_audit_sha256": "b6d70099a195a54af16cda3a93c2cf1b37b64b67e9757b5b95c558df75f7ff72",
+  "bilateral_contact_is_proxy_not_stable_grasp": true,
+  "lift_threshold_m": 0.02,
+  "records": [
+    {
+      "task": "ramekin",
+      "init_id": 3,
+      "condition": "N",
+      "steps": 300,
+      "success": false,
+      "stage": "no_bilateral_contact",
+      "first_correct_bilateral_contact_step": null,
+      "first_correct_2cm_lift_step": null,
+      "correct_contact_before_withdrawal": false,
+      "correct_2cm_lift_before_withdrawal": false,
+      "correct_max_height_gain_m": 2.786076397365278e-07,
+      "final_correct_placement_components": {
+        "plate_contact": false,
+        "height_ok": false,
+        "xy_distance_m": 0.2537563438015363
+      },
+      "episode_sha256": "a688809c377c52d0b4acf0e43a4721f14e7dadb181f79bafe92bbdecf284f5ef"
+    },
+    {
+      "task": "ramekin",
+      "init_id": 3,
+      "condition": "U0",
+      "steps": 300,
+      "success": false,
+      "stage": "no_bilateral_contact",
+      "first_correct_bilateral_contact_step": null,
+      "first_correct_2cm_lift_step": null,
+      "correct_contact_before_withdrawal": false,
+      "correct_2cm_lift_before_withdrawal": false,
+      "correct_max_height_gain_m": 0.009184945550697488,
+      "final_correct_placement_components": {
+        "plate_contact": false,
+        "height_ok": false,
+        "xy_distance_m": 0.23212666008314817
+      },
+      "episode_sha256": "8d272e55fe00c85f2646b6ec02889aa7b1777a56c1c3c65b451d260b9464f009"
+    },
+    {
+      "task": "ramekin",
+      "init_id": 3,
+      "condition": "U0_early60",
+      "steps": 300,
+      "success": false,
+      "stage": "no_bilateral_contact",
+      "first_correct_bilateral_contact_step": null,
+      "first_correct_2cm_lift_step": null,
+      "correct_contact_before_withdrawal": false,
+      "correct_2cm_lift_before_withdrawal": false,
+      "correct_max_height_gain_m": 0.009184945550697488,
+      "final_correct_placement_components": {
+        "plate_contact": false,
+        "height_ok": false,
+        "xy_distance_m": 0.2634431823353471
+      },
+      "episode_sha256": "3a2a55f7eb7b68544fd952ee8719eea13c44e7c080478405472c74f3d7b81889"
+    },
+    {
+      "task": "ramekin",
+      "init_id": 4,
+      "condition": "N",
+      "steps": 142,
+      "success": true,
+      "stage": "correct_exclusive_completion",
+      "first_correct_bilateral_contact_step": 83,
+      "first_correct_2cm_lift_step": 96,
+      "correct_contact_before_withdrawal": false,
+      "correct_2cm_lift_before_withdrawal": false,
+      "correct_max_height_gain_m": 0.15896815691641009,
+      "final_correct_placement_components": {
+        "plate_contact": true,
+        "height_ok": true,
+        "xy_distance_m": 0.02355521849690017
+      },
+      "episode_sha256": "bc22fe154db64530ea9e2bb26954f153bcfbe4a5e11a283054dedcb159dd6604"
+    },
+    {
+      "task": "ramekin",
+      "init_id": 4,
+      "condition": "U0",
+      "steps": 124,
+      "success": true,
+      "stage": "correct_exclusive_completion",
+      "first_correct_bilateral_contact_step": 80,
+      "first_correct_2cm_lift_step": 83,
+      "correct_contact_before_withdrawal": false,
+      "correct_2cm_lift_before_withdrawal": false,
+      "correct_max_height_gain_m": 0.1581576420779749,
+      "final_correct_placement_components": {
+        "plate_contact": true,
+        "height_ok": true,
+        "xy_distance_m": 0.029333513105557693
+      },
+      "episode_sha256": "ef9e14f4321f4ea00464a89ed62cc2cdc6dcf5789bd7cc9ad641f9ad780ac2ed"
+    },
+    {
+      "task": "ramekin",
+      "init_id": 4,
+      "condition": "U0_early60",
+      "steps": 124,
+      "success": true,
+      "stage": "correct_exclusive_completion",
+      "first_correct_bilateral_contact_step": 78,
+      "first_correct_2cm_lift_step": 83,
+      "correct_contact_before_withdrawal": false,
+      "correct_2cm_lift_before_withdrawal": false,
+      "correct_max_height_gain_m": 0.1618021188848504,
+      "final_correct_placement_components": {
+        "plate_contact": true,
+        "height_ok": true,
+        "xy_distance_m": 0.024073590475564836
+      },
+      "episode_sha256": "fde2415c2cfb613fb62d5772e1840b50b5f889f8dd534891ed4a108e1cbda57e"
+    },
+    {
+      "task": "ramekin",
+      "init_id": 5,
+      "condition": "N",
+      "steps": 113,
+      "success": true,
+      "stage": "correct_exclusive_completion",
+      "first_correct_bilateral_contact_step": 62,
+      "first_correct_2cm_lift_step": 67,
+      "correct_contact_before_withdrawal": false,
+      "correct_2cm_lift_before_withdrawal": false,
+      "correct_max_height_gain_m": 0.17913578760178694,
+      "final_correct_placement_components": {
+        "plate_contact": true,
+        "height_ok": true,
+        "xy_distance_m": 0.02837348051529801
+      },
+      "episode_sha256": "2d96245d7ea90ddb4526d8394514cadd74b36f0030a0c91d2bfc6d8b2c86de40"
+    },
+    {
+      "task": "ramekin",
+      "init_id": 5,
+      "condition": "U0",
+      "steps": 94,
+      "success": true,
+      "stage": "correct_exclusive_completion",
+      "first_correct_bilateral_contact_step": 58,
+      "first_correct_2cm_lift_step": 59,
+      "correct_contact_before_withdrawal": true,
+      "correct_2cm_lift_before_withdrawal": true,
+      "correct_max_height_gain_m": 0.13113085284433224,
+      "final_correct_placement_components": {
+        "plate_contact": true,
+        "height_ok": true,
+        "xy_distance_m": 0.012855555834843964
+      },
+      "episode_sha256": "cf140e8b7d842d6372dc84e403950b5602ccfb5e2df8217808df441849025010"
+    },
+    {
+      "task": "ramekin",
+      "init_id": 5,
+      "condition": "U0_early60",
+      "steps": 92,
+      "success": true,
+      "stage": "correct_exclusive_completion",
+      "first_correct_bilateral_contact_step": 58,
+      "first_correct_2cm_lift_step": 59,
+      "correct_contact_before_withdrawal": true,
+      "correct_2cm_lift_before_withdrawal": true,
+      "correct_max_height_gain_m": 0.13036388672700716,
+      "final_correct_placement_components": {
+        "plate_contact": true,
+        "height_ok": true,
+        "xy_distance_m": 0.005984716321748631
+      },
+      "episode_sha256": "87ee61a104fbb4bb2a71cad39ec94231b80a786b631d1bd81168f69f6db2f47d"
+    },
+    {
+      "task": "plate",
+      "init_id": 3,
+      "condition": "N",
+      "steps": 116,
+      "success": true,
+      "stage": "correct_exclusive_completion",
+      "first_correct_bilateral_contact_step": 69,
+      "first_correct_2cm_lift_step": 73,
+      "correct_contact_before_withdrawal": false,
+      "correct_2cm_lift_before_withdrawal": false,
+      "correct_max_height_gain_m": 0.12595915739334507,
+      "final_correct_placement_components": {
+        "plate_contact": true,
+        "height_ok": true,
+        "xy_distance_m": 0.02912927875549202
+      },
+      "episode_sha256": "fb50dd141c1e9827e90a747b675df44800ae457f83145bfdfcf684919c497a10"
+    },
+    {
+      "task": "plate",
+      "init_id": 3,
+      "condition": "U0",
+      "steps": 88,
+      "success": true,
+      "stage": "correct_exclusive_completion",
+      "first_correct_bilateral_contact_step": 59,
+      "first_correct_2cm_lift_step": 63,
+      "correct_contact_before_withdrawal": true,
+      "correct_2cm_lift_before_withdrawal": false,
+      "correct_max_height_gain_m": 0.10397111876878984,
+      "final_correct_placement_components": {
+        "plate_contact": true,
+        "height_ok": true,
+        "xy_distance_m": 0.011912569232654678
+      },
+      "episode_sha256": "c971a6cbd3fbf43d2aac14b9142253e7ff1d4e24d1404284e89bd392aaa04e54"
+    },
+    {
+      "task": "plate",
+      "init_id": 3,
+      "condition": "U0_early60",
+      "steps": 87,
+      "success": true,
+      "stage": "correct_exclusive_completion",
+      "first_correct_bilateral_contact_step": 59,
+      "first_correct_2cm_lift_step": 63,
+      "correct_contact_before_withdrawal": true,
+      "correct_2cm_lift_before_withdrawal": false,
+      "correct_max_height_gain_m": 0.11563028391217844,
+      "final_correct_placement_components": {
+        "plate_contact": true,
+        "height_ok": true,
+        "xy_distance_m": 0.02169181444449736
+      },
+      "episode_sha256": "646717b2494dc80bd3907801a988e934b0b048f2b77ea4ee8117f814f64bb3b8"
+    },
+    {
+      "task": "plate",
+      "init_id": 4,
+      "condition": "N",
+      "steps": 300,
+      "success": false,
+      "stage": "no_bilateral_contact",
+      "first_correct_bilateral_contact_step": null,
+      "first_correct_2cm_lift_step": null,
+      "correct_contact_before_withdrawal": false,
+      "correct_2cm_lift_before_withdrawal": false,
+      "correct_max_height_gain_m": 0.0024902084396470903,
+      "final_correct_placement_components": {
+        "plate_contact": false,
+        "height_ok": false,
+        "xy_distance_m": 0.18875590937956055
+      },
+      "episode_sha256": "0cce22eecb08a3c7c69438a489609048b6d9ce68a12bef67c04784ea4fc4f373"
+    },
+    {
+      "task": "plate",
+      "init_id": 4,
+      "condition": "U0",
+      "steps": 300,
+      "success": false,
+      "stage": "no_bilateral_contact",
+      "first_correct_bilateral_contact_step": null,
+      "first_correct_2cm_lift_step": null,
+      "correct_contact_before_withdrawal": false,
+      "correct_2cm_lift_before_withdrawal": false,
+      "correct_max_height_gain_m": 0.002307470502490805,
+      "final_correct_placement_components": {
+        "plate_contact": false,
+        "height_ok": false,
+        "xy_distance_m": 0.18895035956553463
+      },
+      "episode_sha256": "3758963092bfc778d9fc6507b1513917a5169895c0d2b045c777f720d744cf0a"
+    },
+    {
+      "task": "plate",
+      "init_id": 4,
+      "condition": "U0_early60",
+      "steps": 300,
+      "success": false,
+      "stage": "no_bilateral_contact",
+      "first_correct_bilateral_contact_step": null,
+      "first_correct_2cm_lift_step": null,
+      "correct_contact_before_withdrawal": false,
+      "correct_2cm_lift_before_withdrawal": false,
+      "correct_max_height_gain_m": 0.0009806137681397376,
+      "final_correct_placement_components": {
+        "plate_contact": false,
+        "height_ok": false,
+        "xy_distance_m": 0.17979918736453115
+      },
+      "episode_sha256": "f8705bb5844bf0caaaa298e03477b6cc00a7b9a9227754811a61d141308fef30"
+    },
+    {
+      "task": "plate",
+      "init_id": 5,
+      "condition": "N",
+      "steps": 107,
+      "success": true,
+      "stage": "correct_exclusive_completion",
+      "first_correct_bilateral_contact_step": 79,
+      "first_correct_2cm_lift_step": 82,
+      "correct_contact_before_withdrawal": false,
+      "correct_2cm_lift_before_withdrawal": false,
+      "correct_max_height_gain_m": 0.10369350359337959,
+      "final_correct_placement_components": {
+        "plate_contact": true,
+        "height_ok": true,
+        "xy_distance_m": 0.020150470062768547
+      },
+      "episode_sha256": "fbb0a75ca90f374c69e05b75451e173614d259502f849b5c46543fa27233d226"
+    },
+    {
+      "task": "plate",
+      "init_id": 5,
+      "condition": "U0",
+      "steps": 300,
+      "success": false,
+      "stage": "correct_contact_and_lift_without_completion",
+      "first_correct_bilateral_contact_step": 76,
+      "first_correct_2cm_lift_step": 78,
+      "correct_contact_before_withdrawal": false,
+      "correct_2cm_lift_before_withdrawal": false,
+      "correct_max_height_gain_m": 0.13862868247395543,
+      "final_correct_placement_components": {
+        "plate_contact": true,
+        "height_ok": true,
+        "xy_distance_m": 0.04532439465503013
+      },
+      "episode_sha256": "adab8ec2607e42d47f2fe5b4fa9c8aea4da35f8b7baccb96a68beef3cb45d2ea"
+    },
+    {
+      "task": "plate",
+      "init_id": 5,
+      "condition": "U0_early60",
+      "steps": 105,
+      "success": true,
+      "stage": "correct_exclusive_completion",
+      "first_correct_bilateral_contact_step": 75,
+      "first_correct_2cm_lift_step": 78,
+      "correct_contact_before_withdrawal": false,
+      "correct_2cm_lift_before_withdrawal": false,
+      "correct_max_height_gain_m": 0.11260385447873011,
+      "final_correct_placement_components": {
+        "plate_contact": true,
+        "height_ok": true,
+        "xy_distance_m": 0.011630333588333907
+      },
+      "episode_sha256": "aa4e77cb84985cf7752a9d4908155e20ede4bf18cfeded33a4964dec11f5c3bb"
+    }
+  ]
+}
